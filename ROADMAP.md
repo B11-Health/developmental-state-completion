@@ -62,3 +62,8 @@ We are looking for collaborators with one or more of:
 - active experimental design;
 - causal inference for dynamical systems;
 - topological data analysis / Reeb-space methods.
+
+
+## Current prospective protocol
+
+The audited living-system design is maintained in [`LIVING_VALIDATION_PREREGISTRATION_DRAFT_2026-08-29.md`](LIVING_VALIDATION_PREREGISTRATION_DRAFT_2026-08-29.md). It supersedes informal sample-size, reagent, and threshold suggestions that were not source-verified.

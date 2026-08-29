@@ -71,6 +71,7 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `PREPRINT.md` — technical manuscript draft
 - `REPRODUCIBILITY.md` — provenance and what is still needed for full reproduction
 - `ROADMAP.md` — prospective biological validation program
+- `LIVING_VALIDATION_PREREGISTRATION_DRAFT_2026-08-29.md` — audited prospective plant protocol and falsification gates
 - `MATH_CHECKPOINT_2026-08-29.md` — adversarial mathematics checkpoint and frozen rejections
 - `LAB_OPERATING_SYSTEM.md` — claim gates and lane structure
 - `FUNDING_PIPELINE.md` — verified funding routes / exclusions
