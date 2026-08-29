@@ -9,3 +9,6 @@ dsc-integration/
 # Provenance lane local staging / machine-local absolute-path manifest
 lab_lanes/provenance/staged_verified/
 lab_lanes/provenance/chain_of_custody.json
+# Local media binaries and isolated integration clones
+lab_lanes/media_video/*.mp4
+dsc-media-integration/

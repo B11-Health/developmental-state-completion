@@ -1,0 +1,22 @@
+{
+  "created": "2026-08-29",
+  "notebook": "Predictive Mechanics of Morphological Evolution",
+  "notebook_url": "https://notebook.google.com/notebook/ecd18105-4ad1-4d1a-9950-b56046d90129",
+  "studio_features": [
+    "Audio Overview",
+    "Slide Deck",
+    "Video Overview: Cinematic",
+    "Video Overview: Explainer",
+    "Video Overview: Short 9:16",
+    "Mind Map",
+    "Reports",
+    "Flashcards",
+    "Quiz",
+    "Infographic",
+    "Data Table"
+  ],
+  "downloaded_reference": "REFERENCE_NOTEBOOKLM_How_Identical_Plants_Hide_Different_Biology_1m04s_PRE_CORRECTION.mp4",
+  "status": "reference_only_pre_correction",
+  "new_generation": "Video Overview started; not counted as complete until UI finishes",
+  "critical_correction": "Historical 224-world generator provenance-incomplete/not recovered; later 128-world source-validation bundle reproducible."
+}
