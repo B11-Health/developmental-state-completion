@@ -2,11 +2,13 @@
 
 | Lane | Question | Current status | Required next check | Public status |
 |---|---|---|---|---|
-| M | Can connected causal fibers / intervention maps support nontrivial theorems? | Active | Counterexamples + known-Markov calibration | Not yet public as theorem |
-| A | Which novelty claims survive prior-art attack? | Active | Primary-source comparison | Public language provisional |
-| B | What prospective living test can cleanly falsify state completion? | Active | Feasibility + power + dataset/lab mapping | Protocol pending |
-| C | Which 2026 funding opportunities are truly open and eligible? | Active | Official-source verification | Do not announce awards/applications |
-| Evidence desk | Which current claims are directly grounded in the 18-source NotebookLM corpus? | Active | Source-by-source audit | Guardrail pending |
+| M1 mathematics | Which refinement/stability/separation/greedy results actually survive counterexamples? | **Checkpoint complete** | Extend robust `kappa(epsilon,gamma)` theory beyond finite bundles and rooted-tree safe regime | Public checkpoint ready; classical precedents explicitly separated |
+| N1 novelty | Which remaining novelty claims survive PSR/causal-state/observability/Reeb/active-design prior art? | Active red-team search | Finish closest-precedent table and narrow novelty statement | Do not publish new novelty claims until N1 completes |
+| B1 biology | What is the smallest source-supported living-plant falsification? | **Source audit complete; Phase-0 GO / confirmatory conditional** | Material/MTA, combined-cross feasibility, reporter transfer, burden, comparator, pilot variance | Main preregistration now source-audited |
+| F1 funding | Which sponsor routes are real and what blocks submission? | **Planning checkpoint complete** | Research.gov/AOR/PI readiness; MathBio team; wet-lab partner for BIO Core | MathBio GO contingent; BIO Core/Simons conditional |
+| FM1 replication | Does direct-source Arabidopsis flower evidence support task-specific screening-off/compression? | **Multiple reproducible checkpoints complete** | Prospective same-specimen state measurement under interventions | Public with estimator/stage/measurement caveats |
+| LARRY external control | Can the diagnostic recognize a known state-incompleteness system? | **Release-native control reproduced; author methodological check sent 2026-08-29** | Await/capture author feedback; optionally repeat with fuller transcript state | Public negative-control checkpoint |
+| Evidence desk | Which current claims are source-grounded versus inferred? | Active | Continue source-by-source audit and reconcile external feedback | Guardrail in force |
 
 ## Frozen known checkpoints
 

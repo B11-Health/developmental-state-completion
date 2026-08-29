@@ -1,6 +1,6 @@
-# Prospective RCOg-V State-Completion Pilot — Source-Audited Minimal Design
+# LAB LANE B1 — Smallest Defensible Prospective RCOg-V Experiment
 
-Status: source-audited, preregistration-ready **conditional design**. The confirmatory stage is not ready to launch until the Phase-0 material/cross/comparator gates below are passed.
+Status: preregistration-ready **conditional design**. The confirmatory stage is not ready to launch until the Phase-0 material/cross/comparator gates below are passed.
 
 ## 1. Narrow confirmatory claim
 
@@ -260,8 +260,3 @@ The primary hypothesis is falsified or materially weakened if any of the followi
 - **GO to confirmatory study:** conditional on Gates A–F and frozen power analysis.
 - **GO to an “optimal intervention” claim:** only if the equal-cost/random comparator is validated and M1 prospectively exceeds M2.
 - **GO to a state-completion claim:** only if the history-gain test is calibrated for both false positives and power and survives blinded confirmatory analysis.
-
-
-## Source-audit provenance
-
-Biological facts and exclusions in this design were audited against Wang et al. 2025 (PMCID PMC12165315) and Hu et al. 2024 (DOI 10.1073/pnas.2321877121; PMCID PMC11214078), including the Hu supplementary methods. The lane audit is preserved at `lab_lanes/biology/BIOLOGICAL_SOURCE_AUDIT.md`. Raw downloaded article/SI snapshots are intentionally not distributed in this repository.

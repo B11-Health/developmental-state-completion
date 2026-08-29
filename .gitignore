@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+# Local source-audit snapshots; cite upstream sources instead of redistributing copies
+lab_lanes/**/_source_*
+lab_lanes/**/sources/
+
+# Isolated lane integration clone
+dsc-integration/

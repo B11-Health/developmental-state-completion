@@ -1,0 +1,315 @@
+{
+  "source_bundle": {
+    "worlds": 128,
+    "contexts": 16,
+    "phenotype_coordinates_per_context": 34,
+    "exact_min_panel_size": 2,
+    "exact_one_optimal_panel": [
+      "0000",
+      "0111"
+    ],
+    "exact_sufficient_two_panels": 40,
+    "exact_two_panel_hamming_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 32,
+      "4": 8
+    },
+    "best_two_panel_uniform_margin": 3.1948089599609375e-05,
+    "best_two_panel": [
+      "0111",
+      "1010"
+    ],
+    "worst_exact_sufficient_two_panel_margin": 2.765655517578125e-05,
+    "robust_resolution": [
+      {
+        "delta": 0.0,
+        "kappa_all_pairs": 2,
+        "one_optimal_panel": [
+          "0000",
+          "0111"
+        ],
+        "unresolved_full_panel_pairs": 0,
+        "epsilon_floor_latent_l2": 0.0
+      },
+      {
+        "delta": 1e-05,
+        "kappa_all_pairs": 2,
+        "one_optimal_panel": [
+          "0000",
+          "0111"
+        ],
+        "unresolved_full_panel_pairs": 0,
+        "epsilon_floor_latent_l2": 0.0
+      },
+      {
+        "delta": 2.5e-05,
+        "kappa_all_pairs": 2,
+        "one_optimal_panel": [
+          "0000",
+          "0111"
+        ],
+        "unresolved_full_panel_pairs": 0,
+        "epsilon_floor_latent_l2": 0.0
+      },
+      {
+        "delta": 3e-05,
+        "kappa_all_pairs": 2,
+        "one_optimal_panel": [
+          "0000",
+          "0111"
+        ],
+        "unresolved_full_panel_pairs": 0,
+        "epsilon_floor_latent_l2": 0.0
+      },
+      {
+        "delta": 3.2e-05,
+        "kappa_all_pairs": 4,
+        "one_optimal_panel": [
+          "0000",
+          "0010",
+          "0100",
+          "0111"
+        ],
+        "unresolved_full_panel_pairs": 0,
+        "epsilon_floor_latent_l2": 0.0
+      },
+      {
+        "delta": 0.0001,
+        "kappa_all_pairs": null,
+        "one_optimal_panel": [],
+        "unresolved_full_panel_pairs": 8,
+        "epsilon_floor_latent_l2": 0.002
+      },
+      {
+        "delta": 0.001,
+        "kappa_all_pairs": null,
+        "one_optimal_panel": [],
+        "unresolved_full_panel_pairs": 56,
+        "epsilon_floor_latent_l2": 0.01414213562373095
+      },
+      {
+        "delta": 0.01,
+        "kappa_all_pairs": null,
+        "one_optimal_panel": [],
+        "unresolved_full_panel_pairs": 88,
+        "epsilon_floor_latent_l2": 0.2
+      }
+    ]
+  },
+  "source_component_audit": {
+    "topology_proxy": "law-gain MST Cartesian-linked to 4-cube state graph",
+    "selected_truth": [
+      "P06",
+      "0000"
+    ],
+    "selected_delta": 0.05,
+    "nested_panel_monotonicity_edge_violations": 0,
+    "worst_submodularity_gap": 10,
+    "worst_submodularity_witness": {
+      "base_mask": 8,
+      "added_q": "0000",
+      "conditioning_q": "0010",
+      "marginal_before": 9,
+      "marginal_after": 19
+    },
+    "greedy_vs_optimal": [
+      {
+        "budget": 1,
+        "greedy_utility": 121,
+        "optimal_utility": 121,
+        "ratio": 1.0,
+        "greedy_panel": [
+          "0111"
+        ],
+        "optimal_panel": [
+          "0111"
+        ]
+      },
+      {
+        "budget": 2,
+        "greedy_utility": 122,
+        "optimal_utility": 122,
+        "ratio": 1.0,
+        "greedy_panel": [
+          "0000",
+          "0111"
+        ],
+        "optimal_panel": [
+          "0011",
+          "0100"
+        ]
+      },
+      {
+        "budget": 3,
+        "greedy_utility": 122,
+        "optimal_utility": 122,
+        "ratio": 1.0,
+        "greedy_panel": [
+          "0000",
+          "0001",
+          "0111"
+        ],
+        "optimal_panel": [
+          "0000",
+          "0011",
+          "0100"
+        ]
+      },
+      {
+        "budget": 4,
+        "greedy_utility": 122,
+        "optimal_utility": 122,
+        "ratio": 1.0,
+        "greedy_panel": [
+          "0000",
+          "0001",
+          "0010",
+          "0111"
+        ],
+        "optimal_panel": [
+          "0000",
+          "0001",
+          "0011",
+          "0100"
+        ]
+      },
+      {
+        "budget": 5,
+        "greedy_utility": 122,
+        "optimal_utility": 122,
+        "ratio": 1.0,
+        "greedy_panel": [
+          "0000",
+          "0001",
+          "0010",
+          "0011",
+          "0111"
+        ],
+        "optimal_panel": [
+          "0000",
+          "0001",
+          "0010",
+          "0011",
+          "0100"
+        ]
+      }
+    ],
+    "signature_noise_eta": 1e-05,
+    "max_target_relative_distance_error": 1.9005903935109814e-05,
+    "two_eta_bound": 2e-05,
+    "component_sandwich_checks": 5,
+    "max_merge_threshold_error": 1.9005903935109814e-05
+  },
+  "law_mst_edges": [
+    [
+      "P00",
+      "P06",
+      0.4060394069545467
+    ],
+    [
+      "P01",
+      "P07",
+      0.6202698337551703
+    ],
+    [
+      "P03",
+      "P07",
+      0.6202698337551703
+    ],
+    [
+      "P02",
+      "P06",
+      0.7239254105223824
+    ],
+    [
+      "P00",
+      "P04",
+      0.7266966354676482
+    ],
+    [
+      "P01",
+      "P04",
+      0.7266966354676482
+    ],
+    [
+      "P02",
+      "P05",
+      0.7266966354676482
+    ]
+  ],
+  "grid_counterexample": [
+    {
+      "n": 10,
+      "greedy": 15,
+      "optimal": 50,
+      "ratio": 0.3,
+      "theory_3_over_n": 0.3
+    },
+    {
+      "n": 20,
+      "greedy": 30,
+      "optimal": 200,
+      "ratio": 0.15,
+      "theory_3_over_n": 0.15
+    },
+    {
+      "n": 40,
+      "greedy": 60,
+      "optimal": 800,
+      "ratio": 0.075,
+      "theory_3_over_n": 0.075
+    },
+    {
+      "n": 80,
+      "greedy": 120,
+      "optimal": 3200,
+      "ratio": 0.0375,
+      "theory_3_over_n": 0.0375
+    },
+    {
+      "n": 160,
+      "greedy": 240,
+      "optimal": 12800,
+      "ratio": 0.01875,
+      "theory_3_over_n": 0.01875
+    }
+  ],
+  "tree_greedy_safe_regime": {
+    "random_tree_trials": 40,
+    "minimum_observed_greedy_over_optimal": 0.9333333333333333,
+    "submodularity_violations": 0
+  },
+  "finite_resolution_compactness_toy": {
+    "dimension_truncation": 12,
+    "epsilon": 0.04,
+    "finite_prefix_M": 5,
+    "exact_prefix_collision_counts": [
+      [
+        1,
+        4094
+      ],
+      [
+        2,
+        4092
+      ],
+      [
+        4,
+        4080
+      ],
+      [
+        8,
+        3840
+      ]
+    ]
+  },
+  "frozen_rejections": [
+    "arbitrary experiment-score aggregation preserves refinement",
+    "fixed-delta connected components are Lipschitz-stable as sets",
+    "compactness alone gives one finite exact separator for an infinite world space",
+    "finite-library exact Euclidean embedding dimension is informative under arbitrary real projections",
+    "connected-ambiguity utility is generally submodular",
+    "tree topology alone implies adaptive submodularity under unknown outcomes"
+  ]
+}

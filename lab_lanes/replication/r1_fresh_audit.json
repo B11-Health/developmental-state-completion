@@ -1,0 +1,112 @@
+{
+  "upstream_commit": "95fde8b3b9a0bd09d556ce765a2235093362306f",
+  "project_commit_at_branch": "b9f21bbd969bf11c9ead40c6dc16669512ad5a84",
+  "source_hashes": {
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\refahi_diag\\stateAnalysis\\FM1_dtissue.tis": "3e5bd64f3829f5ca2500eb3c11686eb10acf7157ae23e01e85685bdc233e749d",
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\refahi_diag\\data\\geneExpression\\t_96h.txt": "8919a5097e819dcabb1ee84f3c1ac757d8373c9416b27a1b189046f0ad60cbd0",
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\refahi_diag\\data\\geneExpression\\t_120h.txt": "f64e5c516c0b170c257287bcf5dc5b8b89b97e1cce49d65cd321837424588216",
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\refahi_diag\\common\\common\\L1L2_cells_ids.py": "a1687a402692ad124f3a087617cf7d72b182e40a515a0868b585ecde5472b7e1",
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\developmental-state-completion\\analysis\\refahi_state_completion_replication.py": "03f0dd0dcfabcd69587663ca97ce00d8c14d04e7433ef7218f85c09b83e7bb80",
+    "C:\\Users\\codeg\\mcp-shell-auth\\workspace\\developmental-state-completion\\analysis\\refahi_pc_completion_audit.py": "b365e8cad55924883d7a8c3a1b27097c82cb9ef64cbc6035c415c6deb5b2c07d"
+  },
+  "middle_L1": {
+    "n": 100,
+    "groups": 30,
+    "genes": 25,
+    "duplicate_current_cells": 0,
+    "max_rows_per_group": 7,
+    "max_train_test_group_overlap": 0,
+    "ridge_history_delta_8splits": {
+      "mean": 0.11167645339221381,
+      "median": 0.1201422040085614,
+      "q025": -0.03913130628141781,
+      "q975": 0.2213458074211716,
+      "positive_fraction": 0.875,
+      "gt_005_fraction": 0.75
+    },
+    "extra_history_delta_2splits": {
+      "mean": 0.005186673816323095,
+      "median": 0.005186673816323095,
+      "q025": -0.012031611784099078,
+      "q975": 0.02240495941674527,
+      "positive_fraction": 0.5,
+      "gt_005_fraction": 0.0
+    },
+    "histgb_history_delta_2splits": {
+      "mean": -0.05224308158978491,
+      "median": -0.05224308158978491,
+      "q025": -0.0636829394043129,
+      "q975": -0.04080322377525693,
+      "positive_fraction": 0.0,
+      "gt_005_fraction": 0.0
+    }
+  },
+  "late_L1": {
+    "n": 256,
+    "groups": 86,
+    "genes": 25,
+    "duplicate_current_cells": 0,
+    "max_rows_per_group": 7,
+    "max_train_test_group_overlap": 0,
+    "ridge_history_delta_8splits": {
+      "mean": -0.01788418742284824,
+      "median": -0.01541834856934915,
+      "q025": -0.0381445931854732,
+      "q975": -0.003443997579973531,
+      "positive_fraction": 0.0,
+      "gt_005_fraction": 0.0
+    },
+    "extra_history_delta_2splits": {
+      "mean": 0.009143294634936294,
+      "median": 0.009143294634936294,
+      "q025": 0.00038607583955181104,
+      "q975": 0.017900513430320775,
+      "positive_fraction": 0.5,
+      "gt_005_fraction": 0.0
+    },
+    "histgb_history_delta_2splits": {
+      "mean": -0.012631669488383401,
+      "median": -0.012631669488383401,
+      "q025": -0.020935403719636484,
+      "q975": -0.004327935257130319,
+      "positive_fraction": 0.0,
+      "gt_005_fraction": 0.0
+    },
+    "pc1_fixed_split": {
+      "ridge": {
+        "geometry_plus_all25": 0.5990869276144117,
+        "geometry_plus_pc1": 0.45149781988470905
+      },
+      "extra": {
+        "geometry_plus_all25": 0.6304333458251392,
+        "geometry_plus_pc1": 0.6406400381362467
+      },
+      "histgb": {
+        "geometry_plus_all25": 0.6597270941101357,
+        "geometry_plus_pc1": 0.6672220218803075
+      }
+    },
+    "calibration": {
+      "reps": 20,
+      "null": {
+        "mean": -0.010906395281868358,
+        "median": -0.009286421236324005,
+        "q025": -0.02956210484396585,
+        "q975": 0.0012496619928307872,
+        "positive_fraction": 0.05,
+        "gt_005_fraction": 0.0
+      },
+      "null_q95": -0.0038258434224380166,
+      "alt_gamma_target_sd": 0.3,
+      "alt": {
+        "mean": 0.05253473606492705,
+        "median": 0.056582712465020835,
+        "q025": 0.019279926403737237,
+        "q975": 0.0864708536575592,
+        "positive_fraction": 1.0,
+        "gt_005_fraction": 0.55
+      },
+      "power_vs_null_q95": 1.0
+    }
+  }
+}

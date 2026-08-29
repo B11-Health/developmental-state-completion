@@ -51,7 +51,9 @@ The same one-PC claim does **not** hold for linear Ridge: on the fixed grouped s
 
 **Critical measurement caveat:** the 25 channels are binary atlas annotations integrated onto the FM1 reference from literature, RNA in-situ hybridization and some live imaging, not repeated simultaneous molecular assays of the exact same living cells.
 
-See `REPRESENTATION_DIMENSION_CHECKPOINT_FM1_2026-08-29.md`.
+**Legacy provenance correction:** the exact early public prose values `0.272 -> 0.643`, `all25 ~0.633`, and old-history `+0.0095` entered the repository before an executable cohort/split/target artifact existed. Independent R1 audit can reproduce nearby ~0.64 nonlinear late-L1 performance, but cannot regenerate that exact historical tuple. The exact legacy numbers are therefore **not independently reproduced / provenance-incomplete** and must not be cited as replicated results.
+
+See `REPRESENTATION_DIMENSION_CHECKPOINT_FM1_2026-08-29.md` and `lab_lanes/replication/R1_REFAHI_REPLICATION_CHECKPOINT_2026-08-29.md`.
 
 ## C3 — Fixed history-gain thresholds can falsely imply memory
 

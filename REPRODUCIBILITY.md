@@ -81,3 +81,6 @@ We will use the following labels in releases:
 - `biological-validation` — prospective living-system result.
 
 The long-term goal is for every headline claim in the README to carry one of these tags and a direct path to its evidence bundle.
+## Independent R1 audit — 2026-08-29
+
+An isolated replication lane re-ran the direct-source FM1 pipeline against authors' commit `95fde8b3b9a0bd09d556ce765a2235093362306f`, checked lineage-group leakage, repeated middle/late L1 history tests, reran a fresh calibration smoke test, and audited repository history for the legacy molecular-gain tuple. It independently supports the narrowed late-L1 screening-off result but finds the exact historical `0.272 -> 0.643` tuple provenance-incomplete. See `lab_lanes/replication/R1_REFAHI_REPLICATION_CHECKPOINT_2026-08-29.md` and `lab_lanes/replication/r1_refahi_independent_audit.py`.
