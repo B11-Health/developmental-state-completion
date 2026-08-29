@@ -50,6 +50,7 @@ This distinguishes hidden mechanisms that merely imitate the same phenotype from
 6. **The inverse image of a phenotype can contain disconnected mechanism islands.** In the sampled model, a low-cost alternative mechanism island appeared before it connected to the target, producing a measurable accommodation-versus-accessibility gap.
 7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** However, greedy ambiguity splitting is not generally near-optimal; an **independently reproduced grid counterexample** shows its approximation ratio equals `3/n` and approaches zero without additional structure. Small experiment libraries should therefore be benchmarked exhaustively.
 8. **Finite global pairwise reconstruction has a different optimization structure from connected ambiguity.** For a finite candidate-world library, `(epsilon,delta)` identification is exactly a Minimum Test Collection / far-pair set-cover problem with classical coverage guarantees, while the connected-component objective in item 7 can defeat greedy arbitrarily badly.
+9. **A preregistered two-context source-simulator test passed its frozen predictions.** A 64-phenotype parent cohort frozen post-hypothesis achieved 100% sign recovery across 32 complementary pairs with maximum signed-state L2 `5.15e-4`; a separately frozen 64-context extension achieved 100% sign recovery for all five theoretically sufficient Hamming>=3 masks. The exact source TSVs, frozen decoders and hash-verification scripts are now public. This is simulator evidence, not living-plant validation.
 
 See [CLAIMS_AND_EVIDENCE.md](CLAIMS_AND_EVIDENCE.md) for claim-level status, caveats, and reproduction requirements.
 
@@ -77,6 +78,8 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `MATH_CHECKPOINT_2026-08-29.md` — adversarial mathematics checkpoint and frozen rejections
 - `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md` — loss-aware population screening-off identities, counterexamples, and implications
 - `FINITE_RESOLUTION_TEST_COVER_NOTE.md` — finite-world `kappa(epsilon,delta)`, resolution floors, Test Cover mapping, robust and packing bounds
+- `PROSPECTIVE_TWO_CONTEXT_TOMOGRAPHY_2026-08-29.md` — preregistered two-context source-simulator validation with migrated raw source renders and frozen estimators
+- `source_validation/two_context_2026-08-26/` — exact parent/extension TSVs, freezes, result JSONs, models and scoring scripts
 - `NEGATIVE_CONTROL_WEINREB_2020_2026-08-29.md` — external state-incompleteness control from public LARRY split-well lineage data
 - `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md` — estimator- and stage-dependent FM1 history-value audit
 - `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md` — correction of the old coarse-grid STRETCH barrier using later seam-consistent source validation

@@ -76,7 +76,7 @@ The outcome is classified as:
 1. A direct-source reanalysis of the public Refahi FM1 flower atlas shows that a current integrated atlas state adds substantial future-growth information beyond geometry.
 2. In a predefined late-L1 cohort, repeated group partitions show no stable material gain from older history under the tested linear losses, while a middle developmental window is estimator- and partition-dependent. This motivates strict stage/layer matching in the prospective experiment.
 3. The same general screening logic strongly detects incompleteness in the Weinreb/Klein split-well lineage system, where hidden heritable fate information is independently established.
-4. Synthetic hidden-world experiments show that baseline-similar developmental mechanisms can separate under intervention, but these simulations are treated only as design evidence until a living prospective test succeeds.
+4. A post-hypothesis source-simulator experiment was preregistered before rendering and passed all frozen two-context tomography predictions: 32 complementary phenotype pairs gave 100% sign recovery with maximum signed-state L2 `5.15e-4`, and a separately frozen context extension passed all five theoretically sufficient masks. This is substantially stronger than retrospective simulation, but it remains **simulator design evidence only** until a living prospective test succeeds.
 
 ## Hard falsifiers
 

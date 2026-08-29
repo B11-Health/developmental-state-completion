@@ -1,0 +1,543 @@
+{
+  "freeze_sha": "7d4845aa8a50da5e5d8ffd2b0bc65e02311882879a261df8c313b4557d47663f",
+  "parent_freeze_sha": "b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a",
+  "estimator_reference_sha256": "bbebc27b2ec562c2d5d83b69dd2b8c45a6b43ca36adb87b91d9bd4994dfe4508",
+  "n_source_phenotypes_total": 128,
+  "n_new_renders": 64,
+  "phenotype_decode_u_L2": {
+    "median": 5.7483265568245676e-05,
+    "p95": 0.00041512546118358407,
+    "max": 0.0007776713817198653
+  },
+  "phenotype_surrogate_inversion_raw_L2": {
+    "median": 8.62747961587333e-06,
+    "p95": 2.5170387874117374e-05,
+    "max": 3.285760492103371e-05
+  },
+  "phenotype_surrogate_at_true_u_raw_L2": {
+    "median": 1.5043619480133164e-05,
+    "p95": 3.650127856209519e-05,
+    "max": 5.194952841455913e-05
+  },
+  "masks": {
+    "0111": {
+      "n_oriented": 128,
+      "n_unordered_pairs": 64,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00019768209817335873,
+        "p95": 0.000855007655625691,
+        "max": 0.0012107843202600994
+      },
+      "weak_001_oriented_n": 64,
+      "weak_001_sign_accuracy": 1.0,
+      "predictions_pass": true,
+      "worst": [
+        {
+          "law": "P07",
+          "state": "1010",
+          "partner": "1101",
+          "L2": 0.0012107843202600994,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1101",
+          "partner": "1010",
+          "L2": 0.0012107843202600994,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P03",
+          "state": "1001",
+          "partner": "1110",
+          "L2": 0.0009760997511460368,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P03",
+          "state": "1110",
+          "partner": "1001",
+          "L2": 0.0009760997511460368,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P05",
+          "state": "1001",
+          "partner": "1110",
+          "L2": 0.0008996041460463427,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1110",
+          "partner": "1001",
+          "L2": 0.0008996041460463427,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P03",
+          "state": "1000",
+          "partner": "1111",
+          "L2": 0.000855007655625691,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P03",
+          "state": "1111",
+          "partner": "1000",
+          "L2": 0.000855007655625691,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        }
+      ]
+    },
+    "1011": {
+      "n_oriented": 128,
+      "n_unordered_pairs": 64,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.0001920041388260884,
+        "p95": 0.0006886035022165668,
+        "max": 0.0014385833611306193
+      },
+      "weak_001_oriented_n": 64,
+      "weak_001_sign_accuracy": 1.0,
+      "predictions_pass": true,
+      "worst": [
+        {
+          "law": "P07",
+          "state": "0110",
+          "partner": "1101",
+          "L2": 0.0014385833611306193,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1101",
+          "partner": "0110",
+          "L2": 0.0014385833611306193,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P05",
+          "state": "0111",
+          "partner": "1100",
+          "L2": 0.0008739616475543915,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1100",
+          "partner": "0111",
+          "L2": 0.0008739616475543915,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "0101",
+          "partner": "1110",
+          "L2": 0.0008172030535710514,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1110",
+          "partner": "0101",
+          "L2": 0.0008172030535710514,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "0110",
+          "partner": "1101",
+          "L2": 0.0006886035022165668,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1101",
+          "partner": "0110",
+          "L2": 0.0006886035022165668,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        }
+      ]
+    },
+    "1101": {
+      "n_oriented": 128,
+      "n_unordered_pairs": 64,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00014204713340754046,
+        "p95": 0.0005400546965477427,
+        "max": 0.0009593864030204276
+      },
+      "weak_001_oriented_n": 64,
+      "weak_001_sign_accuracy": 1.0,
+      "predictions_pass": true,
+      "worst": [
+        {
+          "law": "P07",
+          "state": "0000",
+          "partner": "1101",
+          "L2": 0.0009593864030204276,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1101",
+          "partner": "0000",
+          "L2": 0.0009593864030204276,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "0110",
+          "partner": "1011",
+          "L2": 0.0008029940362717003,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1011",
+          "partner": "0110",
+          "L2": 0.0008029940362717003,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P05",
+          "state": "0011",
+          "partner": "1110",
+          "L2": 0.0006815475101902409,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1110",
+          "partner": "0011",
+          "L2": 0.0006815475101902409,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P01",
+          "state": "0000",
+          "partner": "1101",
+          "L2": 0.0005400546965477427,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P01",
+          "state": "1101",
+          "partner": "0000",
+          "L2": 0.0005400546965477427,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        }
+      ]
+    },
+    "1110": {
+      "n_oriented": 128,
+      "n_unordered_pairs": 64,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00013759866247375205,
+        "p95": 0.0005523194407274633,
+        "max": 0.0009597037029046117
+      },
+      "weak_001_oriented_n": 64,
+      "weak_001_sign_accuracy": 1.0,
+      "predictions_pass": true,
+      "worst": [
+        {
+          "law": "P05",
+          "state": "0000",
+          "partner": "1110",
+          "L2": 0.0009597037029046117,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1110",
+          "partner": "0000",
+          "L2": 0.0009597037029046117,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P03",
+          "state": "0000",
+          "partner": "1110",
+          "L2": 0.0005863944226081586,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P03",
+          "state": "1110",
+          "partner": "0000",
+          "L2": 0.0005863944226081586,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P00",
+          "state": "0000",
+          "partner": "1110",
+          "L2": 0.0005685915969218748,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P00",
+          "state": "1110",
+          "partner": "0000",
+          "L2": 0.0005685915969218748,
+          "sign_correct": true,
+          "weak_sign_correct": true,
+          "min_gain": 0.001
+        },
+        {
+          "law": "P06",
+          "state": "0001",
+          "partner": "1111",
+          "L2": 0.0005523194407274633,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.05
+        },
+        {
+          "law": "P06",
+          "state": "1111",
+          "partner": "0001",
+          "L2": 0.0005523194407274633,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.05
+        }
+      ]
+    },
+    "1111": {
+      "n_oriented": 128,
+      "n_unordered_pairs": 64,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00016438240074474232,
+        "p95": 0.0004777746504169743,
+        "max": 0.0008171003625219848
+      },
+      "weak_001_oriented_n": 64,
+      "weak_001_sign_accuracy": 1.0,
+      "predictions_pass": true,
+      "worst": [
+        {
+          "law": "P05",
+          "state": "0001",
+          "partner": "1110",
+          "L2": 0.0008171003625219848,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1110",
+          "partner": "0001",
+          "L2": 0.0008171003625219848,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P07",
+          "state": "0010",
+          "partner": "1101",
+          "L2": 0.0007966143832754363,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1101",
+          "partner": "0010",
+          "L2": 0.0007966143832754363,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P05",
+          "state": "0011",
+          "partner": "1100",
+          "L2": 0.0005146247404984144,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P05",
+          "state": "1100",
+          "partner": "0011",
+          "L2": 0.0005146247404984144,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.005
+        },
+        {
+          "law": "P07",
+          "state": "0100",
+          "partner": "1011",
+          "L2": 0.0004777746504169743,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        },
+        {
+          "law": "P07",
+          "state": "1011",
+          "partner": "0100",
+          "L2": 0.0004777746504169743,
+          "sign_correct": true,
+          "weak_sign_correct": null,
+          "min_gain": 0.1
+        }
+      ]
+    }
+  },
+  "all_preregistered_predictions_pass": true,
+  "scope_warning": "Laws P00-P07 were already partially source-rendered in the complementary-pair cohort. This is prospective with respect to the missing contexts/masks, not a new-law generalization test.",
+  "worst_phenotype_decode": [
+    {
+      "law": "P05",
+      "state": "1110",
+      "new_render": true,
+      "u_L2": 0.0007776713817198653,
+      "surrogate_inversion_raw_L2": 1.0348106419397391e-05,
+      "surrogate_at_true_u_raw_L2": 3.699954757749268e-05
+    },
+    {
+      "law": "P07",
+      "state": "1101",
+      "new_render": true,
+      "u_L2": 0.0007555188727190573,
+      "surrogate_inversion_raw_L2": 1.9189187731716307e-05,
+      "surrogate_at_true_u_raw_L2": 5.194952841455913e-05
+    },
+    {
+      "law": "P07",
+      "state": "1011",
+      "new_render": true,
+      "u_L2": 0.0004775846081106458,
+      "surrogate_inversion_raw_L2": 2.5227153654299246e-05,
+      "surrogate_at_true_u_raw_L2": 3.679604253726294e-05
+    },
+    {
+      "law": "P01",
+      "state": "1011",
+      "new_render": true,
+      "u_L2": 0.0004669670082670818,
+      "surrogate_inversion_raw_L2": 6.63368581768409e-06,
+      "surrogate_at_true_u_raw_L2": 2.128829330116948e-05
+    },
+    {
+      "law": "P05",
+      "state": "1100",
+      "new_render": false,
+      "u_L2": 0.0004657747718369271,
+      "surrogate_inversion_raw_L2": 5.7816839253263144e-06,
+      "surrogate_at_true_u_raw_L2": 2.6605938148811396e-05
+    },
+    {
+      "law": "P03",
+      "state": "1111",
+      "new_render": false,
+      "u_L2": 0.00043636686432009617,
+      "surrogate_inversion_raw_L2": 5.4842755218039314e-06,
+      "surrogate_at_true_u_raw_L2": 2.5932774390874452e-05
+    },
+    {
+      "law": "P03",
+      "state": "1110",
+      "new_render": true,
+      "u_L2": 0.00042377177657414373,
+      "surrogate_inversion_raw_L2": 6.266887832620021e-06,
+      "surrogate_at_true_u_raw_L2": 2.892164964689729e-05
+    },
+    {
+      "law": "P00",
+      "state": "1110",
+      "new_render": true,
+      "u_L2": 0.0003990680183154025,
+      "surrogate_inversion_raw_L2": 5.541183374020906e-06,
+      "surrogate_at_true_u_raw_L2": 1.8371715018581138e-05
+    },
+    {
+      "law": "P05",
+      "state": "1101",
+      "new_render": true,
+      "u_L2": 0.0003911373519386863,
+      "surrogate_inversion_raw_L2": 1.6994029442011834e-05,
+      "surrogate_at_true_u_raw_L2": 3.071772539905297e-05
+    },
+    {
+      "law": "P01",
+      "state": "1101",
+      "new_render": true,
+      "u_L2": 0.0003783622549578408,
+      "surrogate_inversion_raw_L2": 6.910119635581572e-06,
+      "surrogate_at_true_u_raw_L2": 2.15715053177115e-05
+    }
+  ]
+}

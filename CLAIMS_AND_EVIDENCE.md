@@ -234,6 +234,25 @@ For the full finite experiment library, define `epsilon_floor(delta)=max{d_W(w,w
 
 **Interpretation not allowed:** claiming Test Cover/separating systems as novel; treating archived Source640 `kappa` numbers as independently reproduced; transferring pair-coverage greedy guarantees to the connected-topology objective.
 
+## C17 — Prospective two-context source-simulator tomography
+
+**Class:** prospective preregistered source-simulator validation + established rectifier algebra
+**Status:** frozen commitments, 128 source TSV renders, estimator models, score scripts and result JSONs migrated and independently verified in this repository.
+
+In the restricted four-channel simulator, context reflection followed by rectification gives `u_q=[-R_q s]_+`. Complementary contexts reveal the positive and negative parts of the signed latent state, so `R_q s = u_qbar-u_q`. This positive/negative-part identity is **CReLU-like established rectifier algebra**, not a new mathematical discovery. With known fixed L1 budget, masks flipping `n-1` of `n` coordinates are also exactly sufficient at the latent level away from the zero seam.
+
+The parent prospective cohort was frozen before 64 new source phenotypes were rendered. Canonical pre-render commitment: `b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a`. Across 32 complementary source pairs, the frozen nonlinear phenotype decoder achieved **100% sign recovery**, median signed L2 `1.75175e-4`, p95 `4.28985e-4`, max `5.14625e-4`, and recovered every deliberately weak `0.001` channel sign. All preregistered thresholds passed.
+
+A separately frozen context/mask extension (`7d4845aa8a50da5e5d8ffd2b0bc65e02311882879a261df8c313b4557d47663f`) rendered 64 previously unseen contexts for the already partially observed P00-P07 laws. All five Hamming>=3 masks `0111,1011,1101,1110,1111` achieved 100% sign accuracy and stayed below the frozen median `<0.001` and maximum `<0.002` L2 thresholds. This extension is prospective **with respect to new contexts/masks, not new laws**.
+
+The public verifier recomputes both canonical freeze hashes, the frozen estimator hashes, two 64-render aggregate manifests, and every frozen pass/fail condition. The public algebra script verifies exact reconstruction on 5,000 random worlds and deterministic noise margins on 20,000 noisy trials.
+
+**Interpretation allowed:** within this restricted developmental source simulator, two source-rendered phenotype contexts prospectively recovered the hidden signed state with the preregistered accuracy using a frozen decoder, and previously unseen contexts generalized across all five theoretically sufficient masks.
+
+**Interpretation not allowed:** living-plant validation; universal two-perturbation sufficiency; novelty of CReLU/positive-negative decomposition; formal global injectivity of the source simulator; new-law generalization for the five-mask extension.
+
+Artifacts: `PROSPECTIVE_TWO_CONTEXT_TOMOGRAPHY_2026-08-29.md`, `source_validation/two_context_2026-08-26/`, `analysis/verify_two_context_source_bundle.py`, and `analysis/two_context_tomography_algebra.py`.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:

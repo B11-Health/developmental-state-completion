@@ -114,6 +114,34 @@ We next considered a synthetic developmental system with 14 regulatory architect
 
 This motivates the term **counterfactual developmental tomography**: reconstructing hidden developmental organization from a deliberately chosen set of perturbational projections rather than from a single unperturbed phenotype.
 
+### Prospective two-context source-simulator validation
+
+A later post-hypothesis source-simulator experiment tests a much sharper claim than the original 224-world discrimination example. In the restricted four-channel model, context `q` reflects selected signed coordinates before a rectifying gate,
+
+`u_q(s)=[-R_q s]_+`.
+
+For complementary contexts `q` and `qbar`, the two rectified signals satisfy
+
+`R_q s = u_qbar-u_q`.
+
+This positive/negative-part identity is the same information-preserving principle used by Concatenated ReLU (CReLU); we do **not** claim the rectifier algebra as novel. The scientific test is whether the hidden signed state remains recoverable when only the downstream source-rendered phenotypes are observed and must be inverted through a frozen nonlinear morphogenetic decoder.
+
+The parent experiment was frozen before 64 new source phenotypes were rendered. Its canonical pre-render SHA-256 commitment is
+
+`b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a`.
+
+The frozen predictions required 100% sign recovery across 32 complementary pairs, median signed-state L2 below `0.001`, maximum below `0.002`, and correct sign recovery of deliberately weak `0.001` coordinates. With the frozen decoder and no post-render refit, all predictions passed:
+
+- sign accuracy: **100%**;
+- median signed L2: `1.75175e-4`;
+- p95: `4.28985e-4`;
+- maximum: `5.14625e-4`;
+- every `0.001` weak-channel sign correct.
+
+A separately frozen context-generalization extension rendered 64 previously unseen contexts for the same eight partially observed laws. It evaluated the five masks `0111,1011,1101,1110,1111`, which are exactly sufficient at the latent level in the fixed-budget four-channel model. Every mask achieved 100% sign recovery and satisfied the frozen median `<0.001` and maximum `<0.002` error thresholds. The extension is prospective with respect to **new contexts/masks, not new laws**.
+
+The public repository now contains all 128 source TSV renders, both frozen preregistrations, frozen decoder models, exact score/build scripts and independent hash-verification code. This upgrades the result from an archived retrospective report to a verifiable prospective **source-simulator** validation. It remains computational evidence only; no living biological system has yet passed this test.
+
 The key scientific transition is from asking
 
 `What does the organism look like?`

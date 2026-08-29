@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-26",
+  "purpose": "prospective post-hypothesis source validation of two-complementary-phenotype nonlinear reconstruction through morphogenesis",
+  "decoder": "RECTIFIED_GLOBAL_DEG3_FROZEN_2026-08-26.npz trained new40 only; constrained nonlinear inversion; no refit after these renders",
+  "contexts": "for each selected starting state s, use source phenotypes at s and s xor1111; selected states form four complete complementary pairs",
+  "laws": {
+    "P00": [
+      0.001,
+      0.5996666666666667,
+      0.5996666666666667,
+      0.5996666666666667
+    ],
+    "P01": [
+      0.5996666666666667,
+      0.001,
+      0.5996666666666667,
+      0.5996666666666667
+    ],
+    "P02": [
+      0.5996666666666667,
+      0.5996666666666667,
+      0.001,
+      0.5996666666666667
+    ],
+    "P03": [
+      0.5996666666666667,
+      0.5996666666666667,
+      0.5996666666666667,
+      0.001
+    ],
+    "P04": [
+      0.005,
+      0.005,
+      0.895,
+      0.895
+    ],
+    "P05": [
+      0.895,
+      0.895,
+      0.005,
+      0.005
+    ],
+    "P06": [
+      0.05,
+      0.9,
+      0.35,
+      0.5
+    ],
+    "P07": [
+      0.95,
+      0.1,
+      0.65,
+      0.1
+    ]
+  },
+  "states": [
+    "0000",
+    "0011",
+    "0101",
+    "0110",
+    "1111",
+    "1100",
+    "1010",
+    "1001"
+  ],
+  "predictions": [
+    "100% sign recovery across all 32 starting-world pairs",
+    "median signed L2 error <0.001",
+    "maximum signed L2 error <0.002",
+    "weak gain .001 signs recovered correctly"
+  ],
+  "sha256_pre_render": "b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a"
+}

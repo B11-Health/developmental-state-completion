@@ -128,7 +128,39 @@ Therefore:
 ### Consequence for this project
 For small perturbation libraries, benchmark greedy selection against exhaustive optimal subsets for budgets `k=1,2,3,...`. Search explicitly for complementarity and submodularity violations. Do not justify a greedy policy merely because it works on one simulator.
 
-## 5. State completion is predictive sufficiency under interventions
+## 5. Restricted two-context identifiability is exact; phenotype recovery is conditional
+
+In the archived four-channel fixed-budget simulator, intervention contexts act as coordinate reflections followed by rectification:
+
+`u_q(s)=[-R_q s]_+`.
+
+For complementary contexts `q` and `qbar`,
+
+`R_q s = u_qbar-u_q`
+
+and
+
+`|s|=u_qbar+u_q`.
+
+This is established positive/negative-part rectifier algebra, closely matching the information-preserving construction of **CReLU**. It is not a new mathematical theorem of this project.
+
+With known `||s||_1=G`, a mask that flips `n-1` coordinates is also exactly sufficient at the latent level: recover the flipped coordinates by differences, recover the final magnitude from the remaining L1 budget, and infer its sign from whether the common rectified coordinate is active. For `n=4`, the five sufficient relative masks are `0111,1011,1101,1110,1111`.
+
+If each decoded latent context has `L_infinity` error at most `e`, then:
+
+- full complement coordinate error is at most `2e`, with L2 error at most `2e sqrt(n)`;
+- for an `n-1` fixed-budget mask, each flipped coordinate has error at most `2e`, the sole unflipped magnitude has error at most `2e(n-1)`, and—when its sign is correct—the full L2 error is at most `2e sqrt(n(n-1))`;
+- sufficient sign margins are `|s_j|>2e` for flipped coordinates and `|s_k|>2ne` for the sole unflipped coordinate.
+
+These bounds are verified numerically in `analysis/two_context_tomography_algebra.py` but follow directly from triangle inequalities and the fixed-budget reconstruction.
+
+For a downstream phenotype map `F`, exact latent identifiability becomes phenotype identifiability only under an injectivity condition. If `F` is co-Lipschitz with constant `m` and both source and reconstructed phenotype are within `eta` of the same observation, then `||u_hat-u||<=2 eta/m`; a full complementary pair gives `||s_hat-s||<=4 eta/m`. This conditional inverse-stability argument is standard.
+
+What is new **evidence**, not new algebra, is that a post-hypothesis source-simulator cohort was frozen before rendering and passed all preregistered phenotype-level predictions with the frozen nonlinear decoder: 32 complementary pairs, 100% sign recovery, median signed L2 `1.75e-4`, maximum `5.15e-4`, including all `0.001` weak-channel signs. A separately frozen 64-context extension made all five theoretically sufficient masks prospectively evaluable and all five passed. The extension is context/mask generalization on already partially observed laws, not new-law generalization.
+
+All exact source renders, freezes and decoder hashes are now migrated under `source_validation/two_context_2026-08-26/` and checked by `analysis/verify_two_context_source_bundle.py`.
+
+## 6. State completion is predictive sufficiency under interventions
 
 Let `H` be measured history and `pi` an allowed future intervention policy. Define the future interventional kernel
 
@@ -146,7 +178,7 @@ The quotient of histories by `~_Pi` is the coarsest fully predictive state. This
 
 **Surviving biological hypothesis:** a real, experimentally measurable developmental representation may approximate this minimal interventional predictive quotient for a specified future family.
 
-## 6. Finite-sample calibration is mandatory
+## 7. Finite-sample calibration is mandatory
 
 A plug-in conditional mutual information statistic `I(Y;H | S,A)` was calibrated on known first-order Markov and deliberately non-Markov simulators. The checkpoint reported:
 
@@ -174,7 +206,7 @@ The exact Monte Carlo cutoffs and powers differ from the research-lane table, as
 
 No living-system screening-off claim should be made without both known-Markov false-positive calibration and known-non-Markov power calibration at comparable sample sizes.
 
-## 7. Frozen rejections from this pass
+## 8. Frozen rejections from this pass
 
 - Adding experiments always shrinks ambiguity **without specifying the metric** — rejected.
 - Exact connected counterfactual fibers are a novel topological object — rejected; Reeb-space precedent.
@@ -186,7 +218,7 @@ No living-system screening-off claim should be made without both known-Markov fa
 - “Present screens off past” is a novel state principle — rejected; causal-state / predictive-sufficiency precedent.
 - A finite vector of action-conditioned future predictions as state is unprecedented — strongly rejected by PSR literature.
 
-## 8. Mandatory next tests
+## 9. Mandatory next tests
 
 1. **Monotonicity audit:** recompute nested experiment panels under the sup metric and exhaustively verify component inclusion.
 2. **Critical-delta persistence:** report merge intervals/thresholds instead of one arbitrary tolerance.

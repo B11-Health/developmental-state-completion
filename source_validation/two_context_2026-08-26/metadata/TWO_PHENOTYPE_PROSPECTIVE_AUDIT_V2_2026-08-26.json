@@ -1,0 +1,384 @@
+{
+  "freeze_sha": "b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a",
+  "estimator_statement": "RECTIFIED_GLOBAL_DEG3_FROZEN_2026-08-26.npz trained new40 only; constrained nonlinear inversion; no refit after these renders",
+  "n_source_phenotypes": 64,
+  "n_complement_pairs": 32,
+  "phenotype_decode": {
+    "u_L2": {
+      "median": 7.749858581577547e-05,
+      "p95": 0.00033168846699719093,
+      "max": 0.0004657747718369271
+    },
+    "surrogate_inversion_raw_L2": {
+      "median": 8.578608824448807e-06,
+      "p95": 2.9999988219484134e-05,
+      "max": 3.285760492103371e-05
+    },
+    "surrogate_reconstruction_dIoU": {
+      "median": 1.5531353431130768e-07,
+      "p95": 5.628584030248351e-07,
+      "max": 9.872538221378235e-07
+    },
+    "surrogate_at_true_u_raw_L2": {
+      "median": 1.456656085784257e-05,
+      "p95": 3.545311895008843e-05,
+      "max": 4.0317171881967874e-05
+    },
+    "surrogate_at_true_u_dIoU": {
+      "median": 3.4201449383708393e-07,
+      "p95": 1.0231232075996743e-06,
+      "max": 1.107871774319591e-06
+    }
+  },
+  "pair_reconstruction": {
+    "sign_accuracy": 1.0,
+    "signed_L2": {
+      "median": 0.00017517497338938437,
+      "p95": 0.00042898516183373603,
+      "max": 0.0005146247404984144
+    },
+    "weak_001_n_pairs": 16,
+    "weak_001_sign_accuracy": 1.0,
+    "weak_001_L2": {
+      "median": 0.00017517497338938437,
+      "p95": 0.0003586118995674497,
+      "max": 0.00043899823604269463
+    },
+    "mask_by_mask": {
+      "1111": {
+        "n": 32,
+        "sign_accuracy": 1.0,
+        "signed_L2": {
+          "median": 0.00017517497338938437,
+          "p95": 0.00042898516183373603,
+          "max": 0.0005146247404984144
+        }
+      }
+    },
+    "mask_availability_note": "The frozen source cohort contains four complementary state pairs only, so 1111 is the only mask prospectively evaluable without new source renders. The other Hamming>=3 masks require unrendered states."
+  },
+  "by_law": {
+    "P00": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00014365532050893837,
+        "p95": 0.00017676674676267407,
+        "max": 0.0001774489353512268
+      }
+    },
+    "P01": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.0001432994663241874,
+        "p95": 0.00026747789235790584,
+        "max": 0.00028746931434697276
+      }
+    },
+    "P02": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00019495075727765445,
+        "p95": 0.0003245160013295345,
+        "max": 0.00033181645407570143
+      }
+    },
+    "P03": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00023407884990080937,
+        "p95": 0.0004110208347122427,
+        "max": 0.00043899823604269463
+      }
+    },
+    "P04": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00016317439260517142,
+        "p95": 0.00030368002034685627,
+        "max": 0.00031361797519757886
+      }
+    },
+    "P05": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.0002863188860365913,
+        "p95": 0.0004870887374707239,
+        "max": 0.0005146247404984144
+      }
+    },
+    "P06": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00010519562094762349,
+        "p95": 0.00034039041567221663,
+        "max": 0.00038165525625784194
+      }
+    },
+    "P07": {
+      "n": 4,
+      "sign_accuracy": 1.0,
+      "signed_L2": {
+        "median": 0.00010160075205892047,
+        "p95": 0.0003779142369141127,
+        "max": 0.00042079264657186085
+      }
+    }
+  },
+  "worst_phenotype_u": [
+    {
+      "law": "P05",
+      "state": "1100",
+      "u_true": [
+        0.895,
+        0.895,
+        0.0,
+        0.0
+      ],
+      "u_hat": [
+        0.8948594363336647,
+        0.8951822518264817,
+        0.00035356883496074585,
+        0.0001973862823873801
+      ],
+      "u_L2": 0.0004657747718369271,
+      "surrogate_inversion_raw_L2": 5.7816839253263144e-06,
+      "surrogate_reconstruction_dIoU": 1.7829031651039884e-07,
+      "surrogate_at_true_u_raw_L2": 2.6605938148811396e-05,
+      "surrogate_at_true_u_dIoU": 2.461242316620371e-07
+    },
+    {
+      "law": "P03",
+      "state": "1111",
+      "u_true": [
+        0.5996666666666667,
+        0.5996666666666667,
+        0.5996666666666667,
+        0.001
+      ],
+      "u_hat": [
+        0.5997989327744541,
+        0.5994960261529062,
+        0.5993953136769475,
+        0.0007351017420944924
+      ],
+      "u_L2": 0.00043636686432009617,
+      "surrogate_inversion_raw_L2": 5.4842755218039314e-06,
+      "surrogate_reconstruction_dIoU": 2.16899234461998e-07,
+      "surrogate_at_true_u_raw_L2": 2.5932774390874452e-05,
+      "surrogate_at_true_u_dIoU": 6.181771505797684e-07
+    },
+    {
+      "law": "P06",
+      "state": "1111",
+      "u_true": [
+        0.05,
+        0.9,
+        0.35,
+        0.5
+      ],
+      "u_hat": [
+        0.050079390062139024,
+        0.8998586124317715,
+        0.34965894923160384,
+        0.499987296101903
+      ],
+      "u_L2": 0.0003778494965809506,
+      "surrogate_inversion_raw_L2": 7.58693693693252e-06,
+      "surrogate_reconstruction_dIoU": 3.12560528237249e-07,
+      "surrogate_at_true_u_raw_L2": 2.304230573702336e-05,
+      "surrogate_at_true_u_dIoU": 3.4660612735493146e-07
+    },
+    {
+      "law": "P05",
+      "state": "1111",
+      "u_true": [
+        0.895,
+        0.895,
+        0.005,
+        0.005
+      ],
+      "u_hat": [
+        0.894920899119185,
+        0.895083594229817,
+        0.005219304105179038,
+        0.004776202545818926
+      ],
+      "u_L2": 0.00033380313906658353,
+      "surrogate_inversion_raw_L2": 2.2042861484927167e-05,
+      "surrogate_reconstruction_dIoU": 3.9217332670204996e-07,
+      "surrogate_at_true_u_raw_L2": 3.605628212567901e-05,
+      "surrogate_at_true_u_dIoU": 8.241837846645339e-07
+    },
+    {
+      "law": "P04",
+      "state": "1010",
+      "u_true": [
+        0.005,
+        0.0,
+        0.895,
+        0.0
+      ],
+      "u_hat": [
+        0.00492702217072541,
+        0.00011433473175224462,
+        0.895285519212238,
+        4.787567230782895e-05
+      ],
+      "u_L2": 0.00031970532527063344,
+      "surrogate_inversion_raw_L2": 1.3471655544705753e-06,
+      "surrogate_reconstruction_dIoU": 2.6465182267898513e-08,
+      "surrogate_at_true_u_raw_L2": 1.3920737895246803e-05,
+      "surrogate_at_true_u_dIoU": 1.9098015047180894e-07
+    },
+    {
+      "law": "P07",
+      "state": "1001",
+      "u_true": [
+        0.95,
+        0.0,
+        0.0,
+        0.1
+      ],
+      "u_hat": [
+        0.9499797138361147,
+        9.611771441977108e-22,
+        7.210518058724404e-05,
+        0.09969909759305878
+      ],
+      "u_L2": 0.00031008538181559025,
+      "surrogate_inversion_raw_L2": 2.506496571092248e-05,
+      "surrogate_reconstruction_dIoU": 6.193270729593081e-07,
+      "surrogate_at_true_u_raw_L2": 3.571971544871698e-05,
+      "surrogate_at_true_u_dIoU": 1.107871774319591e-06
+    },
+    {
+      "law": "P01",
+      "state": "1001",
+      "u_true": [
+        0.5996666666666667,
+        0.0,
+        0.0,
+        0.5996666666666667
+      ],
+      "u_hat": [
+        0.5996584764462318,
+        3.1726895674400716e-05,
+        1.6784346404101513e-05,
+        0.5999511822808735
+      ],
+      "u_L2": 0.00028688765158440085,
+      "surrogate_inversion_raw_L2": 6.467640074210208e-06,
+      "surrogate_reconstruction_dIoU": 1.4378477430909697e-07,
+      "surrogate_at_true_u_raw_L2": 2.2180188477655068e-05,
+      "surrogate_at_true_u_dIoU": 1.024207036182112e-06
+    },
+    {
+      "law": "P02",
+      "state": "1001",
+      "u_true": [
+        0.5996666666666667,
+        0.0,
+        0.0,
+        0.5996666666666667
+      ],
+      "u_hat": [
+        0.5996584764462318,
+        3.1726895674400716e-05,
+        1.6784346404101513e-05,
+        0.5999511822808735
+      ],
+      "u_L2": 0.00028688765158440085,
+      "surrogate_inversion_raw_L2": 6.467640074210208e-06,
+      "surrogate_reconstruction_dIoU": 1.4378477430909697e-07,
+      "surrogate_at_true_u_raw_L2": 2.2180188477655068e-05,
+      "surrogate_at_true_u_dIoU": 1.024207036182112e-06
+    }
+  ],
+  "worst_pair": [
+    {
+      "law": "P05",
+      "state": "0011",
+      "mask": "1111",
+      "L2": 0.0005146247404984144,
+      "sign_correct": true,
+      "min_gain": 0.005,
+      "weak_coords": []
+    },
+    {
+      "law": "P03",
+      "state": "0000",
+      "mask": "1111",
+      "L2": 0.00043899823604269463,
+      "sign_correct": true,
+      "min_gain": 0.001,
+      "weak_coords": [
+        3
+      ]
+    },
+    {
+      "law": "P07",
+      "state": "0110",
+      "mask": "1111",
+      "L2": 0.00042079264657186085,
+      "sign_correct": true,
+      "min_gain": 0.1,
+      "weak_coords": []
+    },
+    {
+      "law": "P06",
+      "state": "0000",
+      "mask": "1111",
+      "L2": 0.00038165525625784194,
+      "sign_correct": true,
+      "min_gain": 0.05,
+      "weak_coords": []
+    },
+    {
+      "law": "P02",
+      "state": "0110",
+      "mask": "1111",
+      "L2": 0.00033181645407570143,
+      "sign_correct": true,
+      "min_gain": 0.001,
+      "weak_coords": [
+        2
+      ]
+    },
+    {
+      "law": "P05",
+      "state": "0000",
+      "mask": "1111",
+      "L2": 0.000331051386980478,
+      "sign_correct": true,
+      "min_gain": 0.005,
+      "weak_coords": []
+    },
+    {
+      "law": "P04",
+      "state": "0101",
+      "mask": "1111",
+      "L2": 0.00031361797519757886,
+      "sign_correct": true,
+      "min_gain": 0.005,
+      "weak_coords": []
+    },
+    {
+      "law": "P01",
+      "state": "0110",
+      "mask": "1111",
+      "L2": 0.00028746931434697276,
+      "sign_correct": true,
+      "min_gain": 0.001,
+      "weak_coords": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-26",
+  "purpose": "prospective context-generalization extension: render only previously unseen states for the already-frozen P00-P07 laws, then evaluate all five exact Hamming>=3 two-context panels",
+  "scope_warning": "Laws P00-P07 were already partially source-rendered in the complementary-pair cohort. This is prospective with respect to the missing contexts/masks, not a new-law generalization test.",
+  "parent_freeze_sha": "b5fdc0bd257dbb57874f107b3c7a12b6c9fe5ec9f89cb48de585743846341c3a",
+  "laws": {
+    "P00": [
+      0.001,
+      0.5996666666666667,
+      0.5996666666666667,
+      0.5996666666666667
+    ],
+    "P01": [
+      0.5996666666666667,
+      0.001,
+      0.5996666666666667,
+      0.5996666666666667
+    ],
+    "P02": [
+      0.5996666666666667,
+      0.5996666666666667,
+      0.001,
+      0.5996666666666667
+    ],
+    "P03": [
+      0.5996666666666667,
+      0.5996666666666667,
+      0.5996666666666667,
+      0.001
+    ],
+    "P04": [
+      0.005,
+      0.005,
+      0.895,
+      0.895
+    ],
+    "P05": [
+      0.895,
+      0.895,
+      0.005,
+      0.005
+    ],
+    "P06": [
+      0.05,
+      0.9,
+      0.35,
+      0.5
+    ],
+    "P07": [
+      0.95,
+      0.1,
+      0.65,
+      0.1
+    ]
+  },
+  "already_rendered_states": [
+    "0000",
+    "0011",
+    "0101",
+    "0110",
+    "1111",
+    "1100",
+    "1010",
+    "1001"
+  ],
+  "new_states_to_render": [
+    "0001",
+    "0010",
+    "0100",
+    "0111",
+    "1000",
+    "1011",
+    "1101",
+    "1110"
+  ],
+  "masks": [
+    "0111",
+    "1011",
+    "1101",
+    "1110",
+    "1111"
+  ],
+  "estimator": {
+    "cubic": "RECTIFIED_GLOBAL_DEG3_FROZEN_2026-08-26.npz",
+    "cubic_sha256": "d7e4027e4ed252225b5f5db87b758df31c67d94c02af1680ce172dc9b6074340",
+    "linear_initializer": "TWO_PHENOTYPE_LINEAR_U_DECODER_FROZEN_2026-08-26.npz",
+    "linear_initializer_sha256": "856bcc7076af37d7a548e720dfe1cebcfd7acc92f35997b683e1e7c56cffe904",
+    "reference_algorithm": "five_two_context_nonlinear_decoder.py",
+    "reference_algorithm_sha256": "bbebc27b2ec562c2d5d83b69dd2b8c45a6b43ca36adb87b91d9bd4994dfe4508",
+    "rule": "Use the same constrained nonlinear u decoder and fixed-budget reconstruct function; no refit, retuning, new starts, threshold changes, or source-informed estimator modification."
+  },
+  "predictions": [
+    "Each of the five masks has 100% sign accuracy over all 8 laws x 16 starting states.",
+    "Each mask has median signed-coordinate L2 error <0.001.",
+    "Each mask has maximum signed-coordinate L2 error <0.002.",
+    "For P00-P03, every pair involving the 0.001 channel recovers that channel sign correctly under every mask."
+  ],
+  "evaluation": "After completing only new_states_to_render, combine those immutable outputs with the parent cohort TSVs to form the 16-state source table. Evaluate every starting state for each mask; report duplicate-oriented 128 tests/mask and also 64 unordered state-pairs/mask where appropriate.",
+  "sha256_pre_render": "7d4845aa8a50da5e5d8ffd2b0bc65e02311882879a261df8c313b4557d47663f"
+}
