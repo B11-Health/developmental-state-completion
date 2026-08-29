@@ -79,6 +79,8 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md` — estimator- and stage-dependent FM1 history-value audit
 - `LAB_OPERATING_SYSTEM.md` — claim gates and lane structure
 - `FUNDING_PIPELINE.md` — verified funding routes / exclusions
+- `NSF_MATHBIO_CONCEPT_2026-08-29.md` — sponsor-ready Mathematical Biology concept built from surviving theorem/counterexample and biological-control evidence
+- `NSF_BIOCORE_CONCEPT_2026-08-29.md` — biology-first prospective living-plant validation concept for BIO Core / Developmental Systems
 - `EVIDENCE_DESK_2026-08-29.md` — NotebookLM evidence-control synthesis
 - `research_logs/` — raw lane outputs preserved for provenance
 - `analysis/` — independently rerunnable mathematical checks and result tables

@@ -67,7 +67,7 @@ Required strengthening before submission:
 ## 90-day funding calendar
 
 ### Now through 2026-09-07
-- Finish one-page NSF Mathematical Biology concept and one-page NSF BIO Core / Developmental Systems concept.
+- **Completed 2026-08-29:** one-page NSF Mathematical Biology concept (`NSF_MATHBIO_CONCEPT_2026-08-29.md`) and one-page NSF BIO Core / Developmental Systems concept (`NSF_BIOCORE_CONCEPT_2026-08-29.md`).
 - Freeze independently reproducible mathematical artifacts and the audited plant preregistration draft.
 - SAM is verified active. Verify IRS determination documentation, Research.gov/Grants.gov status, authorized organizational representative and PI structure.
 - Track replies from NSF Mathematical Biology, NSF Developmental Systems, Michael Levin and Miltos Tsiantis; record replies verbatim before changing proposal scope.
@@ -101,6 +101,11 @@ Required strengthening before submission:
 3. **Simons Targeted Grants in MPS — conditional partner/PI route.** Strong theory fit, but personnel/institution rules must be satisfied.
 4. **Sloan Matter-to-Life — exploratory LOI candidate.** Only if a genuinely distinct physical-principles formulation survives scrutiny.
 5. **Simons Targeted Grants to Institutes — conditional organizational route.** September 30 is close, but eligibility is a hard gate; skip rather than stretch the definition of “established institute.”
+
+## Submission-system gate
+
+- SAM.gov activation is evidenced in the organization mailbox as of 2026-08-19.
+- Research.gov/NSF account and organizational-role status remain **unverified**; do not represent the organization as submission-ready until PI/AOR roles are confirmed in the actual NSF system.
 
 ## Entity facts that must be verified before any submission
 - Code Gym exact legal entity name/authorized signing form
