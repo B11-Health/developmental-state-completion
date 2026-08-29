@@ -61,6 +61,9 @@ For finite candidate sets, a separate packing argument gives a noise-resolution 
 
 ## 4. Hard negative result: greedy ambiguity splitting can be arbitrarily bad
 
+**Independent reproduction added 2026-08-29:** `analysis/greedy_component_counterexample.py` rebuilds the grid construction from scratch. For `n = 10, 20, 40, 80, 160`, the measured greedy/optimal ratios are `0.30, 0.15, 0.075, 0.0375, 0.01875`, exactly matching `3/n`, and the script asserts the increasing-marginal (non-submodular) inequality. See `analysis/greedy_component_counterexample_results.csv`.
+
+
 Define a finite candidate-world graph `G=(V,E)` and a topology-aware utility
 
 `f(Q) = |V| - |C_Q(w*)|`,

@@ -1,0 +1,6 @@
+n,f_empty,f_q0,f_q1,f_q2,f_q1_q2,initial_marginal_q2,conditional_marginal_q2_given_q1,submodularity_violated,greedy_set,greedy_utility,optimal_set,optimal_utility,greedy_over_optimal,theory_ratio_3_over_n
+10,0,10,5,5,50,5,45,True,q0+q2,15,q1+q2,50,0.3,0.3
+20,0,20,10,10,200,10,190,True,q0+q2,30,q1+q2,200,0.15,0.15
+40,0,40,20,20,800,20,780,True,q0+q2,60,q1+q2,800,0.075,0.075
+80,0,80,40,40,3200,40,3160,True,q0+q2,120,q1+q2,3200,0.0375,0.0375
+160,0,160,80,80,12800,80,12720,True,q0+q2,240,q1+q2,12800,0.01875,0.01875

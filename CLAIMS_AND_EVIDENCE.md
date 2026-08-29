@@ -125,7 +125,7 @@ If counterfactual signatures have uniform world-wise error at most `epsilon`, ta
 ## C11 — Greedy connected-ambiguity splitting has no general approximation guarantee
 
 **Class:** mathematical counterexample / negative result  
-**Status:** strong provisional result; construction recorded in `MATH_CHECKPOINT_2026-08-29.md`.
+**Status:** **REPRODUCED COMPUTATIONALLY**. The construction is recorded in `MATH_CHECKPOINT_2026-08-29.md` and independently implemented in `analysis/greedy_component_counterexample.py`. The generated CSV verifies the predicted ratio `3/n` through `n=160`.
 
 A complementary-wall grid construction makes the marginal value of an experiment increase dramatically after another experiment, violating submodularity. Adding a decoy experiment causes the budget-two greedy/optimal utility ratio to scale like `O(1/n)` and approach zero.
 

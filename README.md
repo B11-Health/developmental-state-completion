@@ -48,7 +48,7 @@ This distinguishes hidden mechanisms that merely imitate the same phenotype from
 4. **In a seed dormancy reanalysis, finite-count binomial modeling avoids pathological certainty at 0% and 100% germination and supports latent response directions that become more identifiable under selected perturbations.**
 5. **In a synthetic 224-world developmental model (14 architectures × 16 hidden states), baseline morphology can collapse distinct hidden worlds that separate under intervention.**
 6. **The inverse image of a phenotype can contain disconnected mechanism islands.** In the sampled model, a low-cost alternative mechanism island appeared before it connected to the target, producing a measurable accommodation-versus-accessibility gap.
-7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** However, greedy ambiguity splitting is not generally near-optimal; a counterexample shows its approximation ratio can approach zero without additional structure. Small experiment libraries should therefore be benchmarked exhaustively.
+7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** However, greedy ambiguity splitting is not generally near-optimal; an **independently reproduced grid counterexample** shows its approximation ratio equals `3/n` and approaches zero without additional structure. Small experiment libraries should therefore be benchmarked exhaustively.
 
 See [CLAIMS_AND_EVIDENCE.md](CLAIMS_AND_EVIDENCE.md) for claim-level status, caveats, and reproduction requirements.
 
@@ -77,6 +77,7 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `FUNDING_PIPELINE.md` — verified funding routes / exclusions
 - `EVIDENCE_DESK_2026-08-29.md` — NotebookLM evidence-control synthesis
 - `research_logs/` — raw lane outputs preserved for provenance
+- `analysis/` — independently rerunnable mathematical checks and result tables
 - `CITATION.cff` — citation metadata
 
 ## Reproducibility status
