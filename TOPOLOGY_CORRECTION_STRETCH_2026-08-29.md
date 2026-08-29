@@ -4,7 +4,7 @@ Date: 2026-08-29
 
 ## Status
 
-Recovered archived simulator/source-render checkpoint. The exact source artifacts still need migration into this public repository; this is not a new continuum theorem reproduced from scratch here.
+**Historical checkpoint-prose recovery only.** A later research checkpoint reported the numerical correction below, but the P1 provenance audit did **not** recover the underlying historical simulator/source-render artifacts or the named frozen topology checkpoint. The values below are therefore archival reported values, not independently source-reproduced numbers in the current workspace.
 
 ## Frozen rejection
 
@@ -25,7 +25,7 @@ Corrected CFLOW escape seam:
 - direct source target dIoU `≈0.001410939`;
 - independent nearby source sweep `(0.744,0.056,0,1)` gives `≈0.001412041`.
 
-Therefore the current archived source estimate is
+Therefore the later historical checkpoint **reported**
 
 `m_S ≈ 0.00141094`,
 
@@ -45,4 +45,4 @@ The correction exposes a general failure mode: sampled graphs can create false b
 
 ## Remaining proof gap
 
-The later seam-consistent cubic phenotype decoder had very small source discrepancies on large sampled validation sets and no sampled local rank collapse, but no rigorous uniform continuum error bound or global injectivity proof was established.
+The later checkpoint prose reported very small source discrepancies for a seam-consistent cubic phenotype decoder and no sampled local rank collapse, but the underlying historical source artifacts are currently missing. Even if recovered, no rigorous uniform continuum error bound or global injectivity proof had been established.

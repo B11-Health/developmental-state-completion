@@ -71,41 +71,54 @@ A known-Markov ABA–GA simulator nevertheless produced a finite-sample boosted-
 
 Reported germination assays used about 75 seeds. Treating 0% or 100% as zero-noise continuous measurements creates pathological information geometry. The corrected model uses finite binomial counts with a logistic latent factor structure, so boundary observations contribute finite evidence.
 
-## C5 — Baseline morphology can collapse distinct hidden developmental worlds
+## C5 — Historical 224-world counterfactual-collapse result
 
-**Class:** synthetic-model result
-**Status:** demonstrated in a constructed 224-world system (14 architectures × 16 hidden states).
+**Class:** historical synthetic-model report
+**Status:** **provenance-incomplete / not independently reproduced from the current workspace.**
 
-The archived simulator study contains hidden worlds that are visually or numerically indistinguishable at baseline but diverge under intervention. This is the core proof-of-principle for **counterfactual developmental tomography**.
+Prior checkpoints report a constructed 224-world system (`14 architectures × 16 hidden states`) in which baseline morphology collapsed distinct hidden worlds that separated under intervention. The original 224-world generator/source/output bundle and the named frozen checkpoint files were **not recovered** in the authenticated Windows workspace or tested WSL paths on 2026-08-29.
 
-**Interpretation allowed:** perturbations can identify distinctions that static morphology cannot in the model.
+**Allowed wording:** this phenomenon was historically reported in the project and motivated the counterfactual-tomography program.
 
-**Interpretation not allowed:** the same discrimination performance has been demonstrated prospectively in living plants.
+**Not allowed:** “the 224-world experiment is currently reproducible from this repository” or using the later 128-world/two-context bundle as if it were the missing 224-world study.
 
-## C6 — Connected causal fibers can contain cryptic mechanism islands
+A separate, later source-validation bundle *is* public and reproducible: `source_validation/two_context_2026-08-26/` contains 128 world/context combinations across eight laws and sixteen contexts and supports the prospective two-context result described elsewhere. It is a distinct experiment.
 
-**Class:** synthetic-model / topological analysis
-**Status:** supported on a sampled finite state-law complex; continuum theorem not established.
+See `lab_lanes/provenance/P1_PROVENANCE_RECOVERY.md` once promoted and `REPRODUCIBILITY.md`.
 
-The original coarse state-law grid suggested a STRETCH-related merge barrier near `0.001543`, but a later seam-consistent source-level search **rejected that value as a discretization obstruction**. In the latest recovered simulator checkpoint, the optimized static accommodation is source dIoU `a_S ≈ 0.0002686301`. The corrected CFLOW escape boundary is near `F=0, N=1, C+S=0.8`; a cubic surrogate gives `≈0.001410471`, direct source execution gives `≈0.001410939`, and an independent nearby source sweep gives `≈0.001412041`. Thus the current source-validated estimate is `m_S ≈ 0.00141094`, with isolation gap `Δ_S ≈ 0.00114231` and ratio `m_S/a_S ≈ 5.25`.
+## C6 — Historical connected-fiber / cryptic-island measurements
 
-This motivates two separate quantities:
+**Class:** historical synthetic-model / topological report
+**Status:** **specific historical thresholds are provenance-incomplete; general definitions remain framework objects.**
 
-- **accommodation**: how well an alternative mechanism can imitate the target;
-- **merge/access threshold**: how much phenotype deviation is needed before a continuous path from the target reaches it.
+Earlier research threads reported disconnected or weakly connected mechanism regions in a sampled state-law landscape and introduced the distinction between:
 
-**Evidence boundary:** these values come from the archived simulator/source-render checkpoint recovered on 2026-08-29. They supersede the old coarse-grid continuum interpretation, but the exact source artifacts and a formal continuum proof have not yet been migrated into this public repository. The `0.001543` value may be cited only as a historical sampled-grid threshold, not as the continuum merge barrier. See `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md`.
+- **accommodation:** how closely an alternative mechanism can imitate the target phenotype;
+- **merge/access threshold:** the phenotype tolerance required before a continuous path from the target can reach that alternative region.
 
-## C7 — Experimental value is objective-dependent
+A later prose checkpoint reported a correction of the original coarse STRETCH threshold (`~0.001543`) to a lower seam-optimized value (`~0.00141094`) and a static accommodation near `~0.00026863`. **P1 could not recover the underlying historical simulator/source-render artifacts or the named frozen topology checkpoint**, so these numerical values are retained only as historical reported values, not as independently source-validated numbers in the present workspace.
 
-**Class:** synthetic-model result
-**Status:** supported in the sampled ambiguity landscape.
+The mathematical lesson survives independently: sampled graphs can create apparent barriers, and component claims must distinguish discretized thresholds, source-optimized thresholds, and proved continuum bounds. The exact biological/simulator magnitude does not currently have recoverable provenance.
 
-At one ambiguity scale, intervention 0010 reportedly reduced the connected candidate set from 2030 to 114, while a previously strong global parameter-estimation assay (1011) ranked only 12th for this topological objective. At a broader tolerance the best intervention changed to 1010.
+See `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md` and the provenance recovery note.
 
-**Interpretation:** “most informative experiment” is not universal. The optimal assay depends on the scientific loss function and the structure of the current ambiguity.
+## C7 — Experiment-selection objective matters; connected ambiguity is not generally submodular
 
-**New correction (2026-08-29):** connected-component reduction is not generally submodular. A grid counterexample from the mathematics lane makes a greedy topological selection rule arbitrarily worse than the optimal size-k subset. Therefore greedy selection is a heuristic unless additional structure is established; exhaustive subset benchmarking is mandatory for tractable assay libraries.
+**Class:** mathematical/computational result plus historical simulator report
+**Status:** **current negative theorem reproduced; old perturbation-ranking numbers provenance-incomplete.**
+
+Historical checkpoints reported that a topological connected-ambiguity ranking differed from a global parameter-estimation ranking (including specific 2030→114 and rank-order numbers). The original outputs supporting those exact ranking values were not recovered, so those values must be treated as historical reports rather than current reproducible evidence.
+
+What **is** currently reproducible:
+
+- a grid counterexample for the target-connected component-reduction objective with greedy/optimal ratio `3/n -> 0`;
+- a real submodularity violation in the preserved source-derived 128-world bundle under an explicitly declared topology proxy (marginal gain 9 before versus 19 after conditioning; gap 10);
+- exhaustive budgets 1–5 in that particular source-derived stress case where greedy nevertheless matches optimal utility;
+- a rooted-tree known-outcome regime where the same objective reduces to ordinary coverage and recovers the classical `(1-1/e)` greedy guarantee.
+
+**Interpretation:** experiment value is objective- and structure-dependent. Greedy connected-ambiguity splitting is a heuristic unless a safe regime is established; pairwise robust separation is a different Test-Cover/set-cover objective with its own classical guarantees.
+
+See `MATH_VERIFICATION_M1_2026-08-29.md`.
 
 ## C8 — Developmental state completion
 
