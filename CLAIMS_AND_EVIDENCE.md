@@ -217,6 +217,23 @@ Applied to the released FM1 atlas with repeated ancestor-group partitions, fixed
 
 Artifacts: `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md`, `analysis/screening_loss_identities.py`, `analysis/fm1_gaussian_logscore.py`, and `analysis/fm1_split_stability.py`.
 
+## C16 — Finite-resolution global reconstruction is Test Cover
+
+**Class:** established combinatorial reduction + project-specific finite-resolution formulation
+**Status:** exact finite-library proof recorded and toy implementation reproduced; archived Source640 phase numbers not yet independently rerun.
+
+For a finite world library, let `U_epsilon` be the pairs farther than hidden-world resolution `epsilon`. Experiment `q` covers a far pair when its responses differ by more than phenotype threshold `delta`. A panel is `(epsilon,delta)`-identifying if and only if its covered-pair sets cover all of `U_epsilon`. Thus the minimum global panel size `kappa(epsilon,delta)` is exactly a **Minimum Test Collection / set-cover problem** on structurally relevant world pairs.
+
+**Established mathematics:** Minimum Test Collection, separating systems, logarithmic greedy set-cover guarantees, and `1-1/e` greedy maximum-coverage guarantees are not new contributions of this project.
+
+**Project-specific consequence:** pairwise separation and connected-fiber destruction have fundamentally different optimization structure. Greedy can have a classical guarantee for pair coverage while the connected-component objective in C11 has approximation ratio `3/n -> 0`.
+
+For the full finite experiment library, define `epsilon_floor(delta)=max{d_W(w,w'): D_full(w,w')<=delta}`. If `epsilon < epsilon_floor(delta)`, then `kappa=infinity`; no allowed subpanel can achieve that hidden-world resolution. The toy implementation also verifies the robust `2 eta` pair-distance perturbation bound.
+
+**Artifacts:** `FINITE_RESOLUTION_TEST_COVER_NOTE.md` and `analysis/finite_resolution_test_cover.py`.
+
+**Interpretation not allowed:** claiming Test Cover/separating systems as novel; treating archived Source640 `kappa` numbers as independently reproduced; transferring pair-coverage greedy guarantees to the connected-topology objective.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:

@@ -40,24 +40,73 @@ when the left tolerance is nonnegative and connectivity is computed in the same 
 
 This is more defensible than claiming that the connected component at one fixed `delta` is itself stable. A component can change abruptly when `delta` crosses a merge threshold.
 
-## 3. Provisional finite-separation / embedding result
+## 3. Continuous embedding bounds vs finite experiment separation
 
-Let `X` denote the smooth, compact behavioral quotient of state-law worlds that remain distinct under the full admissible intervention family, with dimension `d`. Suppose each experiment contributes `r` real coordinates and the admissible experiment family is sufficiently rich that collision constraints satisfy the required transversality/genericity conditions.
+### Continuous/generic regime
 
-The theory lane derived the standard embedding-style sufficient regime
+Let `X` denote a smooth, compact behavioral quotient of state-law worlds that remain distinct under the full admissible intervention family, with dimension `d`. Suppose each experiment contributes `r` real coordinates and the admissible experiment family is sufficiently rich that collision constraints satisfy the required transversality/genericity conditions.
+
+The standard Whitney/Takens-style sufficient regime is
 
 `m r > 2 d`
 
-for a generic tuple of `m` experiments to separate behaviorally distinct worlds.
+for a generic tuple of measurements/experiments to separate points. This is an application of classical embedding/transversality theory, **not a new theorem of this project**. The unresolved biological question is whether realistic perturbation families satisfy the required richness assumptions.
 
-**Interpretation:** this is best viewed as an application of classical transversality/embedding ideas, not a new universal embedding theorem. The key scientific question is whether a biologically realistic perturbation family satisfies the richness assumptions.
+If `e(X)` is the smallest Euclidean embedding dimension of the behavioral quotient, any continuous exact signature in `R^(mr)` must satisfy `mr >= e(X)`.
 
-### Lower bounds
-If `e(X)` is the smallest Euclidean embedding dimension of the behavioral quotient, any continuous exact signature in `R^(mr)` must satisfy
+### Finite candidate-world regime — exact Test Cover mapping
 
-`mr >= e(X)`.
+For a finite candidate set `W` with structural metric `d_W`, define a far-pair universe
 
-For finite candidate sets, a separate packing argument gives a noise-resolution lower bound. If `N` candidate worlds must remain at least `Delta` apart in an `mr`-dimensional signature box with coordinate range `[-R,R]`, then a volume/packing bound implies a logarithmic lower bound on `mr` as a function of `N`, `R`, and `Delta`. These bounds should be used as sanity checks, not advertised as biological laws.
+`U_epsilon = {{i,j}: d_W(w_i,w_j) > epsilon}`.
+
+Experiment `q` covers a far pair if its phenotype responses differ by more than `delta`. Then a panel is `(epsilon,delta)`-identifying exactly when its experiment cover sets cover every pair in `U_epsilon`. Hence
+
+`kappa(epsilon,delta)`
+
+—the minimum panel size needed to ensure all phenotype-compatible alternatives lie within hidden-world distance `epsilon`—is exactly a **Minimum Test Collection / set-cover problem on far pairs**. This combinatorial identification is established mathematics; it must not be advertised as a new optimization problem.
+
+Consequences:
+
+- greedy exact pair coverage has the classical logarithmic set-cover/Test-Collection guarantee;
+- budgeted pair coverage is monotone submodular and inherits the classical `1-1/e` greedy maximum-coverage guarantee;
+- these guarantees apply to **pair separation**, not to connected-component ambiguity destruction.
+
+This resolves an apparent conflict with Section 4: greedy can be theoretically sound for pairwise world separation while arbitrarily bad for the topology-sensitive connected-fiber objective.
+
+### Exact finite-library resolution floor
+
+For the full finite experiment library define
+
+`epsilon_floor(delta) = max{d_W(w,w') : D_full(w,w') <= delta}`.
+
+If `epsilon < epsilon_floor(delta)`, then `kappa(epsilon,delta)=infinity`: a structurally too-distant pair remains indistinguishable even under the full panel. For a finite experiment library, if `epsilon >= epsilon_floor(delta)`, the full panel itself is feasible.
+
+Monotonicities:
+
+- `epsilon_floor(delta)` is nondecreasing in `delta`;
+- `kappa` is nonincreasing in `epsilon`;
+- `kappa` is nondecreasing in `delta`.
+
+### Robust and counting bounds
+
+If each world response is perturbed by at most `eta`, pairwise experiment distances change by at most `2 eta`. Robust separation therefore requires a margin around `delta`, rather than bare threshold crossing.
+
+For a `P`-world structural packing and experiments with at most `K` outcomes, `m >= ceil(log(P)/log(K))`. For continuous signatures in `[-R,R]^(mr)` requiring `l_infinity` separation `Delta`, a packing argument gives
+
+`P <= (1+2R/Delta)^(mr)`.
+
+A random experiment distribution that separates every relevant pair with probability at least `p` yields the simple union-bound sufficient condition
+
+`m >= log(|U_epsilon|/beta)/p`
+
+for complete pair separation with probability at least `1-beta`.
+
+See `FINITE_RESOLUTION_TEST_COVER_NOTE.md` and `analysis/finite_resolution_test_cover.py`.
+
+### Archived Source640 sample phase result
+
+The recovered simulator checkpoint reports finite-sample values such as `kappa(.5,.001)=2`, `kappa(1,.001)=1`, and impossibility below certain `(epsilon,delta)` floors. These have not yet been independently rerun from a migrated Source640 response matrix and remain archived finite-sample evidence, not theorem results.
 
 ## 4. Hard negative result: greedy ambiguity splitting can be arbitrarily bad
 

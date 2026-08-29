@@ -49,6 +49,7 @@ This distinguishes hidden mechanisms that merely imitate the same phenotype from
 5. **In a synthetic 224-world developmental model (14 architectures × 16 hidden states), baseline morphology can collapse distinct hidden worlds that separate under intervention.**
 6. **The inverse image of a phenotype can contain disconnected mechanism islands.** In the sampled model, a low-cost alternative mechanism island appeared before it connected to the target, producing a measurable accommodation-versus-accessibility gap.
 7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** However, greedy ambiguity splitting is not generally near-optimal; an **independently reproduced grid counterexample** shows its approximation ratio equals `3/n` and approaches zero without additional structure. Small experiment libraries should therefore be benchmarked exhaustively.
+8. **Finite global pairwise reconstruction has a different optimization structure from connected ambiguity.** For a finite candidate-world library, `(epsilon,delta)` identification is exactly a Minimum Test Collection / far-pair set-cover problem with classical coverage guarantees, while the connected-component objective in item 7 can defeat greedy arbitrarily badly.
 
 See [CLAIMS_AND_EVIDENCE.md](CLAIMS_AND_EVIDENCE.md) for claim-level status, caveats, and reproduction requirements.
 
@@ -75,6 +76,7 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `REPLICATION_CHECKPOINT_FM1_2026-08-29.md` — direct-source FM1 flower-atlas replication, corrections and calibrated null/power tests
 - `MATH_CHECKPOINT_2026-08-29.md` — adversarial mathematics checkpoint and frozen rejections
 - `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md` — loss-aware population screening-off identities, counterexamples, and implications
+- `FINITE_RESOLUTION_TEST_COVER_NOTE.md` — finite-world `kappa(epsilon,delta)`, resolution floors, Test Cover mapping, robust and packing bounds
 - `NEGATIVE_CONTROL_WEINREB_2020_2026-08-29.md` — external state-incompleteness control from public LARRY split-well lineage data
 - `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md` — estimator- and stage-dependent FM1 history-value audit
 - `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md` — correction of the old coarse-grid STRETCH barrier using later seam-consistent source validation

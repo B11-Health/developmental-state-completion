@@ -27,6 +27,7 @@ The proposal does **not** claim that predictive screening-off, Reeb spaces, obse
 3. **Greedy failure:** an independently implemented counterexample makes the budget-two greedy/optimal connected-ambiguity utility ratio scale as `3/n`, approaching zero. Greedy topological splitting therefore has no general approximation guarantee without extra structure.
 4. **Loss-aware screening-off:** under Bayes-optimal log loss, population history value is exactly `I(Y;H|S)`; under squared loss it measures only conditional-mean refinement. An XOR counterexample falsifies monotonic decrease of residual history under added conditioning variables.
 5. **Public biological contrast:** direct-source FM1 flower analysis shows a partition-stable late-L1 near-zero history gain under tested linear losses, while a middle L1 interval is partition- and decoder-dependent. A public Weinreb/Klein split-well lineage dataset serves as a positive control where present-state incompleteness is strongly detected.
+6. **Objective-dependent experiment complexity:** finite `(epsilon,delta)` global world separation is exactly a classical Test-Cover problem on structurally distant pairs, so pair coverage has standard greedy guarantees. This sharply contrasts with the connected-fiber objective, where our reproduced counterexample makes greedy arbitrarily bad. The proposal will exploit—not obscure—this distinction.
 
 ## Aim 1 — Robust topology of experiment-indexed causal fibers
 
@@ -38,7 +39,8 @@ Deliverables:
 - stability/tolerance-sandwich bounds under bounded signature error;
 - critical merge/accessibility thresholds and persistence-like summaries;
 - explicit relationships and non-equivalences with Reeb-space quotients, observability and bisimulation;
-- finite-domain separation criteria and lower/upper bounds for counterfactual embedding dimension.
+- finite-domain separation criteria and lower/upper bounds for counterfactual embedding dimension;
+- exact Test-Cover formulation of finite-resolution global reconstruction and the irreducible full-panel resolution floor.
 
 ## Aim 2 — Decision-theoretic active tomography under finite experiment budgets
 
@@ -47,8 +49,9 @@ Develop experiment-selection objectives that target the *current connected ambig
 Deliverables:
 
 - exact exhaustive baselines for finite perturbation libraries;
-- sufficient conditions under which greedy/adaptive selection is near-optimal;
-- counterexamples when submodularity/adaptive-submodularity fails;
+- classical pair-coverage/Test-Cover baselines where greedy guarantees are known;
+- sufficient conditions under which topology-sensitive greedy/adaptive selection is near-optimal;
+- counterexamples when connected-ambiguity submodularity/adaptive-submodularity fails;
 - cost-aware and noise-aware objectives;
 - calibration of predictive screening statistics with known-complete and known-incomplete generators.
 
