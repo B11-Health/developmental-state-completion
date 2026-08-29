@@ -78,14 +78,14 @@ The archived simulator study contains hidden worlds that are visually or numeric
 **Class:** synthetic-model / topological analysis
 **Status:** supported on a sampled finite state-law complex; continuum theorem not established.
 
-For a phenotype tolerance around δ = 0.00155, the sampled target connected component reportedly contained about 2030 candidate mechanisms spanning four hidden states. A dominant alternative mechanism island appeared at lower phenotype error but remained disconnected until a higher tolerance saddle was crossed.
+The original coarse state-law grid suggested a STRETCH-related merge barrier near `0.001543`, but a later seam-consistent source-level search **rejected that value as a discretization obstruction**. In the latest recovered simulator checkpoint, the optimized static accommodation is source dIoU `a_S ≈ 0.0002686301`. The corrected CFLOW escape boundary is near `F=0, N=1, C+S=0.8`; a cubic surrogate gives `≈0.001410471`, direct source execution gives `≈0.001410939`, and an independent nearby source sweep gives `≈0.001412041`. Thus the current source-validated estimate is `m_S ≈ 0.00141094`, with isolation gap `Δ_S ≈ 0.00114231` and ratio `m_S/a_S ≈ 5.25`.
 
 This motivates two separate quantities:
 
 - **accommodation**: how well an alternative mechanism can imitate the target;
 - **merge/access threshold**: how much phenotype deviation is needed before a continuous path from the target reaches it.
 
-Their difference measures sampled topological isolation under the chosen phenotype metric.
+**Evidence boundary:** these values come from the archived simulator/source-render checkpoint recovered on 2026-08-29. They supersede the old coarse-grid continuum interpretation, but the exact source artifacts and a formal continuum proof have not yet been migrated into this public repository. The `0.001543` value may be cited only as a historical sampled-grid threshold, not as the continuum merge barrier. See `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md`.
 
 ## C7 — Experimental value is objective-dependent
 

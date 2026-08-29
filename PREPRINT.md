@@ -137,9 +137,9 @@ This distinguishes two properties that static phenotype error conflates:
 1. **Accommodation** — how closely an alternative mechanism can imitate the target phenotype.
 2. **Accessibility** — how much phenotype deviation must be tolerated before a continuous path through mechanism space connects the target to that alternative.
 
-In the sampled complex, an alternative mechanism family reportedly appeared at phenotype error near 0.000335 but did not merge with the target component until roughly 0.001543, creating a persistent topological gap. At a narrow transition near the main saddle, the target component reportedly expanded from approximately 221 to 2012 sampled mechanisms and from one hidden-state chamber to four.
+An earlier coarse grid suggested that a STRETCH-related alternative mechanism appeared near phenotype error `0.000335` and merged with the target near `0.001543`. That continuum interpretation is now **withdrawn**: a later seam-consistent search showed that `0.001543` was a discretization obstruction. The latest recovered source-level checkpoint gives an optimized static accommodation `a_S ≈ 0.0002686301` and a corrected CFLOW escape/merge threshold `m_S ≈ 0.00141094` (cubic surrogate `≈0.001410471`; direct source `≈0.001410939`; independent nearby source sweep `≈0.001412041`). The resulting source-level isolation gap is `Δ_S ≈ 0.00114231`, with `m_S/a_S ≈ 5.25`.
 
-These are finite-grid computational observations, not continuum theorems.
+The earlier sampled-grid transition from approximately 221 to 2012 candidate mechanisms remains useful as a **discretized connectivity observation**, but it is not the best estimate of the continuum merge threshold. The corrected seam value is source-validated within the archived simulator checkpoint; a formal global continuum proof and full source-artifact migration remain open.
 
 ## 8. Topology-aware experimental design
 

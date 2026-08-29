@@ -77,6 +77,7 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md` — loss-aware population screening-off identities, counterexamples, and implications
 - `NEGATIVE_CONTROL_WEINREB_2020_2026-08-29.md` — external state-incompleteness control from public LARRY split-well lineage data
 - `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md` — estimator- and stage-dependent FM1 history-value audit
+- `TOPOLOGY_CORRECTION_STRETCH_2026-08-29.md` — correction of the old coarse-grid STRETCH barrier using later seam-consistent source validation
 - `LAB_OPERATING_SYSTEM.md` — claim gates and lane structure
 - `FUNDING_PIPELINE.md` — verified funding routes / exclusions
 - `NSF_MATHBIO_CONCEPT_2026-08-29.md` — sponsor-ready Mathematical Biology concept built from surviving theorem/counterexample and biological-control evidence
