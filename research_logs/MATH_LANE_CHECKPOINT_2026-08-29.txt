@@ -1,0 +1,1940 @@
+Mathematics Lane — Major Checkpoint
+
+I tried to break the framework rather than extend its analogies. Several attractive claims fail. One mathematically substantive result does survive: under an explicit richness/transversality condition on the perturbation family, a finite generic set of perturbations separates all behaviorally distinct state-law worlds once total counterfactual output dimension exceeds twice the intrinsic dimension of the behavioral quotient. This is a counterfactual version of a Whitney/transversality argument—not new topology, but a useful theorem for this framework. 
+Springer Link
++2
+Department of Mathematics
++2
+
+1. Freeze the mathematical object
+
+Let
+
+W={w=(θ,x)}
+
+be the admissible state-law world space.
+
+An experiment/perturbation q∈Q produces an observable outcome law
+
+K
+q
+	​
+
+(w)∈(Y
+q
+	​
+
+,ρ
+q
+	​
+
+).
+
+This includes deterministic experiments by taking K
+q
+	​
+
+(w) to be a Dirac distribution. For a finite experiment set Q⊂Q, use the counterfactual signature
+
+F
+Q
+	​
+
+(w)=(K
+q
+	​
+
+(w))
+q∈Q
+	​
+
+.
+
+The cleanest metric for the refinement theory is
+
+D
+Q
+	​
+
+(w,w
+′
+)=
+q∈Q
+max
+	​
+
+ρ
+q
+	​
+
+(K
+q
+	​
+
+(w),K
+q
+	​
+
+(w
+′
+)).
+
+Define the δ-inverse ambiguity set around the true world w
+∗
+	​
+
+
+A
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+)={w∈W:D
+Q
+	​
+
+(w,w
+∗
+	​
+
+)≤δ},
+
+and finally
+
+C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+)=Comp
+w
+∗
+	​
+
+	​
+
+A
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+)
+	​
+
+
+where Comp
+w
+∗
+	​
+
+	​
+
+ means the connected component containing w
+∗
+	​
+
+.
+
+This definition is strong enough for precise results and weak enough to accommodate deterministic simulators, stochastic developmental systems, distributions over single-cell outcomes, morphology vectors, lineage distributions, etc.
+
+2. Monotone refinement really is a theorem—but only with the right metric
+Theorem 1 — Experiment monotonicity
+
+If
+
+Q⊆Q
+′
+,
+
+then for every δ≥0,
+
+C
+Q
+′
+δ
+	​
+
+(w
+∗
+	​
+
+)⊆C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+).
+	​
+
+Proof
+
+Because D
+Q
+	​
+
+ is a supremum over a subset of the experiments,
+
+D
+Q
+	​
+
+(w,w
+∗
+	​
+
+)≤D
+Q
+′
+	​
+
+(w,w
+∗
+	​
+
+).
+
+Hence
+
+A
+Q
+′
+δ
+	​
+
+(w
+∗
+	​
+
+)⊆A
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+).
+
+Now C
+Q
+′
+δ
+	​
+
+(w
+∗
+	​
+
+) is a connected subset of A
+Q
+δ
+	​
+
+ containing w
+∗
+	​
+
+. By maximality of the connected component of A
+Q
+δ
+	​
+
+ containing w
+∗
+	​
+
+,
+
+C
+Q
+′
+δ
+	​
+
+(w
+∗
+	​
+
+)⊆C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+).□
+
+Likewise, if δ
+1
+	​
+
+≤δ
+2
+	​
+
+,
+
+C
+Q
+δ
+1
+	​
+
+	​
+
+(w
+∗
+	​
+
+)⊆C
+Q
+δ
+2
+	​
+
+	​
+
+(w
+∗
+	​
+
+).
+
+So the object has two exact monotonicities:
+
+Q↑⇒C↓,δ↑⇒C↑.
+	​
+
+FALSIFICATION 1 — Monotonicity does not hold for arbitrary experiment scores
+
+Suppose a competing world differs from w
+∗
+	​
+
+ by distance 1 on experiment q
+1
+	​
+
+ and distance 0 on q
+2
+	​
+
+.
+
+With normalized RMS distance,
+
+D
+{q
+1
+	​
+
+}
+	​
+
+=1
+
+but
+
+D
+{q
+1
+	​
+
+,q
+2
+	​
+
+}
+	​
+
+=
+2
+1
+2
++0
+2
+	​
+
+	​
+
+=
+2
+	​
+
+1
+	​
+
+.
+
+At δ=0.8, adding q
+2
+	​
+
+ makes the competitor go from distinguishable to indistinguishable.
+
+Frozen rejection: never claim that “ambiguity monotonically decreases as experiments are added” unless the aggregation metric itself is monotone under experiment addition. Supremum/max distance is the safest default.
+
+3. Noise stability: fixed-threshold topology fails, but a stronger sandwich theorem survives
+
+Let 
+D
+Q
+	​
+
+ be the experimentally estimated counterfactual distance.
+
+Assume
+
+w∈W
+sup
+	​
+
+	​
+
+D
+Q
+	​
+
+(w,w
+∗
+	​
+
+)−
+D
+Q
+	​
+
+(w,w
+∗
+	​
+
+)
+	​
+
+≤κ.
+Theorem 2 — Robust component interleaving
+
+For δ≥κ,
+
+C
+Q
+δ−κ
+	​
+
+(w
+∗
+	​
+
+)⊆
+C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+)⊆C
+Q
+δ+κ
+	​
+
+(w
+∗
+	​
+
+).
+	​
+
+Proof
+
+Uniform error gives
+
+A
+Q
+δ−κ
+	​
+
+⊆
+A
+Q
+δ
+	​
+
+⊆A
+Q
+δ+κ
+	​
+
+.
+
+The component C
+Q
+δ−κ
+	​
+
+ is connected, contains w
+∗
+	​
+
+, and lies inside 
+A
+Q
+δ
+	​
+
+, so it must lie in the w
+∗
+	​
+
+-component of that set.
+
+The second inclusion follows identically in the other direction. □
+
+If each predicted/estimated experiment signature itself satisfies
+
+ρ
+q
+	​
+
+(K
+q
+	​
+
+(w),
+K
+q
+	​
+
+(w))≤ϵ
+
+uniformly, triangle inequality gives
+
+κ≤2ϵ.
+
+Thus
+
+C
+Q
+δ−2ϵ
+	​
+
+⊆
+C
+Q
+δ
+	​
+
+⊆C
+Q
+δ+2ϵ
+	​
+
+.
+	​
+
+
+If the observation metric itself is perturbed by at most η, replace 2ϵ by approximately 2ϵ+η.
+
+This is the correct robustness statement.
+
+FALSIFICATION 2 — “Small noise causes only a small change in C
+Q
+δ
+	​
+
+” is false
+
+Take
+
+g(x)=(x
+2
+−1)
+2
+
+on an interval containing [−1,1], with w
+∗
+	​
+
+=−1, and δ=1.
+
+The sublevel set g≤1 connects the basin at −1 to the basin at +1 exactly through the bottleneck at x=0, where
+
+g(0)=1.
+
+An arbitrarily small positive perturbation concentrated around x=0 raises the bottleneck above 1, splitting one large connected ambiguity component into two.
+
+So fixed-δ connected components can change catastrophically under arbitrarily small perturbations.
+
+What is stable is the threshold-interleaved family
+
+δ↦C
+Q
+δ
+	​
+
+,
+
+not necessarily the component at one exact threshold.
+
+This is closely related in spirit to established stability ideas for Reeb graphs and persistent topology rather than a new general topological stability phenomenon. Stable distances for Reeb graphs under function perturbation are already well developed. 
+arXiv
++1
+
+4. Exact relationship to Reeb spaces
+
+For δ=0,
+
+A
+Q
+0
+	​
+
+(w
+∗
+	​
+
+)=F
+Q
+−1
+	​
+
+(F
+Q
+	​
+
+(w
+∗
+	​
+
+)).
+
+Therefore
+
+C
+Q
+0
+	​
+
+(w
+∗
+	​
+
+)=the connected component containing w
+∗
+	​
+
+ of the fiber F
+Q
+−1
+	​
+
+(F
+Q
+	​
+
+(w
+∗
+	​
+
+)).
+	​
+
+
+That is exactly the equivalence used to construct a Reeb space: points are identified when they belong to the same connected component of the preimage of one range value. Reeb spaces are explicitly the multivariate generalization of Reeb graphs. 
+Scholars@Duke
++1
+
+So:
+
+FROZEN REJECTION:
+“Connected exact counterfactual fibers are a new topological object” — false.
+
+The quotient
+
+W/{connected components of exact F
+Q
+	​
+
+-fibers}
+
+is a Reeb-space/Stein-factorization construction.
+
+The δ>0 object is different:
+
+C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+)=Comp
+w
+∗
+	​
+
+	​
+
+F
+Q
+−1
+	​
+
+(B
+δ
+	​
+
+(F
+Q
+	​
+
+(w
+∗
+	​
+
+))).
+
+That is a component of the inverse image of a ball, not a fiber. It should therefore not be described as a Reeb fiber. Mapper and Joint Contour Net methods already approximate multivariate Reeb-space structure using neighborhoods/quantization, so even the computational neighborhood viewpoint has strong precedent. 
+PubMed
++1
+
+A defensible name is simply connected counterfactual ambiguity component.
+
+5. Observability: w=(θ,x) is mathematically an augmented state
+
+Suppose a deterministic developmental model is
+
+x
+˙
+=f
+θ
+	​
+
+(x,u),y=h
+θ
+	​
+
+(x).
+
+Put
+
+z=(x,θ)
+
+and give the parameters zero dynamics:
+
+z
+˙
+=(
+f
+θ
+	​
+
+(x,u)
+0
+	​
+
+).
+
+Then recovering both current developmental state x and developmental law θ is an ordinary augmented-state observability/identifiability problem.
+
+This exact maneuver—treating unknown parameters as states with zero dynamics—is established in nonlinear structural identifiability, including systems-biology applications. 
+PubMed Central (PMC)
++1
+
+Classical nonlinear observability already defines states as indistinguishable when all permitted inputs produce identical output behavior. Hermann and Krener's foundational nonlinear observability work dates to 1977. 
+ScienceOpen
+
+So:
+
+FROZEN REJECTION 3
+
+“Joint inference of developmental state and developmental machinery is a new mathematical form of observability.”
+
+No.
+
+The biological interpretation may be useful; the underlying mathematical move is established structural identifiability/augmented observability.
+
+6. Bisimulation: do not equate it with C
+Q
+δ
+	​
+
+
+There are three distinct objects here.
+
+A. Finite-experiment indistinguishability
+F
+Q
+	​
+
+(w)=F
+Q
+	​
+
+(w
+′
+).
+
+This only says the chosen experiments failed to distinguish them.
+
+B. Full interventional trace equivalence
+
+For an allowed policy family Π,
+
+w∼
+Π
+	​
+
+w
+′
+⟺K
+π
+(w)=K
+π
+(w
+′
+)∀π∈Π.
+
+This is behavioral/input-output or trace/testing equivalence.
+
+C. Bisimulation
+
+Bisimulation additionally requires compatible matching of the branching transition structure, not merely equality of observable trajectory distributions. Control-theoretic versions of bisimulation for nonlinear systems are well established, as are approximate bisimulation notions. 
+ScienceDirect
++1
+
+Probabilistic trace equivalence and probabilistic bisimulation are explicitly distinct in the literature; approximate bisimulation can bound trace differences, but trace equivalence is generally weaker. 
+Google Research
++1
+
+Worse, the naive relation
+
+D
+Q
+	​
+
+(w,w
+′
+)≤δ
+
+is usually not transitive.
+
+Hence it is not even an equivalence relation.
+
+FROZEN REJECTION 4
+
+“C
+Q
+δ
+	​
+
+ is an approximate bisimulation class.”
+
+False in general.
+
+It becomes related to approximate bisimulation only after imposing transition-compatibility conditions that are currently absent from the framework.
+
+7. The nontrivial surviving theorem: finite perturbations can generically separate a finite-dimensional world space
+
+This is the strongest result from this pass.
+
+Let
+
+X=W/∼
+Π
+	​
+
+
+denote the quotient of genuinely behaviorally equivalent worlds. Thus distinct x,x
+′
+∈X are, in principle, distinguishable by the complete allowed experiment family.
+
+Assume for now that X is a compact smooth d-manifold.
+
+Let allowed perturbations be parameterized by a smooth space U, and let each perturbation produce an r-dimensional counterfactual observable:
+
+f:U×X→R
+r
+.
+
+For perturbations
+
+u=(u
+1
+	​
+
+,…,u
+m
+	​
+
+),
+
+define
+
+F
+u
+	​
+
+(x)=(f(u
+1
+	​
+
+,x),…,f(u
+m
+	​
+
+,x))∈R
+mr
+.
+
+Now define the collision map
+
+Ψ:U
+m
+×(X×X∖Δ)→R
+mr
+
+by
+
+Ψ(u,x,x
+′
+)=F
+u
+	​
+
+(x)−F
+u
+	​
+
+(x
+′
+).
+
+The diagonal Δ is removed because x=x
+′
+ is an unavoidable collision.
+
+Theorem 3 — Generic finite counterfactual separation
+
+Assume Ψ is transverse to 0.
+
+If
+
+mr>2d,
+	​
+
+
+then for generic/almost every allowed perturbation tuple u,
+
+F
+u
+	​
+
+:X→R
+mr
+
+is injective.
+
+Since X is compact, it is therefore an embedding.
+
+Proof sketch
+
+Parametric transversality says that, under the transversality assumption on Ψ, a generic fixed parameter tuple u gives
+
+Ψ
+u
+	​
+
+:X×X∖Δ→R
+mr
+
+transverse to 0. 
+Springer Link
+
+If collisions exist, their set is
+
+Ψ
+u
+−1
+	​
+
+(0).
+
+A transverse zero set has expected dimension
+
+dim(X×X)−mr=2d−mr.
+
+When
+
+mr>2d,
+
+this dimension is negative, so the zero set must be empty.
+
+Therefore no distinct x,x
+′
+ share a counterfactual signature:
+
+F
+u
+	​
+
+(x)
+
+=F
+u
+	​
+
+(x
+′
+)x
+
+=x
+′
+.
+
+Thus F
+u
+	​
+
+ is injective. □
+
+Status
+
+SURVIVES ATTEMPTED COUNTEREXAMPLES.
+
+But it is not a claim of new mathematics. It is a clean corollary of parametric transversality/Whitney-style arguments. Whitney embedding and Takens-type reconstruction already show the recurring 2d-scale for generic finite measurement embeddings. 
+Encyclopedia of Mathematics
++1
+
+What may be useful for the developmental framework is the interpretation:
+
+effective perturbation output dimension>2×behavioral world dimension
+	​
+
+
+is a sufficient generic identifiability regime—provided the perturbation family is rich enough to satisfy transversality.
+
+That proviso is essential.
+
+Counterexample when richness fails
+
+If every allowed perturbation measures
+
+f(u,x)=h(x)
+
+for the same noninjective h, then no number of experiments separates points collapsed by h.
+
+More experiments do nothing.
+
+8. An infinite separating family need not contain a finite separating subset
+
+This also kills an overstrong conjecture.
+
+Let
+
+X=[0,1]
+N
+
+be the Hilbert cube.
+
+For every coordinate j, let the experiment be
+
+f
+j
+	​
+
+(x)=x
+j
+	​
+
+.
+
+The entire countable experiment family separates every pair of worlds.
+
+But every finite subset examines only finitely many coordinates, so infinitely many different worlds have identical finite signatures.
+
+Thus:
+
+global distinguishability by an infinite family
+
+⇒finite distinguishability.
+	​
+
+FROZEN REJECTION 5
+
+“If every pair of worlds can be distinguished by some allowed perturbation, compactness guarantees a finite separating experiment set.”
+
+False without additional finite-dimensional/richness assumptions.
+
+9. Lower bounds on counterfactual embedding dimension
+
+Suppose each experiment produces r real coordinates and m experiments are used.
+
+The signature lies in
+
+R
+mr
+.
+
+Let e(X) be the smallest Euclidean embedding dimension of the behaviorally distinct quotient X.
+
+Any continuous exact separating counterfactual signature must satisfy
+
+mr≥e(X).
+	​
+
+
+Therefore
+
+m≥⌈
+r
+e(X)
+	​
+
+⌉.
+	​
+
+
+At minimum,
+
+e(X)≥dim
+top
+	​
+
+X=d,
+
+giving
+
+m≥⌈
+r
+d
+	​
+
+⌉.
+
+Dimension theory provides the corresponding classical embedding results. 
+Encyclopedia of Mathematics
+
+For a compact d-manifold without boundary, embedding into R
+d
+ is impossible by invariance of domain: its image would simultaneously have to be open and compact in R
+d
+. 
+Encyclopedia of Mathematics
+
+Hence
+
+e(X)≥d+1
+
+and
+
+m≥⌈
+r
+d+1
+	​
+
+⌉.
+	​
+
+
+Specific topology may push e(X) much higher.
+
+So there is a useful sandwich:
+
+topological lower bound≲mr≲2d+1
+
+for generic rich measurement families, while Whitney guarantees some smooth embeddings into approximately 2d dimensions when arbitrary smooth observables are available. 
+Department of Mathematics
+
+Noise-resolution lower bound
+
+There is a separate information/packing obstruction.
+
+Assume N discrete candidate worlds must remain at least Δ apart in ℓ
+∞
+	​
+
+ counterfactual signature space and all coordinates lie in [−R,R].
+
+A packing argument gives
+
+N≤(1+
+Δ
+2R
+	​
+
+)
+mr
+.
+
+Therefore
+
+mr≥
+log(1+2R/Δ)
+logN
+	​
+
+.
+	​
+
+
+If experimental noise requires signature separation of at least 2ϵ, put
+
+Δ=2ϵ.
+
+This is a useful lower bound even when the candidate world set is finite and “dimension” is otherwise ambiguous.
+
+10. Greedy topological ambiguity splitting can fail arbitrarily badly
+
+This conjecture did not survive.
+
+Represent a finite candidate-world approximation by a graph
+
+G=(V,E)
+
+whose edges encode local connectedness in world space.
+
+For experiments Q, delete all candidates inconsistent with the observed outcomes and let
+
+C
+Q
+	​
+
+(w
+∗
+	​
+
+)
+
+be the surviving graph component containing the true world.
+
+Define the natural topology-aware utility
+
+f(Q)=∣V∣−∣C
+Q
+	​
+
+(w
+∗
+	​
+
+)∣.
+
+Large f means the connected ambiguity surrounding truth has been broken apart.
+
+Proposition — f is not generally submodular
+
+Take an even n×n grid.
+
+Put w
+∗
+	​
+
+ in the left half.
+
+Let q
+1
+	​
+
+ eliminate alternating cells—say even rows—of the middle vertical column.
+
+Let q
+2
+	​
+
+ eliminate the complementary odd-row cells of that column.
+
+Each experiment alone removes n/2 vertices but leaves gaps through the “wall,” so the grid remains connected:
+
+f({q
+1
+	​
+
+})=f({q
+2
+	​
+
+})=
+2
+n
+	​
+
+.
+
+Together they remove the entire middle column, splitting the grid in half:
+
+f({q
+1
+	​
+
+,q
+2
+	​
+
+})=
+2
+n
+2
+	​
+
+.
+
+Therefore the marginal value of q
+2
+	​
+
+ after q
+1
+	​
+
+ is
+
+2
+n
+2
+	​
+
+−
+2
+n
+	​
+
+,
+
+whereas its marginal value initially is only
+
+2
+n
+	​
+
+.
+
+The gain increases enormously after obtaining another experiment.
+
+That is the opposite of submodular diminishing returns.
+
+Greedy approximation ratio goes to zero
+
+Add experiment q
+0
+	​
+
+, which simply removes the far-right boundary column.
+
+Then
+
+f({q
+0
+	​
+
+})=n,
+
+so greedy chooses q
+0
+	​
+
+ over either q
+1
+	​
+
+ or q
+2
+	​
+
+.
+
+With budget two, greedy subsequently takes one of q
+1
+	​
+
+,q
+2
+	​
+
+:
+
+f(Q
+greedy
+	​
+
+)=
+2
+3n
+	​
+
+.
+
+Optimal takes
+
+Q
+opt
+	​
+
+={q
+1
+	​
+
+,q
+2
+	​
+
+}
+
+and obtains
+
+f(Q
+opt
+	​
+
+)=
+2
+n
+2
+	​
+
+.
+
+Therefore
+
+f(Q
+opt
+	​
+
+)
+f(Q
+greedy
+	​
+
+)
+	​
+
+=
+n
+3
+	​
+
+→0.
+	​
+
+
+I also checked the construction computationally:
+
+grid	greedy reduction	optimal reduction	ratio
+10
+2
+	15	50	0.30
+20
+2
+	30	200	0.15
+40
+2
+	60	800	0.075
+FROZEN REJECTION 6
+
+“Selecting the perturbation that most splits the current connected ambiguity is near-optimal.”
+
+False in general—arbitrarily false.
+
+Greedy guarantees require additional structure such as monotone submodularity or adaptive submodularity. Those guarantees are real when the hypothesis holds; they underpin established sensor-placement and active-learning algorithms. 
+Journal of Machine Learning Research
++1
+
+But connected-component reduction does not automatically possess that structure.
+
+For the actual developmental simulations, greedy should therefore be benchmarked against exhaustive optimal subsets wherever the experiment library is small enough.
+
+11. Developmental state completion formalized under interventions
+
+Let h denote the full measured history available before the current developmental time.
+
+Let
+
+S=s(h)
+
+be the proposed current developmental measurement.
+
+For every allowed future intervention policy π∈Π, define
+
+K
+h
+π
+	​
+
+=P(future observations∣h,do(π)).
+
+Define interventional predictive equivalence
+
+h≈
+Π
+	​
+
+h
+′
+⟺K
+h
+π
+	​
+
+=K
+h
+′
+π
+	​
+
+∀π∈Π.
+	​
+
+
+Now developmental state completion means exactly:
+
+s(h)=s(h
+′
+)⟹h≈
+Π
+	​
+
+h
+′
+.
+
+Equivalently,
+
+P(Y
+future
+	​
+
+∣H,S,do(π))=P(Y
+future
+	​
+
+∣S,do(π))
+
+for every allowed intervention policy.
+
+Theorem 4 — Minimal state-completion quotient
+
+Define
+
+ϵ
+Π
+	​
+
+(h)=[h]
+≈
+Π
+	​
+
+	​
+
+.
+
+Then S is state-complete iff there exists a function g such that
+
+ϵ
+Π
+	​
+
+(h)=g(S(h)).
+	​
+
+Proof
+
+If S is complete, histories with equal S have identical future kernels under all π, so they belong to the same ϵ
+Π
+	​
+
+-class. Therefore the class is determined by S, giving g.
+
+Conversely, if the predictive-equivalence class is determined by S, equal S values imply equal equivalence classes and therefore identical future interventional kernels. □
+
+Thus ϵ
+Π
+	​
+
+ is the coarsest fully predictive state. Any other complete S may contain additional irrelevant information.
+
+And this exposes another major precedent.
+
+For uncontrolled processes, this is essentially causal-state construction: histories are grouped exactly when they give identical conditional future distributions, and causal states are minimal sufficient predictive statistics. 
+arXiv
+
+For controlled systems, Predictive State Representations represent system state by action-conditional predictions of future tests. 
+NeurIPS Papers
++1
+
+Input-output computational mechanics similarly extends causal states to ϵ-transducers. 
+eScholarship
+
+FROZEN REJECTION 7
+
+“A present state that screens off older history from future behavior is a new mathematical definition of state.”
+
+False.
+
+That is deeply established predictive-sufficiency mathematics.
+
+The potentially distinct scientific claim is narrower:
+
+A measurable biological state at a particular developmental time may empirically realize—or closely approximate—the minimal interventionally predictive state for a specified developmental future family.
+
+That is an empirical hypothesis, not a new sufficiency theorem.
+
+12. PSRs give an especially dangerous precedent
+
+There is an even closer overlap than generic causal states.
+
+PSRs explicitly define tests as sequences of future actions and observations, and represent state by predictions of the outcomes of those experiments. The 2004 PSR theory describes the system-dynamics matrix whose rows are histories and whose columns are future tests. 
+Georgia Tech Faculty
+
+If its rank is k, one can select k linearly independent core tests, and their prediction vector is sufficient to recover predictions for all other tests.
+
+So in finite-linear-dimension controlled systems,
+
+k=rank(D)
+	​
+
+
+already supplies an algebraic finite predictive-state dimension.
+
+This is extremely close to “counterfactual developmental tomography.”
+
+Do not claim that predicting a finite set of perturbation-conditioned futures as coordinates of state is conceptually unprecedented.
+
+The remaining possible distinction is that our w=(θ,x) world is being treated simultaneously as:
+
+a hidden state-law hypothesis;
+
+a topological inverse problem;
+
+an adaptive intervention-selection problem; and
+
+a biological claim that a measurable instantaneous developmental state can become predictively sufficient.
+
+The individual mathematical pieces are largely precedented.
+
+13. Finite-sample state-completion statistic: calibrated before touching biology
+
+I used only one inferential statistic in this checkpoint so that its calibration is explicit.
+
+For discrete simulations:
+
+I
+(Y
+t+1
+	​
+
+;H∣S,A
+t
+	​
+
+)
+
+in bits.
+
+Under true developmental completion this should approach zero, but the plug-in estimator has positive finite-sample bias. CMI has established use for testing Markov order; simulation/randomization calibration is standard precisely because the finite-sample null is not exactly zero. 
+ScienceDirect
+
+Known Markov simulator
+A
+t
+	​
+
+∼Bernoulli(1/2)
+
+and
+
+logitP(X
+t+1
+	​
+
+=1∣X
+t
+	​
+
+,A
+t
+	​
+
+,X
+t−1
+	​
+
+)=−0.6+1.2X
+t
+	​
+
++0.8A
+t
+	​
+
+.
+
+Set
+
+S=X
+t
+	​
+
+,H=X
+t−1
+	​
+
+,Y=X
+t+1
+	​
+
+.
+
+This is truly first-order Markov conditional on S,A
+t
+	​
+
+, so population
+
+I(Y;H∣S,A)=0.
+Known non-Markov simulator
+
+Add an explicit older-history term:
+
+logitP(X
+t+1
+	​
+
+=1∣X
+t
+	​
+
+,A
+t
+	​
+
+,X
+t−1
+	​
+
+)=−0.6+1.2X
+t
+	​
+
++0.8A
+t
+	​
+
++0.6X
+t−1
+	​
+
+.
+
+Now S=X
+t
+	​
+
+ is deliberately incomplete.
+
+SIMULATED calibration
+
+250 independent realizations per condition:
+
+N	Markov mean 
+I
+^
+	empirical 95% Markov cutoff	non-Markov mean 
+I
+^
+	power
+250	0.01233	0.02975	0.01974	0.144
+500	0.00628	0.01510	0.01308	0.336
+1,000	0.00297	0.00763	0.01187	0.748
+2,000	0.00152	0.00371	0.01106	0.984
+
+Two consequences matter.
+
+First, zero is not the appropriate finite-sample threshold. Even a perfectly Markov simulator produces positive empirical CMI.
+
+Second, a weak genuine history effect can easily be invisible at N=250. Failure to reject completion with small biological samples must not be interpreted as proof of completion.
+
+This simulator-calibration gate stays frozen for future completion statistics: no biological “screening-off” claim without known-Markov false-positive calibration and known-non-Markov power calibration.
+
+14. Frozen falsifications from this pass
+
+These are now rejected unless new assumptions are explicitly introduced:
+
+Claim	Status
+Adding experiments always shrinks ambiguity	Rejected generally; true under a monotone experiment metric such as sup distance
+Exact connected counterfactual fibers are a novel topological object	Rejected; Reeb-space construction
+C
+Q
+δ
+	​
+
+ is an approximate bisimulation class	Rejected
+Small measurement noise guarantees small fixed-δ component change	Rejected
+Pairwise separability by the full experiment family guarantees a finite separating subset	Rejected
+Greedy connected-ambiguity splitting is generally near-optimal	Rejected; arbitrarily bad counterexample
+Inferring (θ,x) jointly is a new observability concept	Rejected; augmented-state identifiability
+“Present screens off past for future” is a new mathematical state principle	Rejected; predictive sufficiency/causal states/PSRs
+A finite vector of counterfactual predictions as state is unprecedented	Rejected strongly by PSR literature
+
+These should not reappear as novelty claims without qualification.
+
+15. What survives
+Strong mathematical result
+
+Under a smooth finite-dimensional behavioral quotient and a perturbation family satisfying collision transversality,
+
+mr>2d
+	​
+
+
+is sufficient for a generic finite perturbation tuple to separate all behaviorally distinct worlds.
+
+That theorem survived the attempted counterexamples because the counterexamples precisely violate its richness/transversality assumption.
+
+Strong structural result
+
+With a monotone product metric,
+
+Q⊆Q
+′
+⟹C
+Q
+′
+δ
+	​
+
+(w
+∗
+	​
+
+)⊆C
+Q
+δ
+	​
+
+(w
+∗
+	​
+
+).
+
+This supplies an exact meaning of “experimental refinement.”
+
+Strong robustness result
+
+Uniform counterfactual error ϵ yields the component sandwich
+
+C
+Q
+δ−2ϵ
+	​
+
+⊆
+C
+Q
+δ
+	​
+
+⊆C
+Q
+δ+2ϵ
+	​
+
+.
+	​
+
+
+This is more defensible than fixed-threshold topology claims.
+
+Strong negative result
+
+Topology-aware greedy experiment selection has no constant approximation guarantee in general; the approximation ratio can tend to zero.
+
+That directly changes the algorithmic program.
+
+Strong empirical hypothesis still alive
+
+The scientifically interesting “developmental state completion” claim is no longer:
+
+a novel definition of state.
+
+It becomes:
+
+Does there exist a biologically measurable current S
+t
+	​
+
+ whose fibers approximate the interventionally predictive-equivalence classes?
+	​
+
+
+That is experimentally sharp.
+
+16. Computational tests that now become mandatory
+
+For the existing finite hidden-world simulator, I would freeze these as the next mathematics acceptance tests:
+
+Monotonicity audit. Recompute every ambiguity component with the max/sup counterfactual metric. Exhaustively verify C
+Q
+′
+δ
+	​
+
+⊆C
+Q
+δ
+	​
+
+ for nested experiment sets. Any violation is either an implementation error or a violation of the metric assumptions.
+
+Critical-δ persistence. Sweep δ, record exactly where the w
+∗
+	​
+
+-component merges with other components, and report intervals rather than one arbitrary threshold. Then inject controlled signature perturbations and verify the C
+δ−κ
+⊆
+C
+δ
+⊆C
+δ+κ
+ sandwich.
+
+Greedy-versus-optimal experiment design. On a tractable experiment library, enumerate every experiment subset for budgets k=1,2,3,…, compare greedy topological splitting with the true optimum, and explicitly search for submodularity violations. Do not assume greedy is justified.
+
+State-law observability rank. For differentiable simulators, augment z=(x,θ) and compute local observation/Jacobian or observability-identifiability rank. Compare the rank-deficient directions with the tangent directions of empirical counterfactual fibers.
+
+Embedding test. Estimate the effective dimension d of the behaviorally distinct world manifold in the simulator, then measure how many scalar counterfactual coordinates are actually required before pair collisions disappear. Compare against the lower bounds and the >2d generic sufficient regime.
+
+PSR collision audit. Construct a finite history-by-intervention-test prediction matrix. Compute its numerical rank as a function of tolerance. If a small set of core tests spans the remaining predictions, then much of “counterfactual tomography” is literally behaving like a PSR, and wording must reflect that.
+
+Completion falsification. On known Markov and deliberately non-Markov simulators, calibrate 
+I
+(F;H∣S,A) at the biological sample sizes before applying it to developmental data. Extend from one-step futures to multi-step intervention tests only after the simulator calibration passes.
+
+The mathematics is now narrower than where we started, but stronger. The framework does not currently own Reeb fibers, observability, predictive sufficiency, or counterfactual-prediction states. What it may still own scientifically is a specific synthesis: connected approximate inverse fibers of joint state-law worlds, explicitly refined by developmental interventions, with measurable-state completion posed as an experimentally falsifiable approximation to the interventionally minimal predictive quotient. That claim still requires comparison against PSRs, causal states, structural identifiability, and Reeb-space methods rather than being asserted as a new branch of mathematics.
+
+MATH_LANE_CHECKPOINT

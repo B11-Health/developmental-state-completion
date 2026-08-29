@@ -48,7 +48,7 @@ This distinguishes hidden mechanisms that merely imitate the same phenotype from
 4. **In a seed dormancy reanalysis, finite-count binomial modeling avoids pathological certainty at 0% and 100% germination and supports latent response directions that become more identifiable under selected perturbations.**
 5. **In a synthetic 224-world developmental model (14 architectures × 16 hidden states), baseline morphology can collapse distinct hidden worlds that separate under intervention.**
 6. **The inverse image of a phenotype can contain disconnected mechanism islands.** In the sampled model, a low-cost alternative mechanism island appeared before it connected to the target, producing a measurable accommodation-versus-accessibility gap.
-7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** This motivates topology-aware adaptive experimental design.
+7. **The best intervention for destroying a specific connected ambiguity need not be the same as the best intervention for global parameter estimation.** However, greedy ambiguity splitting is not generally near-optimal; a counterexample shows its approximation ratio can approach zero without additional structure. Small experiment libraries should therefore be benchmarked exhaustively.
 
 See [CLAIMS_AND_EVIDENCE.md](CLAIMS_AND_EVIDENCE.md) for claim-level status, caveats, and reproduction requirements.
 
@@ -58,7 +58,7 @@ We are not claiming that plants are Markov systems; morphology uniquely determin
 
 ## Novelty boundary
 
-Several neighboring ideas are established: predictive cell states, lineage/fate prediction, perturbation-response mapping, neutral networks, Reeb spaces, active experimental design, and topological summaries of biological data. The candidate contribution being tested here is narrower:
+Several neighboring ideas are established: predictive cell states, causal states, predictive-state representations (PSRs), lineage/fate prediction, perturbation-response mapping, augmented-state observability/identifiability, neutral networks, Reeb spaces, active experimental design, and topological summaries of biological data. In particular, **predictive screening-off is not a new mathematical definition of state**. The candidate contribution being tested here is narrower:
 
 > **Can we experimentally complete a present developmental state until older measured history becomes predictively redundant across a specified family of future interventions, while using the topology of the remaining connected causal fiber to choose the next experiment?**
 
@@ -71,6 +71,11 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `PREPRINT.md` — technical manuscript draft
 - `REPRODUCIBILITY.md` — provenance and what is still needed for full reproduction
 - `ROADMAP.md` — prospective biological validation program
+- `MATH_CHECKPOINT_2026-08-29.md` — adversarial mathematics checkpoint and frozen rejections
+- `LAB_OPERATING_SYSTEM.md` — claim gates and lane structure
+- `FUNDING_PIPELINE.md` — verified funding routes / exclusions
+- `EVIDENCE_DESK_2026-08-29.md` — NotebookLM evidence-control synthesis
+- `research_logs/` — raw lane outputs preserved for provenance
 - `CITATION.cff` — citation metadata
 
 ## Reproducibility status

@@ -82,10 +82,14 @@ At one ambiguity scale, intervention 0010 reportedly reduced the connected candi
 
 **Interpretation:** “most informative experiment” is not universal. The optimal assay depends on the scientific loss function and the structure of the current ambiguity.
 
+**New correction (2026-08-29):** connected-component reduction is not generally submodular. A grid counterexample from the mathematics lane makes a greedy topological selection rule arbitrarily worse than the optimal size-k subset. Therefore greedy selection is a heuristic unless additional structure is established; exhaustive subset benchmarking is mandatory for tractable assay libraries.
+
 ## C8 — Developmental state completion
 
 **Class:** hypothesis / framework  
-**Status:** proposed.
+**Status:** proposed biological/computational application; the underlying predictive-sufficiency mathematics is established.
+
+**Novelty correction (2026-08-29):** grouping histories by identical future distributions is strongly precedented by causal states; action/intervention-conditioned predictive representations are strongly precedented by predictive-state representations (PSRs) and input-output computational mechanics. We therefore do **not** claim that screening off older history or representing state by counterfactual future predictions is mathematically new.
 
 A candidate present state S should satisfy, for preregistered future interventions π:
 
@@ -94,6 +98,38 @@ A candidate present state S should satisfy, for preregistered future interventio
 3. older history and treatment assignment add little predictive information once S is known, within calibrated uncertainty.
 
 If a newly introduced future intervention restores predictive value to old history, the current state representation is incomplete. The next experiment should target the newly exposed missing direction.
+
+
+## C9 — Experiment-panel refinement under a sup/monotone metric
+
+**Class:** mathematical structural result  
+**Status:** provisional proof recorded; formal independent check pending.
+
+Under the current definition
+
+`K_Q^delta(w*) = {w : max_{q in Q} d(h_q(w), h_q(w*)) <= delta}`,
+
+if `Q subset Q'` then `K_Q'^delta subset K_Q^delta`, and the target connected components inherit the same inclusion. This is the exact sense in which adding experimental coordinates refines ambiguity.
+
+**Restriction:** the result depends on keeping a coordinatewise monotone/product metric. It should not be stated for arbitrary renormalized distances.
+
+## C10 — Fixed-tolerance topology is not robust; a tolerance sandwich is
+
+**Class:** mathematical robustness result  
+**Status:** provisional proof recorded; formal independent check pending.
+
+If counterfactual signatures have uniform world-wise error at most `epsilon`, target-relative sup distances can shift by at most `2 epsilon`. The corresponding target components are bounded between lower- and higher-tolerance components.
+
+**Interpretation:** report critical-tolerance intervals and persistence/merge thresholds; do not present one fixed `delta` component as intrinsically stable.
+
+## C11 — Greedy connected-ambiguity splitting has no general approximation guarantee
+
+**Class:** mathematical counterexample / negative result  
+**Status:** strong provisional result; construction recorded in `MATH_CHECKPOINT_2026-08-29.md`.
+
+A complementary-wall grid construction makes the marginal value of an experiment increase dramatically after another experiment, violating submodularity. Adding a decoy experiment causes the budget-two greedy/optimal utility ratio to scale like `O(1/n)` and approach zero.
+
+**Consequence:** no claim of near-optimal greedy topological experiment design without additional assumptions such as submodularity/adaptive submodularity or direct optimal-subset comparison.
 
 ## Highest-priority falsifiers
 

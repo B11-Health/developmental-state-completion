@@ -1,0 +1,149 @@
+Lane AComputational Mechanics / causal states
+Predictive Representations of State
+arXiv
++1
+Jang et al., eLife 2017
+pmc.ncbi.nlm.nih.gov
++1
+CellRank
+RNA velocity
+Nature
++1
+Weinreb et al., Science 2020
+LineageOT
+Nature
++2
+Nature
++2
+FISPO
+Raue et al. 2010
+PubMed Central (PMC)
++1
+van der Schaft, bisimulation
+Hauser & Bühlmann, interventional equivalence
+UT Research Information
++1
+Basu, Cox & Percival on Reeb spaces
+arXiv
++1
+Single-cell topological RNA-seq
+Developmental system drift review
+Neutral networks and genotype–phenotype topology
+PubMed Central (PMC)
++2
+PLOS
++2
+Perturb-seq
+dynamo
+PubMed
++1
+PubMed
++1
+He & Geng 2008
+Biological active-learning review
+Journal of Machine Learning Research
++1
+CBED / Tigas et al.
+IterPert
+Zhang et al.
+NeurIPS Papers
++1
+NeurIPS 2020 topology-aware active learning
+Bayesian Rips Active Learning 2026
+IBM Research
++2
+OpenReview
++2
+Levin 2014
+PubMed
++1
+ScienceDirect
++4
+PubMed Central (PMC)
++4
+UT Research Information
++4
+Nature
++3
+arXiv
++3
+NeurIPS Papers
++3
+OpenReview
++3
+Journal of Machine Learning Research
++3
+NeurIPS Papers
++3
+PubMed
++1
+PubMed
++2
+Nature
++2
+arXiv
+Nature
+NeurIPS Papers
++1
+arXiv
++1
+PubMed Central (PMC)
++2
+UT Research Information
++2
+Nature
++3
+PubMed Central (PMC)
++3
+PubMed
++3
+PubMed
++3
+Nature
++3
+Nature
++3
+The Company of Biologists
++3
+arXiv
++3
+Nature
++3
+OpenReview
++6
+Journal of Machine Learning Research
++6
+PubMed
++6
+Ramanathan Lab
+PubMed Central (PMC)
+Klein Lab
+Schiebinger research group
+Nature
++1
+Qiu Lab profile
+PubMed
+Uhler Lab
+Nature
+FISPO paper and contact
+Current Groningen profile
+UT Research Information
+Crutchfield / Complexity Sciences Center
+Munch Lab
+Levin / Allen Discovery Center
+The Physiological Society
++1
+PubMed
++1
+Nature
++1
+OpenReview
++3
+PLOS
++3
+NeurIPS Papers
++3
+The Company of Biologists
++1
+The Physiological Society
++1
