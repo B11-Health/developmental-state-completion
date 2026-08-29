@@ -1,6 +1,9 @@
 # Replication checkpoint — Refahi Arabidopsis flower atlas
 
-Date: 2026-08-29  
+Date: 2026-08-29
+
+> **Superseded for split-stability claims (2026-08-29, later audit).** This checkpoint reports one shuffled ancestor-group partition and one matched synthetic calibration. A later repeated-partition audit in `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md` found that the middle-L1 history statistic is strongly split-sensitive: fixed Ridge across 200 shuffled partitions had median ΔR² +0.144 and was positive in 90.5% of partitions, whereas late L1 had median -0.015 and was positive in only 4%. The 0.99 power value below applies only to the particular synthetic residual-history construction used in this older checkpoint; an alternative later calibration gave about 0.73 power at 0.20 target-SD and about 0.98 around 0.30 SD. Do not cite the 0.99 value as a general power statement. The file is retained for provenance.
+
 Status: **exploratory observed-data reanalysis; not prospective; not peer reviewed**
 
 ## Why this checkpoint exists
@@ -113,7 +116,7 @@ The released atlas does **not** support this as a universal statement. Screening
 
 ### Strongest surviving observed-data statement
 
-> In the late FM1 L1 epidermal window (120 h current state predicting 132 h descendant growth), current geometry plus the released atlas expression state predicts future growth well (R² ≈0.60–0.63), and older 96 h atlas state adds no reproducible predictive value under the tested Ridge and ExtraTrees models. A matched synthetic calibration had 99% power to detect a direct history effect of 0.20 target SD.
+> Historical fixed-split result: in the late FM1 L1 epidermal window, older 96 h atlas state added little predictive value under the tested Ridge and ExtraTrees models. The original matched synthetic calibration gave 99% power for its **specific** 0.20-target-SD residual-history generator; later alternative calibration and repeated-split analyses show that this number is not a general sensitivity guarantee.
 
 Even this statement is **task-specific and atlas-specific**. It does not establish a universal state variable or biological Markovity.
 

@@ -2,6 +2,9 @@
 
 Date: 2026-08-29
 
+> **Later correction.** This evidence-desk addendum was written before the repeated ancestor-group partition audit. Its 99%-power statement refers to one particular synthetic generator and should not be generalized. The later direct calibration gives about 73% power at a 0.20 target-SD residual-history effect under an alternative construction, and the middle-L1 statistic is split-sensitive. See `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md`.
+
+
 NotebookLM was given the new direct-source FM1 replication results and asked to reconcile them against its 18-source notebook. The synthesis generated several useful design implications, but also produced new overclaims. This addendum records what the lab accepts and rejects.
 
 ## Accepted from the reconciliation
@@ -33,7 +36,7 @@ That is a local mathematical sufficiency condition, not something measured by th
 
 ### “99% power proves the late-L1 result is real” — rejected wording
 
-The matched calibration shows 99% power **for the particular simulated 0.20-target-SD direct history effect**. It strengthens the interpretation relative to that effect size; it is not proof that all biologically meaningful memory is absent.
+That older matched calibration produced 99% power **for its particular simulated 0.20-target-SD direct-history generator**. A later alternative calibration produced about 73% power at 0.20 target-SD and about 98% around 0.30 SD. Power is therefore generator- and pipeline-specific; neither number proves that all biologically meaningful residual history is absent.
 
 ## Public-language rule after reconciliation
 

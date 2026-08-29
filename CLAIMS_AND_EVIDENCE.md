@@ -17,24 +17,24 @@ This file separates observations, computational results, interpretations, and hy
 
 A new direct-source replication uses the authors' released FM1 lineage/geometry files and binary expression atlas at commit `95fde8b3b9a0bd09d556ce765a2235093362306f`. The released gene channels are manually mapped atlas annotations assembled from literature, RNA in-situ hybridization, and some live imaging; they are **not** repeated 25-gene measurements made longitudinally in the exact same cells.
 
-Primary grouped-CV results for descendant growth:
+Current direct-source results for descendant growth:
 
-- **40→96→120 h pooled cells (n=262):** Ridge current-state R² 0.168; adding older state raises R² to 0.239 (Δ +0.0706). The matched known-complete 95% null was +0.0152. ExtraTrees, however, gives Δ −0.011. Current representation is not demonstrably complete.
-- **40→96→120 h L1 (n=100):** primary Δ ≈−0.0017, but matched power for a 0.20-SD direct history effect is only 38% and repeated split sensitivity is unstable. **Inconclusive.**
-- **96→120→132 h pooled cells (n=760):** Ridge Δ +0.0132, but the sign/size is split- and estimator-sensitive; ExtraTrees Δ −0.044 and same-layer post-hoc analyses are negative.
-- **96→120→132 h L1 (n=256):** Ridge current-state R² 0.599 and ExtraTrees R² 0.630; adding older state changes R² by −0.00035 and −0.0054 respectively. In a matched calibration, the known-complete 95% null was +0.0026 and power for a 0.20-SD direct history effect was 99%. Across 30 alternative lineage-group splits, Ridge history gain was positive only once.
+- **40→96→120 h pooled cells (n=262):** history gain is estimator-dependent. In the current nested stage sweep, Ridge adds about +0.021 R² while random forest loses about 0.039. No broad completion or memory claim is allowed.
+- **40→96→120 h L1 (n=100 / 30 ancestor groups):** the linear history effect is strongly split-sensitive but usually positive. Across 200 shuffled group partitions with fixed Ridge, median ΔR² is **+0.144**, positive in 90.5% of partitions, with 2.5th–97.5th split quantiles [-0.051,+0.251]. A 15-partition ExtraTrees sensitivity run has median near zero and no partition above +0.05. **Estimator-dependent / unresolved.**
+- **96→120→132 h pooled cells (n=760 / 233 groups):** current atlas state adds substantial predictive value beyond geometry, while the extra older-history block remains small and model-sensitive.
+- **96→120→132 h L1 (n=256 / 86 groups):** across 200 shuffled group partitions with fixed Ridge, median history ΔR² is **-0.015**, positive in only 4% and never above +0.05. Across 100 shuffled partitions, fixed-Ridge Gaussian history value has median **-0.035 bits/cell**, positive in only 3%. Calibration has about 73% power for one 0.20-target-SD residual-history construction and about 98% around 0.30 SD, so subtle residual effects remain unresolved.
 
-**Interpretation allowed:** for the late FM1 L1 epidermal growth task, the released present atlas state is strongly predictive and older atlas state adds no reproducible value under the tested models. State completion can therefore be a **task-, time-, compartment-, and estimator-relative empirical property**.
+**Interpretation allowed:** for the late FM1 L1 epidermal growth task, the released present atlas state is strongly predictive and older released history has no stable material gain under the tested repeated-partition linear analyses and nonlinear sensitivities. State sufficiency is therefore a **task-, time-, compartment-, loss-, decoder-, and finite-sample-relative empirical property**.
 
-**Interpretation not allowed:** flower development generally screens off history; the plant is Markov; all biologically relevant memory has vanished; the atlas channels are direct longitudinal molecular measurements.
+**Interpretation not allowed:** exact conditional independence; flower development generally screens off history; the plant is Markov; all biologically relevant memory has vanished; the atlas channels are direct longitudinal molecular measurements.
 
-**Artifacts:** `REPLICATION_CHECKPOINT_2026-08-29.md`, `analysis/refahi_state_completion_replication.py`, `analysis/refahi_calibrate_history_delta.py`, post-hoc sensitivity scripts, and `results/refahi_*.json`.
+**Primary artifacts:** `REPLICATION_CHECKPOINT_FM1_2026-08-29.md`, `STAGE_DEPENDENCE_CHECKPOINT_FM1_2026-08-29.md`, `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md`, `analysis/refahi_fm1_state_completion.py`, `analysis/fm1_gaussian_logscore.py`, and `analysis/fm1_split_stability.py`. The older `REPLICATION_CHECKPOINT_2026-08-29.md` is retained as a superseded single-split provenance record.
 
 **Legacy note:** an earlier checkpoint reported low median history gain across 24 additional flower windows. Those numbers remain a separate legacy result until their exact code/data derivation is migrated and reconciled with this direct-source audit.
 
 ## C2 — One dominant molecular direction can complete a task-specific observation stack
 
-**Class:** observed-data reanalysis  
+**Class:** observed-data reanalysis
 **Status:** legacy reported analysis; not independently reproduced by the new direct-source FM1 audit.
 
 For one earlier reported FM1-derived analysis, trajectory-only prediction of subsequent growth was around R² 0.272. Adding one unsupervised molecular principal component reportedly raised R² to about 0.643; using all 25 molecular variables yielded about 0.633. Older molecular history then added only about +0.0095 R².
@@ -48,7 +48,7 @@ For one earlier reported FM1-derived analysis, trajectory-only prediction of sub
 
 ## C3 — Fixed history-gain thresholds can falsely imply memory
 
-**Class:** calibration result  
+**Class:** calibration result
 **Status:** strong computational falsification of an earlier criterion.
 
 A known-Markov ABA–GA simulator nevertheless produced a finite-sample boosted-tree history gain of roughly +0.0299 R². Therefore a rule such as “history gain above +0.02 proves non-Markov memory” is invalid.
@@ -57,14 +57,14 @@ A known-Markov ABA–GA simulator nevertheless produced a finite-sample boosted-
 
 ## C4 — Germination percentages should be modeled as finite binomial observations
 
-**Class:** observed-data reanalysis / statistical correction  
+**Class:** observed-data reanalysis / statistical correction
 **Status:** methodologically well motivated; downstream numerical claims require repository migration.
 
 Reported germination assays used about 75 seeds. Treating 0% or 100% as zero-noise continuous measurements creates pathological information geometry. The corrected model uses finite binomial counts with a logistic latent factor structure, so boundary observations contribute finite evidence.
 
 ## C5 — Baseline morphology can collapse distinct hidden developmental worlds
 
-**Class:** synthetic-model result  
+**Class:** synthetic-model result
 **Status:** demonstrated in a constructed 224-world system (14 architectures × 16 hidden states).
 
 The archived simulator study contains hidden worlds that are visually or numerically indistinguishable at baseline but diverge under intervention. This is the core proof-of-principle for **counterfactual developmental tomography**.
@@ -75,7 +75,7 @@ The archived simulator study contains hidden worlds that are visually or numeric
 
 ## C6 — Connected causal fibers can contain cryptic mechanism islands
 
-**Class:** synthetic-model / topological analysis  
+**Class:** synthetic-model / topological analysis
 **Status:** supported on a sampled finite state-law complex; continuum theorem not established.
 
 For a phenotype tolerance around δ = 0.00155, the sampled target connected component reportedly contained about 2030 candidate mechanisms spanning four hidden states. A dominant alternative mechanism island appeared at lower phenotype error but remained disconnected until a higher tolerance saddle was crossed.
@@ -89,7 +89,7 @@ Their difference measures sampled topological isolation under the chosen phenoty
 
 ## C7 — Experimental value is objective-dependent
 
-**Class:** synthetic-model result  
+**Class:** synthetic-model result
 **Status:** supported in the sampled ambiguity landscape.
 
 At one ambiguity scale, intervention 0010 reportedly reduced the connected candidate set from 2030 to 114, while a previously strong global parameter-estimation assay (1011) ranked only 12th for this topological objective. At a broader tolerance the best intervention changed to 1010.
@@ -100,7 +100,7 @@ At one ambiguity scale, intervention 0010 reportedly reduced the connected candi
 
 ## C8 — Developmental state completion
 
-**Class:** hypothesis / framework  
+**Class:** hypothesis / framework
 **Status:** proposed biological/computational application; the underlying predictive-sufficiency mathematics is established.
 
 **Novelty correction (2026-08-29):** grouping histories by identical future distributions is strongly precedented by causal states; action/intervention-conditioned predictive representations are strongly precedented by predictive-state representations (PSRs) and input-output computational mechanics. We therefore do **not** claim that screening off older history or representing state by counterfactual future predictions is mathematically new.
@@ -116,7 +116,7 @@ If a newly introduced future intervention restores predictive value to old histo
 
 ## C9 — Experiment-panel refinement under a sup/monotone metric
 
-**Class:** mathematical structural result  
+**Class:** mathematical structural result
 **Status:** provisional proof recorded; formal independent check pending.
 
 Under the current definition
@@ -129,7 +129,7 @@ if `Q subset Q'` then `K_Q'^delta subset K_Q^delta`, and the target connected co
 
 ## C10 — Fixed-tolerance topology is not robust; a tolerance sandwich is
 
-**Class:** mathematical robustness result  
+**Class:** mathematical robustness result
 **Status:** provisional proof recorded; formal independent check pending.
 
 If counterfactual signatures have uniform world-wise error at most `epsilon`, target-relative sup distances can shift by at most `2 epsilon`. The corresponding target components are bounded between lower- and higher-tolerance components.
@@ -138,7 +138,7 @@ If counterfactual signatures have uniform world-wise error at most `epsilon`, ta
 
 ## C11 — Greedy connected-ambiguity splitting has no general approximation guarantee
 
-**Class:** mathematical counterexample / negative result  
+**Class:** mathematical counterexample / negative result
 **Status:** **REPRODUCED COMPUTATIONALLY**. The construction is recorded in `MATH_CHECKPOINT_2026-08-29.md` and independently implemented in `analysis/greedy_component_counterexample.py`. The generated CSV verifies the predicted ratio `3/n` through `n=160`.
 
 A complementary-wall grid construction makes the marginal value of an experiment increase dramatically after another experiment, violating submodularity. Adding a decoy experiment causes the budget-two greedy/optimal utility ratio to scale like `O(1/n)` and approach zero.
@@ -148,7 +148,7 @@ A complementary-wall grid construction makes the marginal value of an experiment
 
 ## C12 — Finite-sample screening-off statistics require calibrated null and power controls
 
-**Class:** statistical calibration / negative-control result  
+**Class:** statistical calibration / negative-control result
 **Status:** **REPRODUCED COMPUTATIONALLY**.
 
 The project independently reconstructed a known first-order Markov binary process and a deliberately history-dependent alternative, then estimated plug-in conditional mutual information `I(Y;H | S,A)` over 1,000 Monte Carlo trajectories per sample size.
@@ -165,9 +165,9 @@ The project independently reconstructed a known first-order Markov binary proces
 **Artifacts:** `analysis/state_completion_cmi_calibration.py` and `analysis/state_completion_cmi_calibration_results.csv`.
 
 
-## C9 — Independent reconstruction from the authors' released FM1 atlas
+## C13 — Independent reconstruction from the authors' released FM1 atlas
 
-**Class:** observed-data reanalysis / independent repository reconstruction  
+**Class:** observed-data reanalysis / independent repository reconstruction
 **Status:** reproduced from the original public code/data release at upstream commit `95fde8b`.
 
 Using 760 eligible 120h cells grouped into 233 distinct 96h ancestor lineages, current geometry alone produced nested grouped out-of-fold R² = 0.0333 for 120→132h lineage log-volume expansion. Adding the released 25-gene 120h atlas-annotation state raised R² to 0.2846. Adding the corresponding 96h ancestor geometry + 25-gene atlas state raised R² only slightly further to 0.2928 (ΔR² history|current = +0.0082). A random-forest sensitivity analysis gave 0.3002 → 0.3524 → 0.3304.
@@ -183,9 +183,9 @@ A predefined upstream L1 epidermal restriction (256 eligible cells, 86 ancestor 
 See `REPLICATION_CHECKPOINT_FM1_2026-08-29.md`.
 
 
-## C10 — External positive control for state incompleteness
+## C14 — External positive control for state incompleteness
 
-**Class:** external observed-data reanalysis / methodological control  
+**Class:** external observed-data reanalysis / methodological control
 **Status:** reproduced directionally from the Weinreb et al. 2020 public split-well lineage dataset using the released metadata and clone matrix.
 
 A release-native reconstruction identified 504 clones with mature cells in both separated day-6 well sets. Exact mature-fate-set agreement was 57.9% versus 17.4% after clone-label permutation (`p≈0.0002`). In a frozen 133-clone three-fate cohort, a day-2 state proxy (mean SPRING x/y + starting population) achieved approximately 0.618 balanced accuracy for the other well's dominant fate; adding the separated sister-well fate raised balanced accuracy to approximately 0.827 and reduced log loss by about 0.38. Conditional mutual information between separated sister fates remained approximately 0.58–0.69 bits after conditioning on multiple day-2 state-bin resolutions, far above within-state permutation nulls.
@@ -195,6 +195,27 @@ A release-native reconstruction identified 504 clones with mature cells in both 
 **Interpretation not allowed:** exact reproduction of the paper's figure-specific cohort/numbers; proof that full scRNA-seq is insufficient from our reduced SPRING-coordinate analysis alone; evidence that the same hidden variables operate in plants.
 
 See `NEGATIVE_CONTROL_WEINREB_2020_2026-08-29.md`.
+
+## C15 — Loss-aware predictive screening-off
+
+**Class:** established mathematical identity + reproduced application
+**Status:** theorem is standard information/decision theory; FM1 application reproduced in this repository.
+
+Define population history value under loss `L` as
+
+`V_L(H->Y|S) = R*_L(Y|S) - R*_L(Y|S,H)`.
+
+Under Bayes-optimal logarithmic loss, `V_log = I(Y;H|S)`, so zero population gain is equivalent to distributional conditional independence (under standard regularity conditions). Under squared loss, `V_2 = E[(E[Y|S,H]-E[Y|S])^2]`, so zero gain establishes only conditional-mean screening-off.
+
+A direct XOR counterexample also falsifies the conjecture that residual history information must decrease monotonically as more present variables are added: `I(Y;H)=0` but `I(Y;H|Z)=1 bit` for `Y=H xor Z` with independent fair bits `H,Z`.
+
+Applied to the released FM1 atlas with repeated ancestor-group partitions, fixed Ridge gives a middle-L1 median history gain of **+0.144 R²** across 200 shuffled partitions (positive in 90.5%; 2.5th–97.5th split quantiles [-0.051,+0.251]), while late L1 has median **-0.015 R²** (positive in only 4%; no partition above +0.05). A fixed-Ridge Gaussian log-score stress test across 100 shuffled partitions gives middle-L1 median history value **+0.109 bits/cell** (positive in 89%) versus late-L1 median **-0.035 bits/cell** (positive in 3%). These split quantiles describe partition sensitivity, not confidence intervals.
+
+**Interpretation allowed:** the middle L1 window usually contains residual predictive structure under a linear decoder but is strongly partition- and decoder-dependent; late L1 shows a substantially more stable near-zero residual under the tested linear loss functions.
+
+**Interpretation not allowed:** exact conditional independence in late L1; universal monotonic loss of history with added measurements; novelty of the log-loss/CMI identity.
+
+Artifacts: `MATHEMATICAL_NOTE_PREDICTIVE_SCREENING_OFF.md`, `analysis/screening_loss_identities.py`, `analysis/fm1_gaussian_logscore.py`, and `analysis/fm1_split_stability.py`.
 
 ## Highest-priority falsifiers
 

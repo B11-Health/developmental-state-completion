@@ -10,8 +10,8 @@ This checkpoint is observational and uses an integrated/template gene-expression
 
 ## Data provenance
 
-Upstream repository: `https://gitlab.com/slcu/teamHJ/publications/refahi_etal_2020`  
-Frozen upstream commit: `95fde8b`  
+Upstream repository: `https://gitlab.com/slcu/teamHJ/publications/refahi_etal_2020`
+Frozen upstream commit: `95fde8b`
 Primary paper: Refahi et al., Developmental Cell (2021), PMCID `PMC8519405`.
 
 The paper states that gene-expression patterns were integrated into the FM1 4-D template by manually annotating individual cells from published information plus new RNA in-situ/live-imaging data. The 25 channels used here are therefore **atlas annotations**, not simultaneous molecular assays in every exact live cell.
@@ -67,6 +67,34 @@ A fixed-Ridge group-preserving permutation test of the old atlas block gave:
 - empirical `p` about **0.005** with 200 permutations in the reproducibility harness (a 1,000-permutation direct run gave approximately `p=0.002`).
 
 This establishes that the old atlas annotation contains real incremental linear predictive structure. It does **not** establish physical memory, because nonlinear current-state models largely absorb the same predictive structure without the old atlas.
+
+## Repeated ancestor-group partition stability
+
+A later audit discovered that the original direct-source checkpoint and the first stage-sweep implementation used different outer GroupKFold partitions. With only 30 history-time ancestor groups in middle L1, one fold assignment is not an adequate stability analysis. We therefore repeated **fixed Ridge(alpha=10)** over 200 independently shuffled five-fold ancestor-group partitions.
+
+| Cohort | Mean Delta R2 | Median | 2.5th–97.5th split quantiles | Fraction > 0 | Fraction > +0.05 |
+|---|---:|---:|---:|---:|---:|
+| Middle L1, 40 -> 96 -> 120h | +0.1273 | **+0.1438** | [-0.0511, +0.2508] | **0.905** | **0.820** |
+| Late L1, 96 -> 120 -> 132h | -0.0170 | **-0.0154** | [-0.0420, +0.0014] | 0.040 | **0.000** |
+
+This reconciles the apparently contradictory checkpoints: the older shuffled partition happened to give a near-zero middle-L1 Ridge gain, while the first unshuffled stage sweep gave +0.219. The middle effect is usually positive but its magnitude is split-sensitive. Late L1 is much more stable and never produced a material (>+0.05 R2) gain in the 200 tested partitions.
+
+A smaller 15-partition ExtraTrees sensitivity run did **not** reproduce a stable middle history effect (middle median approximately -0.003; no partition above +0.05), reinforcing the classification of the middle interval as decoder-dependent / unresolved.
+
+## Proper-score extension
+
+Because R2/squared loss can miss distributional dependence, we also evaluated grouped held-out Gaussian log score. A single deterministic fold assignment originally gave +0.184 bits/cell in middle L1 and +0.0106 bits/cell in late L1; those values are retained as reproducible fold-specific outputs but are **not** used as stable population estimates.
+
+The stronger stress test repeated a fixed-Ridge Gaussian predictive score across 100 independently shuffled ancestor-group partitions:
+
+| Cohort | Mean history value (bits/cell) | Median | 2.5th–97.5th split quantiles | Fraction > 0 | Fraction > +0.05 bits |
+|---|---:|---:|---:|---:|---:|
+| Middle L1, 40 -> 96 -> 120h | +0.1003 | **+0.1086** | [-0.0815, +0.2232] | **0.890** | **0.790** |
+| Late L1, 96 -> 120 -> 132h | -0.0375 | **-0.0346** | [-0.1001, +0.0002] | 0.030 | **0.000** |
+
+The split quantiles are **not confidence intervals**; they measure sensitivity to how lineage groups are partitioned. They show that the middle-window residual usually survives under a Gaussian-linear proper score but is not partition-invariant, whereas late L1 remains near-zero or negative under almost every tested partition.
+
+Reproduction scripts: `analysis/fm1_gaussian_logscore.py` and `analysis/fm1_split_stability.py`.
 
 ## Late L1 screening-off result
 
