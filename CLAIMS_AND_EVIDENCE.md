@@ -170,13 +170,15 @@ The project independently reconstructed a known first-order Markov binary proces
 **Class:** observed-data reanalysis / independent repository reconstruction  
 **Status:** reproduced from the original public code/data release at upstream commit `95fde8b`.
 
-Using 760 eligible 120h cells grouped into 233 distinct 96h ancestor lineages, current geometry alone produced nested grouped out-of-fold R² = 0.0333 for 120→132h lineage log-volume expansion. Adding the released 25-gene 120h state raised R² to 0.2846. Adding the corresponding 96h ancestor geometry + 25-gene state raised R² only slightly further to 0.2928 (ΔR² history|current = +0.0082). A random-forest sensitivity analysis gave 0.3002 → 0.3524 → 0.3304.
+Using 760 eligible 120h cells grouped into 233 distinct 96h ancestor lineages, current geometry alone produced nested grouped out-of-fold R² = 0.0333 for 120→132h lineage log-volume expansion. Adding the released 25-gene 120h atlas-annotation state raised R² to 0.2846. Adding the corresponding 96h ancestor geometry + 25-gene atlas state raised R² only slightly further to 0.2928 (ΔR² history|current = +0.0082). A random-forest sensitivity analysis gave 0.3002 → 0.3524 → 0.3304.
 
 A fixed-Ridge calibration produced biological ΔR² history|current = +0.0056 with a 5,000-group-bootstrap 95% interval of approximately [-0.039, +0.054]. A known-non-Markov synthetic control with a moderate residual history term was detected with 97.6% power above the known-Markov 95th percentile.
 
-**Interpretation allowed:** the released FM1 data independently support substantial future-growth information in the current molecular state beyond current geometry, while residual predictive value from the measured 96h ancestor state is small relative to that current-state gain and not robustly resolved.
+**Interpretation allowed:** the released FM1 data independently support substantial future-growth information in the current integrated atlas state beyond current geometry, while residual predictive value from the released 96h ancestor state is small relative to that current-state gain and not robustly resolved. The primary paper says these gene patterns were manually integrated into the FM1 template from published and newly acquired expression information; they are not 25 simultaneous molecular assays in every exact live cell.
 
 **Interpretation not allowed:** exact conditional independence; proof of Markov closure; universal state sufficiency.
+
+A predefined upstream L1 epidermal restriction (256 eligible cells, 86 ancestor groups) strengthens the task-specific pattern: nested Ridge 0.3634 geometry → 0.5947 current atlas state → 0.5956 with 96h history; random forest 0.6197 → 0.6700 → 0.6656. Calibration indicates good power for moderate-to-large residual history effects but limited power for subtle ones.
 
 See `REPLICATION_CHECKPOINT_FM1_2026-08-29.md`.
 

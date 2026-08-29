@@ -14,7 +14,7 @@ Authors' code: `https://gitlab.com/slcu/teamHJ/publications/refahi_etal_2020`
 
 Frozen upstream commit used here: `95fde8b`
 
-The released repository contains FM1 lineage/volume geometry, 25 binary regulatory-gene patterns at 96h, 120h and 132h, and the authors' lineage object.
+The released repository contains FM1 lineage/volume geometry, 25 binary regulatory-gene atlas annotations at 96h, 120h and 132h, and the authors' lineage object. The primary paper states that expression patterns were integrated into the FM1 template by manually annotating individual cells from published information plus the authors' in-situ/live-imaging results. These channels are therefore an integrated atlas state, not 25 simultaneous assays measured in every exact live FM1 cell.
 
 ### Windows reproducibility warning
 
@@ -79,6 +79,31 @@ Increment from old history after current state: **+0.0082 R2**.
 
 The nonlinear sensitivity analysis agrees that the current molecular state adds predictive information, but old history does not provide a stable additional gain.
 
+
+## Predefined L1 epidermal-layer analysis
+
+The upstream repository independently defines the epidermal layer in `common/common/L1L2_cells_ids.py`; `L1_120h` contains 257 cells. Of these, **256 cells in 86 distinct 96h ancestor groups** satisfy the same completeness criteria used above. Because L1 membership is supplied by the authors and does not depend on our growth target, this is a predefined biological restriction rather than an outcome-selected subset.
+
+### L1 held-out results
+
+| Feature stack | Nested grouped Ridge R2 | Random forest R2 |
+|---|---:|---:|
+| Current geometry | 0.3634 | 0.6197 |
+| Current geometry + current 25-gene atlas state | **0.5947** | **0.6700** |
+| Current atlas state + 96h history | **0.5956** | 0.6656 |
+
+The old-history increment is therefore approximately **+0.0008 R2** under nested Ridge and **-0.0043 R2** under the random-forest sensitivity analysis. A fixed-Ridge version gives ΔR2 history|current = **-0.0029**.
+
+This is the cleanest reproduced screening-off pattern in the public FM1 release, but the atlas-state caveat remains: the binary molecular channels are integrated template annotations, not simultaneous molecular measurements.
+
+### L1 detectability / power boundary
+
+A synthetic residual-history direction was injected after residualizing a released 96h-history coordinate against the current feature stack. Under the fixed-Ridge calibration, the known-Markov 95th percentile of ΔR2 is approximately **+0.0067**. A 250-realization diagnostic power curve gave approximate powers of **0.16, 0.37, 0.73, 0.88, 0.98, 1.00, 1.00** for injected history effects of **0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40 target-SD**, respectively.
+
+Consequence: the L1 result can rule against **moderate-to-large** residual history effects under this calibration, but it cannot exclude subtle effects. Failure to detect history is not evidence of exact conditional independence.
+
+Reproduction script: `analysis/refahi_fm1_l1_test.py`.
+
 ## Finite-sample calibration
 
 Because adding 29 history variables can itself alter finite-sample generalization, the history-gain statistic was calibrated with a fixed-Ridge pipeline on synthetic controls preserving the real feature matrices and group structure.
@@ -107,13 +132,13 @@ Group bootstrap of the biological history gain (5,000 resamples of 96h ancestor 
 
 ## Interpretation that survives
 
-The released FM1 data independently support the narrower claim that **a current molecular measurement contains substantial future-growth information beyond current geometry**.
+The released FM1 data independently support the narrower claim that **the current integrated 25-gene atlas state contains substantial future-growth information beyond current geometry**.
 
 The old 96h state adds, at most, a small and model-sensitive amount of predictive information after the 120h state in this task. The confidence interval is too wide to claim exact screening-off or biological Markov closure.
 
 A defensible statement is:
 
-> In this FM1 task, much of the predictive information available from the measured lineage appears concentrated in the 120h molecular state; residual predictive value from the measured 96h ancestor state is small relative to the current-state gain and is not robustly resolved at this sample size.
+> In this FM1 task, much of the predictive information available from the released lineage appears concentrated in the 120h geometry + atlas-annotation state; residual predictive value from the released 96h ancestor state is small relative to the current-state gain and is not robustly resolved at this sample size.
 
 ## What this does not establish
 

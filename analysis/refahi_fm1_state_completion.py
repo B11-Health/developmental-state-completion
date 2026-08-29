@@ -42,7 +42,7 @@ def geometry(repo, hour):
             out[int(m.group(1))] = (float(m.group(2)), np.array(m.group(3).split(), dtype=float))
     return out
 
-def build_dataset(repo):
+def build_dataset(repo, return_ids=False):
     obj = load_dtissue(repo)
     dt, tps = obj.dtissue, obj.timePoints
     idx = {t:i for i,t in enumerate(tps)}
@@ -67,7 +67,7 @@ def build_dataset(repo):
                 break
         return cur
 
-    geom_now, current, full, y, groups = [], [], [], [], []
+    geom_now, current, full, y, groups, cell_ids = [], [], [], [], [], []
     for cid in sorted(set(g120) & set(z120)):
         a = ancestor(cid)
         if a is None or a not in g96 or a not in z96:
@@ -83,7 +83,9 @@ def build_dataset(repo):
         full.append(np.r_[cur_geom, g120[cid], hist_geom, g96[a]])
         y.append(math.log(vf / z120[cid][0]))
         groups.append(a)
-    return genes, np.array(geom_now), np.array(current), np.array(full), np.array(y), np.array(groups)
+        cell_ids.append(cid)
+    base = (genes, np.array(geom_now), np.array(current), np.array(full), np.array(y), np.array(groups))
+    return base + (np.array(cell_ids),) if return_ids else base
 
 def ridge_oof(X, y, groups, splits):
     pred = np.full(len(y), np.nan)
