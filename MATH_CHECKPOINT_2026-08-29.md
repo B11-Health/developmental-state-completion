@@ -108,7 +108,20 @@ A plug-in conditional mutual information statistic `I(Y;H | S,A)` was calibrated
 | 1,000 | 0.00297 | 0.00763 | 0.01187 | 0.748 |
 | 2,000 | 0.00152 | 0.00371 | 0.01106 | 0.984 |
 
-These are **simulator calibration results** from the lane and still require code migration/reproduction. They illustrate two important points: the finite-sample null is not zero, and small samples can have very poor power to detect genuine residual history.
+These were the **original research-lane calibration results**. They are preserved as provenance rather than treated as exact constants.
+
+### Independent reproduction added 2026-08-29
+
+`analysis/state_completion_cmi_calibration.py` independently reconstructs the stated binary dynamical systems and plug-in statistic, using 1,000 deterministic Monte Carlo trajectories per condition. It produced:
+
+| N | reproduced Markov mean CMI | reproduced empirical 95% Markov cutoff | reproduced history-dependent mean CMI | reproduced power |
+|---:|---:|---:|---:|---:|
+| 250 | 0.01238 | 0.02877 | 0.01988 | 0.203 |
+| 500 | 0.00577 | 0.01356 | 0.01456 | 0.475 |
+| 1,000 | 0.00306 | 0.00738 | 0.01168 | 0.778 |
+| 2,000 | 0.00145 | 0.00343 | 0.01035 | 0.989 |
+
+The exact Monte Carlo cutoffs and powers differ from the research-lane table, as expected from simulation design/seed/replicate details. The **qualitative result is independently reproduced**: the finite-sample Markov null is positively biased and decays with sample size, while power against the explicit history-dependent alternative rises strongly with sample size. The generated result table is `analysis/state_completion_cmi_calibration_results.csv`.
 
 No living-system screening-off claim should be made without both known-Markov false-positive calibration and known-non-Markov power calibration at comparable sample sizes.
 

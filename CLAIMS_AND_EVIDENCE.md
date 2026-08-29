@@ -131,6 +131,25 @@ A complementary-wall grid construction makes the marginal value of an experiment
 
 **Consequence:** no claim of near-optimal greedy topological experiment design without additional assumptions such as submodularity/adaptive submodularity or direct optimal-subset comparison.
 
+
+## C12 — Finite-sample screening-off statistics require calibrated null and power controls
+
+**Class:** statistical calibration / negative-control result  
+**Status:** **REPRODUCED COMPUTATIONALLY**.
+
+The project independently reconstructed a known first-order Markov binary process and a deliberately history-dependent alternative, then estimated plug-in conditional mutual information `I(Y;H | S,A)` over 1,000 Monte Carlo trajectories per sample size.
+
+| N | Markov mean CMI | empirical 95% Markov cutoff | history-dependent mean CMI | power |
+|---:|---:|---:|---:|---:|
+| 250 | 0.01238 | 0.02877 | 0.01988 | 0.203 |
+| 500 | 0.00577 | 0.01356 | 0.01456 | 0.475 |
+| 1,000 | 0.00306 | 0.00738 | 0.01168 | 0.778 |
+| 2,000 | 0.00145 | 0.00343 | 0.01035 | 0.989 |
+
+**Interpretation:** a truly Markov process can yield positive estimated residual-history information at finite `N`, while a genuine history effect may have weak detection power in small samples. Therefore “history did not improve prediction” is not evidence of state completion unless the chosen statistic/model is calibrated against both known-complete and known-history-dependent controls at comparable sample size/noise.
+
+**Artifacts:** `analysis/state_completion_cmi_calibration.py` and `analysis/state_completion_cmi_calibration_results.csv`.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:
