@@ -101,6 +101,62 @@
     "results/refahi_state_completion_replication.json": {
       "sha256": "84587844d4dfa4bd4a831823a563b6774f6e9c98e416e50e3fc2355fa1d95126",
       "bytes": 12734
+    },
+    "analysis/refahi_pc_completion_audit.py": {
+      "sha256": "b365e8cad55924883d7a8c3a1b27097c82cb9ef64cbc6035c415c6deb5b2c07d",
+      "bytes": 3830
+    },
+    "analysis/refahi_pc_split_stability.py": {
+      "sha256": "a6ce9e7767e179a638affa8af8f48661b50acbfede2ce9bdda6ce80f0dbd4506",
+      "bytes": 3264
+    },
+    "analysis/validate_representation_dimension.py": {
+      "sha256": "5699d4307b9d0ea2a76a4577653294f8bc9217699e53e8dac992e7bc9807aa6c",
+      "bytes": 1262
+    },
+    "REPRESENTATION_DIMENSION_CHECKPOINT_FM1_2026-08-29.md": {
+      "sha256": "496cc7e3ff5c507aac40946b546f0bd7190bfe9869560e93b6582e9ac7f7289f",
+      "bytes": 6103
+    },
+    "reproduction/README.md": {
+      "sha256": "ad5ec20a6ed6fff3c2f24bb23c95388fdd6af2e9ec0cb0c9f86005f95f12f8fa",
+      "bytes": 833
+    },
+    "reproduction/reproduce_fm1_grouped.py": {
+      "sha256": "13bb18b284d21fc1a41277b2a4d942066c78cc2240b5421d5cb2233b2eb79b44",
+      "bytes": 8011
+    },
+    "reproduction/fm1_grouped_results.csv": {
+      "sha256": "55999caabd37e75d0f74e8418f46d668f68b1a90001b2fbcd1f8079a8cd4a372",
+      "bytes": 4430
+    },
+    "reproduction/fm1_grouped_summary.json": {
+      "sha256": "542d37f21fc6d951c7cb288126613ff4397e4e121b399c6dbf40ff1569f9790f",
+      "bytes": 9217
+    },
+    "reproduction/fm1_grouped_dataset.csv": {
+      "sha256": "ffd8c4f3bbcd73b89df669f86c4eeb087c845714682db21d54c71f23f17e9e9f",
+      "bytes": 395162
+    },
+    "results/refahi_pc_completion_L1_ridge.json": {
+      "sha256": "ce816a2a842ab07422fe175ceda0e6d7523209880e2fcfa43e7ffd69962c95df",
+      "bytes": 3236
+    },
+    "results/refahi_pc_completion_L1_extra_trees.json": {
+      "sha256": "9f8a38aa5969b515129c973ecdea775991173fffcfb6b0122b983b419972cc40",
+      "bytes": 3234
+    },
+    "results/refahi_pc_completion_L1_histgb.json": {
+      "sha256": "ae6be0481ce83dcc56bc07bfea9b6b298534850c11361770eb6a2e89ebd30769",
+      "bytes": 3229
+    },
+    "results/refahi_pc_split_stability_extra_trees_30.json": {
+      "sha256": "546f46bc18456d9ad1d5065786ecb4e191700c078723c4624a64b02db8f10b4d",
+      "bytes": 8153
+    },
+    "results/refahi_pc_split_stability_histgb_30.json": {
+      "sha256": "366e1ffea480c2507825f5e4c7c5fa3d0f22de9973cb8bcadcb355fc272165a1",
+      "bytes": 8170
     }
   }
 }

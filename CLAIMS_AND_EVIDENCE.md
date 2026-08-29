@@ -32,19 +32,24 @@ Current direct-source results for descendant growth:
 
 **Legacy note:** an earlier checkpoint reported low median history gain across 24 additional flower windows. Those numbers remain a separate legacy result until their exact code/data derivation is migrated and reconciled with this direct-source audit.
 
-## C2 — One dominant molecular direction can complete a task-specific observation stack
+## C2 — A compact molecular representation can be task-sufficient, but its effective dimension is decoder-dependent
 
 **Class:** observed-data reanalysis
-**Status:** legacy reported analysis; not independently reproduced by the new direct-source FM1 audit.
+**Status:** directly reproduced on the released FM1 atlas; post-hoc dimensionality audit.
 
-For one earlier reported FM1-derived analysis, trajectory-only prediction of subsequent growth was around R² 0.272. Adding one unsupervised molecular principal component reportedly raised R² to about 0.643; using all 25 molecular variables yielded about 0.633. Older molecular history then added only about +0.0095 R².
+In the predefined late-L1 `96→120→132 h` cohort (`n=256`, 86 ancestor groups), current geometry plus the released 25-channel binary atlas state predicts subsequent lineage-volume expansion substantially better than geometry alone. PCA was fit only on training folds under ancestor-grouped cross-validation.
 
-**Interpretation allowed:** once geometry is already observed, one dominant molecular direction may fill much of the remaining predictive gap for this task.
+A single current PC is sufficient for the two flexible nonlinear decoders tested: across 30 shuffled lineage partitions, ExtraTrees averaged R² **0.654** with PC1 versus **0.638** with all 25 channels, and PC1 matched or exceeded all 25 in 30/30 partitions. HistGradientBoosting averaged **0.674** with PC1 versus **0.671** with all 25, with PC1 at least as good in 21/30 partitions.
 
-**Interpretation not allowed:** the organism has a one-dimensional state.
+The same one-PC claim does **not** hold for linear Ridge: on the fixed grouped split, geometry was R² 0.307, +PC1 0.451, +PC2 0.551, +PC4 0.598, and +all25 0.599. Thus roughly four PCs were needed to recover essentially all linear predictive gain.
 
+**Interpretation allowed:** for this late-L1 atlas-derived task, one dominant current atlas coordinate can carry nearly all nonlinear predictive value given current geometry.
 
-**Current caution:** this result should not be described as a directly measured one-dimensional molecular state. The released FM1 gene channels are atlas-mapped binary expression domains, and the exact legacy PCA pipeline still requires artifact migration.
+**Interpretation not allowed:** the plant has a one-dimensional molecular state; one PC is universally sufficient; PCA dimension is an intrinsic biological state dimension.
+
+**Critical measurement caveat:** the 25 channels are binary atlas annotations integrated onto the FM1 reference from literature, RNA in-situ hybridization and some live imaging, not repeated simultaneous molecular assays of the exact same living cells.
+
+See `REPRESENTATION_DIMENSION_CHECKPOINT_FM1_2026-08-29.md`.
 
 ## C3 — Fixed history-gain thresholds can falsely imply memory
 
