@@ -1,0 +1,38 @@
+[
+  {
+    "window": "40->96->120",
+    "posthoc": true,
+    "n": 262,
+    "groups": 84,
+    "layer_counts": {
+      "L1": 100,
+      "L2": 75,
+      "other": 87
+    },
+    "ridge": {
+      "current_no_layer": 0.1681167600952045,
+      "current_plus_layer": 0.21738915308039075,
+      "current_plus_layer_plus_history": 0.2681916735961378,
+      "history_gain_after_layer": 0.050802520515747074,
+      "layer_gain": 0.049272392985186264
+    }
+  },
+  {
+    "window": "96->120->132",
+    "posthoc": true,
+    "n": 760,
+    "groups": 233,
+    "layer_counts": {
+      "L1": 256,
+      "L2": 197,
+      "other": 307
+    },
+    "ridge": {
+      "current_no_layer": 0.2687050912936104,
+      "current_plus_layer": 0.2764599167551419,
+      "current_plus_layer_plus_history": 0.2922305407676684,
+      "history_gain_after_layer": 0.01577062401252649,
+      "layer_gain": 0.0077548254615315
+    }
+  }
+]

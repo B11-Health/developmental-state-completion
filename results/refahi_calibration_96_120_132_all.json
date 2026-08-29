@@ -1,0 +1,22 @@
+{
+  "window": "96->120->132",
+  "subset": "all",
+  "n": 760,
+  "groups": 233,
+  "sims": 100,
+  "real_delta_r2": 0.013231502921979943,
+  "known_complete_null": {
+    "mean": -0.013810766186548938,
+    "sd": 0.007605545515900383,
+    "q95": -0.0022572461041022005,
+    "false_positive_rate_at_q95": 0.05
+  },
+  "known_incomplete_alt": {
+    "history_effect_sd_units": 0.2,
+    "mean_delta": 0.02708792122212521,
+    "sd": 0.012208391403864375,
+    "power_vs_null_q95": 1.0
+  },
+  "noise_sd": 0.4156795556707648,
+  "target_sd": 0.5068101062427695
+}

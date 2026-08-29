@@ -1,0 +1,106 @@
+{
+  "generated": "2026-08-29",
+  "external_source": {
+    "repository": "https://gitlab.com/slcu/teamHJ/publications/refahi_etal_2020",
+    "commit": "95fde8b3b9a0bd09d556ce765a2235093362306f",
+    "data_doi": "10.17863/CAM.61991"
+  },
+  "files": {
+    "analysis/refahi_calibrate_history_delta.py": {
+      "sha256": "aafd3dffb0eabe710599a30fbee74455d31592f28d19ac5ee414db59e9fad6dc",
+      "bytes": 3714
+    },
+    "analysis/refahi_posthoc_combinatorial_state.py": {
+      "sha256": "ba835e7fbc8c2e1b1f497f0d3a7fc6b5d1ed8beaab2bcba6d99c8d7ab77d9826",
+      "bytes": 2438
+    },
+    "analysis/refahi_posthoc_layer_sensitivity.py": {
+      "sha256": "580b7fc558e399b2130502e1957ebb14078edbde526a58a962a93e86335ce70b",
+      "bytes": 2394
+    },
+    "analysis/refahi_posthoc_layer_subsets.py": {
+      "sha256": "666987f3c675f83110f49f52f02018092d9e831b15026d6f40442ea17afc7476",
+      "bytes": 2419
+    },
+    "analysis/refahi_posthoc_ridge_sensitivity.py": {
+      "sha256": "71b8cde9ef9685b82b279f44cf1f1f077710a4c6ce839d4710e64d53ab3b69c0",
+      "bytes": 1665
+    },
+    "analysis/refahi_posthoc_split_sensitivity.py": {
+      "sha256": "3cc7cad42ca2cdd3a7521d5215412be2690b0a9c351a50977c89e6cf4a249881",
+      "bytes": 2042
+    },
+    "analysis/refahi_state_completion_replication.py": {
+      "sha256": "03f0dd0dcfabcd69587663ca97ce00d8c14d04e7433ef7218f85c09b83e7bb80",
+      "bytes": 9911
+    },
+    "analysis/validate_refahi_checkpoint.py": {
+      "sha256": "3740078a09201474b41e866e8ef9661f8212302eeacbf2a4fdf241368011ba06",
+      "bytes": 1327
+    },
+    "PREREGISTRATION_RCO_PILOT.md": {
+      "sha256": "3399824ed31323ca04b1a4967e2ca1c68109cfcb828c427478f1950503c56870",
+      "bytes": 11671
+    },
+    "REPLICATION_CHECKPOINT_2026-08-29.md": {
+      "sha256": "c92a9c5dc1bb20589900b1e70a2a8e915cd3ca06f669387ad7392d3d9f20f59d",
+      "bytes": 10559
+    },
+    "results/refahi_40_96_120_all.json": {
+      "sha256": "a18d58433258c6f5520be79c324f52bedb0896438478c164dde00a2c3571c0dd",
+      "bytes": 2677
+    },
+    "results/refahi_40_96_120_L1.json": {
+      "sha256": "fae64f4a688eed45b906d6666f4067ee074bf1c269363d1369aa4e8eb44e582f",
+      "bytes": 2675
+    },
+    "results/refahi_96_120_132_all.json": {
+      "sha256": "8124e2ba75e9b02a7cbd47e65bc1f8db174fc6939a86a4ccda4279a49c4ab5e4",
+      "bytes": 2656
+    },
+    "results/refahi_96_120_132_L1.json": {
+      "sha256": "e6f953ae86b6d2507037bdf9335dfa5631a662dd56bb8a9c1c7d538c69e106e3",
+      "bytes": 2635
+    },
+    "results/refahi_calibration_40_96_120_all.json": {
+      "sha256": "f65c8f264dc80c95ad66464854be6dcc4bf29c110f0b302993c20e9f812cd7d6",
+      "bytes": 562
+    },
+    "results/refahi_calibration_40_96_120_L1.json": {
+      "sha256": "a7885c198b217922be0ac4ea48012a43a324466569683d717dbda6408cbff648",
+      "bytes": 565
+    },
+    "results/refahi_calibration_96_120_132_all.json": {
+      "sha256": "c0b3ea1eb1c9eae0489b7afc8ea9e7d521112dec1f1ab1fb19e9b7ee3a6e14e0",
+      "bytes": 566
+    },
+    "results/refahi_calibration_96_120_132_L1.json": {
+      "sha256": "2a0622fdd549695d6ee70de1792bde7e4b6ae73bf9f996143999ea93c09657da",
+      "bytes": 566
+    },
+    "results/refahi_posthoc_combinatorial_state.json": {
+      "sha256": "1c6bf7fbeca110114e9955ed233d47f5f06618c47ab8135503e3161d6447bef6",
+      "bytes": 1510
+    },
+    "results/refahi_posthoc_layer_sensitivity.json": {
+      "sha256": "20101b09f5828af3136570c77a460e8a3358a672517e8520bf2ed58b3da4cf6b",
+      "bytes": 929
+    },
+    "results/refahi_posthoc_layer_subsets.json": {
+      "sha256": "6cd74cfb1109b07db0f9c555f2fd55fc5792964a02bd91aaaa22657be5e95dce",
+      "bytes": 1772
+    },
+    "results/refahi_posthoc_ridge_sensitivity.json": {
+      "sha256": "f579aa73ef36782bd6fd884989a72400570431b88d12c6d1f5029c984a5d03bc",
+      "bytes": 4009
+    },
+    "results/refahi_posthoc_split_sensitivity.json": {
+      "sha256": "bdcc70723abdaa5ddd303c111f462f4b1634c938237f507cde033ee08d047b05",
+      "bytes": 19838
+    },
+    "results/refahi_state_completion_replication.json": {
+      "sha256": "84587844d4dfa4bd4a831823a563b6774f6e9c98e416e50e3fc2355fa1d95126",
+      "bytes": 12734
+    }
+  }
+}

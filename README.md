@@ -42,8 +42,8 @@ This distinguishes hidden mechanisms that merely imitate the same phenotype from
 
 ## Main computational findings so far
 
-1. **A recent measured molecular state often screens off older measured history for specific future growth tasks in multiple flower lineage windows.** This is predictive screening-off under finite estimators, not a proof of biological Markovity.
-2. **One dominant molecular direction can recover much of the missing predictive power for a particular future once geometry is already measured.** This is conditional on the observation stack and should not be interpreted as a one-dimensional organismal state.
+1. **A direct-source reanalysis of the released Refahi FM1 flower atlas falsifies a broad screening-off claim and reveals a narrower late-epidermis result.** In the 120→132 h L1 window, current geometry plus the released 25-channel atlas expression state predicts descendant growth at R² ≈0.60–0.63, while older 96 h atlas state adds essentially no value under Ridge or ExtraTrees. A matched known-incomplete calibration had 99% power for a 0.20-SD history effect. Earlier/pool windows do **not** uniformly screen history off. See `REPLICATION_CHECKPOINT_2026-08-29.md`.
+2. **The flower molecular channels are atlas annotations, not repeated 25-gene measurements in the exact same living cells.** Expression domains were manually integrated into FM1 from literature, RNA in-situ hybridization, and some live imaging. Earlier reported multi-window/one-PC results remain legacy analyses awaiting full artifact migration and should not be described as direct longitudinal molecular measurement.
 3. **A known-Markov simulator produced spurious positive history gain under finite boosted-tree estimation.** This falsified our earlier fixed-threshold criterion and motivated calibration against known generative models.
 4. **In a seed dormancy reanalysis, finite-count binomial modeling avoids pathological certainty at 0% and 100% germination and supports latent response directions that become more identifiable under selected perturbations.**
 5. **In a synthetic 224-world developmental model (14 architectures × 16 hidden states), baseline morphology can collapse distinct hidden worlds that separate under intervention.**
@@ -71,7 +71,8 @@ That statement is a research hypothesis and framework, not a settled discovery.
 - `PREPRINT.md` — technical manuscript draft
 - `REPRODUCIBILITY.md` — provenance and what is still needed for full reproduction
 - `ROADMAP.md` — prospective biological validation program
-- `LIVING_VALIDATION_PREREGISTRATION_DRAFT_2026-08-29.md` — audited prospective plant protocol and falsification gates
+- `PREREGISTRATION_RCO_PILOT.md` — source-audited prospective Arabidopsis RCOg-V suppressor protocol and falsification gates
+- `REPLICATION_CHECKPOINT_2026-08-29.md` — direct-source FM1 flower-atlas replication, corrections and calibrated null/power tests
 - `MATH_CHECKPOINT_2026-08-29.md` — adversarial mathematics checkpoint and frozen rejections
 - `LAB_OPERATING_SYSTEM.md` — claim gates and lane structure
 - `FUNDING_PIPELINE.md` — verified funding routes / exclusions
@@ -82,7 +83,7 @@ That statement is a research hypothesis and framework, not a settled discovery.
 
 ## Reproducibility status
 
-This repository is the **public checkpoint**. Some original analysis artifacts currently live outside this repository in prior computational workspaces and conversation-generated checkpoints. They are being migrated only after provenance is verified. Until raw code, data hashes, and execution environments are attached, numerical results should be treated as **reported computational findings awaiting independent reproduction**.
+This repository is the **public checkpoint**. The greedy counterexample, state-completion CMI calibration, and the Refahi FM1 atlas replication now have rerunnable code and machine-readable results in `analysis/` and `results/`. Several older flower/seed numerical analyses still live in prior computational checkpoints and remain **reported findings awaiting verified artifact migration**; their evidentiary status is kept separate in the claims ledger.
 
 ## Invitation to the scientific community
 

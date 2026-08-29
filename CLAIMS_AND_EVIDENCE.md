@@ -10,27 +10,41 @@ This file separates observations, computational results, interpretations, and hy
 - **Interpretation** — explanatory synthesis consistent with current results but not itself directly measured.
 - **Hypothesis** — prospective claim requiring new experiment.
 
-## C1 — Predictive screening-off in flower lineages
+## C1 — Predictive screening-off in the Arabidopsis flower atlas
 
-**Class:** observed-data reanalysis  
-**Status:** supported in the current checkpoint, pending independent reproduction.
+**Class:** observed-data / atlas reanalysis
+**Status:** **NARROWED — mixed across developmental windows and compartments; one strong late-L1 case survives.**
 
-Across 24 eligible four-timepoint lineage windows in five WT flowers outside the original discovery flower, the reported median gain from older history after conditioning on a recent measured state was approximately 0.0033 in cross-validated R², and 22/24 windows showed history gain below +0.05.
+A new direct-source replication uses the authors' released FM1 lineage/geometry files and binary expression atlas at commit `95fde8b3b9a0bd09d556ce765a2235093362306f`. The released gene channels are manually mapped atlas annotations assembled from literature, RNA in-situ hybridization, and some live imaging; they are **not** repeated 25-gene measurements made longitudinally in the exact same cells.
 
-**Interpretation allowed:** a sufficiently recent *measured* state can make older *measured* history nearly redundant for a specified prediction task.
+Primary grouped-CV results for descendant growth:
 
-**Interpretation not allowed:** the plant is proven Markov; all biologically relevant memory has vanished.
+- **40→96→120 h pooled cells (n=262):** Ridge current-state R² 0.168; adding older state raises R² to 0.239 (Δ +0.0706). The matched known-complete 95% null was +0.0152. ExtraTrees, however, gives Δ −0.011. Current representation is not demonstrably complete.
+- **40→96→120 h L1 (n=100):** primary Δ ≈−0.0017, but matched power for a 0.20-SD direct history effect is only 38% and repeated split sensitivity is unstable. **Inconclusive.**
+- **96→120→132 h pooled cells (n=760):** Ridge Δ +0.0132, but the sign/size is split- and estimator-sensitive; ExtraTrees Δ −0.044 and same-layer post-hoc analyses are negative.
+- **96→120→132 h L1 (n=256):** Ridge current-state R² 0.599 and ExtraTrees R² 0.630; adding older state changes R² by −0.00035 and −0.0054 respectively. In a matched calibration, the known-complete 95% null was +0.0026 and power for a 0.20-SD direct history effect was 99%. Across 30 alternative lineage-group splits, Ridge history gain was positive only once.
+
+**Interpretation allowed:** for the late FM1 L1 epidermal growth task, the released present atlas state is strongly predictive and older atlas state adds no reproducible value under the tested models. State completion can therefore be a **task-, time-, compartment-, and estimator-relative empirical property**.
+
+**Interpretation not allowed:** flower development generally screens off history; the plant is Markov; all biologically relevant memory has vanished; the atlas channels are direct longitudinal molecular measurements.
+
+**Artifacts:** `REPLICATION_CHECKPOINT_2026-08-29.md`, `analysis/refahi_state_completion_replication.py`, `analysis/refahi_calibrate_history_delta.py`, post-hoc sensitivity scripts, and `results/refahi_*.json`.
+
+**Legacy note:** an earlier checkpoint reported low median history gain across 24 additional flower windows. Those numbers remain a separate legacy result until their exact code/data derivation is migrated and reconciled with this direct-source audit.
 
 ## C2 — One dominant molecular direction can complete a task-specific observation stack
 
 **Class:** observed-data reanalysis  
-**Status:** supported in one key flower analysis; generalization unknown.
+**Status:** legacy reported analysis; not independently reproduced by the new direct-source FM1 audit.
 
-For one reported FM1 analysis, trajectory-only prediction of subsequent growth was around R² 0.272. Adding one unsupervised molecular principal component reportedly raised R² to about 0.643; using all 25 molecular variables yielded about 0.633. Older molecular history then added only about +0.0095 R².
+For one earlier reported FM1-derived analysis, trajectory-only prediction of subsequent growth was around R² 0.272. Adding one unsupervised molecular principal component reportedly raised R² to about 0.643; using all 25 molecular variables yielded about 0.633. Older molecular history then added only about +0.0095 R².
 
 **Interpretation allowed:** once geometry is already observed, one dominant molecular direction may fill much of the remaining predictive gap for this task.
 
 **Interpretation not allowed:** the organism has a one-dimensional state.
+
+
+**Current caution:** this result should not be described as a directly measured one-dimensional molecular state. The released FM1 gene channels are atlas-mapped binary expression domains, and the exact legacy PCA pipeline still requires artifact migration.
 
 ## C3 — Fixed history-gain thresholds can falsely imply memory
 
