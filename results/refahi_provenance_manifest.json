@@ -111,12 +111,12 @@
       "bytes": 3264
     },
     "analysis/validate_representation_dimension.py": {
-      "sha256": "5699d4307b9d0ea2a76a4577653294f8bc9217699e53e8dac992e7bc9807aa6c",
-      "bytes": 1262
+      "sha256": "7b620f8fa68ef0cb4c3ad012a31fe63f63ad7ca46238e3866637a7b0d475a755",
+      "bytes": 2050
     },
     "REPRESENTATION_DIMENSION_CHECKPOINT_FM1_2026-08-29.md": {
-      "sha256": "496cc7e3ff5c507aac40946b546f0bd7190bfe9869560e93b6582e9ac7f7289f",
-      "bytes": 6103
+      "sha256": "7e7d49c51e749cc5d35c5a417d19c91edda9d307aca7d5638ecd00fbb45764de",
+      "bytes": 7255
     },
     "reproduction/README.md": {
       "sha256": "ad5ec20a6ed6fff3c2f24bb23c95388fdd6af2e9ec0cb0c9f86005f95f12f8fa",
@@ -157,6 +157,50 @@
     "results/refahi_pc_split_stability_histgb_30.json": {
       "sha256": "366e1ffea480c2507825f5e4c7c5fa3d0f22de9973cb8bcadcb355fc272165a1",
       "bytes": 8170
+    },
+    "analysis/refahi_random_projection_audit.py": {
+      "sha256": "260a199e115ce7e8f4bfc9bc8ec04dc7bdb2f91e015fab9ef190917797876bf8",
+      "bytes": 3238
+    },
+    "analysis/refahi_pc1_coding_audit.py": {
+      "sha256": "7885dd71775d8083d192678b28829b8ee6b324bab3fefe4ee8dfa546d8014059",
+      "bytes": 3902
+    },
+    "FINITE_STATE_PROJECTION_TRAP_2026-08-29.md": {
+      "sha256": "1a1964eff4d62871196a34a233974c7a64aff46c6ab1fac4d4f0b6aa3447ac36",
+      "bytes": 5059
+    },
+    "MATH_CHECKPOINT_2026-08-29.md": {
+      "sha256": "d4fd7f771f841b3e7532e0dbcef1cf33ca98bf577c5e4b10a4317ae1db40c1fe",
+      "bytes": 17917
+    },
+    "PREPRINT.md": {
+      "sha256": "44d9bad2a7dd995887771c916e7d15e04d8ebe21affedb0cd693d4a32641f8ec",
+      "bytes": 23587
+    },
+    "CLAIMS_AND_EVIDENCE.md": {
+      "sha256": "2406f1c0a307f25680b0741c2a4a86591b0ca1f0f294e6dbcebc81e3bc2694af",
+      "bytes": 26793
+    },
+    "README.md": {
+      "sha256": "47c5940dc2ac4197b8f01c8e71473d381cb4f0d212021f71417a721d700d8988",
+      "bytes": 11223
+    },
+    "results/refahi_random_projection_extra_trees.json": {
+      "sha256": "2f249a7f1aa3886ee286b0b4b16dc619fea77941cf9798b728362f282212e7af",
+      "bytes": 3380
+    },
+    "results/refahi_random_projection_histgb.json": {
+      "sha256": "a414eb35b3aa92dde13aac8e7e81ea1507733bde58d30450038b214c5b2cd423",
+      "bytes": 3355
+    },
+    "results/refahi_pc1_state_code_audit.json": {
+      "sha256": "f9b539216d40f5fda2465cabe842572d94fa459c1cdb6a2483b31b64542c1d57",
+      "bytes": 4204
+    },
+    "results/refahi_pc1_robustness_alignment_audit.json": {
+      "sha256": "d4d8078a718055e74a38f96902d872166bfb892afd73d325239a8b8a59069528",
+      "bytes": 1119
     }
   }
 }

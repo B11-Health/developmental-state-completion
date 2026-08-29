@@ -1,0 +1,43 @@
+{
+  "n_states": 8,
+  "pc1": {
+    "explained_variance": 0.5820176211735517,
+    "min_margin": 0.01567075845018895,
+    "standardized_min_margin": 0.01156814472614501,
+    "spearman_state_mean_target": 0.6428571428571429,
+    "abs_spearman": 0.6428571428571429
+  },
+  "random_10000": {
+    "margin_median": 0.015705061137499532,
+    "margin_q95": 0.06569035765092252,
+    "pc1_margin_percentile": 0.4988,
+    "standardized_margin_median": 0.04900747918314269,
+    "pc1_standardized_margin_percentile": 0.1443,
+    "abs_spearman_median": 0.5000000000000001,
+    "pc1_abs_spearman_percentile": 0.7439
+  },
+  "extra_trees_random30_correlations": {
+    "r2_vs_min_margin_pearson": 0.2602999538295112,
+    "r2_vs_abs_state_target_spearman_pearson": 0.5430768755288299
+  },
+  "state_target_means": [
+    0.44681142249311256,
+    0.37757633991682366,
+    0.5216820071394458,
+    1.0561655476214111,
+    1.13370853717734,
+    0.4570551605122579,
+    0.39982261399621954,
+    0.4849067439257251
+  ],
+  "state_counts": [
+    23,
+    46,
+    29,
+    52,
+    34,
+    24,
+    6,
+    42
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "n_cells": 256,
+  "n_states": 8,
+  "pc1_explained_variance": 0.5820176211735517,
+  "n_unique_pc1_state_means": 8,
+  "min_state_pc1_separation": 0.01567075845018895,
+  "top_loadings": [
+    {
+      "gene": "ANT",
+      "loading": 0.32365081390616224
+    },
+    {
+      "gene": "AS1",
+      "loading": 0.32365081390616224
+    },
+    {
+      "gene": "LFY",
+      "loading": 0.32365081390616224
+    },
+    {
+      "gene": "STM",
+      "loading": -0.32365081390616224
+    },
+    {
+      "gene": "FIL",
+      "loading": 0.2807023673954565
+    },
+    {
+      "gene": "REV",
+      "loading": -0.27819488545770316
+    },
+    {
+      "gene": "PHB_PHV",
+      "loading": -0.2781948854577031
+    },
+    {
+      "gene": "AP3",
+      "loading": -0.2435040602286915
+    },
+    {
+      "gene": "PI",
+      "loading": -0.24350406022869145
+    },
+    {
+      "gene": "AP1",
+      "loading": 0.224943824526659
+    },
+    {
+      "gene": "AP2",
+      "loading": 0.224943824526659
+    },
+    {
+      "gene": "SEP3",
+      "loading": -0.224943824526659
+    }
+  ],
+  "states": [
+    {
+      "state_id": 0,
+      "count": 52,
+      "pc1_mean": 1.6723863998222919,
+      "pc1_sd": 6.661338147750939e-16,
+      "target_mean": 1.0561655476214111,
+      "genes_on": [
+        "ANT",
+        "AP1",
+        "AP2",
+        "AS1",
+        "ATML1",
+        "ETTIN",
+        "FIL",
+        "LFY",
+        "MP",
+        "SEP1",
+        "SEP2"
+      ]
+    },
+    {
+      "state_id": 1,
+      "count": 46,
+      "pc1_mean": -1.1007826468189026,
+      "pc1_sd": 4.440892098500626e-16,
+      "target_mean": 0.37757633991682366,
+      "genes_on": [
+        "AP1",
+        "AP2",
+        "AP3",
+        "ATML1",
+        "CUC1_2_3",
+        "MP",
+        "PHB_PHV",
+        "PI",
+        "REV",
+        "SEP1",
+        "SEP2",
+        "STM"
+      ]
+    },
+    {
+      "state_id": 2,
+      "count": 42,
+      "pc1_mean": -1.8460924126772382,
+      "pc1_sd": 0.0,
+      "target_mean": 0.4849067439257251,
+      "genes_on": [
+        "AG",
+        "AP3",
+        "ATML1",
+        "ETTIN",
+        "MP",
+        "PHB_PHV",
+        "PI",
+        "REV",
+        "SEP1",
+        "SEP2",
+        "SEP3",
+        "STM"
+      ]
+    },
+    {
+      "state_id": 3,
+      "count": 34,
+      "pc1_mean": 1.7878722690375113,
+      "pc1_sd": 2.220446049250313e-16,
+      "target_mean": 1.13370853717734,
+      "genes_on": [
+        "AHP6",
+        "ANT",
+        "AP1",
+        "AP2",
+        "AS1",
+        "ATML1",
+        "ETTIN",
+        "FIL",
+        "LFY",
+        "MP",
+        "SEP1",
+        "SEP2"
+      ]
+    },
+    {
+      "state_id": 4,
+      "count": 29,
+      "pc1_mean": 0.7795357186426319,
+      "pc1_sd": 2.220446049250313e-16,
+      "target_mean": 0.5216820071394458,
+      "genes_on": [
+        "ANT",
+        "AP1",
+        "AP2",
+        "AS1",
+        "ATML1",
+        "LFY",
+        "MP",
+        "PHB_PHV",
+        "REV",
+        "SEP1",
+        "SEP2"
+      ]
+    },
+    {
+      "state_id": 5,
+      "count": 24,
+      "pc1_mean": -1.3590842922198554,
+      "pc1_sd": 2.220446049250313e-16,
+      "target_mean": 0.4570551605122579,
+      "genes_on": [
+        "AG",
+        "ATML1",
+        "ETTIN",
+        "MP",
+        "PHB_PHV",
+        "REV",
+        "SEP1",
+        "SEP2",
+        "SEP3",
+        "STM"
+      ]
+    },
+    {
+      "state_id": 6,
+      "count": 23,
+      "pc1_mean": -0.05738475544611377,
+      "pc1_sd": 0.0,
+      "target_mean": 0.44681142249311256,
+      "genes_on": [
+        "AP1",
+        "AP2",
+        "ATML1",
+        "CUC1_2_3",
+        "MP",
+        "SEP1",
+        "SEP2",
+        "STM"
+      ]
+    },
+    {
+      "state_id": 7,
+      "count": 6,
+      "pc1_mean": -1.3747550506700443,
+      "pc1_sd": 2.220446049250313e-16,
+      "target_mean": 0.39982261399621954,
+      "genes_on": [
+        "AG",
+        "ATML1",
+        "CLV3",
+        "ETTIN",
+        "MP",
+        "PHB_PHV",
+        "REV",
+        "SEP1",
+        "SEP2",
+        "SEP3",
+        "STM"
+      ]
+    }
+  ]
+}

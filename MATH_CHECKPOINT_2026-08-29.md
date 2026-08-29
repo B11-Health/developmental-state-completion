@@ -54,6 +54,12 @@ for a generic tuple of measurements/experiments to separate points. This is an a
 
 If `e(X)` is the smallest Euclidean embedding dimension of the behavioral quotient, any continuous exact signature in `R^(mr)` must satisfy `mr >= e(X)`.
 
+### Finite-state scalar projection trap
+
+For any finite set of distinct vectors `S = {x_1,...,x_N} subset R^p`, almost every scalar linear projection `v^T x` is injective on `S`: each pairwise collision constrains `v` to one proper hyperplane, and a finite union of such hyperplanes has measure zero. Therefore **bare exact Euclidean embedding dimension is not informative for a finite candidate library** when arbitrary real-valued observables are allowed.
+
+Finite-library dimension statements must instead constrain the admissible measurement family and/or require a noise margin. A useful quantity is the minimum number of admissible experiment coordinates needed to separate every scientifically distant pair by at least `gamma`. This leads directly to the robust far-pair/Test-Cover formulation below. See `FINITE_STATE_PROJECTION_TRAP_2026-08-29.md` for the proof and FM1 example.
+
 ### Finite candidate-world regime — exact Test Cover mapping
 
 For a finite candidate set `W` with structural metric `d_W`, define a far-pair universe

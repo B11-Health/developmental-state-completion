@@ -43,6 +43,8 @@ A single current PC is sufficient for the two flexible nonlinear decoders tested
 
 The same one-PC claim does **not** hold for linear Ridge: on the fixed grouped split, geometry was R² 0.307, +PC1 0.451, +PC2 0.551, +PC4 0.598, and +all25 0.599. Thus roughly four PCs were needed to recover essentially all linear predictive gain.
 
+**Finite-state caveat:** the late-L1 cohort contains only 8 distinct 25-channel atlas patterns, and PC1 assigns all eight unique scalar codes. All 30 tested target-independent random scalar projections were also injective, which is expected mathematically for a finite set. PC1 predicts better than a typical random code, but exact one-dimensional separability itself is not evidence of a one-dimensional biological manifold.
+
 **Interpretation allowed:** for this late-L1 atlas-derived task, one dominant current atlas coordinate can carry nearly all nonlinear predictive value given current geometry.
 
 **Interpretation not allowed:** the plant has a one-dimensional molecular state; one PC is universally sufficient; PCA dimension is an intrinsic biological state dimension.

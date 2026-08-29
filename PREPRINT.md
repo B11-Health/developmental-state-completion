@@ -231,13 +231,13 @@ The current work has major limitations:
 - synthetic hidden-world results may not transfer to living biology;
 - topological structure depends on the chosen biological loss metric and sampling resolution;
 - screening-off estimates are sensitive to finite-sample model bias;
-- PCA-derived directions are representation-dependent;
+- PCA-derived directions are representation- and decoder-dependent; exact scalar separation of a finite observed state library is generically trivial without a robustness/measurement constraint;
 - no current result establishes clinical, therapeutic, or agronomic efficacy;
 - no formal theorem yet shows that a finite intervention panel reconstructs the full hidden causal topology.
 
 ## 13. Open problems
 
-1. Define robust counterfactual embedding dimension under noise.
+1. Define robust, admissible-measurement counterfactual embedding dimension under noise; bare exact dimension on finite libraries is not informative because generic scalar projections are injective.
 2. Establish stability bounds for connected causal fibers under metric perturbation and discretization.
 3. Determine when topological experiment objectives outperform Fisher/Shannon objectives.
 4. Develop calibrated conditional-independence tests tailored to longitudinal developmental data.

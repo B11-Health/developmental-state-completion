@@ -80,6 +80,15 @@ On the fixed grouped split:
 
 Combined with the separate late-L1 200-partition history audit, there is no estimator-robust material positive history gain once the richer current state is included.
 
+
+## Finite-state coding audit
+
+The late-L1 cohort contains only **8 distinct 25-channel atlas patterns**. Full-data PC1 assigns all eight distinct scalar values. This is not, by itself, evidence of an intrinsically one-dimensional state: for any finite set of distinct vectors, almost every scalar linear projection is injective. See `FINITE_STATE_PROJECTION_TRAP_2026-08-29.md`.
+
+Thirty target-independent Gaussian random projections were tested. All 30 were injective on the eight states. Their predictive performance was usually lower than PC1 but sometimes comparable: ExtraTrees median random-projection R² was about 0.600 versus PC1 0.633; HistGradientBoosting median random R² was about 0.630 versus PC1 0.664.
+
+A 10,000-projection geometry-only audit showed that PC1's minimum state-code separation margin is ordinary rather than exceptional (about the 50th percentile raw and 14th percentile after standardizing by code spread). Its state ordering is more aligned with future-growth means than a typical random projection. Thus PC1 is a useful task-aligned scalar code, not evidence of a robust one-dimensional molecular manifold.
+
 ## Frozen correction
 
 ### Rejected wording
