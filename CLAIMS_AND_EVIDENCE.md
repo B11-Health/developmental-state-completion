@@ -164,6 +164,22 @@ The project independently reconstructed a known first-order Markov binary proces
 
 **Artifacts:** `analysis/state_completion_cmi_calibration.py` and `analysis/state_completion_cmi_calibration_results.csv`.
 
+
+## C9 — Independent reconstruction from the authors' released FM1 atlas
+
+**Class:** observed-data reanalysis / independent repository reconstruction  
+**Status:** reproduced from the original public code/data release at upstream commit `95fde8b`.
+
+Using 760 eligible 120h cells grouped into 233 distinct 96h ancestor lineages, current geometry alone produced nested grouped out-of-fold R² = 0.0333 for 120→132h lineage log-volume expansion. Adding the released 25-gene 120h state raised R² to 0.2846. Adding the corresponding 96h ancestor geometry + 25-gene state raised R² only slightly further to 0.2928 (ΔR² history|current = +0.0082). A random-forest sensitivity analysis gave 0.3002 → 0.3524 → 0.3304.
+
+A fixed-Ridge calibration produced biological ΔR² history|current = +0.0056 with a 5,000-group-bootstrap 95% interval of approximately [-0.039, +0.054]. A known-non-Markov synthetic control with a moderate residual history term was detected with 97.6% power above the known-Markov 95th percentile.
+
+**Interpretation allowed:** the released FM1 data independently support substantial future-growth information in the current molecular state beyond current geometry, while residual predictive value from the measured 96h ancestor state is small relative to that current-state gain and not robustly resolved.
+
+**Interpretation not allowed:** exact conditional independence; proof of Markov closure; universal state sufficiency.
+
+See `REPLICATION_CHECKPOINT_FM1_2026-08-29.md`.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:
