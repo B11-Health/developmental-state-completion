@@ -172,6 +172,26 @@ Recommended two-stage plan:
 
 The final N and effect-size threshold must be frozen before confirmatory data acquisition.
 
+## Lessons imported from the Refahi FM1 replication
+
+The 2026-08-29 direct-source flower-atlas audit changed this prospective design in four ways. These are design constraints, not claims that the leaf system will behave like the flower atlas.
+
+### 1. Compartment and developmental time are part of the state definition
+
+The confirmatory analysis must not pool biologically heterogeneous layers, leaf nodes, or developmental epochs into one primary completion statistic. The primary cohort must be defined prospectively by tissue compartment and developmental stage. Cross-compartment/generalization analyses are secondary and reported separately.
+
+### 2. Primary current-state channels must be measured in the same living specimen
+
+The Refahi gene channels are atlas annotations mapped from multiple sources. That is useful for benchmarking but can spatially smooth/regularize state. For the RCOg-V experiment, any molecular channel used to claim state completion must be directly acquired from the experimental specimen at the stated current time, or explicitly labeled as an external atlas prior rather than a measurement.
+
+### 3. Estimator disagreement is a result, not something to average away
+
+At least one prespecified regularized linear model and one prespecified nonlinear model should be evaluated. If the qualitative conclusion about residual history differs between them, the state is labeled **estimator-dependent / unresolved**, not complete or incomplete. No post-hoc choice of the model giving the preferred conclusion.
+
+### 4. Completion requires both false-positive and power calibration
+
+Before biological unblinding, the exact history-gain statistic/model must be run on matched known-complete and known-history-dependent generators using the planned sample size, group structure, feature dimension and noise scale. A non-significant history term is only interpretable when the test has adequate power for a preregistered biologically meaningful residual-history effect.
+
 ## Hard falsifiers
 
 1. Baseline morphology/reporters already predict hidden background as well as the active response, eliminating the proposed shadow gap.
