@@ -1,6 +1,6 @@
 # Funding Pipeline - verified 2026-08-29
 
-This pipeline is verification-first. `READY TO PREPARE` means the current official program page and baseline eligibility were checked; it does **not** mean Code Gym's registrations or legal/entity fields have been independently verified.
+This pipeline is verification-first. `READY TO PREPARE` means the current official program page and baseline eligibility were checked. **SAM.gov registration is independently verified active through 2027-08-19.** Research.gov/Grants.gov readiness, authorized roles, and documentary 501(c)(3) status remain unverified. No sensitive entity identifiers are stored in this repository.
 
 | Opportunity | Status | Date | Nonprofit lead? | Key verified facts | Scientific fit | Next action |
 |---|---|---|---|---|---|---|
@@ -69,7 +69,7 @@ Required strengthening before submission:
 ### Now through 2026-09-07
 - Finish one-page NSF Mathematical Biology concept and one-page NSF BIO Core / Developmental Systems concept.
 - Freeze independently reproducible mathematical artifacts and the audited plant preregistration draft.
-- Verify Code Gym's legal entity, IRS determination, UEI/SAM/Research.gov status, authorized organizational representative and PI structure.
+- SAM is verified active. Verify IRS determination documentation, Research.gov/Grants.gov status, authorized organizational representative and PI structure.
 - Track replies from NSF Mathematical Biology, NSF Developmental Systems, Michael Levin and Miltos Tsiantis; record replies verbatim before changing proposal scope.
 
 ### 2026-09-08 through 2026-09-20
@@ -103,10 +103,10 @@ Required strengthening before submission:
 5. **Simons Targeted Grants to Institutes — conditional organizational route.** September 30 is close, but eligibility is a hard gate; skip rather than stretch the definition of “established institute.”
 
 ## Entity facts that must be verified before any submission
-- Code Gym exact legal entity name
-- current IRS 501(c)(3) determination documentation
+- Code Gym exact legal entity name/authorized signing form
+- current IRS 501(c)(3) determination documentation — **not yet independently located in this audit**
 - EIN
-- UEI and SAM.gov registration/status/expiration
+- SAM.gov status/expiration — **verified active; renewal 2027-08-19** (identifier intentionally omitted)
 - Research.gov organizational registration and roles
 - Grants.gov registration if that route is used
 - authorized organizational representative
