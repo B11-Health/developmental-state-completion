@@ -182,6 +182,20 @@ A predefined upstream L1 epidermal restriction (256 eligible cells, 86 ancestor 
 
 See `REPLICATION_CHECKPOINT_FM1_2026-08-29.md`.
 
+
+## C10 — External positive control for state incompleteness
+
+**Class:** external observed-data reanalysis / methodological control  
+**Status:** reproduced directionally from the Weinreb et al. 2020 public split-well lineage dataset using the released metadata and clone matrix.
+
+A release-native reconstruction identified 504 clones with mature cells in both separated day-6 well sets. Exact mature-fate-set agreement was 57.9% versus 17.4% after clone-label permutation (`p≈0.0002`). In a frozen 133-clone three-fate cohort, a day-2 state proxy (mean SPRING x/y + starting population) achieved approximately 0.618 balanced accuracy for the other well's dominant fate; adding the separated sister-well fate raised balanced accuracy to approximately 0.827 and reduced log loss by about 0.38. Conditional mutual information between separated sister fates remained approximately 0.58–0.69 bits after conditioning on multiple day-2 state-bin resolutions, far above within-state permutation nulls.
+
+**Interpretation allowed:** our general state-sufficiency diagnostic can flag a measured state as incomplete in a published system where the original investigators independently established hidden heritable fate information.
+
+**Interpretation not allowed:** exact reproduction of the paper's figure-specific cohort/numbers; proof that full scRNA-seq is insufficient from our reduced SPRING-coordinate analysis alone; evidence that the same hidden variables operate in plants.
+
+See `NEGATIVE_CONTROL_WEINREB_2020_2026-08-29.md`.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:
