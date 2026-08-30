@@ -1,0 +1,138 @@
+{
+  "stateFate_inVitro_metadata.txt.gz": {
+    "bytes": 2214511,
+    "sha256": "c88e02cc512205e7033e28bf512f5d0dd43b98ba547fdd4a196b4bd9b62d7c07"
+  },
+  "stateFate_inVitro_clone_matrix.mtx.gz": {
+    "bytes": 197714,
+    "sha256": "26258702f8ccb7c98884d4f91bdcd1d6f552d7f2dd5125358efe7ade2fdcc50d"
+  },
+  "Cebpa.txt": {
+    "bytes": 299221,
+    "sha256": "ca77ac0bcf3584d5a8814c1eefdeaeed68a73080364d488de0974d263daa96b0"
+  },
+  "Cebpb.txt": {
+    "bytes": 391645,
+    "sha256": "4ddbfd147ef492817508d394d8de2ccea243d610baa39e15f53abe4b088b0aab"
+  },
+  "Csf1r.txt": {
+    "bytes": 301177,
+    "sha256": "b3afd8b7b9141808e8f54e115b445fd8c550618a257052fd30312b2248b03084"
+  },
+  "Csf3r.txt": {
+    "bytes": 284915,
+    "sha256": "5db2bf33e6d07a08bec4ddd237cf1a3ff11c21ffe43f0d320da856e0b4df6858"
+  },
+  "Ctsg.txt": {
+    "bytes": 374708,
+    "sha256": "13b8401bb482204a5f763dce5493af432403f81180acc6b152f8826c23b9707a"
+  },
+  "Elane.txt": {
+    "bytes": 376876,
+    "sha256": "8a54b9f49cb8985b418ec9af1005191c1b0cccafe051e32ee6eaf15d2bef9f09"
+  },
+  "Erg.txt": {
+    "bytes": 293100,
+    "sha256": "a145ac0b5666cd0199029ab8b3049d60d7a803ea2093db24d80f50132356e3d0"
+  },
+  "Fcgr3.txt": {
+    "bytes": 378497,
+    "sha256": "43e2b58332b4173a1d31d6103cb1c73ac7f5eae482224a184f414d796920bf0a"
+  },
+  "Fli1.txt": {
+    "bytes": 293016,
+    "sha256": "c4ea5f65a7bbea797cd606a45d7e0bb4bdb6590976cd339ce9f92efe05e032fb"
+  },
+  "Flt3.txt": {
+    "bytes": 272860,
+    "sha256": "a690857f1ec939be821d03845febd825fbab8d27803b1c0fd4b9d40adcfb6058"
+  },
+  "Gata2.txt": {
+    "bytes": 332853,
+    "sha256": "bf6f6e11fc720956f493aeb4c3653464ec5bfb9541de078c2c694fceafe400c0"
+  },
+  "Gfi1.txt": {
+    "bytes": 310941,
+    "sha256": "32c6a4968cf49a06d25577797bf53faf560bb4cba5b7d351a9e37c6fd9deac7f"
+  },
+  "Hlf.txt": {
+    "bytes": 268023,
+    "sha256": "5b7be319c38d138968c74731c4e72ef7deabf7335e5e115182cd2b4a1af40e17"
+  },
+  "Hoxa9.txt": {
+    "bytes": 273145,
+    "sha256": "1e606b0ca930183b2ba68c09c9862e0c5e259cef1d9e23c238337b49d7e33bd3"
+  },
+  "Irf8.txt": {
+    "bytes": 286074,
+    "sha256": "87a9afa4dd66c5fe067a23ba86d398ff10299d22d753a5dec9f412c72d769636"
+  },
+  "Kit.txt": {
+    "bytes": 291508,
+    "sha256": "811fb6d6f5507c45bd442112c205c70760b0945bd6ceb587ccb82cfd56eaa33d"
+  },
+  "Lmo2.txt": {
+    "bytes": 359388,
+    "sha256": "fdfbd4f15fcb04365cef8968c1dac95afe692cd200aeb4ab19435a7c1ae18b95"
+  },
+  "Ltf.txt": {
+    "bytes": 291101,
+    "sha256": "5be066f9fdacc3590e9b4113a53f2dc99da30b06391e84fbccf099cec83b9ebc"
+  },
+  "Ly6a.txt": {
+    "bytes": 335211,
+    "sha256": "b7224e657dd4d7cfac142a2d17c39bb5d3e12e6a5b3e8214cf13bc09451eb9f2"
+  },
+  "Lyl1.txt": {
+    "bytes": 278316,
+    "sha256": "39c25223adc97a2be3447352f9206ddd4139c8f14a4a39a23bed4593ec3c1e1c"
+  },
+  "Lyz2.txt": {
+    "bytes": 395492,
+    "sha256": "5affcc36251f06edf0c50d3cd8f8cd0b77f810ab53c599b25f08d02efab5f11c"
+  },
+  "Meis1.txt": {
+    "bytes": 283581,
+    "sha256": "196f9320e4b89fc5d3609db7465e42c1de97b828d249219f7aabbef61b7aba17"
+  },
+  "Mpl.txt": {
+    "bytes": 265532,
+    "sha256": "ee50e4127c5161c8b77110c493473ebd28c6b136cf78dc6ab95e67f3e027166e"
+  },
+  "Mpo.txt": {
+    "bytes": 341686,
+    "sha256": "01ca7c19a30301b93c2619fef171516ddea16330048aa93d86944b26e2f3390b"
+  },
+  "Myb.txt": {
+    "bytes": 311751,
+    "sha256": "36042ba06ffd53eb22bf2d096c6512e369dd78337baaae50c15f4e1d7809a1f1"
+  },
+  "Pbx1.txt": {
+    "bytes": 303733,
+    "sha256": "2eb9f6d3ec037cb8c898dccf884dfcc79502252a0c5cb110ac94420171ba16fd"
+  },
+  "Prtn3.txt": {
+    "bytes": 380132,
+    "sha256": "97d3f60a6b187e374184b985d27e6e345d9aa2c303a239816473fa5096e1818d"
+  },
+  "Runx1.txt": {
+    "bytes": 343270,
+    "sha256": "447079ba2145824c998ff4296fe82c11415c380d6a116476e232f6c933f34fce"
+  },
+  "S100a8.txt": {
+    "bytes": 381663,
+    "sha256": "9ee5f872e396c77cdefe7ddf722697cb4ff9b280c2b8bff15d62a3f24d91638c"
+  },
+  "S100a9.txt": {
+    "bytes": 381252,
+    "sha256": "933b49055c11f9b21f6a8a97c1cd3b45f32b5324375b16860c14ed12ef0cfee0"
+  },
+  "Spi1.txt": {
+    "bytes": 332524,
+    "sha256": "3b1368d3d5d7bebc1d1bd5c5cfe4e3c8d65140cba0990ac987b17bdd0898bd67"
+  },
+  "Tal1.txt": {
+    "bytes": 303839,
+    "sha256": "a177e3f0b88946926a261a1c65d0bfd335b150c811cc918e3813844cec0ac0b3"
+  }
+}
