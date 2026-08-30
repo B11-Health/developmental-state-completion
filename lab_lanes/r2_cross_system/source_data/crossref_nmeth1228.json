@@ -1,0 +1,603 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        20
+      ]
+    ],
+    "date-time": "2026-05-20T04:31:35Z",
+    "timestamp": 1779251495605,
+    "version": "3.51.4"
+  },
+  "reference-count": 28,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2008,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2008-06-29T00:00:00Z",
+        "timestamp": 1214697600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://www.springer.com/tdm"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nat Methods"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        8
+      ]
+    ]
+  },
+  "DOI": "10.1038/nmeth.1228",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2008,
+        6,
+        29
+      ]
+    ],
+    "date-time": "2008-06-29T14:58:58Z",
+    "timestamp": 1214751538000
+  },
+  "page": "703-709",
+  "source": "Crossref",
+  "is-referenced-by-count": 195,
+  "title": [
+    "Automated analysis of embryonic gene expression with cellular resolution in C. elegans"
+  ],
+  "prefix": "10.1038",
+  "volume": "5",
+  "author": [
+    {
+      "given": "John Isaac",
+      "family": "Murray",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Zhirong",
+      "family": "Bao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Thomas J",
+      "family": "Boyle",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Max E",
+      "family": "Boeck",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Barbara L",
+      "family": "Mericle",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Thomas J",
+      "family": "Nicholas",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Zhongying",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Matthew J",
+      "family": "Sandel",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Robert H",
+      "family": "Waterston",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2008,
+        6,
+        29
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "BFnmeth1228_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "440",
+      "DOI": "10.1038/328440a0",
+      "volume": "328",
+      "author": "PA Lawrence",
+      "year": "1987",
+      "unstructured": "Lawrence, P.A., Johnston, P., Macdonald, P. & Struhl, G. Borders of parasegments in Drosophila embryos are delimited by the fushi tarazu and even-skipped genes. Nature 328, 440\u2013442 (1987).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "BFnmeth1228_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "42",
+      "DOI": "10.1186/1471-2164-6-42",
+      "volume": "6",
+      "author": "RM Fox",
+      "year": "2005",
+      "unstructured": "Fox, R.M. et al. A gene expression fingerprint of C. elegans embryonic motor neurons. BMC Genomics 6, 42 (2005).",
+      "journal-title": "BMC Genomics"
+    },
+    {
+      "key": "BFnmeth1228_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "889",
+      "DOI": "10.1242/dev.00302",
+      "volume": "130",
+      "author": "LR Baugh",
+      "year": "2003",
+      "unstructured": "Baugh, L.R., Hill, A.A., Slonim, D.K., Brown, E.L. & Hunter, C.P. Composition and dynamics of the Caenorhabditis elegans early embryonic transcriptome. Development 130, 889\u2013900 (2003).",
+      "journal-title": "Development"
+    },
+    {
+      "key": "BFnmeth1228_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1843",
+      "DOI": "10.1242/dev.01782",
+      "volume": "132",
+      "author": "LR Baugh",
+      "year": "2005",
+      "unstructured": "Baugh, L.R. et al. The homeodomain protein PAL-1 specifies a lineage-specific regulatory network in the C. elegans embryo. Development 132, 1843\u20131854 (2005).",
+      "journal-title": "Development"
+    },
+    {
+      "key": "BFnmeth1228_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "1629",
+      "DOI": "10.1126/science.1062660",
+      "volume": "293",
+      "author": "EE Furlong",
+      "year": "2001",
+      "unstructured": "Furlong, E.E., Andersen, E.C., Null, B., White, K.P. & Scott, M.P. Patterns of gene expression during Drosophila mesoderm development. Science 293, 1629\u20131633 (2001).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "BFnmeth1228_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "2270",
+      "DOI": "10.1126/science.1072152",
+      "volume": "297",
+      "author": "MN Arbeitman",
+      "year": "2002",
+      "unstructured": "Arbeitman, M.N. et al. Gene expression during the life cycle of Drosophila melanogaster. Science 297, 2270\u20132275 (2002).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "BFnmeth1228_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "331",
+      "DOI": "10.1038/nature00891",
+      "volume": "418",
+      "author": "Y Zhang",
+      "year": "2002",
+      "unstructured": "Zhang, Y. et al. Identification of genes expressed in C. elegans touch receptor neurons. Nature 418, 331\u2013335 (2002).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "BFnmeth1228_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "64",
+      "DOI": "10.1016/0012-1606(83)90201-4",
+      "volume": "100",
+      "author": "JE Sulston",
+      "year": "1983",
+      "unstructured": "Sulston, J.E., Schierenberg, E., White, J.G. & Thomson, J.N. The embryonic cell lineage of the nematode Caenorhabditis elegans. Dev. Biol. 100, 64\u2013119 (1983).",
+      "journal-title": "Dev. Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "1468",
+      "DOI": "10.1038/nprot.2006.222",
+      "volume": "1",
+      "author": "JI Murray",
+      "year": "2006",
+      "unstructured": "Murray, J.I., Bao, Z., Boyle, T. & Waterston, R.H. The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree. Nat. Protoc. 1, 1468\u20131476 (2006).",
+      "journal-title": "Nat. Protoc."
+    },
+    {
+      "key": "BFnmeth1228_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "2707",
+      "DOI": "10.1073/pnas.0511111103",
+      "volume": "103",
+      "author": "Z Bao",
+      "year": "2006",
+      "unstructured": "Bao, Z. et al. Automated cell lineage tracing in Caenorhabditis elegans. Proc. Natl. Acad. Sci. USA. 103, 2707\u20132712 (2006).",
+      "journal-title": "Proc. Natl. Acad. Sci. USA."
+    },
+    {
+      "key": "BFnmeth1228_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "275",
+      "DOI": "10.1186/1471-2105-7-275",
+      "volume": "7",
+      "author": "TJ Boyle",
+      "year": "2006",
+      "unstructured": "Boyle, T.J., Bao, Z., Murray, J.I., Araya, C.L. & Waterston, R.H. AceTree: a tool for visual analysis of Caenorhabditis elegans embryogenesis. BMC Bioinformatics 7, 275 (2006).",
+      "journal-title": "BMC Bioinformatics"
+    },
+    {
+      "key": "BFnmeth1228_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "881",
+      "DOI": "10.1083/jcb.200608117",
+      "volume": "175",
+      "author": "K McNally",
+      "year": "2006",
+      "unstructured": "McNally, K., Audhya, A., Oegema, K. & McNally, F.J. Katanin controls mitotic and meiotic spindle length. J. Cell Biol. 175, 881\u2013891 (2006).",
+      "journal-title": "J. Cell Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "1567",
+      "DOI": "10.1038/nbt1037",
+      "volume": "22",
+      "author": "NC Shaner",
+      "year": "2004",
+      "unstructured": "Shaner, N.C. et al. Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein. Nat. Biotechnol. 22, 1567\u20131572 (2004).",
+      "journal-title": "Nat. Biotechnol."
+    },
+    {
+      "key": "BFnmeth1228_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "289",
+      "DOI": "10.1006/dbio.1996.0219",
+      "volume": "178",
+      "author": "M Azzaria",
+      "year": "1996",
+      "unstructured": "Azzaria, M., Goszczynski, B., Chung, M.A., Kalb, J.M. & McGhee, J.D. A fork head/HNF-3 homolog expressed in the pharynx and intestine of the Caenorhabditis elegans embryo. Dev. Biol. 178, 289\u2013303 (1996).",
+      "journal-title": "Dev. Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR15",
+      "doi-asserted-by": "crossref",
+      "first-page": "2171",
+      "DOI": "10.1242/dev.125.12.2171",
+      "volume": "125",
+      "author": "JM Kalb",
+      "year": "1998",
+      "unstructured": "Kalb, J.M. et al. pha-4 is Ce-fkh-1, a fork head/HNF-3alpha,beta,gamma homolog that functions in organogenesis of the C. elegans pharynx. Development 125, 2171\u20132180 (1998).",
+      "journal-title": "Development"
+    },
+    {
+      "key": "BFnmeth1228_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "1947",
+      "DOI": "10.1101/gad.12.13.1947",
+      "volume": "12",
+      "author": "MA Horner",
+      "year": "1998",
+      "unstructured": "Horner, M.A. et al. pha-4, an HNF-3 homolog, specifies pharyngeal organ identity in Caenorhabditis elegans. Genes Dev. 12, 1947\u20131952 (1998).",
+      "journal-title": "Genes Dev."
+    },
+    {
+      "key": "BFnmeth1228_CR17",
+      "doi-asserted-by": "crossref",
+      "first-page": "4239",
+      "DOI": "10.1242/dev.127.19.4239",
+      "volume": "127",
+      "author": "S Hallam",
+      "year": "2000",
+      "unstructured": "Hallam, S., Singer, E., Waring, D. & Jin, Y. The C. elegans NeuroD homolog cnd-1 functions in multiple aspects of motor neuron fate specification. Development 127, 4239\u20134252 (2000).",
+      "journal-title": "Development"
+    },
+    {
+      "key": "BFnmeth1228_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "219",
+      "DOI": "10.1002/bies.950170308",
+      "volume": "17",
+      "author": "M Krause",
+      "year": "1995",
+      "unstructured": "Krause, M. MyoD and myogenesis in C. elegans. Bioessays 17, 219\u2013228 (1995).",
+      "journal-title": "Bioessays"
+    },
+    {
+      "key": "BFnmeth1228_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "509",
+      "DOI": "10.1016/j.ydbio.2005.05.016",
+      "volume": "284",
+      "author": "MF Maduro",
+      "year": "2005",
+      "unstructured": "Maduro, M.F. et al. Genetic redundancy in endoderm specification within the genus Caenorhabditis. Dev. Biol. 284, 509\u2013522 (2005).",
+      "journal-title": "Dev. Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "68",
+      "DOI": "10.1006/dbio.2002.0655",
+      "volume": "246",
+      "author": "MF Maduro",
+      "year": "2002",
+      "unstructured": "Maduro, M.F. & Rothman, J.H. Making worm guts: the gene regulatory network of the Caenorhabditis elegans endoderm. Dev. Biol. 246, 68\u201385 (2002).",
+      "journal-title": "Dev. Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "229",
+      "DOI": "10.1016/S0092-8674(00)80917-4",
+      "volume": "92",
+      "author": "R Lin",
+      "year": "1998",
+      "unstructured": "Lin, R., Hill, R.J. & Priess, J.R. POP-1 and anterior-posterior fate decisions in C. elegans embryos. Cell 92, 229\u2013239 (1998).",
+      "journal-title": "Cell"
+    },
+    {
+      "key": "BFnmeth1228_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "599",
+      "DOI": "10.1016/0092-8674(95)90100-0",
+      "volume": "83",
+      "author": "R Lin",
+      "year": "1995",
+      "unstructured": "Lin, R., Thompson, S. & Priess, J.R. pop-1 encodes an HMG box protein required for the specification of a mesoderm precursor in early C. elegans embryos. Cell 83, 599\u2013609 (1995).",
+      "journal-title": "Cell"
+    },
+    {
+      "key": "BFnmeth1228_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "294",
+      "DOI": "10.1038/36869",
+      "volume": "390",
+      "author": "T Kaletta",
+      "year": "1997",
+      "unstructured": "Kaletta, T., Schnabel, H. & Schnabel, R. Binary specification of the embryonic lineage in Caenorhabditis elegans. Nature 390, 294\u2013298 (1997).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "BFnmeth1228_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "D506",
+      "DOI": "10.1093/nar/gkl818",
+      "volume": "35",
+      "author": "T Bieri",
+      "year": "2007",
+      "unstructured": "Bieri, T. et al. WormBase: new content and better access. Nucleic Acids Res. 35, D506\u2013D510 (2007).",
+      "journal-title": "Nucleic Acids Res."
+    },
+    {
+      "key": "BFnmeth1228_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "e237",
+      "DOI": "10.1371/journal.pbio.0050237",
+      "volume": "5",
+      "author": "R Hunt-Newbury",
+      "year": "2007",
+      "unstructured": "Hunt-Newbury, R. et al. High-throughput in vivo analysis of gene expression in Caenorhabditis elegans. PLoS Biol. 5, e237 (2007).",
+      "journal-title": "PLoS Biol."
+    },
+    {
+      "key": "BFnmeth1228_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "27",
+      "DOI": "10.1186/1471-2164-8-27",
+      "volume": "8",
+      "author": "JS Reece-Hoyes",
+      "year": "2007",
+      "unstructured": "Reece-Hoyes, J.S. et al. Insight into transcription factor gene duplication from Caenorhabditis elegans promoterome-driven expression patterns. BMC Genomics 8, 27 (2007).",
+      "journal-title": "BMC Genomics"
+    },
+    {
+      "key": "BFnmeth1228_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "839",
+      "DOI": "10.1038/nmeth933",
+      "volume": "3",
+      "author": "M Sarov",
+      "year": "2006",
+      "unstructured": "Sarov, M. et al. A recombineering pipeline for functional genomics applied to Caenorhabditis elegans. Nat. Methods 3, 839\u2013844 (2006).",
+      "journal-title": "Nat. Methods"
+    },
+    {
+      "key": "BFnmeth1228_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "3246",
+      "DOI": "10.1093/bioinformatics/bth349",
+      "volume": "20",
+      "author": "AJ Saldanha",
+      "year": "2004",
+      "unstructured": "Saldanha, A.J. Java Treeview\u2013extensible visualization of microarray data. Bioinformatics 20, 3246\u20133248 (2004).",
+      "journal-title": "Bioinformatics"
+    }
+  ],
+  "container-title": [
+    "Nature Methods"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://www.nature.com/articles/nmeth.1228.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://www.nature.com/articles/nmeth.1228",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://www.nature.com/articles/nmeth.1228.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        18
+      ]
+    ],
+    "date-time": "2023-05-18T18:37:57Z",
+    "timestamp": 1684435077000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/nmeth.1228"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        6,
+        29
+      ]
+    ]
+  },
+  "references-count": 28,
+  "journal-issue": {
+    "issue": "8",
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          8
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "BFnmeth1228"
+  ],
+  "URL": "https://doi.org/10.1038/nmeth.1228",
+  "relation": {
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.3410/f.1119583.575800",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1548-7091",
+    "1548-7105"
+  ],
+  "issn-type": [
+    {
+      "value": "1548-7091",
+      "type": "print"
+    },
+    {
+      "value": "1548-7105",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008,
+        6,
+        29
+      ]
+    ]
+  }
+}

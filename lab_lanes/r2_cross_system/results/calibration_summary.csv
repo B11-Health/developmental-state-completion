@@ -1,0 +1,4 @@
+estimator,complete_p95,incomplete_power,n_sim,history_effect_target_sd
+hist_gb,0.040927665805822064,0.175,200,0.3
+random_forest,0.058326988696465874,0.21,200,0.3
+ridge,0.015782770683426504,0.39,200,0.3

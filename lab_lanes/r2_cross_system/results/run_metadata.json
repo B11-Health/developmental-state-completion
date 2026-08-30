@@ -1,0 +1,16 @@
+{
+  "n_rows": 701,
+  "embryos": {
+    "02": 355,
+    "01": 346
+  },
+  "groups_depth2": 24,
+  "groups_depth1": 12,
+  "observed_splits": 100,
+  "strict_splits": 100,
+  "noemb_splits": 100,
+  "calibration_sims": 200,
+  "max_group_overlap_primary": 0,
+  "stable_residual_history_rule_met": false,
+  "estimators_meeting_all_conditions": []
+}
