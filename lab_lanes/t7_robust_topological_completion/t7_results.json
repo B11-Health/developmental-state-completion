@@ -1,0 +1,24 @@
+{
+  "sphere_constant_decoder_worst_error": 1.0,
+  "identity_antipodal_margin_S1": 1.9999999999999998,
+  "circle_scalar_sample_min_abs_difference": 1.543054966925665e-16,
+  "circle_scalar_sign_change_detected": true,
+  "compact_trivial_3cover_sample_margin": 2.9999999999999996,
+  "noise_threshold_demo": {
+    "delta": 2.0,
+    "safe_eta_example": 0.49,
+    "touch_eta": 1.0,
+    "overlap_eta": 1.02
+  },
+  "tv_pair_and_midpoint_distances": [
+    1.0,
+    0.5,
+    0.5
+  ],
+  "w1_pair_and_midpoint_distances": [
+    2.0,
+    1.0,
+    1.0
+  ],
+  "noncompact_margin_at_t_100000": 9.99990000099999e-06
+}
