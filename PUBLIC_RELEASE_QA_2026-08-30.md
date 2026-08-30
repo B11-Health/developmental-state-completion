@@ -2,10 +2,10 @@
 
 Status: LOCAL RELEASE CANDIDATE / NOT PUSHED
 
-Release commit under review: `9e841d6` — audited science refresh through the SLICE-1 R15 pilot.
+P1A starting release candidate under review: `698784e` — audited science refresh through the SLICE-1 R15B source-level replication.
 
 ## Scope
-This release candidate updates the public preprint/claims ledger and adds audited scientific/reproducibility lanes R10B, R11/R11A, T8/T8A, R12/R12A, R13/R13A, T9/T9A, and R15/R15A. It deliberately excludes rejected/pending media artifacts, R16 in-progress validation, grant proposal packages, and newer institutional/governance working papers.
+This release candidate updates the public preprint/claims ledger and adds audited scientific/reproducibility lanes R10B, R11/R11A, T8/T8A, R12/R12A, R13/R13A, T9/T9A, and R15/R15A/R15B. It deliberately excludes rejected/pending media artifacts, R16 in-progress validation, grant proposal packages, and newer institutional/governance working papers.
 
 ## Mechanical QA
 Executed from this release worktree:
@@ -18,4 +18,4 @@ Executed from this release worktree:
 - `lab_lanes/r15b_source_replication/R15B_SOURCE_REPLICATION_AUDIT.md` -> PASS; four fresh Zenodo preview downloads match committed size/SHA-256 exactly, feature tables match with max absolute difference 0, and metric differences are <= 2.3e-16.
 
 ## Release gate
-R15B source-level replication is now PASS: fresh Zenodo bytes, SHA-256, all four 49x49 feature tables, both gates, and all reported metrics reproduce. Do not push this branch until a final diff/claim-boundary review confirms no superseded statement. R16 remains in-progress and is intentionally excluded.
+R15B source-level replication is PASS: fresh Zenodo bytes, SHA-256, all four 49x49 feature tables, both gates, and all reported metrics reproduce. P1A performs the final local diff/claim-boundary review in `PUBLIC_RELEASE_AUDIT_2026-08-30.md`; R16 remains in-progress and is intentionally excluded.

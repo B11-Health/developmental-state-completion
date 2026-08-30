@@ -499,9 +499,10 @@ Artifacts: `lab_lanes/r13_domainwise_sensitivity_surface/` and `lab_lanes/r13a_m
 - Predeclared cross-marker Lamin #4 stress test DS0035: Ridge **+0.0371**, Random Forest **+0.0378**, Extra Trees **+0.0341**; all three beat the train-only mean baseline.
 - Four-hour-older image history reduced held-out R2 for every estimator in both embryos: DS0007 deltas **-0.0540/-0.0088/-0.0081**; DS0035 **-0.1127/-0.0151/-0.0776** for Ridge/RF/ET respectively.
 - R15A reimplemented the analysis without importing R15 model code; all gates and metrics reproduce to machine precision. Repository history verifies preregistration/model-freeze commits before the validation-result commit.
+- R15B independently redownloaded the four exact released preview TIFFs, matched committed byte sizes and SHA-256 hashes, regenerated all four 49x49 feature tables exactly, and reproduced both gates and all primary/secondary metrics to machine precision.
 
 **Allowed claim:** a compact eight-coordinate current whole-embryo image-geometry state achieved modest positive four-hour-future vector prediction in two untouched embryos, including a predeclared marker-domain stress test.
 
 **Prohibited upgrade:** do not claim history redundancy, screening-off, Markovity, cell-lineage state completion, causal or molecular memory, or generalization to the full SLICE-1 collection. Negative observed history deltas are unresolved because the pilot lacks matched sensitivity calibration and has only two development embryos.
 
-Artifacts: `lab_lanes/r15_slice1_multiacquisition/` and `lab_lanes/r15a_independent_audit/`.
+Artifacts: `lab_lanes/r15_slice1_multiacquisition/`, `lab_lanes/r15a_independent_audit/`, and `lab_lanes/r15b_source_replication/`.

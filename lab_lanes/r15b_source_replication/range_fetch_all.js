@@ -1,5 +1,5 @@
 const fs=require('fs'); const path=require('path');
-const base=path.join('C:/Users/codeg/mcp-shell-auth/workspace/developmental-state-completion-r15b/lab_lanes/r15b_source_replication/raw');
+const base=path.join(__dirname,'raw');
 const jobs=[
  ['DS0004',17391047,63858868],['DS0005',17391052,56385544],['DS0007',17391061,64939950],['DS0035',17391295,74069986]
 ].map(([ds,id,total])=>({ds,total,file:path.join(base,`Strobl2025A-${ds}-Movie-FQ.TIF`),url:`https://zenodo.org/api/records/${id}/files/Strobl2025A-${ds}-Movie-FQ.TIF/content`}));

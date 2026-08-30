@@ -47,7 +47,7 @@ Also `Cov(g,Z)=E[gZ]=E[EZ]=0`, because `Z` is measurable in `(S,H)` and `Cov(E,Z
 
 Writing
 
-`q = Var(E[E|S,H]) / (V_M+V_E) >= 0`, 
+`q = Var(E[E|S,H]) / (V_M+V_E) >= 0`,
 
 this is
 
