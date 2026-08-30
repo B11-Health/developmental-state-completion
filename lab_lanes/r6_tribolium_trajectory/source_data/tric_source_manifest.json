@@ -1,0 +1,194 @@
+{
+  "url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DL-TRIC.zip",
+  "frames": [
+    15,
+    20,
+    23,
+    24,
+    25,
+    40
+  ],
+  "coordinate_note": "x/y pixel coordinates of cartographic-projection gold labels; z slice centroid retained diagnostically but no physical voxel calibration is claimed",
+  "files": [
+    {
+      "sequence": "01",
+      "frame": 15,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track015.tif",
+      "compressed_size": 52832,
+      "uncompressed_size": 2254106,
+      "crc32": 374402752,
+      "sha256_uncompressed": "f8dfc37e7f0362115d223b06b7e043e448f1d1eb377ec6efb9fba666b20625ea",
+      "labels_present": 123,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 20,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track020.tif",
+      "compressed_size": 52966,
+      "uncompressed_size": 2254140,
+      "crc32": 704787467,
+      "sha256_uncompressed": "79c7d95249c3fd478e498c3a477ef25b67429da46228297595c75b27ba5bc981",
+      "labels_present": 126,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 23,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track023.tif",
+      "compressed_size": 52858,
+      "uncompressed_size": 2254176,
+      "crc32": 1913320984,
+      "sha256_uncompressed": "17fe853a5e9540a58e0b1daf61cdc33578749077aab0f0e706f2764573b58b9e",
+      "labels_present": 128,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 24,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track024.tif",
+      "compressed_size": 52863,
+      "uncompressed_size": 2254188,
+      "crc32": 2153096175,
+      "sha256_uncompressed": "59ff231e04f03e98571aa431b534013b640ca9af3719e2603fc4c2e2f4b1836a",
+      "labels_present": 129,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 25,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track025.tif",
+      "compressed_size": 53007,
+      "uncompressed_size": 2254196,
+      "crc32": 1306477693,
+      "sha256_uncompressed": "3a185e282f2ebdd57365517d0d5d0743f0febd8b8e6343a1a74a32b866cc18e2",
+      "labels_present": 130,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 40,
+      "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track040.tif",
+      "compressed_size": 54000,
+      "uncompressed_size": 2254522,
+      "crc32": 1259922061,
+      "sha256_uncompressed": "f18cf1984f88b133a5e3cc4ab3cce376c8b1ed028d34153bcdb99f1d40b12090",
+      "labels_present": 153,
+      "z_slices": 13,
+      "xy_size": [
+        1693,
+        2454
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 15,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track015.tif",
+      "compressed_size": 55083,
+      "uncompressed_size": 2274094,
+      "crc32": 517255255,
+      "sha256_uncompressed": "050d93cbbefca758c171f90fb8aee9ce29bc8d61bcb0c6a3e46cfe72034aa3a7",
+      "labels_present": 204,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 20,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track020.tif",
+      "compressed_size": 55127,
+      "uncompressed_size": 2274124,
+      "crc32": 2380495740,
+      "sha256_uncompressed": "476ca07dc34fc7da895dff463979051c3508024a68e47b564a5b7c2a4c0cdef4",
+      "labels_present": 206,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 23,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track023.tif",
+      "compressed_size": 55023,
+      "uncompressed_size": 2274146,
+      "crc32": 114999635,
+      "sha256_uncompressed": "7b02bed7f19cdc4e7dde1787ec4e7ca1c261c2edc29c5f0e9e364ff5e3356a18",
+      "labels_present": 208,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 24,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track024.tif",
+      "compressed_size": 55121,
+      "uncompressed_size": 2274138,
+      "crc32": 3650982338,
+      "sha256_uncompressed": "da8f11d003dc594725f2f2ef6132a16864993147295c502d2624a4b205238844",
+      "labels_present": 208,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 25,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track025.tif",
+      "compressed_size": 55224,
+      "uncompressed_size": 2274158,
+      "crc32": 2227346685,
+      "sha256_uncompressed": "9297fa141f14596458243ca24701a78b09ab89f99220ec4f5064dd189cc0887a",
+      "labels_present": 209,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    },
+    {
+      "sequence": "02",
+      "frame": 40,
+      "zip_name": "Fluo-N3DL-TRIC/02_GT/TRA/man_track040.tif",
+      "compressed_size": 55312,
+      "uncompressed_size": 2274212,
+      "crc32": 1874453107,
+      "sha256_uncompressed": "986554805f08f82b3f4380dcc1e0aec6287c20fb7a4d2f5264d7a8ead461980b",
+      "labels_present": 213,
+      "z_slices": 13,
+      "xy_size": [
+        1745,
+        2440
+      ]
+    }
+  ]
+}
