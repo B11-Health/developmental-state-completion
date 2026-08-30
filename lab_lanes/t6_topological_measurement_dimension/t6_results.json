@@ -1,0 +1,79 @@
+{
+  "interpretation": "Finite numerical witnesses only; theorem proofs are in THEOREMS.md.",
+  "circle_scalar": {
+    "cos": {
+      "min_abs_sampled_antipodal_gap": 2.4492935982947064e-16,
+      "theta_at_min": 1.5707963267948966,
+      "signed_gap": 2.4492935982947064e-16,
+      "sampled_sign_change": true
+    },
+    "sin_plus_cos2": {
+      "min_abs_sampled_antipodal_gap": 1.1102230246251565e-16,
+      "theta_at_min": 0.0,
+      "signed_gap": -1.1102230246251565e-16,
+      "sampled_sign_change": true
+    },
+    "smooth_combo": {
+      "min_abs_sampled_antipodal_gap": 6.490127107516841e-05,
+      "theta_at_min": 0.2249380339970292,
+      "signed_gap": -6.490127107516841e-05,
+      "sampled_sign_change": true
+    }
+  },
+  "circle_two_channel": {
+    "sampled_min_distance": 1.9999999999999998,
+    "max_abs_error_from_exact_2": 4.440892098500626e-16
+  },
+  "degree_covers": [
+    {
+      "degree": 2,
+      "set_theoretic_bits": 1,
+      "continuous_real_channels_planar": 2,
+      "sampled_min_sheet_distance": 1.9999999999999998,
+      "exact_min_sheet_distance": 2.0,
+      "abs_error": 2.220446049250313e-16
+    },
+    {
+      "degree": 3,
+      "set_theoretic_bits": 2,
+      "continuous_real_channels_planar": 2,
+      "sampled_min_sheet_distance": 1.7320508075688765,
+      "exact_min_sheet_distance": 1.7320508075688772,
+      "abs_error": 6.661338147750939e-16
+    },
+    {
+      "degree": 4,
+      "set_theoretic_bits": 2,
+      "continuous_real_channels_planar": 2,
+      "sampled_min_sheet_distance": 1.4142135623730945,
+      "exact_min_sheet_distance": 1.4142135623730951,
+      "abs_error": 6.661338147750939e-16
+    },
+    {
+      "degree": 8,
+      "set_theoretic_bits": 3,
+      "continuous_real_channels_planar": 2,
+      "sampled_min_sheet_distance": 0.7653668647301786,
+      "exact_min_sheet_distance": 0.7653668647301796,
+      "abs_error": 9.992007221626409e-16
+    }
+  ],
+  "degree2_monodromy": {
+    "start_sheet_angles": [
+      0.0,
+      3.141592653589793
+    ],
+    "end_sheet_angles_after_one_base_loop": [
+      3.141592653589793,
+      6.283185307179586
+    ],
+    "endpoint_mod_2pi": [
+      3.141592653589793,
+      0.0
+    ],
+    "monodromy_permutation": [
+      1,
+      0
+    ]
+  }
+}
