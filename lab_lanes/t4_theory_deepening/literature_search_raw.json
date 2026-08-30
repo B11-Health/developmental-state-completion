@@ -1,0 +1,1924 @@
+{
+  "source": "OpenAlex API",
+  "accessed": "2026-08-30",
+  "queries": [
+    {
+      "query": "computational mechanics causal states predictive equivalence",
+      "results": [
+        {
+          "id": "https://openalex.org/W1759597146",
+          "title": "Equilibration, thermalisation, and the emergence of statistical mechanics in closed quantum systems",
+          "year": 2016,
+          "doi": "https://doi.org/10.1088/0034-4885/79/5/056001",
+          "type": "article",
+          "cited_by_count": 1014,
+          "venue": "Reports on Progress in Physics",
+          "authors": [
+            "Christian Gogolin",
+            "Jens Eisert"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2801890059",
+          "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+          "year": 2017,
+          "doi": null,
+          "type": "book",
+          "cited_by_count": 823,
+          "venue": "OAPEN (The OAPEN Foundation)",
+          "authors": [
+            "Jonas Peters",
+            "Dominik Janzing",
+            "Bernhard Sch\u00f6lkopf"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2198277591",
+          "title": "The Cellular Automaton Interpretation of Quantum Mechanics",
+          "year": 2016,
+          "doi": "https://doi.org/10.1007/978-3-319-41285-6",
+          "type": "book",
+          "cited_by_count": 360,
+          "venue": "Fundamental theories of physics",
+          "authors": [
+            "Gerard \u2019t Hooft"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2053499780",
+          "title": "Electronic excitations: density-functional versus many-body Green\u2019s-function approaches",
+          "year": 2002,
+          "doi": "https://doi.org/10.1103/revmodphys.74.601",
+          "type": "article",
+          "cited_by_count": 4154,
+          "venue": "Reviews of Modern Physics",
+          "authors": [
+            "Giovanni Onida",
+            "Lucia Reining",
+            "\u00c1ngel Rubio"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2071743233",
+          "title": "Qualitative probabilities for default reasoning, belief revision, and causal modeling",
+          "year": 1996,
+          "doi": "https://doi.org/10.1016/0004-3702(95)00090-9",
+          "type": "article",
+          "cited_by_count": 327,
+          "venue": "Artificial Intelligence",
+          "authors": [
+            "Mois\u00e9s Goldszmidt",
+            "Judea Pearl"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1781308629",
+          "title": "Toward a formalized account of attitudes: The Causal Attitude Network (CAN) model.",
+          "year": 2015,
+          "doi": "https://doi.org/10.1037/a0039802",
+          "type": "article",
+          "cited_by_count": 403,
+          "venue": "Psychological Review",
+          "authors": [
+            "Jonas Dalege",
+            "Denny Borsboom",
+            "Frenk van Harreveld",
+            "Helma van den Berg",
+            "Mark Conner",
+            "Han L. J. van der Maas"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2526522103",
+          "title": "Quantum Common Causes and Quantum Causal Models",
+          "year": 2017,
+          "doi": "https://doi.org/10.1103/physrevx.7.031021",
+          "type": "article",
+          "cited_by_count": 218,
+          "venue": "Physical Review X",
+          "authors": [
+            "John-Mark A. Allen",
+            "Jonathan Barrett",
+            "Dominic Horsman",
+            "Ciar\u00e1n M. Lee",
+            "Robert W. Spekkens"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2147277594",
+          "title": "Preferred States, Predictability, Classicality and the Environment-Induced Decoherence",
+          "year": 1993,
+          "doi": "https://doi.org/10.1143/ptp/89.2.281",
+          "type": "article",
+          "cited_by_count": 436,
+          "venue": "Progress of Theoretical Physics",
+          "authors": [
+            "W. H. Zurek"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "predictive state representations controlled dynamical systems",
+      "results": [
+        {
+          "id": "https://openalex.org/W2158282517",
+          "title": "Predictive Representations of State",
+          "year": 2001,
+          "doi": null,
+          "type": "article",
+          "cited_by_count": 428,
+          "venue": null,
+          "authors": [
+            "Michael L. Littman",
+            "Richard S. Sutton"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2417483443",
+          "title": "The Ensembl Variant Effect Predictor",
+          "year": 2016,
+          "doi": "https://doi.org/10.1186/s13059-016-0974-4",
+          "type": "article",
+          "cited_by_count": 8916,
+          "venue": "Genome biology",
+          "authors": [
+            "William McLaren",
+            "Laurent Gil",
+            "Sarah Hunt",
+            "Harpreet Singh Riat",
+            "Graham R. S. Ritchie",
+            "Anja Thormann",
+            "Paul Flicek",
+            "Fiona Cunningham"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2172945660",
+          "title": "Koopman Invariant Subspaces and Finite Linear Representations of Nonlinear Dynamical Systems for Control",
+          "year": 2016,
+          "doi": "https://doi.org/10.1371/journal.pone.0150171",
+          "type": "article",
+          "cited_by_count": 641,
+          "venue": "PLoS ONE",
+          "authors": [
+            "Steven L. Brunton",
+            "Bingni W. Brunton",
+            "Joshua L. Proctor",
+            "J. Nathan Kutz"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1540337045",
+          "title": "Predictive state representations: a new theory for modeling dynamical systems",
+          "year": 2004,
+          "doi": "https://doi.org/10.5555/1036843.1036905",
+          "type": "article",
+          "cited_by_count": 212,
+          "venue": "Uncertainty in Artificial Intelligence",
+          "authors": [
+            "Satinder Singh",
+            "M. R. James",
+            "Matthew Rudary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2950635152",
+          "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation",
+          "year": 2014,
+          "doi": "https://doi.org/10.48550/arxiv.1406.1078",
+          "type": "preprint",
+          "cited_by_count": 3509,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Kyunghyun Cho",
+            "Bart van Merri\u00ebnboer",
+            "\u00c7a\u011flar G\u00fcl\u00e7ehre",
+            "Dzmitry Bahdanau",
+            "Fethi Bougares",
+            "Holger Schwenk",
+            "Yoshua Bengio"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1723433682",
+          "title": "Dynamic Mode Decomposition with Control",
+          "year": 2016,
+          "doi": "https://doi.org/10.1137/15m1013857",
+          "type": "article",
+          "cited_by_count": 1131,
+          "venue": "SIAM Journal on Applied Dynamical Systems",
+          "authors": [
+            "Joshua L. Proctor",
+            "Steven L. Brunton",
+            "J. Nathan Kutz"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2153791616",
+          "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+          "year": 2013,
+          "doi": "https://doi.org/10.1017/s0140525x12000477",
+          "type": "article",
+          "cited_by_count": 6069,
+          "venue": "Behavioral and Brain Sciences",
+          "authors": [
+            "Andy Clark"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2100677568",
+          "title": "Learning to Predict by the Methods of Temporal Differences",
+          "year": 1988,
+          "doi": "https://doi.org/10.1023/a:1022633531479",
+          "type": "article",
+          "cited_by_count": 3969,
+          "venue": "Machine Learning",
+          "authors": [
+            "Richard S. Sutton"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "epsilon transducer input output computational mechanics",
+      "results": [
+        {
+          "id": "https://openalex.org/W1525134320",
+          "title": "Computational Mechanics of Input\u2013Output Processes: Structured Transformations and the $$\\epsilon $$-Transducer",
+          "year": 2015,
+          "doi": "https://doi.org/10.1007/s10955-015-1327-5",
+          "type": "article",
+          "cited_by_count": 55,
+          "venue": "Journal of Statistical Physics",
+          "authors": [
+            "Nix Barnett",
+            "James P. Crutchfield"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3105627797",
+          "title": "Computational Mechanics of Input-Output Processes: Structured transformations and the\\n $\\\\epsilon$-transducer",
+          "year": 2014,
+          "doi": null,
+          "type": "article",
+          "cited_by_count": 49,
+          "venue": "eScholarship (California Digital Library)",
+          "authors": [
+            "Nix Barnett",
+            "James P. Crutchfield"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2273899029",
+          "title": "Using quantum theory to simplify input\u2013output processes",
+          "year": 2017,
+          "doi": "https://doi.org/10.1038/s41534-016-0001-3",
+          "type": "article",
+          "cited_by_count": 32,
+          "venue": "npj Quantum Information",
+          "authors": [
+            "Jayne Thompson",
+            "Andrew J. P. Garner",
+            "Vlatko Vedral",
+            "Mile Gu"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2802492120",
+          "title": "Reverse Screening Methods to Search for the Protein Targets of Chemopreventive Compounds",
+          "year": 2018,
+          "doi": "https://doi.org/10.3389/fchem.2018.00138",
+          "type": "article",
+          "cited_by_count": 136,
+          "venue": "Frontiers in Chemistry",
+          "authors": [
+            "Hongbin Huang",
+            "Guigui Zhang",
+            "Yuquan Zhou",
+            "Chenru Lin",
+            "Suling Chen",
+            "Yutong Lin",
+            "Shangkang Mai",
+            "Zunnan Huang"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2951215190",
+          "title": "On-machine and in-process surface metrology for precision manufacturing",
+          "year": 2019,
+          "doi": "https://doi.org/10.1016/j.cirp.2019.05.005",
+          "type": "article",
+          "cited_by_count": 442,
+          "venue": "CIRP Annals",
+          "authors": [
+            "Wei Gao",
+            "Han Haitjema",
+            "Fengzhou Fang",
+            "Richard Leach",
+            "Chi Fai Cheung",
+            "Enrico Savio",
+            "Jean\u2010Marc Linares"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2727251225",
+          "title": "Evaluation of the integration of the Wind-Induced Flutter Energy Harvester (WIFEH) into the built environment: Experimental and numerical analysis",
+          "year": 2017,
+          "doi": "https://doi.org/10.1016/j.apenergy.2017.06.041",
+          "type": "article",
+          "cited_by_count": 64,
+          "venue": "Applied Energy",
+          "authors": [
+            "Angelo I. Aquino",
+            "John Kaiser Calautit",
+            "Ben Richard Hughes"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2890993780",
+          "title": "A Computational Fluid Dynamic Analysis of Archimedes Screw Generators",
+          "year": 2018,
+          "doi": null,
+          "type": "dissertation",
+          "cited_by_count": 9,
+          "venue": "The Atrium (University of Guelph)",
+          "authors": [
+            "Scott Simmons"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2050300973",
+          "title": "Investigation of Mechanical Loss Components and Heat Transfer in an Axial-Flux PM Machine",
+          "year": 2015,
+          "doi": "https://doi.org/10.1109/tia.2015.2405499",
+          "type": "article",
+          "cited_by_count": 64,
+          "venue": "IEEE Transactions on Industry Applications",
+          "authors": [
+            "Rafa\u0142 Wr\u00f3bel",
+            "Gyula Vainel",
+            "Colin Copeland",
+            "Tomasz Duda",
+            "Dave Staton",
+            "Phil Mellor"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "nonlinear controllability observability Hermann Krener",
+      "results": [
+        {
+          "id": "https://openalex.org/W2078029337",
+          "title": "Observability and Controllability of Nonlinear Networks: The Role of Symmetry",
+          "year": 2015,
+          "doi": "https://doi.org/10.1103/physrevx.5.011005",
+          "type": "article",
+          "cited_by_count": 157,
+          "venue": "Physical Review X",
+          "authors": [
+            "Andrew J. Whalen",
+            "Sean Brennan",
+            "Timothy Sauer",
+            "Steven J. Schiff"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W631162831",
+          "title": "Controllability and Observability of Nonlinear Systems.",
+          "year": 1987,
+          "doi": null,
+          "type": "report",
+          "cited_by_count": 19,
+          "venue": "University Libraries (University of Maryland)",
+          "authors": [
+            "M. R. James"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2905083628",
+          "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+          "year": 2019,
+          "doi": "https://doi.org/10.1155/2019/8497093",
+          "type": "article",
+          "cited_by_count": 135,
+          "venue": "Complexity",
+          "authors": [
+            "Alejandro F. Villaverde"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2012540279",
+          "title": "Semi-global finite-time observers for nonlinear systems",
+          "year": 2008,
+          "doi": "https://doi.org/10.1016/j.automatica.2008.05.015",
+          "type": "article",
+          "cited_by_count": 294,
+          "venue": "Automatica",
+          "authors": [
+            "Yanjun Shen",
+            "Xiaohua Xia"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2003418697",
+          "title": "Nonlinear observers for locally uniformly observable systems",
+          "year": 2003,
+          "doi": "https://doi.org/10.1051/cocv:2003017",
+          "type": "article",
+          "cited_by_count": 98,
+          "venue": "ESAIM Control Optimisation and Calculus of Variations",
+          "authors": [
+            "H. Hammouri",
+            "M. Farza"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1877916171",
+          "title": "Control principles of complex systems",
+          "year": 2016,
+          "doi": "https://doi.org/10.1103/revmodphys.88.035006",
+          "type": "article",
+          "cited_by_count": 680,
+          "venue": "Reviews of Modern Physics",
+          "authors": [
+            "Yang\u2010Yu Liu",
+            "Albert-\u0139aszl\u00f3 Barab\u00e1si"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2481156948",
+          "title": "Observability Normal Forms",
+          "year": 2004,
+          "doi": "https://doi.org/10.1007/978-3-540-45056-6_1",
+          "type": "book-chapter",
+          "cited_by_count": 19,
+          "venue": "Lecture notes in control and information sciences",
+          "authors": [
+            "J-P. Barbot",
+            "I. Belmouhoub",
+            "Latifa Boutat\u2010Baddas"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2946782338",
+          "title": "Observability of nonlinear systems with unmeasured inputs",
+          "year": 2019,
+          "doi": "https://doi.org/10.1016/j.ymssp.2019.05.010",
+          "type": "article",
+          "cited_by_count": 59,
+          "venue": "Mechanical Systems and Signal Processing",
+          "authors": [
+            "Kristof Maes",
+            "Manolis N. Chatzis",
+            "Geert Lombaert"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "structural identifiability nonlinear biological systems observability",
+      "results": [
+        {
+          "id": "https://openalex.org/W2905083628",
+          "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+          "year": 2019,
+          "doi": "https://doi.org/10.1155/2019/8497093",
+          "type": "article",
+          "cited_by_count": 135,
+          "venue": "Complexity",
+          "authors": [
+            "Alejandro F. Villaverde"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2541490590",
+          "title": "Structural Identifiability of Dynamic Systems Biology Models",
+          "year": 2016,
+          "doi": "https://doi.org/10.1371/journal.pcbi.1005153",
+          "type": "article",
+          "cited_by_count": 292,
+          "venue": "PLoS Computational Biology",
+          "authors": [
+            "Alejandro F. Villaverde",
+            "Antonio Barreiro",
+            "Antonis Papachristodoulou"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2168648059",
+          "title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+          "year": 2009,
+          "doi": "https://doi.org/10.1093/bioinformatics/btp358",
+          "type": "article",
+          "cited_by_count": 1469,
+          "venue": "Bioinformatics",
+          "authors": [
+            "Andreas Raue",
+            "Clemens Kreutz",
+            "Tim Maiwald",
+            "Jasmin Bachmann",
+            "Marcel Schilling",
+            "Ursula Klingm\u00fcller",
+            "Jens Timmer"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2059246518",
+          "title": "Identifiability and observability analysis for experimental design in nonlinear dynamical models",
+          "year": 2010,
+          "doi": "https://doi.org/10.1063/1.3528102",
+          "type": "article",
+          "cited_by_count": 142,
+          "venue": "Chaos An Interdisciplinary Journal of Nonlinear Science",
+          "authors": [
+            "Andreas Raue",
+            "Verena Becker",
+            "Ursula Klingm\u00fcller",
+            "Jens Timmer"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2033783472",
+          "title": "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods",
+          "year": 2011,
+          "doi": "https://doi.org/10.1371/journal.pone.0027755",
+          "type": "article",
+          "cited_by_count": 479,
+          "venue": "PLoS ONE",
+          "authors": [
+            "Oana-Teodora Chis",
+            "Julio R. Banga",
+            "Eva Balsa\u2010Canto"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3126293391",
+          "title": "On structural and practical identifiability",
+          "year": 2021,
+          "doi": "https://doi.org/10.1016/j.coisb.2021.03.005",
+          "type": "article",
+          "cited_by_count": 338,
+          "venue": "Current Opinion in Systems Biology",
+          "authors": [
+            "Franz-Georg Wieland",
+            "Adrian L. Hauber",
+            "Marcus Rosenblatt",
+            "Christian T\u00f6nsing",
+            "Jens Timmer"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2950036662",
+          "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+          "year": 2018,
+          "doi": "https://doi.org/10.48550/arxiv.1812.04525",
+          "type": "preprint",
+          "cited_by_count": 4,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Alejandro F. Villaverde"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W217529161",
+          "title": "Observability and identifiability of nonlinear systems with applications in biology",
+          "year": 2007,
+          "doi": null,
+          "type": "dissertation",
+          "cited_by_count": 55,
+          "venue": "Chalmers Publication Library (Chalmers University of Technology)",
+          "authors": [
+            "Milena Anguelova"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "bisimulation Markov decision process state abstraction",
+      "results": [
+        {
+          "id": "https://openalex.org/W2058735307",
+          "title": "Equivalence notions and model minimization in Markov decision processes",
+          "year": 2003,
+          "doi": "https://doi.org/10.1016/s0004-3702(02)00376-4",
+          "type": "article",
+          "cited_by_count": 317,
+          "venue": "Artificial Intelligence",
+          "authors": [
+            "Robert Givan",
+            "Thomas Dean",
+            "Matthew Greig"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2015172530",
+          "title": "Metrics for labelled Markov processes",
+          "year": 2003,
+          "doi": "https://doi.org/10.1016/j.tcs.2003.09.013",
+          "type": "article",
+          "cited_by_count": 311,
+          "venue": "Theoretical Computer Science",
+          "authors": [
+            "Jos\u00e9e Desharnais",
+            "Vineet Gupta",
+            "Radha Jagadeesan",
+            "Prakash Panangaden"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2109080678",
+          "title": "Equivalence of Dynamical Systems by Bisimulation",
+          "year": 2004,
+          "doi": "https://doi.org/10.1109/tac.2004.838497",
+          "type": "article",
+          "cited_by_count": 204,
+          "venue": "IEEE Transactions on Automatic Control",
+          "authors": [
+            "A. vanderSchaft"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1704074244",
+          "title": "Weak bisimulation for fully probabilistic processes",
+          "year": 1997,
+          "doi": "https://doi.org/10.1007/3-540-63166-6_14",
+          "type": "conference-paper",
+          "cited_by_count": 153,
+          "venue": "Lecture notes in computer science",
+          "authors": [
+            "Christel Baier",
+            "Holger Hermanns"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2139324000",
+          "title": "Magnifying-Lens Abstraction for Markov Decision Processes",
+          "year": 2007,
+          "doi": "https://doi.org/10.1007/978-3-540-73368-3_38",
+          "type": "conference-paper",
+          "cited_by_count": 55,
+          "venue": "Lecture notes in computer science",
+          "authors": [
+            "Luca de Alfaro",
+            "Pritam Roy"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1509804682",
+          "title": "Bisimulation and Logical Preservation for Continuous-Time Markov Decision Processes",
+          "year": 2007,
+          "doi": "https://doi.org/10.1007/978-3-540-74407-8_28",
+          "type": "conference-paper",
+          "cited_by_count": 45,
+          "venue": "Lecture notes in computer science",
+          "authors": [
+            "Martin R. Neuh\u00e4u\u00dfer",
+            "Joost-Pieter Katoen"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2997101648",
+          "title": "Scalable Methods for Computing State Similarity in Deterministic Markov Decision Processes",
+          "year": 2020,
+          "doi": "https://doi.org/10.1609/aaai.v34i06.6564",
+          "type": "article",
+          "cited_by_count": 69,
+          "venue": null,
+          "authors": [
+            "Pablo Samuel Castro"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1501881008",
+          "title": "Bisimulation Minimisation Mostly Speeds Up Probabilistic Model Checking",
+          "year": 2007,
+          "doi": "https://doi.org/10.1007/978-3-540-71209-1_9",
+          "type": "conference-paper",
+          "cited_by_count": 120,
+          "venue": "Lecture notes in computer science",
+          "authors": [
+            "Joost-Pieter Katoen",
+            "Tim Kemna",
+            "Ivan S. Zapreev",
+            "David N. Jansen"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "bisimulation metrics Markov decision process Ferns Panangaden Precup",
+      "results": [
+        {
+          "id": "https://openalex.org/W1995688924",
+          "title": "Bisimulation Metrics for Continuous Markov Decision Processes",
+          "year": 2011,
+          "doi": "https://doi.org/10.1137/10080484x",
+          "type": "article",
+          "cited_by_count": 102,
+          "venue": "SIAM Journal on Computing",
+          "authors": [
+            "Norm Ferns",
+            "Prakash Panangaden",
+            "Doina Precup"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2997101648",
+          "title": "Scalable Methods for Computing State Similarity in Deterministic Markov Decision Processes",
+          "year": 2020,
+          "doi": "https://doi.org/10.1609/aaai.v34i06.6564",
+          "type": "article",
+          "cited_by_count": 69,
+          "venue": null,
+          "authors": [
+            "Pablo Samuel Castro"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2122994575",
+          "title": "Approximation Metrics Based on Probabilistic Bisimulations for General State-Space Markov Processes: A Survey",
+          "year": 2013,
+          "doi": "https://doi.org/10.1016/j.entcs.2013.12.002",
+          "type": "article",
+          "cited_by_count": 43,
+          "venue": "Electronic Notes in Theoretical Computer Science",
+          "authors": [
+            "Alessandro Abate"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1646328921",
+          "title": "Logical, Metric, and Algorithmic Characterisations of Probabilistic Bisimulation",
+          "year": 2011,
+          "doi": "https://doi.org/10.48550/arxiv.1103.4577",
+          "type": "preprint",
+          "cited_by_count": 28,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Yuxin Deng",
+            "Wenjie Du"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1504915502",
+          "title": "Using Bisimulation for Policy Transfer in MDPs",
+          "year": 2010,
+          "doi": "https://doi.org/10.1609/aaai.v24i1.7751",
+          "type": "conference-paper",
+          "cited_by_count": 27,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "authors": [
+            "Pablo F. Castro",
+            "Doina Precup"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2182573229",
+          "title": "Representation Discovery for MDPs Using Bisimulation Metrics",
+          "year": 2015,
+          "doi": "https://doi.org/10.1609/aaai.v29i1.9701",
+          "type": "conference-paper",
+          "cited_by_count": 10,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "authors": [
+            "Sherry Ruan",
+            "Gheorghe Comanici",
+            "Prakash Panangaden",
+            "Doina Precup"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4306179821",
+          "title": "A taxonomy for similarity metrics between Markov decision processes",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s10994-022-06242-4",
+          "type": "article",
+          "cited_by_count": 9,
+          "venue": "Machine Learning",
+          "authors": [
+            "Javier Garc\u00eda",
+            "\u00c1lvaro Vis\u00fas",
+            "Fernando Fern\u00e1ndez"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3125947392",
+          "title": "Learning Invariant Representations for Reinforcement Learning without\\n Reconstruction",
+          "year": 2020,
+          "doi": "https://doi.org/10.48550/arxiv.2006.10742",
+          "type": "preprint",
+          "cited_by_count": 97,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Amy Zhang",
+            "Rowan McAllister",
+            "Roberto Calandra",
+            "Yarin Gal",
+            "Sergey Levine"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "approximate simulation relations control systems Girard Pappas",
+      "results": [
+        {
+          "id": "https://openalex.org/W2074027094",
+          "title": "Approximate bisimulation relations for constrained linear systems",
+          "year": 2007,
+          "doi": "https://doi.org/10.1016/j.automatica.2007.01.019",
+          "type": "article",
+          "cited_by_count": 94,
+          "venue": "Automatica",
+          "authors": [
+            "Antoine Girard",
+            "George J. Pappas"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2113597446",
+          "title": "Approximate equivalence and synchronization of metric transition systems",
+          "year": 2008,
+          "doi": "https://doi.org/10.1016/j.sysconle.2008.09.001",
+          "type": "article",
+          "cited_by_count": 35,
+          "venue": "Systems & Control Letters",
+          "authors": [
+            "A. Agung Julius",
+            "Alessandro D\u2019Innocenzo",
+            "Maria Domenica Di Benedetto",
+            "George J. Pappas"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2113256684",
+          "title": "Approximate Bisimulations for Nonlinear Dynamical Systems",
+          "year": 2006,
+          "doi": "https://doi.org/10.1109/cdc.2005.1582235",
+          "type": "conference-paper",
+          "cited_by_count": 97,
+          "venue": null,
+          "authors": [
+            "Antoine Girard",
+            "George J. Pappas"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1838714828",
+          "title": "Feedback Refinement Relations for the Synthesis of Symbolic Controllers",
+          "year": 2016,
+          "doi": "https://doi.org/10.1109/tac.2016.2593947",
+          "type": "article",
+          "cited_by_count": 189,
+          "venue": "IEEE Transactions on Automatic Control",
+          "authors": [
+            "Gunther Reissig",
+            "Alexander Weber",
+            "Matthias Rungger"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2228126549",
+          "title": "Compositional Construction of Approximate Abstractions of Interconnected Control Systems",
+          "year": 2016,
+          "doi": "https://doi.org/10.1109/tcns.2016.2583063",
+          "type": "article",
+          "cited_by_count": 41,
+          "venue": "IEEE Transactions on Control of Network Systems",
+          "authors": [
+            "Matthias Rungger",
+            "Majid Zamani"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2962709723",
+          "title": "Controller Synthesis for Safety and Reachability via Approximate\\n Bisimulation",
+          "year": 2010,
+          "doi": "https://doi.org/10.48550/arxiv.1010.4672",
+          "type": "preprint",
+          "cited_by_count": 138,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Antoine Girard"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1979707769",
+          "title": "Lattice-valued simulations for quantitative transition systems",
+          "year": 2014,
+          "doi": "https://doi.org/10.1016/j.ijar.2014.10.001",
+          "type": "article",
+          "cited_by_count": 36,
+          "venue": "International Journal of Approximate Reasoning",
+          "authors": [
+            "Haiyu Pan",
+            "Yongming Li",
+            "Yongzhi Cao"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2267638272",
+          "title": "Computational Modeling, Formal Analysis, and Tools for Systems Biology",
+          "year": 2016,
+          "doi": "https://doi.org/10.1371/journal.pcbi.1004591",
+          "type": "article",
+          "cited_by_count": 216,
+          "venue": "PLoS Computational Biology",
+          "authors": [
+            "Ezio Bartocci",
+            "P\u00edetro Li\u00f3"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "sliced inverse regression sufficient dimension reduction",
+      "results": [
+        {
+          "id": "https://openalex.org/W2063978378",
+          "title": "Least angle regression",
+          "year": 2004,
+          "doi": "https://doi.org/10.1214/009053604000000067",
+          "type": "article",
+          "cited_by_count": 9539,
+          "venue": "The Annals of Statistics",
+          "authors": [
+            "Bradley Efron",
+            "Trevor Hastie",
+            "Iain M. Johnstone",
+            "Robert Tibshirani"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3008047081",
+          "title": "Online sufficient dimension reduction through sliced inverse regression",
+          "year": 2020,
+          "doi": null,
+          "type": "article",
+          "cited_by_count": 30,
+          "venue": "ScholarSphere (Penn State Libraries)",
+          "authors": [
+            "Zhanrui Cai",
+            "Runze Li",
+            "Li Zhu"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1603452536",
+          "title": "Sufficient Dimension Reduction via Inverse Regression",
+          "year": 2005,
+          "doi": "https://doi.org/10.1198/016214504000001501",
+          "type": "article",
+          "cited_by_count": 323,
+          "venue": "Journal of the American Statistical Association",
+          "authors": [
+            "R. Dennis Cook",
+            "Liqiang Ni"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4289538840",
+          "title": "A Review on Sliced Inverse Regression, Sufficient Dimension Reduction, and Applications",
+          "year": 2022,
+          "doi": "https://doi.org/10.5705/ss.202022.0169",
+          "type": "article",
+          "cited_by_count": 2,
+          "venue": "Statistica Sinica",
+          "authors": [
+            "Ming\u2010Yueh Huang",
+            "Hung Hung"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2031534006",
+          "title": "Contour regression: A general approach to dimension reduction",
+          "year": 2005,
+          "doi": "https://doi.org/10.1214/009053605000000192",
+          "type": "article",
+          "cited_by_count": 240,
+          "venue": "The Annals of Statistics",
+          "authors": [
+            "Bing Li",
+            "Hongyuan Zha",
+            "Francesca Chiaromonte"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3099354022",
+          "title": "Contour regression: A general approach to dimension reduction",
+          "year": 2005,
+          "doi": null,
+          "type": "preprint",
+          "cited_by_count": 235,
+          "venue": null,
+          "authors": [
+            "Bing Li",
+            "Hongyuan Zha",
+            "Francesca Chiaromonte"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2029800393",
+          "title": "Sparse sufficient dimension reduction",
+          "year": 2007,
+          "doi": "https://doi.org/10.1093/biomet/asm044",
+          "type": "article",
+          "cited_by_count": 162,
+          "venue": "Biometrika",
+          "authors": [
+            "Li Li"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1971789569",
+          "title": "Sufficient dimensions reduction in regressions with categorical predictors",
+          "year": 2002,
+          "doi": "https://doi.org/10.1214/aos/1021379862",
+          "type": "article",
+          "cited_by_count": 164,
+          "venue": "The Annals of Statistics",
+          "authors": [
+            "Francesca Chiaromonte",
+            "R. Dennis Cook",
+            "Bing Li"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "information bottleneck predictive information",
+      "results": [
+        {
+          "id": "https://openalex.org/W3110200221",
+          "title": "State predictive information bottleneck",
+          "year": 2021,
+          "doi": "https://doi.org/10.1063/5.0038198",
+          "type": "article",
+          "cited_by_count": 125,
+          "venue": "The Journal of Chemical Physics",
+          "authors": [
+            "Dedi Wang",
+            "Pratyush Tiwary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2001561361",
+          "title": "Information Bottleneck Approach to Predictive Inference",
+          "year": 2014,
+          "doi": "https://doi.org/10.3390/e16020968",
+          "type": "article",
+          "cited_by_count": 61,
+          "venue": "Entropy",
+          "authors": [
+            "Susanne Still"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3201301914",
+          "title": "Recognizing Predictive Substructures With Subgraph Information Bottleneck",
+          "year": 2021,
+          "doi": "https://doi.org/10.1109/tpami.2021.3112205",
+          "type": "article",
+          "cited_by_count": 68,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "authors": [
+            "Junchi Yu",
+            "Tingyang Xu",
+            "Yu Rong",
+            "Yatao Bian",
+            "Junzhou Huang",
+            "Ran He"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2092512759",
+          "title": "THE BOTTLENECK EFFECT AND GENETIC VARIABILITY IN POPULATIONS",
+          "year": 1975,
+          "doi": "https://doi.org/10.1111/j.1558-5646.1975.tb00807.x",
+          "type": "article",
+          "cited_by_count": 3227,
+          "venue": "Evolution",
+          "authors": [
+            "Masatoshi Nei",
+            "Takeo Maruyama",
+            "Ranajit Chakraborty"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2588003345",
+          "title": "SoilGrids250m: Global gridded soil information based on machine learning",
+          "year": 2017,
+          "doi": "https://doi.org/10.1371/journal.pone.0169748",
+          "type": "article",
+          "cited_by_count": 4821,
+          "venue": "PLoS ONE",
+          "authors": [
+            "Tomislav Hengl",
+            "Jorge Mendes de Jesus",
+            "G.B.M. Heuvelink",
+            "M. Ruiperez Gonz\u00e1lez",
+            "Milan Kilibarda",
+            "Aleksandar Blagoti\u0107",
+            "Wei Shangguan",
+            "Marvin N. Wright"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3177828909",
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "year": 2021,
+          "doi": "https://doi.org/10.1038/s41586-021-03819-2",
+          "type": "article",
+          "cited_by_count": 46865,
+          "venue": "Nature",
+          "authors": [
+            "John Jumper",
+            "Richard Evans",
+            "Alexander Pritzel",
+            "Tim Green",
+            "Michael Figurnov",
+            "Olaf Ronneberger",
+            "Kathryn Tunyasuvunakool",
+            "Russ Bates"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1978484347",
+          "title": "The productivity paradox of information technology",
+          "year": 1993,
+          "doi": "https://doi.org/10.1145/163298.163309",
+          "type": "article",
+          "cited_by_count": 2507,
+          "venue": "Communications of the ACM",
+          "authors": [
+            "Erik Brynjolfsson"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2014274241",
+          "title": "In Silico Approach for Predicting Toxicity of Peptides and Proteins",
+          "year": 2013,
+          "doi": "https://doi.org/10.1371/journal.pone.0073957",
+          "type": "article",
+          "cited_by_count": 2059,
+          "venue": "PLoS ONE",
+          "authors": [
+            "Sudheer Gupta",
+            "Pallavi Kapoor",
+            "Kumardeep Chaudhary",
+            "Ankur Gautam",
+            "Rahul Kumar",
+            "Gajendra P. S. Raghava"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "state predictive information bottleneck",
+      "results": [
+        {
+          "id": "https://openalex.org/W3110200221",
+          "title": "State predictive information bottleneck",
+          "year": 2021,
+          "doi": "https://doi.org/10.1063/5.0038198",
+          "type": "article",
+          "cited_by_count": 125,
+          "venue": "The Journal of Chemical Physics",
+          "authors": [
+            "Dedi Wang",
+            "Pratyush Tiwary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4225815792",
+          "title": "Accelerating All-Atom Simulations and Gaining Mechanistic Understanding of Biophysical Systems through State Predictive Information Bottleneck",
+          "year": 2022,
+          "doi": "https://doi.org/10.1021/acs.jctc.2c00058",
+          "type": "article",
+          "cited_by_count": 67,
+          "venue": "Journal of Chemical Theory and Computation",
+          "authors": [
+            "Shams Mehdi",
+            "Dedi Wang",
+            "Shashank Pant",
+            "Pratyush Tiwary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4400523702",
+          "title": "Calculating Protein\u2013Ligand Residence Times through State Predictive Information Bottleneck Based Enhanced Sampling",
+          "year": 2024,
+          "doi": "https://doi.org/10.1021/acs.jctc.4c00503",
+          "type": "article",
+          "cited_by_count": 25,
+          "venue": "Journal of Chemical Theory and Computation",
+          "authors": [
+            "Suemin Lee",
+            "Dedi Wang",
+            "Markus A. Seeliger",
+            "Pratyush Tiwary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2092512759",
+          "title": "THE BOTTLENECK EFFECT AND GENETIC VARIABILITY IN POPULATIONS",
+          "year": 1975,
+          "doi": "https://doi.org/10.1111/j.1558-5646.1975.tb00807.x",
+          "type": "article",
+          "cited_by_count": 3227,
+          "venue": "Evolution",
+          "authors": [
+            "Masatoshi Nei",
+            "Takeo Maruyama",
+            "Ranajit Chakraborty"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3177828909",
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "year": 2021,
+          "doi": "https://doi.org/10.1038/s41586-021-03819-2",
+          "type": "article",
+          "cited_by_count": 46865,
+          "venue": "Nature",
+          "authors": [
+            "John Jumper",
+            "Richard Evans",
+            "Alexander Pritzel",
+            "Tim Green",
+            "Michael Figurnov",
+            "Olaf Ronneberger",
+            "Kathryn Tunyasuvunakool",
+            "Russ Bates"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4404818721",
+          "title": "A graph neural network-state predictive information bottleneck (GNN-SPIB) approach for learning molecular thermodynamics and kinetics",
+          "year": 2024,
+          "doi": "https://doi.org/10.1039/d4dd00315b",
+          "type": "article",
+          "cited_by_count": 16,
+          "venue": "Digital Discovery",
+          "authors": [
+            "Ziyue Zou",
+            "Dedi Wang",
+            "Pratyush Tiwary"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2613718673",
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "year": 2015,
+          "doi": "https://doi.org/10.48550/arxiv.1506.01497",
+          "type": "preprint",
+          "cited_by_count": 18230,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "Shaoqing Ren",
+            "Kaiming He",
+            "Ross Girshick",
+            "Jian Sun"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4401728953",
+          "title": "Simulating Crystallization in a Colloidal System Using State Predictive Information Bottleneck Based Enhanced Sampling",
+          "year": 2024,
+          "doi": "https://doi.org/10.1021/acs.jpcb.4c02740",
+          "type": "article",
+          "cited_by_count": 6,
+          "venue": "The Journal of Physical Chemistry B",
+          "authors": [
+            "Vanessa J. Meraz",
+            "Ziyue Zou",
+            "Pratyush Tiwary"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "causal representation learning interventions identifiability",
+      "results": [
+        {
+          "id": "https://openalex.org/W3135588948",
+          "title": "Toward Causal Representation Learning",
+          "year": 2021,
+          "doi": "https://doi.org/10.1109/jproc.2021.3058954",
+          "type": "article",
+          "cited_by_count": 1117,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Bernhard Sch\u00f6lkopf",
+            "Francesco Locatello",
+            "Stefan Bauer",
+            "Nan Rosemary Ke",
+            "Nal Kalchbrenner",
+            "Anirudh Goyal",
+            "Yoshua Bengio"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2143117649",
+          "title": "Causal inference in statistics: An overview",
+          "year": 2009,
+          "doi": "https://doi.org/10.1214/09-ss057",
+          "type": "article",
+          "cited_by_count": 2386,
+          "venue": "Statistics Surveys",
+          "authors": [
+            "Judea Pearl"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2801890059",
+          "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+          "year": 2017,
+          "doi": null,
+          "type": "book",
+          "cited_by_count": 823,
+          "venue": "OAPEN (The OAPEN Foundation)",
+          "authors": [
+            "Jonas Peters",
+            "Dominik Janzing",
+            "Bernhard Sch\u00f6lkopf"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2917286209",
+          "title": "The seven tools of causal inference, with reflections on machine learning",
+          "year": 2019,
+          "doi": "https://doi.org/10.1145/3241036",
+          "type": "article",
+          "cited_by_count": 662,
+          "venue": "Communications of the ACM",
+          "authors": [
+            "Judea Pearl"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2145429839",
+          "title": "An Introduction to Causal Inference",
+          "year": 2010,
+          "doi": "https://doi.org/10.2202/1557-4679.1203",
+          "type": "article",
+          "cited_by_count": 758,
+          "venue": "The International Journal of Biostatistics",
+          "authors": [
+            "Judea Pearl"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2597900308",
+          "title": "A Review of Self-regulated Learning: Six Models and Four Directions for Research",
+          "year": 2017,
+          "doi": "https://doi.org/10.3389/fpsyg.2017.00422",
+          "type": "article",
+          "cited_by_count": 2724,
+          "venue": "Frontiers in Psychology",
+          "authors": [
+            "Ernesto Panadero"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2948579453",
+          "title": "Review of Causal Discovery Methods Based on Graphical Models",
+          "year": 2019,
+          "doi": "https://doi.org/10.3389/fgene.2019.00524",
+          "type": "article",
+          "cited_by_count": 876,
+          "venue": "Frontiers in Genetics",
+          "authors": [
+            "Clark Glymour",
+            "Kun Zhang",
+            "Peter Spirtes"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W659306968",
+          "title": "Learning, Remembering, and Understanding",
+          "year": 2017,
+          "doi": "https://doi.org/10.4324/9781315211985-5",
+          "type": "book-chapter",
+          "cited_by_count": 1441,
+          "venue": null,
+          "authors": [
+            "Sherrie Reynolds"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "test cover problem approximation algorithms",
+      "results": [
+        {
+          "id": "https://openalex.org/W1678356000",
+          "title": "Greedy function approximation: A gradient boosting machine.",
+          "year": 2001,
+          "doi": "https://doi.org/10.1214/aos/1013203451",
+          "type": "article",
+          "cited_by_count": 30061,
+          "venue": "The Annals of Statistics",
+          "authors": [
+            "Jerome H. Friedman"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3003257820",
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": 2020,
+          "doi": "https://doi.org/10.1038/s41592-019-0686-2",
+          "type": "article",
+          "cited_by_count": 39542,
+          "venue": "Nature Methods",
+          "authors": [
+            "Pauli Virtanen",
+            "Ralf Gommers",
+            "Travis E. Oliphant",
+            "Matt Haberland",
+            "Tyler Reddy",
+            "David Cournapeau",
+            "Evgeni Burovski",
+            "Pearu Peterson"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1990313671",
+          "title": "Approximation Algorithms for NP-Hard Problems",
+          "year": 1997,
+          "doi": "https://doi.org/10.1145/261342.571216",
+          "type": "article",
+          "cited_by_count": 3143,
+          "venue": "ACM SIGACT News",
+          "authors": [
+            "Dorit S. Hochba"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2040924621",
+          "title": "Approximation algorithms for combinatorial problems",
+          "year": 1974,
+          "doi": "https://doi.org/10.1016/s0022-0000(74)80044-9",
+          "type": "article",
+          "cited_by_count": 2231,
+          "venue": "Journal of Computer and System Sciences",
+          "authors": [
+            "David S. Johnson"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2168924128",
+          "title": "Approximation algorithms for the test cover problem",
+          "year": 2003,
+          "doi": "https://doi.org/10.1007/s10107-003-0414-6",
+          "type": "article",
+          "cited_by_count": 94,
+          "venue": "Mathematical Programming",
+          "authors": [
+            "K.M.J. de Bontridder",
+            "B.V. Halld\ufffdrsson",
+            "M.M. Halld\ufffdrsson",
+            "C.A.J. Hurkens",
+            "Jan Karel Lenstra",
+            "R. Ravi",
+            "Leen Stougie"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2087484885",
+          "title": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+          "year": 2007,
+          "doi": "https://doi.org/10.3758/bf03193146",
+          "type": "article",
+          "cited_by_count": 65765,
+          "venue": "Behavior Research Methods",
+          "authors": [
+            "Franz Faul",
+            "Edgar Erdfelder",
+            "Albert-Georg Lang",
+            "Axel Buchner"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3103145119",
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": 2019,
+          "doi": "https://doi.org/10.17863/cam.64134",
+          "type": "article",
+          "cited_by_count": 11588,
+          "venue": "Monash University Research Portal (Monash University)",
+          "authors": [
+            "Pauli Virtanen",
+            "Ralf Gommers",
+            "Travis E. Oliphant",
+            "Matt Haberland",
+            "Tyler Reddy",
+            "David Cournapeau",
+            "Evgeni Burovski",
+            "Pearu Peterson"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2127847431",
+          "title": "A Rapid Bootstrap Algorithm for the RAxML Web Servers",
+          "year": 2008,
+          "doi": "https://doi.org/10.1080/10635150802429642",
+          "type": "article",
+          "cited_by_count": 7119,
+          "venue": "Systematic Biology",
+          "authors": [
+            "Alexandros Stamatakis",
+            "Paul Hoover",
+            "Jacques Rougemont"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "active diagnosis experiment design hypothesis identification",
+      "results": [
+        {
+          "id": "https://openalex.org/W2804047627",
+          "title": "Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?",
+          "year": 2018,
+          "doi": "https://doi.org/10.1109/tmi.2018.2837502",
+          "type": "article",
+          "cited_by_count": 2361,
+          "venue": "IEEE Transactions on Medical Imaging",
+          "authors": [
+            "Olivier Bernard",
+            "Alain Lalande",
+            "Cl\u00e9ment Zotti",
+            "Frederick Cervenansky",
+            "Xin Yang",
+            "Pheng\u2010Ann Heng",
+            "Irem Cetin",
+            "Karim Lekadir"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3004280078",
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": 2020,
+          "doi": "https://doi.org/10.1038/s41586-020-2012-7",
+          "type": "article",
+          "cited_by_count": 23433,
+          "venue": "Nature",
+          "authors": [
+            "Peng Zhou",
+            "Xing\u2010Lou Yang",
+            "Xian-Guang Wang",
+            "Ben Hu",
+            "Lei Zhang",
+            "Wei Zhang",
+            "Hao-Rui Si",
+            "Yan Zhu"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4360836968",
+          "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+          "year": 2023,
+          "doi": "https://doi.org/10.48550/arxiv.2303.12712",
+          "type": "preprint",
+          "cited_by_count": 1583,
+          "venue": "arXiv (Cornell University)",
+          "authors": [
+            "S\u00e9bastien Bubeck",
+            "Varun Chandrasekaran",
+            "Ronen Eldan",
+            "Johannes Gehrke",
+            "Eric Horvitz",
+            "Ece Kamar",
+            "Peter Lee",
+            "Yin Tat Lee"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1484598383",
+          "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+          "year": 2016,
+          "doi": "https://doi.org/10.1257/aer.20150572",
+          "type": "article",
+          "cited_by_count": 2317,
+          "venue": "American Economic Review",
+          "authors": [
+            "Raj Chetty",
+            "Nathaniel Hendren",
+            "Lawrence F. Katz"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2605729742",
+          "title": "EASL Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis",
+          "year": 2017,
+          "doi": "https://doi.org/10.1016/j.jhep.2017.03.022",
+          "type": "article",
+          "cited_by_count": 1488,
+          "venue": "Journal of Hepatology",
+          "authors": [
+            "Gideon M. Hirschfield",
+            "Ulrich Beuers",
+            "Christophe Corpechot",
+            "Pietro Invernizzi",
+            "David Jones",
+            "Marco Marzioni",
+            "Christoph Schramm"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2809078375",
+          "title": "The Amyloid-\u03b2 Oligomer Hypothesis: Beginning of the Third Decade",
+          "year": 2018,
+          "doi": "https://doi.org/10.3233/jad-179941",
+          "type": "article",
+          "cited_by_count": 892,
+          "venue": "Journal of Alzheimer s Disease",
+          "authors": [
+            "Erika N. Cline",
+            "Ma\u00edra A. Bicca",
+            "Kirsten L. Viola",
+            "William L. Klein"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2463195069",
+          "title": "The Perseus computational platform for comprehensive analysis of (prote)omics data",
+          "year": 2016,
+          "doi": "https://doi.org/10.1038/nmeth.3901",
+          "type": "article",
+          "cited_by_count": 9055,
+          "venue": "Nature Methods",
+          "authors": [
+            "Stefka Tyanova",
+            "Tikira Temu",
+            "Pavel Sinitcyn",
+            "Arthur Carlson",
+            "Marco Y. Hein",
+            "Tamar Geiger",
+            "Matthias Mann",
+            "J\u00fcrgen Cox"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2776705292",
+          "title": "Identification of Apple Leaf Diseases Based on Deep Convolutional Neural Networks",
+          "year": 2017,
+          "doi": "https://doi.org/10.3390/sym10010011",
+          "type": "article",
+          "cited_by_count": 800,
+          "venue": "Symmetry",
+          "authors": [
+            "Bin Liu",
+            "Yun Zhang",
+            "Dongjian He",
+            "Yuxiang Li"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "adaptive submodularity active learning experiment design",
+      "results": [
+        {
+          "id": "https://openalex.org/W2952019053",
+          "title": "Learning with Submodular Functions: A Convex Optimization Perspective",
+          "year": 2013,
+          "doi": "https://doi.org/10.1561/2200000039",
+          "type": "article",
+          "cited_by_count": 207,
+          "venue": "Foundations and Trends\u00ae in Machine Learning",
+          "authors": [
+            "Francis Bach"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2967663220",
+          "title": "Hyperparameter Optimization for Machine Learning Models Based on Bayesian Optimization",
+          "year": 2019,
+          "doi": "https://doi.org/10.11989/jest.1674-862x.80904120",
+          "type": "article",
+          "cited_by_count": 1435,
+          "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "authors": [
+            "Jia Wu",
+            "Xiu Yun Chen",
+            "Hao Zhang",
+            "Li Dong Xiong",
+            "Hang Lei",
+            "Sihao Deng"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3135588948",
+          "title": "Toward Causal Representation Learning",
+          "year": 2021,
+          "doi": "https://doi.org/10.1109/jproc.2021.3058954",
+          "type": "article",
+          "cited_by_count": 1117,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Bernhard Sch\u00f6lkopf",
+            "Francesco Locatello",
+            "Stefan Bauer",
+            "Nan Rosemary Ke",
+            "Nal Kalchbrenner",
+            "Anirudh Goyal",
+            "Yoshua Bengio"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3101981467",
+          "title": "A Survey on the Explainability of Supervised Machine Learning",
+          "year": 2021,
+          "doi": "https://doi.org/10.1613/jair.1.12228",
+          "type": "article",
+          "cited_by_count": 983,
+          "venue": "Journal of Artificial Intelligence Research",
+          "authors": [
+            "Nadia Burkart",
+            "Marco F. Huber"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2763160469",
+          "title": "Interactive Medical Image Segmentation Using Deep Learning With Image-Specific Fine Tuning",
+          "year": 2018,
+          "doi": "https://doi.org/10.1109/tmi.2018.2791721",
+          "type": "article",
+          "cited_by_count": 871,
+          "venue": "IEEE Transactions on Medical Imaging",
+          "authors": [
+            "Guotai Wang",
+            "Wenqi Li",
+            "Mar\u00eda A. Zuluaga",
+            "Rosalind Pratt",
+            "Premal A. Patel",
+            "Micha\u00ebl Aertsen",
+            "Tom Doel",
+            "Anna L. David"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3137125108",
+          "title": "Interpretable machine learning: Fundamental principles and 10 grand challenges",
+          "year": 2022,
+          "doi": "https://doi.org/10.1214/21-ss133",
+          "type": "article",
+          "cited_by_count": 911,
+          "venue": "Statistics Surveys",
+          "authors": [
+            "Cynthia Rudin",
+            "Chaofan Chen",
+            "Zhi Chen",
+            "Haiyang Huang",
+            "Lesia Semenova",
+            "Chudi Zhong"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2736592352",
+          "title": "Quantum machine learning: a classical perspective",
+          "year": 2018,
+          "doi": "https://doi.org/10.1098/rspa.2017.0551",
+          "type": "article",
+          "cited_by_count": 521,
+          "venue": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+          "authors": [
+            "Carlo Ciliberto",
+            "Mark Herbster",
+            "Alessandro Davide Ialongo",
+            "Massimiliano Pontil",
+            "Andrea Rocchetto",
+            "Simone Severini",
+            "Leonard Wossnig"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2811120218",
+          "title": "Diversity in Machine Learning",
+          "year": 2019,
+          "doi": "https://doi.org/10.1109/access.2019.2917620",
+          "type": "article",
+          "cited_by_count": 284,
+          "venue": "IEEE Access",
+          "authors": [
+            "Zhiqiang Gong",
+            "Ping Zhong",
+            "Weidong Hu"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "nonlinear realization theory input output systems",
+      "results": [
+        {
+          "id": "https://openalex.org/W1499219562",
+          "title": "Nonlinear Control Systems: An Introduction",
+          "year": 1985,
+          "doi": "https://doi.org/10.1007/bfb0006368",
+          "type": "book",
+          "cited_by_count": 1862,
+          "venue": "Lecture notes in control and information sciences",
+          "authors": []
+        },
+        {
+          "id": "https://openalex.org/W1964373008",
+          "title": "Nonlinear Dynamical Control Systems",
+          "year": 1990,
+          "doi": "https://doi.org/10.1007/978-1-4757-2101-0",
+          "type": "book",
+          "cited_by_count": 3264,
+          "venue": null,
+          "authors": [
+            "Henk Nijmeijer",
+            "Arjan van der Schaft"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W94566284",
+          "title": "Nonlinear systems analysis",
+          "year": 1994,
+          "doi": "https://doi.org/10.1016/0005-1098(94)90103-1",
+          "type": "article",
+          "cited_by_count": 1378,
+          "venue": "Automatica",
+          "authors": [
+            "Arjan van der Schaft"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W1548148540",
+          "title": "Constructive Nonlinear Control",
+          "year": 1997,
+          "doi": "https://doi.org/10.1007/978-1-4471-0967-9",
+          "type": "book",
+          "cited_by_count": 2311,
+          "venue": "Communications and control engineering/Communications and control engineering series",
+          "authors": [
+            "Rodolphe Sepulchre",
+            "Mrdjan Jankovi\u0107",
+            "P.V. Kokotovi\u0107"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2112796928",
+          "title": "Gradient-based learning applied to document recognition",
+          "year": 1998,
+          "doi": "https://doi.org/10.1109/5.726791",
+          "type": "article",
+          "cited_by_count": 59426,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Yann LeCun",
+            "L\u00e9on Bottou",
+            "Yoshua Bengio",
+            "Patrick Haffner"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4211019631",
+          "title": "Stochastic resonance",
+          "year": 1998,
+          "doi": "https://doi.org/10.1103/revmodphys.70.223",
+          "type": "article",
+          "cited_by_count": 5386,
+          "venue": "Reviews of Modern Physics",
+          "authors": [
+            "L. Gammaitoni",
+            "Peter H\u00e4nggi",
+            "Peter Jung",
+            "Fabio Marchesoni"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2099839128",
+          "title": "Linear Matrix Inequalities In System And Control Theory",
+          "year": 1998,
+          "doi": "https://doi.org/10.1109/jproc.1998.735454",
+          "type": "article",
+          "cited_by_count": 428,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Edwin E. Yaz"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2107886288",
+          "title": "Direct construction of minimal bilinear realizations from nonlinear input-output maps",
+          "year": 1973,
+          "doi": "https://doi.org/10.1109/tac.1973.1100424",
+          "type": "article",
+          "cited_by_count": 157,
+          "venue": "IEEE Transactions on Automatic Control",
+          "authors": [
+            "Alberto Isidori"
+          ]
+        }
+      ]
+    }
+  ]
+}

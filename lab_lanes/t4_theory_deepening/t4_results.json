@@ -1,0 +1,253 @@
+{
+  "observational_vs_interventional": {
+    "I_Y_H_given_S_observational_bits": 0.0,
+    "I_Y_H_given_S_interventional_bits": 1.0
+  },
+  "task_specificity": {
+    "declared_task_CMI_bits": 0.0,
+    "alternate_task_CMI_bits": 1.0
+  },
+  "local_kernel_not_global_without_fiber_condition": {
+    "all_sampled_Dh_nonzero": true,
+    "all_sampled_DF_nonzero": true,
+    "same_h_different_F_pairs": [
+      {
+        "x": -2.0,
+        "x_prime": 2.0,
+        "h": 4.0,
+        "F_x": -2.0,
+        "F_x_prime": 2.0
+      },
+      {
+        "x": -1.0,
+        "x_prime": 1.0,
+        "h": 1.0,
+        "F_x": -1.0,
+        "F_x_prime": 1.0
+      }
+    ]
+  },
+  "no_approximate_bound_without_assumption": {
+    "x0": 0.0,
+    "x1": 1.0,
+    "h_difference": 0.0,
+    "F_difference": 1.0,
+    "h": "constant zero",
+    "F": "identity"
+  },
+  "finite_horizon_not_longer": {
+    "k": 3,
+    "world_A": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "world_B": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "same_first_k": true,
+    "same_first_k_plus_1": false
+  },
+  "min_of_modular_non_submodular": {
+    "violations": [
+      {
+        "A": [],
+        "B": [
+          "a"
+        ],
+        "e": "b",
+        "delta_A": 0.0,
+        "delta_B": 1.0
+      },
+      {
+        "A": [],
+        "B": [
+          "b"
+        ],
+        "e": "a",
+        "delta_A": 0.0,
+        "delta_B": 1.0
+      }
+    ],
+    "is_submodular": false
+  },
+  "finite_identification_equals_pair_cover": {
+    "full_distinguishable_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "all_subsets_agree": true,
+    "subset_checks": [
+      {
+        "Q": [],
+        "identifies_full_equivalence": false,
+        "covers_all_distinguishable_pairs": false,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e2"
+        ],
+        "identifies_full_equivalence": false,
+        "covers_all_distinguishable_pairs": false,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e3"
+        ],
+        "identifies_full_equivalence": false,
+        "covers_all_distinguishable_pairs": false,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e1"
+        ],
+        "identifies_full_equivalence": false,
+        "covers_all_distinguishable_pairs": false,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e2",
+          "e3"
+        ],
+        "identifies_full_equivalence": true,
+        "covers_all_distinguishable_pairs": true,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e1",
+          "e2"
+        ],
+        "identifies_full_equivalence": true,
+        "covers_all_distinguishable_pairs": true,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e1",
+          "e3"
+        ],
+        "identifies_full_equivalence": true,
+        "covers_all_distinguishable_pairs": true,
+        "agreement": true
+      },
+      {
+        "Q": [
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "identifies_full_equivalence": true,
+        "covers_all_distinguishable_pairs": true,
+        "agreement": true
+      }
+    ]
+  },
+  "approximate_factorization_bound_sanity": {
+    "epsilon": 0.1,
+    "L_g": 2.0,
+    "all_hold": true,
+    "checks": [
+      {
+        "x": -1.0,
+        "x_prime": -0.4,
+        "lhs": 1.2452052642499245,
+        "rhs": 1.4,
+        "holds": true
+      },
+      {
+        "x": -1.0,
+        "x_prime": 0.0,
+        "lhs": 2.0841470984807895,
+        "rhs": 2.2,
+        "holds": true
+      },
+      {
+        "x": -1.0,
+        "x_prime": 0.7,
+        "lhs": 3.5485688672045583,
+        "rhs": 3.6,
+        "holds": true
+      },
+      {
+        "x": -1.0,
+        "x_prime": 1.3,
+        "lhs": 4.780502917022509,
+        "rhs": 4.8,
+        "holds": true
+      },
+      {
+        "x": -0.4,
+        "x_prime": 0.0,
+        "lhs": 0.8389418342308651,
+        "rhs": 1.0,
+        "holds": true
+      },
+      {
+        "x": -0.4,
+        "x_prime": 0.7,
+        "lhs": 2.3033636029546343,
+        "rhs": 2.4000000000000004,
+        "holds": true
+      },
+      {
+        "x": -0.4,
+        "x_prime": 1.3,
+        "lhs": 3.5352976527725843,
+        "rhs": 3.6000000000000005,
+        "holds": true
+      },
+      {
+        "x": 0.0,
+        "x_prime": 0.7,
+        "lhs": 1.464421768723769,
+        "rhs": 1.5999999999999999,
+        "holds": true
+      },
+      {
+        "x": 0.0,
+        "x_prime": 1.3,
+        "lhs": 2.6963558185417194,
+        "rhs": 2.8000000000000003,
+        "holds": true
+      },
+      {
+        "x": 0.7,
+        "x_prime": 1.3,
+        "lhs": 1.2319340498179503,
+        "rhs": 1.4000000000000001,
+        "holds": true
+      }
+    ]
+  }
+}

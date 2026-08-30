@@ -1,0 +1,323 @@
+[
+  {
+    "query": "Computational Mechanics Pattern and Prediction Structure and Simplicity Shalizi Crutchfield",
+    "results": [
+      {
+        "title": "Computational Mechanics of Input\u2013Output Processes: Structured Transformations and the $$\\epsilon $$-Transducer",
+        "year": 2015,
+        "doi": "https://doi.org/10.1007/s10955-015-1327-5",
+        "authors": [
+          "Nix Barnett",
+          "James P. Crutchfield"
+        ]
+      },
+      {
+        "title": "Quantum mechanics can reduce the complexity of classical models",
+        "year": 2012,
+        "doi": "https://doi.org/10.1038/ncomms1761",
+        "authors": [
+          "Mile Gu",
+          "Karoline Wiesner",
+          "Elisabeth Rieper",
+          "Vlatko Vedral"
+        ]
+      },
+      {
+        "title": "Prediction, Retrodiction, and the Amount of Information Stored in the Present",
+        "year": 2009,
+        "doi": "https://doi.org/10.1007/s10955-009-9808-z",
+        "authors": [
+          "Christopher J. Ellison",
+          "John R. Mahoney",
+          "James P. Crutchfield"
+        ]
+      },
+      {
+        "title": "An information integration theory of consciousness",
+        "year": 2004,
+        "doi": "https://doi.org/10.1186/1471-2202-5-42",
+        "authors": [
+          "Giulio Tononi"
+        ]
+      },
+      {
+        "title": "An Algorithm for Pattern Discovery in Time Series",
+        "year": 2002,
+        "doi": "https://doi.org/10.48550/arxiv.cs/0210025",
+        "authors": [
+          "Cosma Rohilla Shalizi",
+          "Kristina Lisa Shalizi",
+          "James P. Crutchfield"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Nonlinear controllability and observability Hermann Krener",
+    "results": [
+      {
+        "title": "Observability and Controllability of Nonlinear Networks: The Role of Symmetry",
+        "year": 2015,
+        "doi": "https://doi.org/10.1103/physrevx.5.011005",
+        "authors": [
+          "Andrew J. Whalen",
+          "Sean Brennan",
+          "Timothy Sauer",
+          "Steven J. Schiff"
+        ]
+      },
+      {
+        "title": "Controllability and Observability of Nonlinear Systems.",
+        "year": 1987,
+        "doi": null,
+        "authors": [
+          "M. R. James"
+        ]
+      },
+      {
+        "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+        "year": 2019,
+        "doi": "https://doi.org/10.1155/2019/8497093",
+        "authors": [
+          "Alejandro F. Villaverde"
+        ]
+      },
+      {
+        "title": "Semi-global finite-time observers for nonlinear systems",
+        "year": 2008,
+        "doi": "https://doi.org/10.1016/j.automatica.2008.05.015",
+        "authors": [
+          "Yanjun Shen",
+          "Xiaohua Xia"
+        ]
+      },
+      {
+        "title": "Nonlinear observers for locally uniformly observable systems",
+        "year": 2003,
+        "doi": "https://doi.org/10.1051/cocv:2003017",
+        "authors": [
+          "H. Hammouri",
+          "M. Farza"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Adaptive Submodularity Theory and Applications in Active Learning and Stochastic Optimization Golovin Krause",
+    "results": [
+      {
+        "title": "Distributed Submodular Maximization: Identifying Representative Elements in Massive Data",
+        "year": 2013,
+        "doi": "https://doi.org/10.13140/2.1.4415.8087",
+        "authors": [
+          "Baharan Mirzasoleiman",
+          "Amin Karbasi",
+          "Rik Sarkar",
+          "Andreas Krause"
+        ]
+      },
+      {
+        "title": "Active Preference-Based Learning of Reward Functions",
+        "year": 2017,
+        "doi": "https://doi.org/10.15607/rss.2017.xiii.053",
+        "authors": [
+          "Dorsa Sadigh",
+          "Anca D. Dragan",
+          "S. Shankar Sastry",
+          "Sanjit A. Seshia"
+        ]
+      },
+      {
+        "title": "Generative Adversarial Active Learning",
+        "year": 2017,
+        "doi": "https://doi.org/10.48550/arxiv.1702.07956",
+        "authors": [
+          "Jia-Jie Zhu",
+          "Jos\u00e9 Maur\u00edcio S. Bento"
+        ]
+      },
+      {
+        "title": "Feature-Cost Sensitive Learning with Submodular Trees of Classifiers",
+        "year": 2014,
+        "doi": "https://doi.org/10.1609/aaai.v28i1.8967",
+        "authors": [
+          "Matt J. Kusner",
+          "Wenlin Chen",
+          "Quan Zhou",
+          "Zhixiang Xu",
+          "Kilian Q. Weinberger",
+          "Yixin Chen"
+        ]
+      },
+      {
+        "title": "Guaranteed Non-convex Optimization: Submodular Maximization over Continuous Domains",
+        "year": 2016,
+        "doi": "https://doi.org/10.48550/arxiv.1606.05615",
+        "authors": [
+          "Bian, Andrew An",
+          "Baharan Mirzasoleiman",
+          "Joachim M. Buhmann",
+          "Andreas Krause"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Towards a Unified Theory of State Abstraction for MDPs Li Walsh Littman",
+    "results": [
+      {
+        "title": "Artificial General Intelligence: Concept, State of the Art, and Future Prospects",
+        "year": 2014,
+        "doi": "https://doi.org/10.2478/jagi-2014-0001",
+        "authors": [
+          "Ben Goertzel"
+        ]
+      },
+      {
+        "title": "On the necessity of abstraction",
+        "year": 2018,
+        "doi": "https://doi.org/10.1016/j.cobeha.2018.11.005",
+        "authors": [
+          "George Konidaris"
+        ]
+      },
+      {
+        "title": "A unifying framework for computational reinforcement learning theory",
+        "year": 2009,
+        "doi": "https://doi.org/10.7282/t3s46s46",
+        "authors": [
+          "Michael L. Littman"
+        ]
+      },
+      {
+        "title": "Invariant Causal Prediction for Block MDPs",
+        "year": 2020,
+        "doi": "https://doi.org/10.48550/arxiv.2003.06016",
+        "authors": [
+          "Amy Zhang",
+          "Clare Lyle",
+          "Shagun Sodhani",
+          "Angelos Filos",
+          "Marta Kwiatkowska",
+          "Jo\u00eblle Pineau"
+        ]
+      },
+      {
+        "title": "A Theory of State Abstraction for Reinforcement Learning",
+        "year": 2019,
+        "doi": "https://doi.org/10.1609/aaai.v33i01.33019876",
+        "authors": [
+          "David Abel"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "The information bottleneck method Tishby Pereira Bialek",
+    "results": [
+      {
+        "title": "The information bottleneck method",
+        "year": 2000,
+        "doi": "https://doi.org/10.48550/arxiv.physics/0004057",
+        "authors": [
+          "Tishby, Naftali",
+          "Fernando C. N. Pereira",
+          "William Bialek"
+        ]
+      },
+      {
+        "title": "Deep Variational Information Bottleneck",
+        "year": 2016,
+        "doi": "https://doi.org/10.48550/arxiv.1612.00410",
+        "authors": [
+          "Alexander A. Alemi",
+          "Ian Fischer",
+          "Joshua V. Dillon",
+          "Kevin Murphy"
+        ]
+      },
+      {
+        "title": "Document clustering using word clusters via the information bottleneck method",
+        "year": 2000,
+        "doi": "https://doi.org/10.1145/345508.345578",
+        "authors": [
+          "Noam Slonim",
+          "Naftali Tishby"
+        ]
+      },
+      {
+        "title": "Deep learning and the information bottleneck principle",
+        "year": 2015,
+        "doi": "https://doi.org/10.1109/itw.2015.7133169",
+        "authors": [
+          "Naftali Tishby",
+          "Noga Zaslavsky"
+        ]
+      },
+      {
+        "title": "Learning and generalization with the information bottleneck",
+        "year": 2010,
+        "doi": "https://doi.org/10.1016/j.tcs.2010.04.006",
+        "authors": [
+          "Ohad Shamir",
+          "Sivan Sabato",
+          "Naftali Tishby"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Sliced inverse regression for dimension reduction Li 1991",
+    "results": [
+      {
+        "title": "Least angle regression",
+        "year": 2004,
+        "doi": "https://doi.org/10.1214/009053604000000067",
+        "authors": [
+          "Bradley Efron",
+          "Trevor Hastie",
+          "Iain M. Johnstone",
+          "Robert Tibshirani"
+        ]
+      },
+      {
+        "title": "An Asymptotic Theory for Sliced Inverse Regression",
+        "year": 1992,
+        "doi": "https://doi.org/10.1214/aos/1176348669",
+        "authors": [
+          "Tailen Hsing",
+          "Raymond J. Carroll"
+        ]
+      },
+      {
+        "title": "Asymptotics for kernel estimate of sliced inverse regression",
+        "year": 1996,
+        "doi": "https://doi.org/10.1214/aos/1032526955",
+        "authors": [
+          "Li-Xing Zhu",
+          "Kai-Tai Fang"
+        ]
+      },
+      {
+        "title": "An Adaptive Estimation of Dimension Reduction Space",
+        "year": 2002,
+        "doi": "https://doi.org/10.1111/1467-9868.03411",
+        "authors": [
+          "Yingcun Xia",
+          "Howell Tong",
+          "W. K. Li",
+          "Li-Xing Zhu"
+        ]
+      },
+      {
+        "title": "Dimension reduction for conditional mean in regression",
+        "year": 2002,
+        "doi": "https://doi.org/10.1214/aos/1021379861",
+        "authors": [
+          "R. Dennis Cook",
+          "Bing Li"
+        ]
+      }
+    ]
+  }
+]
