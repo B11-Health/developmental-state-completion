@@ -1,0 +1,6 @@
+delta,budget,objective,greedy_utility,optimal_utility,greedy_over_optimal,greedy_panel,optimal_panel,maximum_possible_entropy_bits
+0.0,1,uniform_prior_exact_signature_shannon_entropy_bits,6.570159765557392,6.570159765557392,1.0,0000,0000,7.0
+0.0,2,uniform_prior_exact_signature_shannon_entropy_bits,7.0,7.0,1.0,0000 0111,0011 0100,7.0
+0.0,3,uniform_prior_exact_signature_shannon_entropy_bits,7.0,7.0,1.0,0000 0001 0111,0001 0010 0100,7.0
+0.0,4,uniform_prior_exact_signature_shannon_entropy_bits,7.0,7.0,1.0,0000 0001 0010 0111,0000 0001 0010 0100,7.0
+0.0,5,uniform_prior_exact_signature_shannon_entropy_bits,7.0,7.0,1.0,0000 0001 0010 0011 0111,0000 0001 0010 0011 0100,7.0

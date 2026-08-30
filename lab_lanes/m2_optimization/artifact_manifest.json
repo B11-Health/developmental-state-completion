@@ -1,0 +1,50 @@
+{
+  "schema": "m2_artifact_manifest_v1",
+  "files": [
+    {
+      "name": "exact_entropy_exact_vs_greedy.csv",
+      "bytes": 680,
+      "sha256": "c7405933eba8a8b4438d6f2490d7c1dcb86878bb1acc7d937b474937c5a9e1ba"
+    },
+    {
+      "name": "exact_vs_greedy_all_truths.csv",
+      "bytes": 1398422,
+      "sha256": "817b74670ff3274036466a7fcabc8b7fb99c594a4f8dc172387751a595fb60b1"
+    },
+    {
+      "name": "literature_map.json",
+      "bytes": 3560,
+      "sha256": "7c67b04b3f43f0d15219f7f87d7bc57a9cb47bdde4d88c2b9df60318c42b44eb"
+    },
+    {
+      "name": "m2_exact_optimization.py",
+      "bytes": 23012,
+      "sha256": "19992e9c801ae69277827daa554fdd008d004a674bf8cb79cff903f0229880bd"
+    },
+    {
+      "name": "m2_results.json",
+      "bytes": 79399,
+      "sha256": "879e826c18fdd0e1c4fe81665786308042bc11c9f5bb8e9fc286a6bda14618a1"
+    },
+    {
+      "name": "pair_coverage_exact_vs_greedy.csv",
+      "bytes": 3820,
+      "sha256": "38eca56abc340fa0ae83d99b824a3b29318846a696be1c0a7ba0da5951d1b027"
+    },
+    {
+      "name": "README.md",
+      "bytes": 213,
+      "sha256": "9c89970483911ec02c0fdc8119696c2cd683425a46e5466665cb7150b527b8df"
+    },
+    {
+      "name": "submodularity_diagnostics.json",
+      "bytes": 210418,
+      "sha256": "f0d248ab73e47387cd3006f0fb41f8aa9af155da3373ae6169d51b081013f046"
+    },
+    {
+      "name": "THEOREM_COUNTEREXAMPLE_CHECKPOINT_M2_2026-08-29.md",
+      "bytes": 14252,
+      "sha256": "65a640268de10d11a1e29506ffc2d843735ad2fc40111f0dbf2567fcddb3e2c8"
+    }
+  ]
+}

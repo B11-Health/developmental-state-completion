@@ -1,0 +1,49 @@
+{
+  "schema": "m2_literature_map_v1",
+  "checked_on": "2026-08-29",
+  "claim": "No priority claim is made for Test Cover, submodularity ratio, adaptive submodularity, critical-node/network-interdiction optimization, or graph connectivity under deletion. The project-specific object is a truth-rooted, response-induced deletion family coupled to connected approximate inverse fibers.",
+  "references": [
+    {
+      "topic": "Test Cover / pair separation",
+      "citation": "K.M.J. de Bontridder et al., Approximation algorithms for the test cover problem, Mathematical Programming 98 (2003) 477-492.",
+      "doi": "10.1007/s10107-003-0414-6",
+      "overlap": "Selecting tests so every item pair is distinguished is exactly the finite pair-separation objective used here when tests are thresholded pair separators.",
+      "difference": "It does not encode a declared topology or only the truth-rooted connected survivor component."
+    },
+    {
+      "topic": "Weak submodularity diagnostic",
+      "citation": "Abhimanyu Das and David Kempe, Submodular Meets Spectral, ICML 2011.",
+      "doi": "10.48550/arXiv.1102.3975",
+      "overlap": "Introduces submodularity ratio as a quantitative diagnostic for greedy performance beyond exact submodularity.",
+      "difference": "Their regression/subset-selection objective is different; M2 reports a restricted finite-budget ratio only as a diagnostic, not a theorem transfer."
+    },
+    {
+      "topic": "Adaptive selection",
+      "citation": "Daniel Golovin and Andreas Krause, Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization, JAIR 42 (2011) 427-486.",
+      "doi": "10.1613/JAIR.3278",
+      "overlap": "Framework for adaptive greedy guarantees under uncertain outcomes.",
+      "difference": "M2 is static known-outcome conditioning on a fixed truth. No adaptive-submodularity claim is made."
+    },
+    {
+      "topic": "Critical node problem",
+      "citation": "Bernardetta Addis, Marco Di Summa, Andrea Grosso, Identifying critical nodes in undirected graphs: Complexity results and polynomial algorithms for bounded treewidth, Discrete Applied Mathematics 161 (2013) 2349-2360.",
+      "doi": "10.1016/j.dam.2013.03.021",
+      "overlap": "Deletes budgeted graph nodes to reduce connectivity; establishes hardness and tractable bounded-treewidth structure for established connectivity metrics.",
+      "difference": "M2 selects experiments, each inducing a set of inconsistent worlds, and scores only the truth-containing component."
+    },
+    {
+      "topic": "Critical nodes on structured graphs",
+      "citation": "Siqian Shen and J. Cole Smith, Polynomial-time algorithms for solving a class of critical node problems on trees and series-parallel graphs, Networks 60 (2012) 103-119.",
+      "doi": "10.1002/net.20464",
+      "overlap": "Shows graph structure beyond trees matters for exact connectivity-deletion optimization.",
+      "difference": "Their objectives include number/largest size of components, not the response-induced truth-rooted set function used here."
+    },
+    {
+      "topic": "Node interdiction",
+      "citation": "Kevin T. Kennedy et al., Nodal interdiction, Mathematical and Computer Modelling 54 (2011) 3116-3125.",
+      "doi": "10.1016/j.mcm.2011.07.041",
+      "overlap": "Direct node-removal formulation in network interdiction.",
+      "difference": "Generic interdiction is broader; it does not imply submodularity or the M2 exact grid counterexample."
+    }
+  ]
+}
