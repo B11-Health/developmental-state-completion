@@ -1,10 +1,10 @@
 # Developmental State Completion: Counterfactual Tomography of Hidden Biological Mechanisms
 
-**Working preprint — Code Gym Research — 29 August 2026**
+**Working preprint — Code Gym Research — 30 August 2026**
 
 ## Abstract
 
-Developmental systems are commonly represented by measured phenotypes, molecular profiles, or inferred trajectories, yet these observations need not uniquely determine the internal state and dynamical law that govern future response. We develop a computational framework for **developmental state completion**: experimentally enriching the present observation until older measured history contributes little additional predictive information for a specified family of future interventions. The framework combines task-sufficient state representations, calibrated predictive screening-off, counterfactual perturbation design, and topology of inverse phenotype fibers. In reanalyses of lineage-resolved flower data, a recent measured molecular state often rendered older measured history nearly redundant for specific future growth tasks, while a known-Markov simulator demonstrated that finite-sample estimators can spuriously produce positive history gain, invalidating simple fixed thresholds. In a finite-count seed germination reanalysis, binomial latent-state modeling corrected pathological certainty associated with 0% and 100% percentage observations. In a synthetic developmental system spanning 224 hidden worlds, baseline morphology collapsed distinct state-law combinations that separated under intervention. A sampled state-law complex further exhibited disconnected mechanism islands within narrow phenotype tolerance, motivating a distinction between phenotypic accommodation and continuous mechanism accessibility. Interventions optimized for splitting the current connected ambiguity differed from those optimized for global parameter estimation, suggesting a topology-aware form of adaptive experimental design. These results do not establish a new biological law; they define a falsifiable research program whose decisive test is prospective, blinded discrimination of baseline-similar living biological backgrounds using algorithmically selected perturbations.
+Developmental systems are commonly represented by measured phenotypes, molecular profiles, or inferred trajectories, yet these observations need not uniquely determine the internal state and dynamical law that govern future response. We develop a computational framework for **developmental state completion**: experimentally enriching the present observation until older measured history contributes little additional predictive information for a declared future task and intervention family. The framework combines task-relative predictive sufficiency, calibrated residual-history tests, exact and robust perturbation design, and topology of measurement fibers. Public-data reanalyses show why aggressive falsification is necessary. In the released Arabidopsis FM1 atlas, current integrated atlas state carries substantial task-specific predictive information beyond geometry, while the value of older ancestor state can become small in selected late developmental windows; this does not establish universal Markovity. In public *C. elegans* lineage timing, large nonlinear residual-history gains were not promoted because matched known-incomplete calibration power was below the preregistered threshold. In independent *Drosophila* and *Tribolium* trajectory tests, apparent history gains as large as roughly +0.42 Delta R^2 occurred inside predictors that failed absolute cross-acquisition adequacy, motivating the mandatory order **absolute adequacy -> increment stability -> sensitivity calibration -> interpretation**. Mathematically, the local kernel condition `ker Dh subset ker DF` guarantees constancy only on connected components of measurement fibers; disconnected components can require additional branch information. Established Borsuk-Ulam and covering-space arguments then show that a one-bit set-theoretic branch ambiguity can require arbitrarily many globally continuous Euclidean measurement channels, and can impose sharp worst-case prediction-error floors under dimensional constraints. On a preserved 128-world finite simulator bundle, greedy experiment selection matched exact optimum on all 17,280 audited rows, but explicit non-submodular and `3/n` counterexamples rule out a general greedy theorem. A separate prospective source-simulator validation demonstrates accurate two-context reconstruction within a restricted model, while living-system validation remains pending. These results define a falsifiable research program rather than a new biological law: the decisive biological test is whether richer present measurements and prospectively selected perturbations improve blinded prediction in living systems under calibrated adequacy and burden controls.
 
 ## 1. Motivation
 
@@ -55,6 +55,8 @@ Finite estimators introduce a second qualification. Even though population Bayes
 A further monotonicity conjecture was falsified. Residual conditional mutual information need not decrease when present-state measurements are added. If independent fair bits `H,Z` generate `Y = H xor Z`, then `I(Y;H)=0` while `I(Y;H|Z)=1 bit`. Thus adding a present variable can *unmask* historical dependence. This does not contradict monotone refinement of counterfactual inverse fibers when additional experimental coordinates are appended under a fixed product/sup metric; the two objects obey different mathematics.
 
 Finite-sample calibration is therefore mandatory. In separate known-complete and known-history-dependent simulations, positive residual-history statistics can arise under a true Markov generator, while genuine residual effects can be missed at small sample size. We report both false-positive and power calibration rather than treating an arbitrary history-gain threshold as proof of closure.
+
+A second failure mode emerged from independent public Cell Tracking Challenge datasets. In *Drosophila* and *Tribolium*, adding older trajectory information could improve held-out R² even when the augmented predictor itself did not transfer to the held-out acquisition. In *Tribolium* an apparent nonlinear history increment reached roughly `+0.42` at a coarse present representation while absolute augmented prediction still failed the preregistered cross-acquisition gate. A richer R7 present representation with about 46–49 relational and kinematic features likewise failed adequacy in every frozen organism/outcome task. We therefore require the empirical decision order **absolute held-out adequacy against a train-only naive baseline, then history-increment stability, then matched sensitivity calibration, then scoped biological interpretation**. A positive increment inside an inadequate predictor is not evidence of biological memory.
 
 ## 4. Direct-source flower atlas reanalysis
 
@@ -110,9 +112,9 @@ Boundary observations then provide strong but finite evidence. This preserves th
 
 ## 6. Counterfactual developmental tomography
 
-We next considered a synthetic developmental system with 14 regulatory architectures and 16 hidden states, producing 224 joint hidden worlds. Baseline morphology can map multiple hidden worlds to nearly identical outputs. A perturbation adds another counterfactual view of the same hidden system and can separate worlds that static appearance collapses.
+Historical project work reported a synthetic developmental system with 14 regulatory architectures and 16 hidden states (224 joint hidden worlds) in which baseline morphology collapsed distinct hidden worlds that separated under intervention. The original 224-world generator/source/output chain has not been recovered in the current workspace, so that example is retained as historical motivation rather than reproduced evidence. A separate later 128-world source-validation bundle is reproducible and must not be conflated with it.
 
-This motivates the term **counterfactual developmental tomography**: reconstructing hidden developmental organization from a deliberately chosen set of perturbational projections rather than from a single unperturbed phenotype.
+The motivating idea is **counterfactual developmental tomography**: reconstructing hidden developmental organization from a deliberately chosen set of perturbational projections rather than from a single unperturbed phenotype. The current evidence for this idea therefore comes from the separately preserved finite optimization and prospective source-simulator artifacts described below, not from treating the historical 224-world numbers as revalidated.
 
 ### Prospective two-context source-simulator validation
 
@@ -150,7 +152,7 @@ to asking
 
 `Which hidden worlds remain compatible with everything the organism has done under the questions we have asked?`
 
-## 7. Connected causal fibers
+## 7. Connected causal fibers and global branch completion
 
 Let W be the joint state-law space. For intervention panel Q, define the observation map H_Q. For target world w* and phenotype tolerance δ, define
 
@@ -160,32 +162,35 @@ Rather than only counting K, we track the connected component containing the tar
 
 `C_Q^δ(w*) = Comp_{w*} K_Q^δ(w*)`.
 
-This distinguishes two properties that static phenotype error conflates:
+This distinguishes **accommodation**—how closely an alternative mechanism can imitate the target phenotype—from **accessibility**—whether a continuous path through admissible mechanism space connects the target to that alternative at the declared tolerance. Earlier project notes reported specific 224-world and seam/merge thresholds, but the original historical generator/source/topology chain was not recovered in the current provenance audit. Those numerical thresholds are therefore retained only as historical motivation, not as current reproduced evidence. The reproducible topology claims below use separately preserved artifacts.
 
-1. **Accommodation** — how closely an alternative mechanism can imitate the target phenotype.
-2. **Accessibility** — how much phenotype deviation must be tolerated before a continuous path through mechanism space connects the target to that alternative.
+A more general mathematical issue arises even before a tolerance graph is chosen. Let `h:X->S` be a smooth submersion and `F:X->Y` smooth. If
 
-An earlier coarse grid suggested that a STRETCH-related alternative mechanism appeared near phenotype error `0.000335` and merged with the target near `0.001543`. That continuum interpretation is now **withdrawn**: a later seam-consistent search showed that `0.001543` was a discretization obstruction. The latest recovered source-level checkpoint gives an optimized static accommodation `a_S ≈ 0.0002686301` and a corrected CFLOW escape/merge threshold `m_S ≈ 0.00141094` (cubic surrogate `≈0.001410471`; direct source `≈0.001410939`; independent nearby source sweep `≈0.001412041`). The resulting source-level isolation gap is `Δ_S ≈ 0.00114231`, with `m_S/a_S ≈ 5.25`.
+`ker Dh_x subset ker DF_x`
 
-The earlier sampled-grid transition from approximately 221 to 2012 candidate mechanisms remains useful as a **discretized connectivity observation**, but it is not the best estimate of the continuum merge threshold. The corrected seam value is source-validated within the archived simulator checkpoint; a formal global continuum proof and full source-artifact migration remain open.
+for every x, then F is constant on each **connected component of each measurement fiber**. Thus F factors through the quotient that identifies points lying in the same connected fiber component. It need not factor through h itself when a fiber is disconnected. The elementary example `X=R\{0}`, `h(x)=x^2`, `F(x)=x` satisfies the local kernel condition but merges positive and negative branches with different futures; a branch/sign coordinate repairs the factorization.
 
-## 8. Topology-aware experimental design
+For a finite fiber containing m future-distinct connected-component classes, any exact discrete branch code needs at least `ceil(log2 m)` bits. This is a set-theoretic label bound, not a statement about physical sensor precision. A synthetic noisy-history example shows the statistical consequence: older history can carry residual predictive information only because it proxies for an omitted branch coordinate, and become redundant once that coordinate is measured. This gives one concrete mechanism by which residual history may indicate present-state incompleteness without implying a distinct biological memory variable.
 
-Adding an intervention refines the inverse fiber. We therefore define a working experiment objective based on contraction of the connected candidate set. A convenient discrete score is a log-volume reduction:
+## 8. Topology-aware experimental design and continuous measurement obstructions
 
-`I_topo(q; δ) = log2( |C_Q^δ| / |C_{Q union {q}}^δ| )`.
+Adding an intervention refines the set of candidate worlds that remain observationally compatible. Several objectives are useful, but they must not be conflated. Pairwise separation of a finite world library is a Minimum Test Collection / coverage problem with classical set-cover structure. By contrast, shrinking the connected component containing a target world can be non-submodular.
 
-This is not Shannon mutual information.
+On the preserved **128-world** simulator bundle, exhaustive enumeration across 128 truths, nine tolerances, three topology settings, and budgets 1–5 produced 17,280 audited rows; ordinary greedy selection matched the exact optimum on every one of those rows. This is an instance certificate, not a theorem. Explicit four-cycle and grid constructions show that the connected truth-rooted objective is non-submodular in general and that a greedy/optimal utility ratio can scale as `3/n -> 0`. Robustification does not automatically restore structure: pointwise minimax and one-failure objectives can also destroy submodularity. These counterexamples make exact optimization or proved structural assumptions mandatory when feasible.
 
-At one reported ambiguity scale, intervention 0010 reduced a connected candidate set from 2030 to 114 nodes. A perturbation previously strong for global parameter recovery, 1011, ranked only 12th for this ambiguity-splitting objective. At a broader tolerance, the best intervention changed to 1010. Thus experimental value depends on the current ambiguity and the scientific objective.
+The T5 branch quotient introduces a second design question: how many **continuous measurement channels** are required to realize a missing branch coordinate globally? Define `cdim_R(h,F)` as the minimum k such that a continuous augmentation `B:X->R^k` separates every collision of h whose futures differ. For the antipodal quotient `h:S^n->RP^n` with `F(x)=x`, Borsuk-Ulam gives the exact dimension
 
-This suggests an adaptive loop:
+`cdim_R(h,F)=n+1`.
 
-1. infer the current causal fiber;
-2. identify the dominant connected ambiguity;
-3. choose a perturbation that most strongly splits that ambiguity;
-4. update the fiber;
-5. repeat until the remaining uncertainty is below the task-relevant tolerance.
+Each fiber contains only two states—one exact discrete branch bit—yet a globally continuous Euclidean completion may need n+1 channels. For `z->z^2` on `S^1`, one real scalar cannot separate every antipodal pair whereas two real coordinates suffice. This is an application of established Borsuk-Ulam, covering-space, configuration-space and projected-embedding (`k`-prem) ideas, not a claim of new topology.
+
+The obstruction has a sharp task-relative approximate form. With Euclidean future loss on `S^n`, every continuous augmentation with `k<=n` forces minimax worst-case error exactly 1; the lower bound follows from one forced antipodal collision and the triangle inequality, and the zero decoder attains it. Thus no dimensional reduction permits worst-case error below the sphere radius. Conversely `B(x)=x` in n+1 channels gives exact decoding and antipodal sensor margin 2 in normalized units.
+
+For a compact finite cover over a Hausdorff base, any continuous fiberwise-injective Euclidean augmentation has a positive global within-fiber separation margin `Delta_B`. If the base measurement is known exactly and only the augmentation receives adversarial additive noise of norm at most η, exact sheet recovery is guaranteed when
+
+`2 η < Delta_B`.
+
+At or above the attained minimum-margin threshold, uniform exact recovery cannot be guaranteed. The raw margin is scale-dependent and therefore only meaningful relative to fixed sensor units/noise normalization. These results motivate a practical distinction between **topological possibility** (enough channels exist), **robust realization** (branches are separated by a useful margin), and **statistical learnability** (finite data and model class can exploit the measurement).
 
 ## 9. Developmental state completion
 
@@ -209,7 +214,7 @@ The candidate novelty here is therefore not "predictive cell state" or "topology
 - representing residual uncertainty as a connected causal fiber in joint state-law space;
 - selecting new perturbations to split the topology of that residual ambiguity.
 
-A comprehensive literature review is still required before any novelty claim is elevated beyond "candidate contribution."
+The mathematical prior-art boundary is now sharper. Predictive screening-off and future-equivalence quotients overlap causal states, predictive-state representations, observability/identifiability and bisimulation; finite pair separation overlaps Test Cover/separating systems; continuous fiberwise Euclidean completion overlaps projected-embedding / `k`-prem problems; and the antipodal lower bounds are direct applications of Borsuk-Ulam/equivariant topology. The project-specific contribution sought is the integration of these established ideas into one task- and intervention-indexed workflow with explicit adequacy, calibration, topology, robustness and falsification gates. No mathematical priority claim is made for the underlying ingredients.
 
 ## 11. Decisive biological experiment
 
@@ -227,13 +232,19 @@ A successful result would demonstrate that the system extracts mechanistic infor
 
 The current work has major limitations:
 
-- several numerical results have not yet been independently re-run from public code;
-- synthetic hidden-world results may not transfer to living biology;
-- topological structure depends on the chosen biological loss metric and sampling resolution;
-- screening-off estimates are sensitive to finite-sample model bias;
-- PCA-derived directions are representation- and decoder-dependent; exact scalar separation of a finite observed state library is generically trivial without a robustness/measurement constraint;
-- no current result establishes clinical, therapeutic, or agronomic efficacy;
-- no formal theorem yet shows that a finite intervention panel reconstructs the full hidden causal topology.
+- the strongest biological evidence remains computational reanalysis of released data; no living-system state-completion claim has been validated prospectively;
+- the original historical 224-world generator/source/topology chain and exact legacy FM1 `0.272 -> 0.643` tuple remain provenance-incomplete and are excluded from current reproduced evidence;
+- R2 *C. elegans* is calibration-limited despite large observed nonlinear history increments;
+- R5/R6/R7 show that cross-acquisition predictive adequacy can fail even when residual-history increments look large, so those datasets currently diagnose representation/transfer failure rather than memory or closure;
+- R3 LARRY uses separated sister-well fate as a lineage-linked incompleteness diagnostic, not literal older history, and the tested 32-gene present panel is not the full transcriptome;
+- the R4 GSE167135 execution is a same-time measurement-completeness proxy, not a future-outcome test;
+- morphology and topology depend on the declared observation map, future task, metric, intervention family, tolerance and admissible state-law space;
+- the T5–T7 topological results are established-mathematics applications/syntheses and do not by themselves show that a living developmental system has a nontrivial cover, branch coordinate or topological measurement obstruction;
+- continuous-channel lower bounds assume globally continuous Euclidean measurements; discontinuous/local-chart, non-Euclidean, intervention-assisted or otherwise structured observations can obey different constraints;
+- robust sensor margins require fixed units/noise models, and the compact-cover guarantee uses standard separation hypotheses such as a Hausdorff base;
+- screening-off estimates remain sensitive to finite-sample bias, decoder choice, calibration power and group/domain shift;
+- synthetic hidden-world and source-simulator results may not transfer to living biology;
+- no current result establishes clinical, therapeutic or agronomic efficacy.
 
 ## 13. Open problems
 
