@@ -1,0 +1,1559 @@
+[
+  {
+    "query": "Reeb space connected components fibers quotient map",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")",
+    "results": []
+  },
+  {
+    "query": "Reeb graph quotient connected components level sets",
+    "results": [
+      {
+        "title": "Loops in Reeb Graphs of 2-Manifolds",
+        "year": 2004,
+        "doi": "https://doi.org/10.1007/s00454-004-1122-6",
+        "type": "article",
+        "cited_by": 90,
+        "authors": [
+          "Kree Cole-McLaughlin",
+          "Herbert Edelsbrunner",
+          "John Harer",
+          "Vijay Natarajan",
+          "Valerio Pascucci"
+        ],
+        "source": "Discrete & Computational Geometry",
+        "openalex": "https://openalex.org/W2091452023"
+      },
+      {
+        "title": "Reeb Graphs: Approximation and Persistence",
+        "year": 2012,
+        "doi": "https://doi.org/10.1007/s00454-012-9463-z",
+        "type": "article",
+        "cited_by": 56,
+        "authors": [
+          "Tamal K. Dey",
+          "Yusu Wang"
+        ],
+        "source": "Discrete & Computational Geometry",
+        "openalex": "https://openalex.org/W2151335375"
+      },
+      {
+        "title": "Time-varying Reeb graphs for continuous space\u2013time data",
+        "year": 2007,
+        "doi": "https://doi.org/10.1016/j.comgeo.2007.11.001",
+        "type": "article",
+        "cited_by": 66,
+        "authors": [
+          "Herbert Edelsbrunner",
+          "John Harer",
+          "Ajith Mascarenhas",
+          "Valerio Pascucci",
+          "Jack Snoeyink"
+        ],
+        "source": "Computational Geometry",
+        "openalex": "https://openalex.org/W2198493461"
+      },
+      {
+        "title": "Reeb Spaces of Smooth Functions on Manifolds",
+        "year": 2020,
+        "doi": "https://doi.org/10.1093/imrn/rnaa301",
+        "type": "article",
+        "cited_by": 17,
+        "authors": [
+          "Osamu Saeki"
+        ],
+        "source": "International Mathematics Research Notices",
+        "openalex": "https://openalex.org/W3128520745"
+      },
+      {
+        "title": "The Edit Distance for Reeb Graphs of Surfaces",
+        "year": 2016,
+        "doi": "https://doi.org/10.1007/s00454-016-9758-6",
+        "type": "article",
+        "cited_by": 39,
+        "authors": [
+          "Barbara Di Fabio",
+          "Claudia Landi"
+        ],
+        "source": "Discrete & Computational Geometry",
+        "openalex": "https://openalex.org/W1581051117"
+      },
+      {
+        "title": "Reeb spaces of smooth functions on manifolds",
+        "year": 2020,
+        "doi": "https://doi.org/10.48550/arxiv.2006.01689",
+        "type": "preprint",
+        "cited_by": 11,
+        "authors": [
+          "Osamu Saeki"
+        ],
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W3033733332"
+      },
+      {
+        "title": "A SMOOTH FUNCTION ON A MANIFOLD WITH GIVEN REEB GRAPH",
+        "year": 2011,
+        "doi": "https://doi.org/10.2206/kyushujm.65.75",
+        "type": "article",
+        "cited_by": 34,
+        "authors": [
+          "Yasutaka MASUMOTO",
+          "Osamu Saeki"
+        ],
+        "source": "Kyushu Journal of Mathematics",
+        "openalex": "https://openalex.org/W2064224689"
+      },
+      {
+        "title": "Topology and data",
+        "year": 2009,
+        "doi": "https://doi.org/10.1090/s0273-0979-09-01249-x",
+        "type": "article",
+        "cited_by": 2346,
+        "authors": [
+          "Gunnar Carlsson"
+        ],
+        "source": "Bulletin of the American Mathematical Society",
+        "openalex": "https://openalex.org/W1991566301"
+      }
+    ]
+  },
+  {
+    "query": "monotone light factorization connected fibers continuous map",
+    "results": [
+      {
+        "title": "Maps with 0-dimensional critical set",
+        "year": 1975,
+        "doi": "https://doi.org/10.2140/pjm.1975.57.59",
+        "type": "article",
+        "cited_by": 56,
+        "authors": [
+          "P. D. Church",
+          "J. G. Timourian"
+        ],
+        "source": "Pacific Journal of Mathematics",
+        "openalex": "https://openalex.org/W4234360888"
+      },
+      {
+        "title": "Some general properties of multi-valued functions",
+        "year": 1965,
+        "doi": "https://doi.org/10.2140/pjm.1965.15.681",
+        "type": "article",
+        "cited_by": 43,
+        "authors": [
+          "R. E. Smithson"
+        ],
+        "source": "Pacific Journal of Mathematics",
+        "openalex": "https://openalex.org/W2035998393"
+      },
+      {
+        "title": "Differentiable monotone maps on manifolds",
+        "year": 1967,
+        "doi": "https://doi.org/10.1090/s0002-9947-1967-0242172-3",
+        "type": "article",
+        "cited_by": 5,
+        "authors": [
+          "P. T. Church"
+        ],
+        "source": "Transactions of the American Mathematical Society",
+        "openalex": "https://openalex.org/W1971110235"
+      },
+      {
+        "title": "Quantifying non-Gaussianity for quantum information",
+        "year": 2010,
+        "doi": "https://doi.org/10.1103/physreva.82.052341",
+        "type": "article",
+        "cited_by": 202,
+        "authors": [
+          "Marco G. Genoni",
+          "Matteo G. A. Paris"
+        ],
+        "source": "Physical Review A",
+        "openalex": "https://openalex.org/W2128359435"
+      },
+      {
+        "title": "Light morphisms for generalized T0 -reflections",
+        "year": 2009,
+        "doi": "https://doi.org/10.1016/j.topol.2009.03.031",
+        "type": "article",
+        "cited_by": 6,
+        "authors": [
+          "George Janelidze"
+        ],
+        "source": "Topology and its Applications",
+        "openalex": "https://openalex.org/W2054282875"
+      },
+      {
+        "title": "Beyond toy models: distilling tensor networks in full AdS/CFT",
+        "year": 2023,
+        "doi": "https://doi.org/10.1007/jhep11%282019%29069",
+        "type": "article",
+        "cited_by": 109,
+        "authors": [
+          "Ning Bao"
+        ],
+        "source": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "openalex": "https://openalex.org/W3101043594"
+      },
+      {
+        "title": "On the Factors and Fiberings of Manifolds",
+        "year": 1950,
+        "doi": "https://doi.org/10.2307/2031925",
+        "type": "article",
+        "cited_by": 7,
+        "authors": [
+          "Gail S. Young"
+        ],
+        "source": "Proceedings of the American Mathematical Society",
+        "openalex": "https://openalex.org/W4232942269"
+      },
+      {
+        "title": "The dynamical systems approach to differential equations",
+        "year": 1984,
+        "doi": "https://doi.org/10.1090/s0273-0979-1984-15236-4",
+        "type": "article",
+        "cited_by": 318,
+        "authors": [
+          "Morris W. Hirsch"
+        ],
+        "source": "Bulletin of the American Mathematical Society",
+        "openalex": "https://openalex.org/W2147584847"
+      }
+    ]
+  },
+  {
+    "query": "Stein factorization connected fibers quotient topology",
+    "results": [
+      {
+        "title": "From Holomorphic Functions to Complex Manifolds",
+        "year": 2003,
+        "doi": "https://doi.org/10.2307/3647794",
+        "type": "article",
+        "cited_by": 169,
+        "authors": [
+          "Steven G. Krantz",
+          "K Fritzsche",
+          "Hans Grauert"
+        ],
+        "source": "American Mathematical Monthly",
+        "openalex": "https://openalex.org/W2083126667"
+      },
+      {
+        "title": "Calabi\u2013Yau threefolds of quotient type",
+        "year": 2001,
+        "doi": "https://doi.org/10.4310/ajm.2001.v5.n1.a5",
+        "type": "article",
+        "cited_by": 65,
+        "authors": [
+          "Keiji Oguiso",
+          "Jun Sakurai"
+        ],
+        "source": "Asian Journal of Mathematics",
+        "openalex": "https://openalex.org/W2964118540"
+      },
+      {
+        "title": "Notes on the topology of folds",
+        "year": 1992,
+        "doi": "https://doi.org/10.2969/jmsj/04430551",
+        "type": "article",
+        "cited_by": 65,
+        "authors": [
+          "Osamu Saeki"
+        ],
+        "source": "Journal of the Mathematical Society of Japan",
+        "openalex": "https://openalex.org/W2079412159"
+      },
+      {
+        "title": "Non-archimedean tame topology and stably dominated types",
+        "year": 2010,
+        "doi": "https://doi.org/10.48550/arxiv.1009.0252",
+        "type": "preprint",
+        "cited_by": 68,
+        "authors": [
+          "Ehud Hrushovski",
+          "Fran\u00e7ois Loeser"
+        ],
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W1767480866"
+      },
+      {
+        "title": "Combinatorics and topology of proper toric maps",
+        "year": 2016,
+        "doi": "https://doi.org/10.1515/crelle-2015-0104",
+        "type": "article",
+        "cited_by": 31,
+        "authors": [
+          "Mark Andrea de Cataldo",
+          "Luca Migliorini",
+          "Mircea Musta\u0163\u0103"
+        ],
+        "source": "Journal f\u00fcr die reine und angewandte Mathematik (Crelles Journal)",
+        "openalex": "https://openalex.org/W2963944415"
+      },
+      {
+        "title": "On the Topology of Simple Fold Maps",
+        "year": 1994,
+        "doi": "https://doi.org/10.3836/tjm/1270128185",
+        "type": "article",
+        "cited_by": 26,
+        "authors": [
+          "Kazuhiro Sakuma"
+        ],
+        "source": "Tokyo Journal of Mathematics",
+        "openalex": "https://openalex.org/W2081564743"
+      },
+      {
+        "title": "Contact 3-manifolds with infinitely many Stein fillings",
+        "year": 2003,
+        "doi": "https://doi.org/10.1090/s0002-9939-03-07328-3",
+        "type": "article",
+        "cited_by": 35,
+        "authors": [
+          "Burak \u00d6zba\u011fc\u0131",
+          "Andr\u00e1s I. Stipsicz"
+        ],
+        "source": "Proceedings of the American Mathematical Society",
+        "openalex": "https://openalex.org/W1900922902"
+      },
+      {
+        "title": "Generic smooth maps with sphere fibers",
+        "year": 2005,
+        "doi": "https://doi.org/10.2969/jmsj/1158241939",
+        "type": "article",
+        "cited_by": 27,
+        "authors": [
+          "Osamu Saeki",
+          "Keiichi SUZUOKA"
+        ],
+        "source": "Journal of the Mathematical Society of Japan",
+        "openalex": "https://openalex.org/W1991000062"
+      }
+    ]
+  },
+  {
+    "query": "global observability nonlinear systems distinguishability local observability",
+    "results": [
+      {
+        "title": "Nonlinear norm-observability notions and stability of switched systems",
+        "year": 2005,
+        "doi": "https://doi.org/10.1109/tac.2004.841937",
+        "type": "article",
+        "cited_by": 313,
+        "authors": [
+          "Jo\u00e3o P. Hespanha",
+          "Daniel Liberzon",
+          "David Angeli",
+          "Eduardo D. Sontag"
+        ],
+        "source": "IEEE Transactions on Automatic Control",
+        "openalex": "https://openalex.org/W2123138848"
+      },
+      {
+        "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+        "year": 2019,
+        "doi": "https://doi.org/10.1155/2019/8497093",
+        "type": "article",
+        "cited_by": 135,
+        "authors": [
+          "Alejandro F. Villaverde"
+        ],
+        "source": "Complexity",
+        "openalex": "https://openalex.org/W2905083628"
+      },
+      {
+        "title": "Nonlinear dynamics of networks: the groupoid formalism",
+        "year": 2006,
+        "doi": "https://doi.org/10.1090/s0273-0979-06-01108-6",
+        "type": "article",
+        "cited_by": 419,
+        "authors": [
+          "Martin Golubitsky",
+          "Ian Stewart"
+        ],
+        "source": "Bulletin of the American Mathematical Society",
+        "openalex": "https://openalex.org/W2064608742"
+      },
+      {
+        "title": "Equilibration, thermalisation, and the emergence of statistical mechanics in closed quantum systems",
+        "year": 2016,
+        "doi": "https://doi.org/10.1088/0034-4885/79/5/056001",
+        "type": "article",
+        "cited_by": 1014,
+        "authors": [
+          "Christian Gogolin",
+          "Jens Eisert"
+        ],
+        "source": "Reports on Progress in Physics",
+        "openalex": "https://openalex.org/W1759597146"
+      },
+      {
+        "title": "Multiphoton entanglement and interferometry",
+        "year": 2012,
+        "doi": "https://doi.org/10.1103/revmodphys.84.777",
+        "type": "article",
+        "cited_by": 1441,
+        "authors": [
+          "Jian-Wei Pan",
+          "Zeng\u2010Bing Chen",
+          "Chao\u2010Yang Lu",
+          "Harald Weinfurter",
+          "Anton Zeilinger",
+          "Marek \u017bukowski"
+        ],
+        "source": "Reviews of Modern Physics",
+        "openalex": "https://openalex.org/W2015275764"
+      },
+      {
+        "title": "Observability Analysis and State Estimation of Lithium-Ion Batteries in the Presence of Sensor Biases",
+        "year": 2016,
+        "doi": "https://doi.org/10.1109/tcst.2016.2542115",
+        "type": "article",
+        "cited_by": 113,
+        "authors": [
+          "Shi Zhao",
+          "Stephen R. Duncan",
+          "David A. Howey"
+        ],
+        "source": "IEEE Transactions on Control Systems Technology",
+        "openalex": "https://openalex.org/W1748988419"
+      },
+      {
+        "title": "Nuclear Quantum Effects in Water and Aqueous Systems: Experiment, Theory, and Current Challenges",
+        "year": 2016,
+        "doi": "https://doi.org/10.1021/acs.chemrev.5b00674",
+        "type": "article",
+        "cited_by": 709,
+        "authors": [
+          "Michele Ceriotti",
+          "Wei Fang",
+          "Peter G. Kusalik",
+          "Ross H. McKenzie",
+          "Angelos Michaelides",
+          "Miguel A. Morales",
+          "Thomas E. Markland"
+        ],
+        "source": "Chemical Reviews",
+        "openalex": "https://openalex.org/W2314762912"
+      },
+      {
+        "title": "Structural Identifiability of Dynamic Systems Biology Models",
+        "year": 2016,
+        "doi": "https://doi.org/10.1371/journal.pcbi.1005153",
+        "type": "article",
+        "cited_by": 292,
+        "authors": [
+          "Alejandro F. Villaverde",
+          "Antonio Barreiro",
+          "Antonis Papachristodoulou"
+        ],
+        "source": "PLoS Computational Biology",
+        "openalex": "https://openalex.org/W2541490590"
+      }
+    ]
+  },
+  {
+    "query": "Hermann Krener nonlinear observability rank condition global observability",
+    "results": [
+      {
+        "title": "Observability and Controllability of Nonlinear Networks: The Role of Symmetry",
+        "year": 2015,
+        "doi": "https://doi.org/10.1103/physrevx.5.011005",
+        "type": "article",
+        "cited_by": 157,
+        "authors": [
+          "Andrew J. Whalen",
+          "Sean Brennan",
+          "Timothy Sauer",
+          "Steven J. Schiff"
+        ],
+        "source": "Physical Review X",
+        "openalex": "https://openalex.org/W2078029337"
+      },
+      {
+        "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+        "year": 2019,
+        "doi": "https://doi.org/10.1155/2019/8497093",
+        "type": "article",
+        "cited_by": 135,
+        "authors": [
+          "Alejandro F. Villaverde"
+        ],
+        "source": "Complexity",
+        "openalex": "https://openalex.org/W2905083628"
+      },
+      {
+        "title": "Nonlinear observers for locally uniformly observable systems",
+        "year": 2003,
+        "doi": "https://doi.org/10.1051/cocv:2003017",
+        "type": "article",
+        "cited_by": 98,
+        "authors": [
+          "H. Hammouri",
+          "M. Farza"
+        ],
+        "source": "ESAIM Control Optimisation and Calculus of Variations",
+        "openalex": "https://openalex.org/W2003418697"
+      },
+      {
+        "title": "Observability of Strapdown INS Alignment: A Global Perspective",
+        "year": 2012,
+        "doi": "https://doi.org/10.1109/taes.2012.6129622",
+        "type": "article",
+        "cited_by": 106,
+        "authors": [
+          "Yuanxin Wu",
+          "Hongliang Zhang",
+          "Meiping Wu",
+          "Xiaoping Hu",
+          "Dewen Hu"
+        ],
+        "source": "IEEE Transactions on Aerospace and Electronic Systems",
+        "openalex": "https://openalex.org/W2001162850"
+      },
+      {
+        "title": "Observability of nonlinear systems with unmeasured inputs",
+        "year": 2019,
+        "doi": "https://doi.org/10.1016/j.ymssp.2019.05.010",
+        "type": "article",
+        "cited_by": 59,
+        "authors": [
+          "Kristof Maes",
+          "Manolis N. Chatzis",
+          "Geert Lombaert"
+        ],
+        "source": "Mechanical Systems and Signal Processing",
+        "openalex": "https://openalex.org/W2946782338"
+      },
+      {
+        "title": "A Probabilistic Algorithm to Test Local Algebraic Observability in Polynomial Time",
+        "year": 2002,
+        "doi": "https://doi.org/10.1006/jsco.2002.0532",
+        "type": "article",
+        "cited_by": 154,
+        "authors": [
+          "Alexandre Sedoglavic"
+        ],
+        "source": "Journal of Symbolic Computation",
+        "openalex": "https://openalex.org/W2675964770"
+      },
+      {
+        "title": "Observability of Complex Systems: Finding the Gap",
+        "year": 2017,
+        "doi": "https://doi.org/10.1038/s41598-017-16682-x",
+        "type": "article",
+        "cited_by": 58,
+        "authors": [
+          "J.D. Stigter",
+          "Dominique Joubert",
+          "Jaap Molenaar"
+        ],
+        "source": "Scientific Reports",
+        "openalex": "https://openalex.org/W2770180493"
+      },
+      {
+        "title": "Symbolic computations of nonlinear observability",
+        "year": 2015,
+        "doi": "https://doi.org/10.1103/physreve.91.062912",
+        "type": "article",
+        "cited_by": 25,
+        "authors": [
+          "Ezequiel Bianco-Mart\u00ednez",
+          "Murilo S. Baptista",
+          "Christophe Letellier"
+        ],
+        "source": "Physical Review E",
+        "openalex": "https://openalex.org/W973473599"
+      }
+    ]
+  },
+  {
+    "query": "hybrid systems mode observability location observability discrete mode",
+    "results": [
+      {
+        "title": "Quasinormal modes of black holes and black branes",
+        "year": 2009,
+        "doi": "https://doi.org/10.1088/0264-9381/26/16/163001",
+        "type": "article",
+        "cited_by": 2327,
+        "authors": [
+          "Emanuele Berti",
+          "V\u00edtor Cardoso",
+          "Andrei O. Starinets"
+        ],
+        "source": "Classical and Quantum Gravity",
+        "openalex": "https://openalex.org/W2040216147"
+      },
+      {
+        "title": "Gradient-based learning applied to document recognition",
+        "year": 1998,
+        "doi": "https://doi.org/10.1109/5.726791",
+        "type": "article",
+        "cited_by": 59426,
+        "authors": [
+          "Yann LeCun",
+          "L\u00e9on Bottou",
+          "Yoshua Bengio",
+          "Patrick Haffner"
+        ],
+        "source": "Proceedings of the IEEE",
+        "openalex": "https://openalex.org/W2112796928"
+      },
+      {
+        "title": "CHARMM: The biomolecular simulation program",
+        "year": 2009,
+        "doi": "https://doi.org/10.1002/jcc.21287",
+        "type": "article",
+        "cited_by": 9263,
+        "authors": [
+          "Bernard R. Brooks",
+          "Charles L. Brooks",
+          "Alexander D. MacKerell",
+          "Lennart Nilsson",
+          "Robert J. Petrella",
+          "Beno\u0131\u0302t Roux",
+          "Youngdo Won",
+          "Georgios Archontis"
+        ],
+        "source": "Journal of Computational Chemistry",
+        "openalex": "https://openalex.org/W2132262459"
+      },
+      {
+        "title": "New directions in the pursuit of Majorana fermions in solid state systems",
+        "year": 2012,
+        "doi": "https://doi.org/10.1088/0034-4885/75/7/076501",
+        "type": "article",
+        "cited_by": 2866,
+        "authors": [
+          "Jason Alicea"
+        ],
+        "source": "Reports on Progress in Physics",
+        "openalex": "https://openalex.org/W2043647075"
+      },
+      {
+        "title": "Physics-informed machine learning",
+        "year": 2021,
+        "doi": "https://doi.org/10.1038/s42254-021-00314-5",
+        "type": "article",
+        "cited_by": 7620,
+        "authors": [
+          "George Em Karniadakis",
+          "Ioannis G. Kevrekidis",
+          "Lu Lu",
+          "Paris Perdikaris",
+          "Sifan Wang",
+          "Liu Yang"
+        ],
+        "source": "Nature Reviews Physics",
+        "openalex": "https://openalex.org/W3163993681"
+      },
+      {
+        "title": "Conewise Linear Systems: Non\u2010Zenoness and Observability",
+        "year": 2006,
+        "doi": "https://doi.org/10.1137/050645166",
+        "type": "article",
+        "cited_by": 78,
+        "authors": [
+          "M. Kanat Camlibel",
+          "Jong\u2010Shi Pang",
+          "Jinglai Shen"
+        ],
+        "source": "SIAM Journal on Control and Optimization",
+        "openalex": "https://openalex.org/W2118080848"
+      },
+      {
+        "title": "Multiphoton entanglement and interferometry",
+        "year": 2012,
+        "doi": "https://doi.org/10.1103/revmodphys.84.777",
+        "type": "article",
+        "cited_by": 1441,
+        "authors": [
+          "Jian-Wei Pan",
+          "Zeng\u2010Bing Chen",
+          "Chao\u2010Yang Lu",
+          "Harald Weinfurter",
+          "Anton Zeilinger",
+          "Marek \u017bukowski"
+        ],
+        "source": "Reviews of Modern Physics",
+        "openalex": "https://openalex.org/W2015275764"
+      },
+      {
+        "title": "Verification and control of partially observable probabilistic systems",
+        "year": 2017,
+        "doi": "https://doi.org/10.1007/s11241-017-9269-4",
+        "type": "article",
+        "cited_by": 73,
+        "authors": [
+          "Gethin Norman",
+          "David Parker",
+          "Xueyi Zou"
+        ],
+        "source": "Real-Time Systems",
+        "openalex": "https://openalex.org/W2594789366"
+      }
+    ]
+  },
+  {
+    "query": "hybrid system detectability discrete mode continuous state observability",
+    "results": [
+      {
+        "title": "Gradient-based learning applied to document recognition",
+        "year": 1998,
+        "doi": "https://doi.org/10.1109/5.726791",
+        "type": "article",
+        "cited_by": 59426,
+        "authors": [
+          "Yann LeCun",
+          "L\u00e9on Bottou",
+          "Yoshua Bengio",
+          "Patrick Haffner"
+        ],
+        "source": "Proceedings of the IEEE",
+        "openalex": "https://openalex.org/W2112796928"
+      },
+      {
+        "title": "Hybrid discrete- and continuous-variable quantum information",
+        "year": 2015,
+        "doi": "https://doi.org/10.1038/nphys3410",
+        "type": "article",
+        "cited_by": 438,
+        "authors": [
+          "Ulrik L. Andersen",
+          "Jonas S. Neergaard-Nielsen",
+          "Peter van Loock",
+          "Akira Furusawa"
+        ],
+        "source": "Nature Physics",
+        "openalex": "https://openalex.org/W2610827583"
+      },
+      {
+        "title": "Quasinormal modes of black holes and black branes",
+        "year": 2009,
+        "doi": "https://doi.org/10.1088/0264-9381/26/16/163001",
+        "type": "article",
+        "cited_by": 2327,
+        "authors": [
+          "Emanuele Berti",
+          "V\u00edtor Cardoso",
+          "Andrei O. Starinets"
+        ],
+        "source": "Classical and Quantum Gravity",
+        "openalex": "https://openalex.org/W2040216147"
+      },
+      {
+        "title": "Diagnosing Non-Intermittent Anomalies in Reinforcement Learning Policy Executions (Short Paper)",
+        "year": 2017,
+        "doi": "https://doi.org/10.4230/oasics.dx.2024.16",
+        "type": "preprint",
+        "cited_by": 11353,
+        "authors": [
+          "Esper, Khalil",
+          "Spieck, Jan",
+          "Sixdenier, Pierre-Louis",
+          "Wildermann, Stefan",
+          "Teich, J\u00fcrgen"
+        ],
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W2736601468"
+      },
+      {
+        "title": "Connectionist Speech Recognition: A Hybrid Approach",
+        "year": 1993,
+        "doi": null,
+        "type": "book",
+        "cited_by": 1137,
+        "authors": [
+          "Herv\u00e9 Bourlard",
+          "Nelson Morgan"
+        ],
+        "source": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+        "openalex": "https://openalex.org/W1553004968"
+      },
+      {
+        "title": "Unmanned aerial systems for photogrammetry and remote sensing: A review",
+        "year": 2014,
+        "doi": "https://doi.org/10.1016/j.isprsjprs.2014.02.013",
+        "type": "article",
+        "cited_by": 2970,
+        "authors": [
+          "I. Colomina",
+          "P. Molina"
+        ],
+        "source": "ISPRS Journal of Photogrammetry and Remote Sensing",
+        "openalex": "https://openalex.org/W1998943389"
+      },
+      {
+        "title": "On the regularization of Zeno hybrid automata",
+        "year": 1999,
+        "doi": "https://doi.org/10.1016/s0167-6911(99)00059-6",
+        "type": "article",
+        "cited_by": 559,
+        "authors": [
+          "Karl Henrik Johansson",
+          "Magnus Egerstedt",
+          "John Lygeros",
+          "Shankar Sastry"
+        ],
+        "source": "Systems & Control Letters",
+        "openalex": "https://openalex.org/W2068864491"
+      },
+      {
+        "title": "Physics-informed machine learning",
+        "year": 2021,
+        "doi": "https://doi.org/10.1038/s42254-021-00314-5",
+        "type": "article",
+        "cited_by": 7620,
+        "authors": [
+          "George Em Karniadakis",
+          "Ioannis G. Kevrekidis",
+          "Lu Lu",
+          "Paris Perdikaris",
+          "Sifan Wang",
+          "Liu Yang"
+        ],
+        "source": "Nature Reviews Physics",
+        "openalex": "https://openalex.org/W3163993681"
+      }
+    ]
+  },
+  {
+    "query": "covering map inverse branches branch index topology",
+    "results": [
+      {
+        "title": "Topology and data",
+        "year": 2009,
+        "doi": "https://doi.org/10.1090/s0273-0979-09-01249-x",
+        "type": "article",
+        "cited_by": 2346,
+        "authors": [
+          "Gunnar Carlsson"
+        ],
+        "source": "Bulletin of the American Mathematical Society",
+        "openalex": "https://openalex.org/W1991566301"
+      },
+      {
+        "title": "The topology of four-dimensional manifolds",
+        "year": 1982,
+        "doi": "https://doi.org/10.4310/jdg/1214437136",
+        "type": "article",
+        "cited_by": 1486,
+        "authors": [
+          "Michael Freedman"
+        ],
+        "source": "Journal of Differential Geometry",
+        "openalex": "https://openalex.org/W1504831268"
+      },
+      {
+        "title": "Foliations and the topology of 3-manifolds",
+        "year": 1983,
+        "doi": "https://doi.org/10.4310/jdg/1214437784",
+        "type": "article",
+        "cited_by": 902,
+        "authors": [
+          "David Gabai"
+        ],
+        "source": "Journal of Differential Geometry",
+        "openalex": "https://openalex.org/W1560527130"
+      },
+      {
+        "title": "Topologies on Spaces of Subsets",
+        "year": 1951,
+        "doi": "https://doi.org/10.2307/1990864",
+        "type": "article",
+        "cited_by": 295,
+        "authors": [
+          "Ernest Michael"
+        ],
+        "source": "Transactions of the American Mathematical Society",
+        "openalex": "https://openalex.org/W4241524567"
+      },
+      {
+        "title": "Covering theory for graphs of groups",
+        "year": 1993,
+        "doi": "https://doi.org/10.1016/0022-4049(93)90085-8",
+        "type": "article",
+        "cited_by": 287,
+        "authors": [
+          "Hyman Bass"
+        ],
+        "source": "Journal of Pure and Applied Algebra",
+        "openalex": "https://openalex.org/W2040960421"
+      },
+      {
+        "title": "Compactifying the space of stable maps",
+        "year": 2001,
+        "doi": "https://doi.org/10.1090/s0894-0347-01-00380-0",
+        "type": "article",
+        "cited_by": 431,
+        "authors": [
+          "Dan Abramovich",
+          "Angelo Vistoli"
+        ],
+        "source": "Journal of the American Mathematical Society",
+        "openalex": "https://openalex.org/W1801328714"
+      },
+      {
+        "title": "Gluing pseudoholomorphic curves along branched covered cylinders II",
+        "year": 2009,
+        "doi": "https://doi.org/10.4310/jsg.2009.v7.n1.a2",
+        "type": "article",
+        "cited_by": 134,
+        "authors": [
+          "Michael Hutchings",
+          "Michael R. Hutchings",
+          "Clifford Henry Taubes",
+          "Clifford Henry Taubes"
+        ],
+        "source": "Journal of Symplectic Geometry",
+        "openalex": "https://openalex.org/W1977183228"
+      },
+      {
+        "title": "Branched coverings of graph imbeddings",
+        "year": 1973,
+        "doi": "https://doi.org/10.1090/s0002-9904-1973-13270-7",
+        "type": "article",
+        "cited_by": 39,
+        "authors": [
+          "Jonathan L. Gross",
+          "Seth R. Alpert"
+        ],
+        "source": "Bulletin of the American Mathematical Society",
+        "openalex": "https://openalex.org/W2086081221"
+      }
+    ]
+  },
+  {
+    "query": "predictive state representations controlled dynamical systems",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")",
+    "results": []
+  },
+  {
+    "query": "input output epsilon transducers computational mechanics",
+    "results": [
+      {
+        "title": "Computational Mechanics of Input\u2013Output Processes: Structured Transformations and the $$\\epsilon $$-Transducer",
+        "year": 2015,
+        "doi": "https://doi.org/10.1007/s10955-015-1327-5",
+        "type": "article",
+        "cited_by": 55,
+        "authors": [
+          "Nix Barnett",
+          "James P. Crutchfield"
+        ],
+        "source": "Journal of Statistical Physics",
+        "openalex": "https://openalex.org/W1525134320"
+      },
+      {
+        "title": "Computational Mechanics of Input-Output Processes: Structured transformations and the\\n $\\\\epsilon$-transducer",
+        "year": 2014,
+        "doi": null,
+        "type": "article",
+        "cited_by": 49,
+        "authors": [
+          "Nix Barnett",
+          "James P. Crutchfield"
+        ],
+        "source": "eScholarship (California Digital Library)",
+        "openalex": "https://openalex.org/W3105627797"
+      },
+      {
+        "title": "Using quantum theory to simplify input\u2013output processes",
+        "year": 2017,
+        "doi": "https://doi.org/10.1038/s41534-016-0001-3",
+        "type": "article",
+        "cited_by": 32,
+        "authors": [
+          "Jayne Thompson",
+          "Andrew J. P. Garner",
+          "Vlatko Vedral",
+          "Mile Gu"
+        ],
+        "source": "npj Quantum Information",
+        "openalex": "https://openalex.org/W2273899029"
+      },
+      {
+        "title": "Reverse Screening Methods to Search for the Protein Targets of Chemopreventive Compounds",
+        "year": 2018,
+        "doi": "https://doi.org/10.3389/fchem.2018.00138",
+        "type": "article",
+        "cited_by": 136,
+        "authors": [
+          "Hongbin Huang",
+          "Guigui Zhang",
+          "Yuquan Zhou",
+          "Chenru Lin",
+          "Suling Chen",
+          "Yutong Lin",
+          "Shangkang Mai",
+          "Zunnan Huang"
+        ],
+        "source": "Frontiers in Chemistry",
+        "openalex": "https://openalex.org/W2802492120"
+      },
+      {
+        "title": "On-machine and in-process surface metrology for precision manufacturing",
+        "year": 2019,
+        "doi": "https://doi.org/10.1016/j.cirp.2019.05.005",
+        "type": "article",
+        "cited_by": 442,
+        "authors": [
+          "Wei Gao",
+          "Han Haitjema",
+          "Fengzhou Fang",
+          "Richard Leach",
+          "Chi Fai Cheung",
+          "Enrico Savio",
+          "Jean\u2010Marc Linares"
+        ],
+        "source": "CIRP Annals",
+        "openalex": "https://openalex.org/W2951215190"
+      },
+      {
+        "title": "Evaluation of the integration of the Wind-Induced Flutter Energy Harvester (WIFEH) into the built environment: Experimental and numerical analysis",
+        "year": 2017,
+        "doi": "https://doi.org/10.1016/j.apenergy.2017.06.041",
+        "type": "article",
+        "cited_by": 64,
+        "authors": [
+          "Angelo I. Aquino",
+          "John Kaiser Calautit",
+          "Ben Richard Hughes"
+        ],
+        "source": "Applied Energy",
+        "openalex": "https://openalex.org/W2727251225"
+      },
+      {
+        "title": "A Computational Fluid Dynamic Analysis of Archimedes Screw Generators",
+        "year": 2018,
+        "doi": null,
+        "type": "dissertation",
+        "cited_by": 9,
+        "authors": [
+          "Scott Simmons"
+        ],
+        "source": "The Atrium (University of Guelph)",
+        "openalex": "https://openalex.org/W2890993780"
+      },
+      {
+        "title": "Investigation of Mechanical Loss Components and Heat Transfer in an Axial-Flux PM Machine",
+        "year": 2015,
+        "doi": "https://doi.org/10.1109/tia.2015.2405499",
+        "type": "article",
+        "cited_by": 64,
+        "authors": [
+          "Rafa\u0142 Wr\u00f3bel",
+          "Gyula Vainel",
+          "Colin Copeland",
+          "Tomasz Duda",
+          "Dave Staton",
+          "Phil Mellor"
+        ],
+        "source": "IEEE Transactions on Industry Applications",
+        "openalex": "https://openalex.org/W2050300973"
+      }
+    ]
+  },
+  {
+    "query": "bisimulation quotient continuous systems observations",
+    "results": [
+      {
+        "title": "Bisimilar linear systems",
+        "year": 2003,
+        "doi": "https://doi.org/10.1016/j.automatica.2003.07.003",
+        "type": "article",
+        "cited_by": 207,
+        "authors": [
+          "George J. Pappas"
+        ],
+        "source": "Automatica",
+        "openalex": "https://openalex.org/W2090771707"
+      },
+      {
+        "title": "Universal coalgebra: a theory of systems",
+        "year": 2000,
+        "doi": "https://doi.org/10.1016/s0304-3975(00)00056-6",
+        "type": "article",
+        "cited_by": 1184,
+        "authors": [
+          "J.J.M.M. Rutten"
+        ],
+        "source": "Theoretical Computer Science",
+        "openalex": "https://openalex.org/W2088189323"
+      },
+      {
+        "title": "On the origins of bisimulation and coinduction",
+        "year": 2009,
+        "doi": "https://doi.org/10.1145/1516507.1516510",
+        "type": "article",
+        "cited_by": 186,
+        "authors": [
+          "Davide Sangiorgi"
+        ],
+        "source": "ACM Transactions on Programming Languages and Systems",
+        "openalex": "https://openalex.org/W2116322260"
+      },
+      {
+        "title": "Bisimulation and cocongruence for probabilistic systems",
+        "year": 2006,
+        "doi": "https://doi.org/10.1016/j.ic.2005.02.004",
+        "type": "article",
+        "cited_by": 85,
+        "authors": [
+          "Vincent Danos",
+          "Jos\u00e9e Desharnais",
+          "Fran\u00e7ois Laviolette",
+          "Prakash Panangaden"
+        ],
+        "source": "Information and Computation",
+        "openalex": "https://openalex.org/W2078103992"
+      },
+      {
+        "title": "Quantales, finite observations and strong bisimulation",
+        "year": 2001,
+        "doi": "https://doi.org/10.1016/s0304-3975(99)00123-1",
+        "type": "article",
+        "cited_by": 53,
+        "authors": [
+          "Pedro Resende"
+        ],
+        "source": "Theoretical Computer Science",
+        "openalex": "https://openalex.org/W2066722548"
+      },
+      {
+        "title": "Finite Bisimulations for Switched Linear Systems",
+        "year": 2014,
+        "doi": "https://doi.org/10.1109/tac.2014.2351653",
+        "type": "article",
+        "cited_by": 30,
+        "authors": [
+          "Ebru Ayd\u0131n G\u00f6l",
+          "Xuchu Ding",
+          "Mircea Lazar",
+          "C\u0103lin Belta"
+        ],
+        "source": "IEEE Transactions on Automatic Control",
+        "openalex": "https://openalex.org/W2072229594"
+      },
+      {
+        "title": "Bisimulation for Labelled Markov Processes",
+        "year": 1997,
+        "doi": "https://doi.org/10.7146/brics.v4i4.18783",
+        "type": "article",
+        "cited_by": 35,
+        "authors": [
+          "Richard Blute",
+          "Jos\u00e9e Desharnais",
+          "Abbas Edalat",
+          "Prakash Panangaden"
+        ],
+        "source": "BRICS Report Series",
+        "openalex": "https://openalex.org/W2464857490"
+      },
+      {
+        "title": "Forward and Backward Bisimulations for Chemical Reaction Networks",
+        "year": 2015,
+        "doi": "https://doi.org/10.4230/lipics.concur.2015.226",
+        "type": "article",
+        "cited_by": 35,
+        "authors": [
+          "Luca Cardelli",
+          "Mirco Tribastone",
+          "Max Tschaikowski",
+          "Andrea Vandin"
+        ],
+        "source": "DROPS (Schloss Dagstuhl \u2013 Leibniz Center for Informatics)",
+        "openalex": "https://openalex.org/W1270629017"
+      }
+    ]
+  },
+  {
+    "query": "test cover problem pair separation experiments",
+    "results": [
+      {
+        "title": "Canu: scalable and accurate long-read assembly via adaptive k -mer weighting and repeat separation",
+        "year": 2017,
+        "doi": "https://doi.org/10.1101/gr.215087.116",
+        "type": "preprint",
+        "cited_by": 8287,
+        "authors": [
+          "Sergey Koren",
+          "Brian P. Walenz",
+          "Konstantin Berlin",
+          "Jason Miller",
+          "Nicholas H. Bergman",
+          "Adam M. Phillippy"
+        ],
+        "source": "Genome Research",
+        "openalex": "https://openalex.org/W2950354111"
+      },
+      {
+        "title": "The CMS experiment at the CERN LHC",
+        "year": 2008,
+        "doi": "https://doi.org/10.1088/1748-0221/3/08/s08004",
+        "type": "article",
+        "cited_by": 5496,
+        "authors": [
+          "S. Chatrchyan",
+          "G. Hmayakyan",
+          "V. Khachatryan",
+          "A. M. Sirunyan",
+          "W. Adam",
+          "Thomas Bauer",
+          "T. Bergauer",
+          "H. Bergauer"
+        ],
+        "source": "Journal of Instrumentation",
+        "openalex": "https://openalex.org/W2151512268"
+      },
+      {
+        "title": "Advances and Open Problems in Federated Learning",
+        "year": 2020,
+        "doi": "https://doi.org/10.1561/2200000083",
+        "type": "article",
+        "cited_by": 5363,
+        "authors": [
+          "Peter Kairouz",
+          "H. Brendan McMahan",
+          "Brendan Avent",
+          "Aur\u00e9lien Bellet",
+          "Mehdi Bennis",
+          "Arjun Nitin Bhagoji",
+          "Kallista Bonawitz",
+          "Zachary Charles"
+        ],
+        "source": "Foundations and Trends\u00ae in Machine Learning",
+        "openalex": "https://openalex.org/W2995022099"
+      },
+      {
+        "title": "Gradient-based learning applied to document recognition",
+        "year": 1998,
+        "doi": "https://doi.org/10.1109/5.726791",
+        "type": "article",
+        "cited_by": 59426,
+        "authors": [
+          "Yann LeCun",
+          "L\u00e9on Bottou",
+          "Yoshua Bengio",
+          "Patrick Haffner"
+        ],
+        "source": "Proceedings of the IEEE",
+        "openalex": "https://openalex.org/W2112796928"
+      },
+      {
+        "title": "The Problem of Pattern and Scale in Ecology: The Robert H. MacArthur Award Lecture",
+        "year": 1992,
+        "doi": "https://doi.org/10.2307/1941447",
+        "type": "article",
+        "cited_by": 6837,
+        "authors": [
+          "Simon A. Levin"
+        ],
+        "source": "Ecology",
+        "openalex": "https://openalex.org/W2322480672"
+      },
+      {
+        "title": "Field Experiments",
+        "year": 2004,
+        "doi": "https://doi.org/10.1257/0022051043004577",
+        "type": "article",
+        "cited_by": 2101,
+        "authors": [
+          "Glenn W. Harrison",
+          "John A. List"
+        ],
+        "source": "Journal of Economic Literature",
+        "openalex": "https://openalex.org/W4251446432"
+      },
+      {
+        "title": "Support-Vector Networks",
+        "year": 1995,
+        "doi": "https://doi.org/10.1023/a:1022627411411",
+        "type": "article",
+        "cited_by": 33858,
+        "authors": [
+          "Corinna Cortes",
+          "Vladimir Vapnik"
+        ],
+        "source": "Machine Learning",
+        "openalex": "https://openalex.org/W2119821739"
+      },
+      {
+        "title": "Phase separation in confined systems",
+        "year": 1999,
+        "doi": "https://doi.org/10.1088/0034-4885/62/12/201",
+        "type": "article",
+        "cited_by": 1566,
+        "authors": [
+          "Lev D. Gelb",
+          "Keith E. Gubbins",
+          "Ravi Radhakrishnan",
+          "Ma\u0142gorzata \u015aliwi\u0144ska-Bartkowiak"
+        ],
+        "source": "Reports on Progress in Physics",
+        "openalex": "https://openalex.org/W2144486764"
+      }
+    ]
+  },
+  {
+    "query": "active diagnosis hypothesis identification experiment design",
+    "results": [
+      {
+        "title": "Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?",
+        "year": 2018,
+        "doi": "https://doi.org/10.1109/tmi.2018.2837502",
+        "type": "article",
+        "cited_by": 2361,
+        "authors": [
+          "Olivier Bernard",
+          "Alain Lalande",
+          "Cl\u00e9ment Zotti",
+          "Frederick Cervenansky",
+          "Xin Yang",
+          "Pheng\u2010Ann Heng",
+          "Irem Cetin",
+          "Karim Lekadir"
+        ],
+        "source": "IEEE Transactions on Medical Imaging",
+        "openalex": "https://openalex.org/W2804047627"
+      },
+      {
+        "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+        "year": 2020,
+        "doi": "https://doi.org/10.1038/s41586-020-2012-7",
+        "type": "article",
+        "cited_by": 23433,
+        "authors": [
+          "Peng Zhou",
+          "Xing\u2010Lou Yang",
+          "Xian-Guang Wang",
+          "Ben Hu",
+          "Lei Zhang",
+          "Wei Zhang",
+          "Hao-Rui Si",
+          "Yan Zhu"
+        ],
+        "source": "Nature",
+        "openalex": "https://openalex.org/W3004280078"
+      },
+      {
+        "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+        "year": 2023,
+        "doi": "https://doi.org/10.48550/arxiv.2303.12712",
+        "type": "preprint",
+        "cited_by": 1583,
+        "authors": [
+          "S\u00e9bastien Bubeck",
+          "Varun Chandrasekaran",
+          "Ronen Eldan",
+          "Johannes Gehrke",
+          "Eric Horvitz",
+          "Ece Kamar",
+          "Peter Lee",
+          "Yin Tat Lee"
+        ],
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W4360836968"
+      },
+      {
+        "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+        "year": 2016,
+        "doi": "https://doi.org/10.1257/aer.20150572",
+        "type": "article",
+        "cited_by": 2317,
+        "authors": [
+          "Raj Chetty",
+          "Nathaniel Hendren",
+          "Lawrence F. Katz"
+        ],
+        "source": "American Economic Review",
+        "openalex": "https://openalex.org/W1484598383"
+      },
+      {
+        "title": "EASL Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis",
+        "year": 2017,
+        "doi": "https://doi.org/10.1016/j.jhep.2017.03.022",
+        "type": "article",
+        "cited_by": 1488,
+        "authors": [
+          "Gideon M. Hirschfield",
+          "Ulrich Beuers",
+          "Christophe Corpechot",
+          "Pietro Invernizzi",
+          "David Jones",
+          "Marco Marzioni",
+          "Christoph Schramm"
+        ],
+        "source": "Journal of Hepatology",
+        "openalex": "https://openalex.org/W2605729742"
+      },
+      {
+        "title": "The Amyloid-\u03b2 Oligomer Hypothesis: Beginning of the Third Decade",
+        "year": 2018,
+        "doi": "https://doi.org/10.3233/jad-179941",
+        "type": "article",
+        "cited_by": 892,
+        "authors": [
+          "Erika N. Cline",
+          "Ma\u00edra A. Bicca",
+          "Kirsten L. Viola",
+          "William L. Klein"
+        ],
+        "source": "Journal of Alzheimer s Disease",
+        "openalex": "https://openalex.org/W2809078375"
+      },
+      {
+        "title": "The Perseus computational platform for comprehensive analysis of (prote)omics data",
+        "year": 2016,
+        "doi": "https://doi.org/10.1038/nmeth.3901",
+        "type": "article",
+        "cited_by": 9055,
+        "authors": [
+          "Stefka Tyanova",
+          "Tikira Temu",
+          "Pavel Sinitcyn",
+          "Arthur Carlson",
+          "Marco Y. Hein",
+          "Tamar Geiger",
+          "Matthias Mann",
+          "J\u00fcrgen Cox"
+        ],
+        "source": "Nature Methods",
+        "openalex": "https://openalex.org/W2463195069"
+      },
+      {
+        "title": "Identification of Apple Leaf Diseases Based on Deep Convolutional Neural Networks",
+        "year": 2017,
+        "doi": "https://doi.org/10.3390/sym10010011",
+        "type": "article",
+        "cited_by": 800,
+        "authors": [
+          "Bin Liu",
+          "Yun Zhang",
+          "Dongjian He",
+          "Yuxiang Li"
+        ],
+        "source": "Symmetry",
+        "openalex": "https://openalex.org/W2776705292"
+      }
+    ]
+  },
+  {
+    "query": "minimal sufficient statistic future prediction causal states",
+    "results": [
+      {
+        "title": "Matching Methods for Causal Inference: A Review and a Look Forward",
+        "year": 2010,
+        "doi": "https://doi.org/10.1214/09-sts313",
+        "type": "article",
+        "cited_by": 5476,
+        "authors": [
+          "Elizabeth A. Stuart"
+        ],
+        "source": "Statistical Science",
+        "openalex": "https://openalex.org/W2155163959"
+      },
+      {
+        "title": "Causal inference in statistics: An overview",
+        "year": 2009,
+        "doi": "https://doi.org/10.1214/09-ss057",
+        "type": "article",
+        "cited_by": 2386,
+        "authors": [
+          "Judea Pearl"
+        ],
+        "source": "Statistics Surveys",
+        "openalex": "https://openalex.org/W2143117649"
+      },
+      {
+        "title": "A Theory of Causal Learning in Children: Causal Maps and Bayes Nets.",
+        "year": 2004,
+        "doi": "https://doi.org/10.1037/0033-295x.111.1.3",
+        "type": "article",
+        "cited_by": 1246,
+        "authors": [
+          "Alison Gopnik",
+          "Clark Glymour",
+          "David M. Sobel",
+          "Laura Schulz",
+          "Tamar Kushnir",
+          "David Danks"
+        ],
+        "source": "Psychological Review",
+        "openalex": "https://openalex.org/W2128152674"
+      },
+      {
+        "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+        "year": 2013,
+        "doi": "https://doi.org/10.1257/aer.103.6.2121",
+        "type": "article",
+        "cited_by": 4456,
+        "authors": [
+          "David Autor",
+          "David Dorn",
+          "Gordon Hanson"
+        ],
+        "source": "American Economic Review",
+        "openalex": "https://openalex.org/W2097916756"
+      },
+      {
+        "title": "Toward Causal Representation Learning",
+        "year": 2021,
+        "doi": "https://doi.org/10.1109/jproc.2021.3058954",
+        "type": "article",
+        "cited_by": 1117,
+        "authors": [
+          "Bernhard Sch\u00f6lkopf",
+          "Francesco Locatello",
+          "Stefan Bauer",
+          "Nan Rosemary Ke",
+          "Nal Kalchbrenner",
+          "Anirudh Goyal",
+          "Yoshua Bengio"
+        ],
+        "source": "Proceedings of the IEEE",
+        "openalex": "https://openalex.org/W3135588948"
+      },
+      {
+        "title": "An Introduction to Causal Inference",
+        "year": 2010,
+        "doi": "https://doi.org/10.2202/1557-4679.1203",
+        "type": "article",
+        "cited_by": 758,
+        "authors": [
+          "Judea Pearl"
+        ],
+        "source": "The International Journal of Biostatistics",
+        "openalex": "https://openalex.org/W2145429839"
+      },
+      {
+        "title": "Ten simple rules for dynamic causal modeling",
+        "year": 2009,
+        "doi": "https://doi.org/10.1016/j.neuroimage.2009.11.015",
+        "type": "article",
+        "cited_by": 843,
+        "authors": [
+          "Klaas \u0395. Stephan",
+          "W.D. Penny",
+          "Rosalyn Moran",
+          "Hanneke E.M. den Ouden",
+          "Jean Daunizeau",
+          "Karl Friston"
+        ],
+        "source": "NeuroImage",
+        "openalex": "https://openalex.org/W2015456912"
+      },
+      {
+        "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+        "year": 2017,
+        "doi": null,
+        "type": "book",
+        "cited_by": 823,
+        "authors": [
+          "Jonas Peters",
+          "Dominik Janzing",
+          "Bernhard Sch\u00f6lkopf"
+        ],
+        "source": "OAPEN (The OAPEN Foundation)",
+        "openalex": "https://openalex.org/W2801890059"
+      }
+    ]
+  }
+]

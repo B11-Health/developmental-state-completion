@@ -1,0 +1,285 @@
+{
+  "sign_branch_factorization": {
+    "rows": [
+      {
+        "x": -3,
+        "h": 9,
+        "branch": 0,
+        "F": -3,
+        "reconstructed": -3.0,
+        "ok": true
+      },
+      {
+        "x": -2,
+        "h": 4,
+        "branch": 0,
+        "F": -2,
+        "reconstructed": -2.0,
+        "ok": true
+      },
+      {
+        "x": -1,
+        "h": 1,
+        "branch": 0,
+        "F": -1,
+        "reconstructed": -1.0,
+        "ok": true
+      },
+      {
+        "x": 1,
+        "h": 1,
+        "branch": 1,
+        "F": 1,
+        "reconstructed": 1.0,
+        "ok": true
+      },
+      {
+        "x": 2,
+        "h": 4,
+        "branch": 1,
+        "F": 2,
+        "reconstructed": 2.0,
+        "ok": true
+      },
+      {
+        "x": 3,
+        "h": 9,
+        "branch": 1,
+        "F": 3,
+        "reconstructed": 3.0,
+        "ok": true
+      }
+    ],
+    "h_alone_not_factorizing": true,
+    "conflicts": [
+      {
+        "h": 9,
+        "F_values": [
+          -3,
+          3
+        ]
+      },
+      {
+        "h": 4,
+        "F_values": [
+          -2,
+          2
+        ]
+      },
+      {
+        "h": 1,
+        "F_values": [
+          -1,
+          1
+        ]
+      }
+    ],
+    "h_plus_branch_factorizes": true
+  },
+  "history_proxy_branch_completion": {
+    "noise": 0.15,
+    "I_Y_H_given_Z_bits": 0.3901596952835995,
+    "I_Y_H_given_Z_B_bits": 0.0,
+    "binary_channel_expected_bits": 0.3901596952835996,
+    "history_becomes_redundant_after_branch_measurement": true
+  },
+  "bit_lower_bound": [
+    {
+      "future_distinct_branch_classes": 1,
+      "min_bits_lower_bound": 0,
+      "lower_minus_one_insufficient": false,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 2,
+      "min_bits_lower_bound": 1,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 3,
+      "min_bits_lower_bound": 2,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 4,
+      "min_bits_lower_bound": 2,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 5,
+      "min_bits_lower_bound": 3,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 6,
+      "min_bits_lower_bound": 3,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 7,
+      "min_bits_lower_bound": 3,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 8,
+      "min_bits_lower_bound": 3,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 9,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 10,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 11,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 12,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 13,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 14,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 15,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 16,
+      "min_bits_lower_bound": 4,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    },
+    {
+      "future_distinct_branch_classes": 17,
+      "min_bits_lower_bound": 5,
+      "lower_minus_one_insufficient": true,
+      "lower_bits_capacity_sufficient": true
+    }
+  ],
+  "component_response_equivalence_and_test_cover": {
+    "components": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "full_response_classes": [
+      [
+        "C0",
+        "C1"
+      ],
+      [
+        "C2"
+      ],
+      [
+        "C3",
+        "C4"
+      ],
+      [
+        "C5"
+      ]
+    ],
+    "raw_component_count": 6,
+    "future_response_class_count": 4,
+    "branch_label_bits_raw": 3,
+    "branch_label_bits_after_future_equivalence": 2,
+    "minimum_separating_experiment_count": 2,
+    "minimum_panels": [
+      [
+        "e0",
+        "e1"
+      ],
+      [
+        "e0",
+        "e2"
+      ],
+      [
+        "e1",
+        "e2"
+      ]
+    ]
+  },
+  "approximate_branch_compression": {
+    "future_values": [
+      0.0,
+      0.03,
+      0.08,
+      0.51,
+      0.55,
+      1.2
+    ],
+    "diameter_tolerance": 0.1,
+    "minimum_response_classes": 3,
+    "groups": [
+      [
+        0.0,
+        0.03,
+        0.08
+      ],
+      [
+        0.51,
+        0.55
+      ],
+      [
+        1.2
+      ]
+    ],
+    "minimum_bits": 2
+  },
+  "intervention_refinement": {
+    "observational_classes": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "C"
+      ]
+    ],
+    "observation_plus_intervention_classes": [
+      [
+        "A"
+      ],
+      [
+        "B"
+      ],
+      [
+        "C"
+      ]
+    ],
+    "refines": true
+  }
+}
