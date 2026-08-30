@@ -69,3 +69,8 @@ Before any formal mathematical novelty statement, a topology specialist should s
 - sensor-placement / observer-design literature that explicitly treats global topology and sheet monodromy.
 
 Until then, frame T6 as a rigorous application/synthesis of established mathematics, not as a priority claim.
+
+## Projected-embedding / k-prem literature
+Independent T6A review identified a direct pre-existing formulation that must be part of the novelty boundary. Work by Akhmetiev and Melikhov on **projected and near-projected embeddings**, and Melikhov on **transverse fundamental groups and projected embeddings**, studies maps `f:N->M` for which an auxiliary `g:N->R^k` makes `(f,g)` an embedding (the `k`-prem problem). For finite covering maps, requiring `g` to separate every point in each fiber is essentially the full-sheet version of T6's Euclidean augmentation problem.
+
+Accordingly, T6 does **not** claim to introduce the underlying fiberwise/projected-embedding problem or its topology. The repository-specific move is task-relative: only future-distinct collisions left by a declared measurement `h` need be separated, and that requirement is connected to T4/T5 predictive-state completion and experimental measurement design.

@@ -10,7 +10,7 @@ Let `X` be a state space, `h:X->S` a declared present measurement, and `F:X->Y` 
 
 Equivalently, `F` factors set-theoretically through `(h,B)`. Define
 
-`cdim_R(h,F) = min { k : such a continuous B:X->R^k exists }`.
+`cdim_R(h,F) = min { k : such a continuous B:X->R^k exists }`, with value `+infinity` when no finite-dimensional witness exists.
 
 This quantity is not the same as either:
 
@@ -61,7 +61,7 @@ For achievability, take `B(x)=x in R^(n+1)`. Then `B(x)!=B(-x)` for all `x`, and
 Borsuk-Ulam is not needed for this zero-dimensional case.
 
 ### Corollary T6.1a (arbitrarily large gap from one branch bit)
-Every fiber of `S^n->RP^n` has exactly two points, so T5's set-theoretic branch code needs only one bit. Nevertheless the minimum number of continuous real-valued channels is `n+1`, which is unbounded with `n`.
+Every fiber of `S^n->RP^n` has exactly two points, so T5's exact discrete set-theoretic branch code needs only one bit. This bit count is a label-count statement, not a claim about the finite-precision information capacity of a real-valued sensor. Nevertheless the minimum number of continuous real-valued channels is `n+1`, which is unbounded with `n`.
 
 This is the central T6 obstruction: **binary latent branching does not imply one globally continuous real biomarker can complete the state.**
 
@@ -96,7 +96,7 @@ The statement is specifically about **real Euclidean channels**. A single circle
 The circle phenomenon is not special to antipodes.
 
 ### Theorem T6.3 (a fiber-separating real scalar trivializes a finite cover)
-Let `p:E->M` be a `d`-sheeted covering with `d>=2`, where `M` is connected. Suppose there is a continuous map `B:E->R` that is injective on every fiber `p^-1(m)`. Then the covering is trivial: `E` is the disjoint union of `d` open-and-closed subspaces, each mapped homeomorphically onto `M` by `p`.
+Let `p:E->M` be a `d`-sheeted covering with `d>=2`. No connectedness assumption on `M` is required. Suppose there is a continuous map `B:E->R` that is injective on every fiber `p^-1(m)`. Then the covering is trivial: `E` is the disjoint union of `d` open-and-closed subspaces, each mapped homeomorphically onto `M` by `p`.
 
 Consequently, if `E` is connected and `d>=2`, no such scalar `B` exists.
 
@@ -153,7 +153,7 @@ This theorem is a repackaging of standard covering/configuration-space machinery
 Let `p:E->M` be a double cover with deck involution `tau`, and let `L=E x_{Z2} R_sign` be its associated real line bundle.
 
 ### Theorem T6.5 (pair separation equals an equivariant sphere map)
-There exists a continuous `B:E->R^k` with
+For `k>=1`, there exists a continuous `B:E->R^k` with
 
 `B(e) != B(tau e)` for every `e`
 
@@ -170,7 +170,7 @@ Pair separation makes `D` nonzero. Normalize: `v(e)=D(e)/||D(e)||`. Then `v(tau 
 
 Conversely, given such `v`, take `B=v` as a map into `R^k`; antipodal outputs are distinct. QED.
 
-Equivalently, such a `v` is a nowhere-zero section of the rank-`k` bundle `L^(direct sum k)`.
+Equivalently, such a `v` is a nowhere-zero section of the rank-`k` bundle `L^(direct sum k)` in the standard associated-bundle setting. For the characteristic-class statements below, assume the base is paracompact Hausdorff (in particular a CW complex or manifold), so the usual vector-bundle and Stiefel-Whitney machinery applies.
 
 ### Corollary T6.5a (Stiefel-Whitney necessary condition)
 If a separating `B:E->R^k` exists, then
