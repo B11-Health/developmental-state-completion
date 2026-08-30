@@ -383,3 +383,17 @@ The framework should be considered weakened if any of the following occur under 
 ## Publication rule
 
 No public communication should upgrade a claim beyond its class in this ledger without a new tagged release that contains the supporting code, data provenance, and validation report.
+
+
+### R8 morphology/intensity adequacy rescue
+**Evidence class:** public-data predictive transfer stress test; negative adequacy result.
+
+- Frozen cohorts/tasks/splits remain the R7 Drosophila and Tribolium frame25->40 tasks with reciprocal whole-acquisition holdout.
+- Present-only S was expanded from 49 to **139 features** in Drosophila and from 46 to **99 features** in Tribolium using release-native GT/TRA tracking-mask geometry proxies plus raw-image intensity from frames 23/24/25. GT/TRA is not called segmentation ground truth, and raw intensity is not called a molecular assay.
+- **Gate 1 failed in all four organism x outcome tasks:** zero of three prespecified estimators passed both reciprocal acquisitions.
+- Tribolium radial prediction showed a one-fold improvement (RF/Extra Trees R2 about +0.30 in sequence02) but remained negative in sequence01; this is not promoted as adequacy.
+- Because Gate 1 failed, R8 did **not** fit older H, run H permutation tests, or run sensitivity calibration.
+
+**Allowed claim:** adding substantially richer release-native morphology/intensity did not rescue cross-acquisition adequacy for the frozen tasks, strengthening the evidence for a representation/domain-transfer limitation.
+
+**Prohibited upgrade:** R8 does not establish biological memory, non-Markov development, exhaustion of the present state, or irrelevance of richer molecular/tissue/registration variables.
