@@ -1,0 +1,90 @@
+{
+  "primary": {
+    "gate_match": true,
+    "s_only": {
+      "ridge": {
+        "r2_vector": 0.0,
+        "rmse_vector": 0.0,
+        "naive_rmse_vector": 0.0
+      },
+      "random_forest": {
+        "r2_vector": 0.0,
+        "rmse_vector": 0.0,
+        "naive_rmse_vector": 0.0
+      },
+      "extra_trees": {
+        "r2_vector": 0.0,
+        "rmse_vector": 0.0,
+        "naive_rmse_vector": 0.0
+      }
+    },
+    "history": {
+      "ridge": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      },
+      "random_forest": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      },
+      "extra_trees": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      }
+    },
+    "max_abs_metric_diff": 0.0
+  },
+  "secondary": {
+    "gate_match": true,
+    "s_only": {
+      "ridge": {
+        "r2_vector": 0.0,
+        "rmse_vector": 0.0,
+        "naive_rmse_vector": 0.0
+      },
+      "random_forest": {
+        "r2_vector": 0.0,
+        "rmse_vector": 0.0,
+        "naive_rmse_vector": 0.0
+      },
+      "extra_trees": {
+        "r2_vector": 1.1102230246251565e-16,
+        "rmse_vector": 2.220446049250313e-16,
+        "naive_rmse_vector": 0.0
+      }
+    },
+    "history": {
+      "ridge": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      },
+      "random_forest": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      },
+      "extra_trees": {
+        "r2_s": 0.0,
+        "r2_s_plus_h": 0.0,
+        "delta_r2_vector": 0.0,
+        "s_plus_h_rmse": 0.0,
+        "naive_rmse": 0.0
+      }
+    },
+    "max_abs_metric_diff": 2.220446049250313e-16
+  }
+}

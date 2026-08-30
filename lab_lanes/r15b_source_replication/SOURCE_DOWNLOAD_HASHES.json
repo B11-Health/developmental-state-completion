@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "DS0004",
+    "zenodo_record": 17391047,
+    "file": "Strobl2025A-DS0004-Movie-FQ.TIF",
+    "byte_size": 63858868,
+    "expected_byte_size": 63858868,
+    "sha256": "0cf8690d0174770f82826e0a9810fc82957c2cc14b37e2e9310a7b389468aa2d",
+    "expected_sha256": "0cf8690d0174770f82826e0a9810fc82957c2cc14b37e2e9310a7b389468aa2d",
+    "match": true
+  },
+  {
+    "dataset": "DS0005",
+    "zenodo_record": 17391052,
+    "file": "Strobl2025A-DS0005-Movie-FQ.TIF",
+    "byte_size": 56385544,
+    "expected_byte_size": 56385544,
+    "sha256": "53407d593139fcee9448c3d8006db33997a7664bc3c9a6194cc783095db87a96",
+    "expected_sha256": "53407d593139fcee9448c3d8006db33997a7664bc3c9a6194cc783095db87a96",
+    "match": true
+  },
+  {
+    "dataset": "DS0007",
+    "zenodo_record": 17391061,
+    "file": "Strobl2025A-DS0007-Movie-FQ.TIF",
+    "byte_size": 64939950,
+    "expected_byte_size": 64939950,
+    "sha256": "345beebef2bd5ba74fe4ef8dad3d135b203bff1c54fbdd2cb3cc3f4f198bc1d9",
+    "expected_sha256": "345beebef2bd5ba74fe4ef8dad3d135b203bff1c54fbdd2cb3cc3f4f198bc1d9",
+    "match": true
+  },
+  {
+    "dataset": "DS0035",
+    "zenodo_record": 17391295,
+    "file": "Strobl2025A-DS0035-Movie-FQ.TIF",
+    "byte_size": 74069986,
+    "expected_byte_size": 74069986,
+    "sha256": "b9760d3777006c8ae0f6b1db21eff1e8ca095bb685a6be8ebe96b6de1c8a56eb",
+    "expected_sha256": "b9760d3777006c8ae0f6b1db21eff1e8ca095bb685a6be8ebe96b6de1c8a56eb",
+    "match": true
+  }
+]

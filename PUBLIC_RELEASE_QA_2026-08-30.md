@@ -15,6 +15,7 @@ Executed from this release worktree:
 - `lab_lanes/r13_domainwise_sensitivity_surface/test_r13_contract.py` -> R13_CONTRACT_TEST_PASS
 - `lab_lanes/r13_domainwise_sensitivity_surface/test_r13_results.py` -> R13_RESULTS_TEST_PASS
 - `lab_lanes/r15a_independent_audit/audit_r15a.py` -> primary/secondary gates and all reported R2/history deltas reproduced; maximum discrepancy <= 2.3e-16.
+- `lab_lanes/r15b_source_replication/R15B_SOURCE_REPLICATION_AUDIT.md` -> PASS; four fresh Zenodo preview downloads match committed size/SHA-256 exactly, feature tables match with max absolute difference 0, and metric differences are <= 2.3e-16.
 
 ## Release gate
-Do not push this branch until current R15B source-level replication is resolved and a final diff/claim-boundary review confirms no newly superseded statement. R16 remains in-progress and is intentionally excluded.
+R15B source-level replication is now PASS: fresh Zenodo bytes, SHA-256, all four 49x49 feature tables, both gates, and all reported metrics reproduce. Do not push this branch until a final diff/claim-boundary review confirms no superseded statement. R16 remains in-progress and is intentionally excluded.
