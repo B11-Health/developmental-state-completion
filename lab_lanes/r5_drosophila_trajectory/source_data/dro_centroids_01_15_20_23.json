@@ -1,0 +1,55 @@
+{
+  "url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DL-DRO.zip",
+  "voxel_um": [
+    0.406,
+    0.406,
+    2.03
+  ],
+  "files": [
+    {
+      "sequence": "01",
+      "frame": 15,
+      "zip_name": "Fluo-N3DL-DRO/01_GT/TRA/man_track015.tif",
+      "compressed_size": 106426,
+      "uncompressed_size": 3813412,
+      "crc32": 815324714,
+      "sha256_uncompressed": "b052f4e54cca4e5564792d4533874e117e37c604c6e186c13110d87f50641a56",
+      "labels_present": 189,
+      "z_slices": 125,
+      "xy_size": [
+        1272,
+        603
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 20,
+      "zip_name": "Fluo-N3DL-DRO/01_GT/TRA/man_track020.tif",
+      "compressed_size": 106799,
+      "uncompressed_size": 3813628,
+      "crc32": 2127218202,
+      "sha256_uncompressed": "561f1be8f6c9326a0e1e8ff9de73b3e213e13523b725f849dc8b5fb0dc622380",
+      "labels_present": 189,
+      "z_slices": 125,
+      "xy_size": [
+        1272,
+        603
+      ]
+    },
+    {
+      "sequence": "01",
+      "frame": 23,
+      "zip_name": "Fluo-N3DL-DRO/01_GT/TRA/man_track023.tif",
+      "compressed_size": 106749,
+      "uncompressed_size": 3813566,
+      "crc32": 1938608383,
+      "sha256_uncompressed": "ac8bc63226e23e6ebe6c0eee728da6069a4ba0e32f896ef9a44f630b83cc206e",
+      "labels_present": 189,
+      "z_slices": 125,
+      "xy_size": [
+        1272,
+        603
+      ]
+    }
+  ]
+}

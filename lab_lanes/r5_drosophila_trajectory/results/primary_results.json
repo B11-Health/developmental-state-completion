@@ -1,0 +1,107 @@
+{
+  "n_cells": 392,
+  "sequence_counts": {
+    "01": 189,
+    "02": 203
+  },
+  "frames": [
+    15,
+    20,
+    23,
+    24,
+    25,
+    40
+  ],
+  "H": "older velocity 15->20 + speed + volume change",
+  "S_levels": [
+    "position+volume at 25",
+    "+ velocity 24->25 + volume change",
+    "+ acceleration 23,24,25"
+  ],
+  "Y": "average future 3D velocity 25->40",
+  "grouping": "leave-one-acquisition-sequence-out",
+  "gains": [
+    {
+      "S_level": "S0_position_volume",
+      "estimator": "extra_trees",
+      "r2_gain": -0.016673116429744894,
+      "rmse_improvement": -0.004015680804025923,
+      "vector_error_improvement": -0.0060743349301493055,
+      "r2_S": -1.7664852866411072,
+      "r2_S_plus_H": -1.783158403070852
+    },
+    {
+      "S_level": "S0_position_volume",
+      "estimator": "random_forest",
+      "r2_gain": 0.015824864804527827,
+      "rmse_improvement": -0.0004021921601615741,
+      "vector_error_improvement": 0.0003785684549164614,
+      "r2_S": -2.2177133678288152,
+      "r2_S_plus_H": -2.2018885030242874
+    },
+    {
+      "S_level": "S0_position_volume",
+      "estimator": "ridge",
+      "r2_gain": -0.06883384603159493,
+      "rmse_improvement": 1.5454398650582846e-05,
+      "vector_error_improvement": 0.019818076115256655,
+      "r2_S": -1.7373647610901113,
+      "r2_S_plus_H": -1.8061986071217062
+    },
+    {
+      "S_level": "S1_recent_velocity",
+      "estimator": "extra_trees",
+      "r2_gain": 0.017706422275083122,
+      "rmse_improvement": 0.0018931251091272028,
+      "vector_error_improvement": 0.004549297114688544,
+      "r2_S": -1.8169643242964992,
+      "r2_S_plus_H": -1.7992579020214161
+    },
+    {
+      "S_level": "S1_recent_velocity",
+      "estimator": "random_forest",
+      "r2_gain": 0.10865801084529947,
+      "rmse_improvement": 0.013812197082768485,
+      "vector_error_improvement": 0.024725735599268273,
+      "r2_S": -2.234573950857207,
+      "r2_S_plus_H": -2.1259159400119074
+    },
+    {
+      "S_level": "S1_recent_velocity",
+      "estimator": "ridge",
+      "r2_gain": -0.01069513981791581,
+      "rmse_improvement": 0.009421743086671097,
+      "vector_error_improvement": 0.03670935531134534,
+      "r2_S": -1.7500215820911431,
+      "r2_S_plus_H": -1.760716721909059
+    },
+    {
+      "S_level": "S2_recent_acceleration",
+      "estimator": "extra_trees",
+      "r2_gain": -0.07893130828374773,
+      "rmse_improvement": -0.014013808683521312,
+      "vector_error_improvement": -0.02474516914223046,
+      "r2_S": -1.8005365171788168,
+      "r2_S_plus_H": -1.8794678254625645
+    },
+    {
+      "S_level": "S2_recent_acceleration",
+      "estimator": "random_forest",
+      "r2_gain": 0.21095396432226998,
+      "rmse_improvement": 0.03112084173669838,
+      "vector_error_improvement": 0.05333310825848092,
+      "r2_S": -2.174896128218584,
+      "r2_S_plus_H": -1.9639421638963142
+    },
+    {
+      "S_level": "S2_recent_acceleration",
+      "estimator": "ridge",
+      "r2_gain": -0.053582832013245874,
+      "rmse_improvement": 0.0016263212533751403,
+      "vector_error_improvement": 0.02118074844190221,
+      "r2_S": -1.6993195647365886,
+      "r2_S_plus_H": -1.7529023967498345
+    }
+  ],
+  "seed": 20260830
+}
