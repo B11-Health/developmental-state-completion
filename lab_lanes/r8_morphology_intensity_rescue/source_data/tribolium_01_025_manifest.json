@@ -1,0 +1,49 @@
+{
+  "organism": "Tribolium",
+  "dataset": "Fluo-N3DL-TRIC",
+  "url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DL-TRIC.zip",
+  "frames": [
+    25
+  ],
+  "mask_role": "GT/TRA tracking-label geometry proxy; not segmentation ground truth",
+  "raw_role": "release-native raw intensity",
+  "seg_entries_total": 12,
+  "seg_entries": [
+    "Fluo-N3DL-TRIC/01_GT/SEG/man_seg_021_004.tif",
+    "Fluo-N3DL-TRIC/01_GT/SEG/man_seg_031_004.tif",
+    "Fluo-N3DL-TRIC/01_GT/SEG/man_seg_033_006.tif",
+    "Fluo-N3DL-TRIC/01_GT/SEG/man_seg_034_004.tif",
+    "Fluo-N3DL-TRIC/01_GT/SEG/man_seg_039_004.tif",
+    "Fluo-N3DL-TRIC/02_GT/SEG/man_seg_001_010.tif",
+    "Fluo-N3DL-TRIC/02_GT/SEG/man_seg_050_010.tif",
+    "Fluo-N3DL-TRIC/02_GT/SEG/man_seg_057_012.tif",
+    "Fluo-N3DL-TRIC/02_GT/SEG/man_seg_104_010.tif",
+    "Fluo-N3DL-TRIC/02_GT/SEG/man_seg_130_010.tif"
+  ],
+  "files": [
+    {
+      "sequence": "01",
+      "frame": 25,
+      "mask": {
+        "zip_name": "Fluo-N3DL-TRIC/01_GT/TRA/man_track025.tif",
+        "compressed_size": 53007,
+        "uncompressed_size": 2254196,
+        "crc32": 1306477693,
+        "sha256_uncompressed": "3a185e282f2ebdd57365517d0d5d0743f0febd8b8e6343a1a74a32b866cc18e2"
+      },
+      "raw": {
+        "zip_name": "Fluo-N3DL-TRIC/01/t025.tif",
+        "compressed_size": 77335028,
+        "uncompressed_size": 79641684,
+        "crc32": 4058257956,
+        "sha256_uncompressed": "fe50ffeb723794fc272056feb153feae2cf7a46d6d6df4d9239c5d79d076b50f"
+      },
+      "image_xy": [
+        1693,
+        2454
+      ],
+      "z_slices": 13,
+      "labels": 130
+    }
+  ]
+}

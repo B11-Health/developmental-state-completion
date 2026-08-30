@@ -1,0 +1,79 @@
+{
+  "organism": "Drosophila",
+  "dataset": "Fluo-N3DL-DRO",
+  "url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DL-DRO.zip",
+  "frames": [
+    25
+  ],
+  "mask_role": "GT/TRA tracking-label geometry proxy; not segmentation ground truth",
+  "raw_role": "release-native raw intensity",
+  "seg_entries_total": 42,
+  "seg_entries": [
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_000_075.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_005_069.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_010_033.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_012_045.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_021_031.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_024_043.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_028_041.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_029_027.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_030_077.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_031_057.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_032_068.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_034_060.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_035_078.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_036_077.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_038_020.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_041_014.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_043_064.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_047_045.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_048_053.tif",
+    "Fluo-N3DL-DRO/01_GT/SEG/man_seg_049_057.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_000_109.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_007_107.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_012_027.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_015_097.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_016_050.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_018_037.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_019_029.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_021_044.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_022_020.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_024_108.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_026_103.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_030_105.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_031_098.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_034_040.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_035_093.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_036_049.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_037_039.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_038_105.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_039_111.tif",
+    "Fluo-N3DL-DRO/02_GT/SEG/man_seg_047_104.tif"
+  ],
+  "files": [
+    {
+      "sequence": "01",
+      "frame": 25,
+      "mask": {
+        "zip_name": "Fluo-N3DL-DRO/01_GT/TRA/man_track025.tif",
+        "compressed_size": 106834,
+        "uncompressed_size": 3813484,
+        "crc32": 1464015692,
+        "sha256_uncompressed": "d29c67efac4fa278b51f13069720a6b0339621a4a9ceef74039dc4b034300b09"
+      },
+      "raw": {
+        "zip_name": "Fluo-N3DL-DRO/01/t025.tif",
+        "compressed_size": 60907194,
+        "uncompressed_size": 65956706,
+        "crc32": 163359698,
+        "sha256_uncompressed": "cf6d280b2483a1be60de4e441774740cb39b923ac55c8edcc4f8d61e5c82e96b"
+      },
+      "image_xy": [
+        1272,
+        603
+      ],
+      "z_slices": 125,
+      "labels": 189
+    }
+  ]
+}

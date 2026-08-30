@@ -1,0 +1,86 @@
+[
+  {
+    "organism": "Drosophila",
+    "outcome": "future_radial_velocity",
+    "gate1_absolute_adequacy_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": false
+      },
+      "extra_trees": {
+        "01": false,
+        "02": false
+      }
+    }
+  },
+  {
+    "organism": "Drosophila",
+    "outcome": "future_speed",
+    "gate1_absolute_adequacy_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": false
+      },
+      "extra_trees": {
+        "01": false,
+        "02": false
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "gate1_absolute_adequacy_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": true
+      },
+      "extra_trees": {
+        "01": false,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_speed",
+    "gate1_absolute_adequacy_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": false
+      },
+      "extra_trees": {
+        "01": false,
+        "02": false
+      }
+    }
+  }
+]
