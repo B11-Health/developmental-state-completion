@@ -1,0 +1,283 @@
+{
+  "schema": "m3_robust_design_results_v1",
+  "base_commit": "ffd89ec86d065c03d3db8cc82a6867cb5cad8eea",
+  "branch": "lab-m3-robust-design-2026-08-30",
+  "bundle": {
+    "worlds": 128,
+    "contexts": 16,
+    "phenotype_coordinates_per_context": 34,
+    "pair_count": 8128
+  },
+  "separation_of_modes": {
+    "prospective": "unknown truth; optimize worst/expected performance over all 128 candidate truths; eligible for pilot policy",
+    "retrospective": "conditions on a known truth after the fact; diagnostic only; never used to choose the living-pilot panel"
+  },
+  "uncertainty_scenarios": [
+    {
+      "name": "nominal",
+      "delta": 0.01,
+      "eta": 0.0,
+      "effective_threshold": 0.01
+    },
+    {
+      "name": "noise_stress",
+      "delta": 0.01,
+      "eta": 0.005,
+      "effective_threshold": 0.02
+    },
+    {
+      "name": "tolerance_stress",
+      "delta": 0.05,
+      "eta": 0.0,
+      "effective_threshold": 0.05
+    },
+    {
+      "name": "joint_stress",
+      "delta": 0.05,
+      "eta": 0.005,
+      "effective_threshold": 0.060000000000000005
+    }
+  ],
+  "planning_proxies_not_biological_measurements": {
+    "context_cost_units": [
+      10,
+      12,
+      12,
+      14,
+      12,
+      14,
+      14,
+      16,
+      12,
+      14,
+      14,
+      16,
+      14,
+      16,
+      16,
+      18
+    ],
+    "context_burden_units": [
+      4,
+      5,
+      5,
+      6,
+      5,
+      6,
+      6,
+      7,
+      5,
+      6,
+      6,
+      7,
+      6,
+      7,
+      7,
+      8
+    ],
+    "independent_failure_probability": [
+      0.08,
+      0.09,
+      0.09,
+      0.1,
+      0.09,
+      0.1,
+      0.1,
+      0.11,
+      0.09,
+      0.1,
+      0.1,
+      0.11,
+      0.1,
+      0.11,
+      0.11,
+      0.12
+    ],
+    "replacement_required_before_living_run": true
+  },
+  "budgets": {
+    "pilot_tight": {
+      "max_k": 3,
+      "max_cost": 46,
+      "max_burden": 20
+    },
+    "pilot_extended": {
+      "max_k": 4,
+      "max_cost": 60,
+      "max_burden": 27
+    }
+  },
+  "priors": {
+    "primary": "uniform over 128 worlds",
+    "sensitivity": "30% law mass on P00, remaining 70% equally across other laws; states uniform within law; arbitrary stress prior, not biological evidence"
+  },
+  "topology": {
+    "name": "law_mst_x_q4",
+    "role": "declared simulator topology proxy for truth-rooted connected ambiguity only",
+    "law_mst_edges": [
+      [
+        "P00",
+        "P06",
+        0.4060394069545467
+      ],
+      [
+        "P01",
+        "P07",
+        0.6202698337551703
+      ],
+      [
+        "P03",
+        "P07",
+        0.6202698337551703
+      ],
+      [
+        "P02",
+        "P06",
+        0.7239254105223824
+      ],
+      [
+        "P00",
+        "P04",
+        0.7266966354676482
+      ],
+      [
+        "P01",
+        "P04",
+        0.7266966354676482
+      ],
+      [
+        "P02",
+        "P05",
+        0.7266966354676482
+      ]
+    ],
+    "not_claimed": "not asserted to be the topology of living biology"
+  },
+  "solver_comparison": {
+    "subset_dp": "pair unions and panel resource totals are built recursively by parent mask",
+    "exact_enumeration_nominal_pair_best": {
+      "panel_mask": 24,
+      "panel": [
+        "0011",
+        "0100"
+      ],
+      "pair_count": 8040
+    },
+    "milp_nominal_pair_check": {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "panel_mask": 10496,
+      "panel": [
+        "1000",
+        "1011",
+        "1101"
+      ],
+      "objective_pair_count": 8040
+    },
+    "milp_matches_exact_objective": true
+  },
+  "budget_summaries": {
+    "pilot_tight": {
+      "feasible_nonempty_panels": 662,
+      "objective_winner_masks": {
+        "worst_case_residual_ambiguity": 97,
+        "pair_test_cover_separation": 8257,
+        "expected_entropy_uniform_prior": 97,
+        "truth_rooted_connected_ambiguity": 1089
+      },
+      "policy_winner_mask": 276
+    },
+    "pilot_extended": {
+      "feasible_nonempty_panels": 2367,
+      "objective_winner_masks": {
+        "worst_case_residual_ambiguity": 4118,
+        "pair_test_cover_separation": 4626,
+        "expected_entropy_uniform_prior": 4118,
+        "truth_rooted_connected_ambiguity": 4626
+      },
+      "policy_winner_mask": 5185
+    }
+  },
+  "recommended_policy": {
+    "budget": "pilot_tight",
+    "panel_mask": 276,
+    "panel": [
+      "0010",
+      "0100",
+      "1000"
+    ],
+    "lexicographic_order": [
+      "maximize minimax truth-rooted elimination over all truths, uncertainty scenarios, and <=1 experiment failure",
+      "maximize topology-free worst-case ambiguity elimination",
+      "maximize robust pair separation",
+      "maximize robust uniform-prior ambiguity-class entropy",
+      "maximize worst-scenario expected truth-rooted elimination under independent failures",
+      "minimize burden, then cost"
+    ],
+    "gate": "replace proxy costs/burdens/failure probabilities and predeclare phenotype tolerance/noise before any living experiment; rerun exact enumeration"
+  },
+  "retrospective_known_truth_diagnostic": {
+    "truth": [
+      "P06",
+      "0000"
+    ],
+    "panel_mask": 112,
+    "panel": [
+      "0100",
+      "0101",
+      "0110"
+    ],
+    "robust_truth_rooted_elimination": 120.0,
+    "expected_failure_worstscenario_elimination": 119.89200000000001,
+    "eligible_for_prospective_recommendation": false
+  },
+  "robustification_theory_checks": {
+    "min_of_coverage_scenarios": {
+      "scenario_1": {
+        "0": 0,
+        "1": 1,
+        "2": 0,
+        "3": 1
+      },
+      "scenario_2": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 1
+      },
+      "robust_min": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "submodular": false
+    },
+    "worst_one_dropout_of_coverage": {
+      "base": {
+        "0": 0,
+        "1": 1,
+        "2": 1,
+        "3": 2
+      },
+      "robust": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "submodular": false
+    },
+    "independent_failure_expectation_example": {
+      "survival_probability": 0.8,
+      "expected": {
+        "0": 0.0,
+        "1": 0.8,
+        "2": 0.8,
+        "3": 1.6
+      },
+      "submodular": true
+    }
+  }
+}

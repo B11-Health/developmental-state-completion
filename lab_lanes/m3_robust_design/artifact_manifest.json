@@ -1,0 +1,45 @@
+{
+  "schema": "m3_artifact_manifest_v1",
+  "artifacts": [
+    {
+      "path": "lab_lanes/m3_robust_design/README.md",
+      "sha256": "ce9dd9fc93885fb55ba2e9a5d76e9486fa5affac1ee9599960aefef033844660",
+      "bytes": 1642
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/M3_PREREGISTRATION_POLICY.md",
+      "sha256": "1d511682db2188d9b59386eb66abb847f767115a7af9d780a9d5517ac9ad277c",
+      "bytes": 3768
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/THEOREM_COUNTEREXAMPLE_CHECKPOINT_M3_2026-08-30.md",
+      "sha256": "7441f2c65d6b067d3c829e43126d26396824a98332d1fe1b7fb248ea47b26f7b",
+      "bytes": 3283
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/literature_map.json",
+      "sha256": "02617b2b464a89f1615eb62cf3a42445229d7aebab45cedc75209f6556a02de2",
+      "bytes": 5196
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/m3_robust_design.py",
+      "sha256": "ff665ab0d0e8e9cae70a64bee33303fa2c32c20b4574e35cfa458106a7dc4678",
+      "bytes": 25107
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/m3_results.json",
+      "sha256": "d17ea63363e74a2c322907a4e44e428c5b61206b787fb5228cf0dee385487aea",
+      "bytes": 6543
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/m3_selector_comparison.csv",
+      "sha256": "643673a516b557db0ffc8d554434fe24a276707baddedb14a48a68eb36a231c8",
+      "bytes": 2376
+    },
+    {
+      "path": "lab_lanes/m3_robust_design/m3_panel_shortlist.csv",
+      "sha256": "5915c783a822b75c0190dbe2213f480a0cf1e4ea8b14303854329bdf1236b985",
+      "bytes": 7497
+    }
+  ]
+}
