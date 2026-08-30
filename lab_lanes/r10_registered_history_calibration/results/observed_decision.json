@@ -1,0 +1,9 @@
+{
+  "gate2_pass": false,
+  "estimators_passing": [],
+  "per_model_mean_delta": {
+    "random_forest": -0.0030278244174578584,
+    "extra_trees": -0.005425069439813079
+  },
+  "s_adequacy_preserved": true
+}

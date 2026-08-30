@@ -1,0 +1,20 @@
+{
+  "observed": {
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.0030278244174578584,
+      "extra_trees": -0.005425069439813079
+    },
+    "s_adequacy_preserved": true
+  },
+  "permutation_replicates": 100,
+  "permutation_gate2_false_positive_rate": 0.0,
+  "calibration_replicates": 30,
+  "injected_history_scale_target_sd": 0.3,
+  "calibration_success_rate": 0.3333333333333333,
+  "calibration_success_count": 10,
+  "calibration_required_count_for_80pct": 24,
+  "calibration_power_pass": false,
+  "history_interpretation": "unresolved"
+}
