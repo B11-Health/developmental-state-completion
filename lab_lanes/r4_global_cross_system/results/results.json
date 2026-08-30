@@ -1,0 +1,60 @@
+{
+  "dataset": "GSE167135",
+  "n_cells": 621,
+  "n_genes": 32834,
+  "groups": {
+    "TMMp_pool_2": 336,
+    "TMMp_pool_1": 142,
+    "ATML1p_pool_2": 101,
+    "ATML1p_pool_1": 42
+  },
+  "task": "reporter-defined lineage-enrichment class (TMMp vs ATML1p); S=transcriptome PCs; H=FACS present measurements",
+  "not_future_outcome": true,
+  "grouping": "leave-one-matched-pool-index-out (2 folds; each fold contains TMMp and ATML1p)",
+  "train_only_preprocessing": true,
+  "gains": [
+    {
+      "estimator": "logistic",
+      "auc_gain": 0.062039315098511905,
+      "logloss_improvement": 0.16836086058753863,
+      "brier_improvement": 0.043221534223568045,
+      "accuracy_gain": 0.055778032036613245
+    },
+    {
+      "estimator": "random_forest",
+      "auc_gain": 0.05051472199533835,
+      "logloss_improvement": 0.08600886411147934,
+      "brier_improvement": 0.025600322607245235,
+      "accuracy_gain": -0.01172768878718533
+    },
+    {
+      "estimator": "hist_gb",
+      "auc_gain": 0.06228044836676838,
+      "logloss_improvement": 0.17487161347883004,
+      "brier_improvement": 0.028440717579562555,
+      "accuracy_gain": 0.030749427917620142
+    }
+  ],
+  "permutation_null_mean": -0.002917982316340259,
+  "permutation_null_max": 0.0028850910744998015,
+  "calibration": {
+    "known_complete": {
+      "mean": -0.0008911533930805404,
+      "std": 0.0007058515616011239,
+      "min": -0.0021918842819706463,
+      "max": 0.0005227703696010222
+    },
+    "known_incomplete": {
+      "mean": 0.056576987548958194,
+      "std": 0.030394470200433434,
+      "min": 0.01899019768173338,
+      "max": 0.13782343600085956
+    }
+  },
+  "input_sha256": {
+    "GSE167135_Smartseq2_FACSmetadata.csv.gz": "7c20a17caaf2375216d3322e49fd8958edd07fb9903629f1f5f87cce9b406bb2",
+    "GSE167135_ATML1p_Smartseq2_TPM.csv.gz": "d948b9609117f3df84b8d84e0d7b890231cfc8dc86f01a2e6b9bdd779e2357b0",
+    "GSE167135_TMMp_Smartseq2_TPM.csv.gz": "b9017242c3adafeca0f692eeed2dd8e8ee4eb1f49dfaf3261b1e9455f0886e95"
+  },
+  "seed": 20260830
+}
