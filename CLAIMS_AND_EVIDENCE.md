@@ -397,3 +397,34 @@ No public communication should upgrade a claim beyond its class in this ledger w
 **Allowed claim:** adding substantially richer release-native morphology/intensity did not rescue cross-acquisition adequacy for the frozen tasks, strengthening the evidence for a representation/domain-transfer limitation.
 
 **Prohibited upgrade:** R8 does not establish biological memory, non-Markov development, exhaustion of the present state, or irrelevance of richer molecular/tissue/registration variables.
+
+### R9 acquisition/developmental registration rescue
+**Evidence class:** preregistered public-data domain-transfer rescue; one conditional positive adequacy result.
+
+- Frozen R8 cohorts, frame25 anchor, frame40 outcomes, reciprocal whole-acquisition split and model hyperparameters were unchanged.
+- The primary `transductive_domain_percentile` representation uses only S but requires the unlabeled target acquisition distribution; it is **not** an inductive/target-free result.
+- For Tribolium future radial velocity, Random Forest passed both reciprocal folds at R2 about **+0.081 / +0.114** and Extra Trees at **+0.115 / +0.224**, each beating the train-only mean RMSE. Thus 2/3 prespecified estimators passed both folds.
+- Robust domain scaling and CORAL also passed as secondary transductive diagnostics, while the target-free/invariant panel did not. Drosophila outcomes and Tribolium future speed remained inadequate.
+- Target-row permutation controls were negative in all primary-model folds.
+
+**Allowed claim:** outcome-blind target-distribution registration materially rescues reciprocal absolute prediction for one narrow Tribolium radial task, showing that acquisition/domain mismatch contributed to the earlier one-sided failure.
+
+**Prohibited upgrade:** do not call the result inductive, mechanism, universal state sufficiency, Markovity, or evidence about older history.
+
+Artifacts: `lab_lanes/r9_domain_registration_rescue/`.
+
+### R10 registered-history calibration
+**Evidence class:** preregistered residual-history test inside the single R9-qualified task; calibration-limited result.
+
+- R10 tested only Tribolium future radial velocity under the passing transductive percentile present representation and counted only Random Forest/Extra Trees, the Gate-1-qualified estimators.
+- Observed history increments were near zero and not stable: mean Delta R2 **-0.0030** (RF) and **-0.0054** (Extra Trees).
+- The S and S+H predictors remained absolutely adequate, but the history Gate 2 failed.
+- **0/100** matched H-permutation replicates passed the full two-model history gate.
+- In +0.30 target-SD synthetic residual-history calibration, only **10/30 (33.3%)** replicates both preserved S adequacy and detected the injected effect, below the preregistered **24/30 (80%)** sensitivity requirement.
+
+**Allowed claim:** after solving the absolute-transfer prerequisite for one task, the observed history increment is very small, but the current sample/model stack still lacks demonstrated sensitivity for a screening-off conclusion. Status: **calibration-limited / unresolved**.
+
+**Prohibited upgrade:** do not say history is redundant/useless, Tribolium is Markov or memoryless, or 0/100 permutation passes proves conditional independence. The +0.30-SD effect is synthetic calibration, not a measured biological effect.
+
+Artifacts: `lab_lanes/r10_registered_history_calibration/`.
+
