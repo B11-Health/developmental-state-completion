@@ -275,11 +275,106 @@ The public verifier recomputes both canonical freeze hashes, the frozen estimato
 
 Artifacts: `PROSPECTIVE_TWO_CONTEXT_TOMOGRAPHY_2026-08-29.md`, `source_validation/two_context_2026-08-26/`, `analysis/verify_two_context_source_bundle.py`, and `analysis/two_context_tomography_algebra.py`.
 
+## C18 — Absolute predictive adequacy must precede residual-history interpretation
+
+**Class:** cross-system methodological negative result / promotion rule  
+**Status:** reproduced across independent public *Drosophila* and *Tribolium* trajectory benchmarks; consistent with the earlier R2 calibration failure mode.
+
+R5 and R6 expose a failure mode that is invisible if analysis reports only `Score(S+H)-Score(S)`. In whole-acquisition holdout, older-history features sometimes produced large positive increments while the augmented predictor itself failed to transfer. In *Tribolium*, apparent nonlinear gains reached about **+0.42 ΔR²** at the coarsest tested present representation, yet the augmented predictors still failed the preregistered absolute adequacy gate in both acquisitions. In *Drosophila*, positive radial-velocity history increments likewise occurred inside models whose held-out absolute R² remained below a train-only naive baseline.
+
+R7 then expanded the present representation to roughly 46–49 acquisition-robust relational/kinematic features per task. None of the four frozen organism/outcome tasks passed the strict gate requiring positive held-out R² and lower RMSE than the train-only mean in both reciprocal acquisition folds for at least two of Ridge, Random Forest, and Extra Trees.
+
+**Promotion order now required:**
+1. absolute held-out adequacy against a train-only naive baseline;
+2. stability/materiality of the incremental history value across prespecified estimators/groups;
+3. matched known-complete/known-incomplete sensitivity calibration;
+4. only then a scoped biological interpretation.
+
+**Interpretation allowed:** a positive residual-history increment inside an inadequate predictor is not evidence of biological memory. R5/R6/R7 diagnose cross-acquisition representation/transfer failure for the tested tasks.
+
+**Interpretation not allowed:** history is irrelevant in these organisms; the cells are Markov; the residual-history signal is biologically meaningful; or R7's richer representation is close to a complete state.
+
+Artifacts: `lab_lanes/r5_drosophila_trajectory/`, `lab_lanes/r6_tribolium_trajectory/`, and `lab_lanes/r7_relational_adequacy_rescue/`.
+
+## C19 — Local kernel sufficiency factors through connected fiber components, not necessarily the raw measurement
+
+**Class:** mathematical structural result + counterexample  
+**Status:** proved and executable finite examples recorded in T5; no priority claim.
+
+For a smooth submersion `h:X->S` and smooth future map `F`, the local condition
+
+`ker Dh_x subset ker DF_x`
+
+forces `F` to be constant along each **connected component** of each fiber of `h`. Thus the natural global object is the quotient that identifies points lying in the same connected measurement-fiber component. The condition does not in general imply that `F` factors through `h` itself when a fiber is disconnected.
+
+The explicit example `X=R\{0}`, `h(x)=x^2`, `F(x)=x` has vacuous local kernel obstruction, but `h` merges `+x` and `-x` even though their futures differ. A branch/sign coordinate repairs the factorization.
+
+For a finite set of `m` future-distinct component classes inside a measurement fiber, any exact discrete branch code needs at least `ceil(log2 m)` bits. A synthetic noisy-history witness additionally shows how older measured history can act as a proxy for a missing branch coordinate and become redundant once that coordinate is measured.
+
+**Interpretation allowed:** local differential sufficiency can miss global disconnected-fiber ambiguity; history may proxy for omitted branch information.
+
+**Interpretation not allowed:** biological systems literally contain discrete branch bits; every residual-history signal is topological; or the Reeb/fiber-component quotient is a new mathematical construction.
+
+Artifacts: `lab_lanes/t5_topological_branch_completion/`.
+
+## C20 — Set-theoretic branch complexity and continuous measurement dimension can diverge arbitrarily
+
+**Class:** established topology applied to task-relative state completion  
+**Status:** T6 passed independent adversarial audit with hypothesis/novelty qualifications applied upstream.
+
+Define the continuous Euclidean completion dimension `cdim_R(h,F)` as the minimum number of continuous real-valued augmentation coordinates needed so that `(h,B)` separates every measurement collision whose futures differ, with `+infinity` allowed when no finite witness exists.
+
+For the antipodal quotient `h:S^n->RP^n` with future `F(x)=x`, Borsuk–Ulam gives the exact result
+
+`cdim_R(h,F)=n+1`.
+
+Each measurement fiber contains only two points, so an exact discrete branch label needs one bit, yet a globally continuous Euclidean realization can require `n+1` real channels. For the double cover `z->z^2` on `S^1`, one continuous real scalar cannot separate every antipodal pair, while two real coordinates do.
+
+T6A independently reconstructed the proofs. It strengthened the finite-cover scalar theorem by showing connectedness of the base is unnecessary for the rank-order proof, required the standard nice-base hypotheses before invoking Stiefel–Whitney classes, and identified projected-embedding / `k`-prem literature as substantial prior art for the underlying fiberwise Euclidean-lift problem.
+
+**Interpretation allowed:** a small discrete latent branch count does not imply an equally small globally continuous biomarker panel.
+
+**Interpretation not allowed:** the Borsuk–Ulam obstruction, projected-embedding problem, configuration-space criterion, or characteristic-class machinery is novel to this project; real-channel count can be compared directly to finite-precision bit capacity without a measurement model.
+
+Artifacts: `lab_lanes/t6_topological_measurement_dimension/` and `lab_lanes/t6a_independent_audit/`.
+
+## C21 — Topological collision obstructions can induce sharp minimax predictive-error floors and noise margins
+
+**Class:** project-specific predictive-risk synthesis of established topology/metric bounds  
+**Status:** T7 passed independent adversarial audit; missing Hausdorff/decoder-codomain assumptions were repaired upstream.
+
+For the same antipodal problem `S^n->RP^n`, `F(x)=x`, with Euclidean prediction loss, every continuous augmentation with `k<=n` channels has minimax worst-case prediction error exactly **1**: Borsuk–Ulam forces one antipodal measurement collision, the two futures are distance 2 apart, and the triangle inequality forces at least unit error at one endpoint; the constant-zero decoder attains unit error everywhere. Therefore the epsilon-completion dimension jumps from 0 channels at tolerance `epsilon>=1` to `n+1` channels for every `epsilon<1`.
+
+More generally, if a completed measurement collides two states whose future targets are distance `delta` apart in a metric prediction space, any deterministic decoder incurs worst-case error at least `delta/2` on that pair. The same pairwise bound applies to probability-law targets under metrics such as total variation and Wasserstein under their standard hypotheses.
+
+For a compact finite cover over a Hausdorff base, a continuous fiberwise-injective Euclidean augmentation has a positive global within-fiber separation margin `Delta_B`. If only the augmentation receives adversarial additive sensor noise bounded by `eta` and the base point is known exactly, nearest-neighbor sheet recovery is guaranteed when `2 eta < Delta_B`; when a minimum-margin pair exists and `2 eta >= Delta_B`, uniform exact sheet recovery cannot be guaranteed.
+
+**Interpretation allowed:** topological impossibility can be translated into a task-relative worst-case prediction floor, and successful exact completion still needs measurement separation large relative to assay noise.
+
+**Interpretation not allowed:** one forced collision implies a large average-case error; empirical prediction error is caused by topology without ruling out model/data/domain-shift effects; the raw numerical margin is meaningful without fixed measurement units/normalization; or the underlying topology/robust-decoding ingredients are new.
+
+Artifacts: `lab_lanes/t7_robust_topological_completion/` and `lab_lanes/t7a_independent_audit/`.
+
+## C22 — The first R4 Arabidopsis execution is a same-time measurement-completeness proxy, not a future-state test
+
+**Class:** public-data cross-system proxy analysis  
+**Status:** reproduced on public GSE167135 release files with group-aware train-only preprocessing; deliberately not promoted as temporal screening-off.
+
+In 621 public Smart-seq2 cells from the *Arabidopsis* stomatal-lineage dataset GSE167135, R4 used train-only transcriptomic PCs as `S`, seven same-time FACS measurements as added `H`-like information, and reporter-defined TMMp-vs-ATML1p class as the target. Across the tested logistic, Random Forest, and HistGradientBoosting estimators, adding the FACS measurements improved held-out AUC by about 0.05–0.062 and log loss by about 0.086–0.175 under the available matched-pool split.
+
+This is useful evidence that release-native measurement channels contain complementary state information. It is **not** a future outcome, not literal history, and cannot establish developmental screening-off.
+
+**Interpretation allowed:** the global registry yielded a reproducible independent plant proxy showing complementary present-state information beyond transcriptomic PCs.
+
+**Interpretation not allowed:** FACS is biological memory; the result demonstrates future-state sufficiency; reporter class is a future fate; or the available pool IDs provide ideal biological-replicate grouping.
+
+Artifacts: `lab_lanes/r4_global_cross_system/`.
+
 ## Highest-priority falsifiers
 
 The framework should be considered weakened if any of the following occur under rigorous replication:
 
-1. calibrated history gains remain large after rich present-state measurement across multiple biological systems;
+1. calibrated history gains remain large after **absolutely adequate, cross-group-transferable** rich present-state predictors across multiple biological systems;
 2. designed perturbations fail to outperform random/equal-cost perturbations in distinguishing baseline-similar biological backgrounds;
 3. connected-fiber structure is unstable to reasonable biological distance metrics or discretization;
 4. proposed topological experiment-selection objectives do not improve identification efficiency prospectively;
