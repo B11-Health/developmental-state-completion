@@ -1,0 +1,37 @@
+{
+  "lane": "V3",
+  "artifact_type": "NotebookLM Video Overview Short candidate",
+  "status": "CANDIDATE_PENDING_AUDIT",
+  "notebook_title": "Predictive Mechanics of Morphological Evolution",
+  "notebook_url": "https://notebook.google.com/notebook/ecd18105-4ad1-4d1a-9950-b56046d90129",
+  "source_count": 18,
+  "requested_format": "Short",
+  "requested_aspect_ratio": "9:16",
+  "requested_duration_seconds": [
+    60,
+    90
+  ],
+  "custom_focus": "Create a 60–90 second vertical 9:16 public-education Short about scientific self-correction and falsification-first research. Central story: We generated a video, audited its actual narration, found it overstated the evidence, and refused to publish it. This is what falsification-first science looks like. Explicitly state that the research is preprint-stage; late-L1 FM1 is task-specific screening-off only, not universal Markovity; R2 C. elegans was not promoted because calibration power was low; R3 strengthens a sister-lineage incompleteness control but is not literal history or a full transcriptome; M2/M3 provide exact audits and robust design results but no general greedy theorem; living validation is pending and the confirmatory RCO study is NO-GO today; the historical 224-world chain and exact legacy 0.272→0.643 result remain provenance-incomplete and are not current evidence. Emphasize transparent correction, evidence boundaries, and refusal to overclaim. Do not say: perfectly measuring the present; past becomes completely useless; single hidden variable completes the state; predictive power doubled; prove the theory. Avoid absolute state-completion language and legacy molecular framing. End with a concise message that strong science includes rejecting your own explanation when its wording outruns the evidence.",
+  "generation_state": "rendered_downloaded_staged",
+  "downloaded": true,
+  "staged_path": "lab_lanes/media_video/V3_We_Killed_Our_Own_Science_Video_NOTEBOOKLM_18SRC_1m35s.mp4",
+  "sha256": "bace50a7bd364f2eaceb9f0a39974abdcbc0f89e60998c5bc88d0f6d122a65a4",
+  "audit_required": true,
+  "publication_allowed": false,
+  "private_audit_video_visibility_changed": false,
+  "private_audit_video_touched": false,
+  "notes": [
+    "Generated from existing authenticated NotebookLM notebook.",
+    "Do not upload to YouTube.",
+    "Actual narration/visuals remain unaudited until separate lane review."
+  ],
+  "last_observed_ui": "Video Overview \"We Killed Our Own Science Video\" is ready. 1:35 · Short · 18 sources.",
+  "last_checked_local": "2026-08-30T07:58-04:00",
+  "rendered_title": "We Killed Our Own Science Video",
+  "rendered_duration": "1:35",
+  "rendered_duration_seconds": 95,
+  "rendered_format": "Short",
+  "rendered_source_count": 18,
+  "download_source_filename": "We_Killed_Our_Own_Science_Video.mp4",
+  "byte_size": 13149685
+}
