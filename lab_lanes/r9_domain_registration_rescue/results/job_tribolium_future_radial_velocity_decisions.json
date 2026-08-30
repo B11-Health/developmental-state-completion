@@ -1,0 +1,176 @@
+[
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "r8_full_reference",
+    "track": "reference",
+    "gate1_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": true
+      },
+      "extra_trees": {
+        "01": false,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "inductive_invariant_panel",
+    "track": "primary",
+    "gate1_pass": false,
+    "n_estimators_passing_both_folds": 0,
+    "estimators_passing_both_folds": [],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": true
+      },
+      "extra_trees": {
+        "01": false,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "transductive_domain_percentile",
+    "track": "primary",
+    "gate1_pass": true,
+    "n_estimators_passing_both_folds": 2,
+    "estimators_passing_both_folds": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": true,
+        "02": true
+      },
+      "extra_trees": {
+        "01": true,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "inductive_source_quantile",
+    "track": "secondary",
+    "gate1_pass": false,
+    "n_estimators_passing_both_folds": 1,
+    "estimators_passing_both_folds": [
+      "extra_trees"
+    ],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": true
+      },
+      "extra_trees": {
+        "01": true,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "inductive_source_pca30",
+    "track": "secondary",
+    "gate1_pass": false,
+    "n_estimators_passing_both_folds": 1,
+    "estimators_passing_both_folds": [
+      "extra_trees"
+    ],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": false,
+        "02": true
+      },
+      "extra_trees": {
+        "01": true,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "transductive_robust_z",
+    "track": "secondary",
+    "gate1_pass": true,
+    "n_estimators_passing_both_folds": 2,
+    "estimators_passing_both_folds": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": true,
+        "02": true
+      },
+      "extra_trees": {
+        "01": true,
+        "02": true
+      }
+    }
+  },
+  {
+    "organism": "Tribolium",
+    "outcome": "future_radial_velocity",
+    "representation": "transductive_coral",
+    "track": "secondary",
+    "gate1_pass": true,
+    "n_estimators_passing_both_folds": 2,
+    "estimators_passing_both_folds": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_estimator_fold_pass": {
+      "ridge": {
+        "01": false,
+        "02": false
+      },
+      "random_forest": {
+        "01": true,
+        "02": true
+      },
+      "extra_trees": {
+        "01": true,
+        "02": true
+      }
+    }
+  }
+]
