@@ -19,7 +19,7 @@ Base: local main `d14951c` (contains T6 at/after `f8eeaec`)
 5. Proved a generic collision-to-metric-risk lower bound `delta/2`.
 6. Extended that bound to future probability laws under any metric on laws, explicitly TV and Wasserstein.
 7. Proved pairwise sharpness for TV via the mixture midpoint and for `W_1`; avoided an unsupported universal midpoint claim for `W_p`, `p>1`.
-8. Proved that on a compact finite cover, continuous fiberwise injectivity gives a strictly positive global separation margin.
+8. Proved that on a compact finite cover over a Hausdorff base, continuous fiberwise injectivity gives a strictly positive global separation margin.
 9. Gave a noncompact two-sheet counterexample showing compactness is essential.
 10. Proved the bounded additive sensor-noise threshold: exact uniform sheet recovery is guaranteed when `2 eta < Delta_B`, while at `2 eta >= Delta_B` a minimum-margin pair has intersecting closed noise balls and uniform exact recovery cannot be guaranteed.
 11. Distinguished exact topology, approximate minimax prediction, decoder continuity, sensor noise, model-class error, and finite-sample/statistical error.

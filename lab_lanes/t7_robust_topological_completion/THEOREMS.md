@@ -26,7 +26,7 @@ For loss `ell:Y x Yhat -> [0,infinity)`, define
 
 `R_k(h,F;ell) = inf_{B continuous X->R^k} inf_D sup_{x in X} ell(F(x), D(h(x),B(x)))`,
 
-where `D` may be arbitrary unless continuity is explicitly imposed. Define
+where, for metric prediction, `D` maps the realized measurement image `(h,B)(X)` into the prediction space `Y`; more generally one may specify a prediction space `Yhat` together with a loss on `Y x Yhat`. The decoder may be arbitrary unless continuity is explicitly imposed. Define
 
 `cdim_epsilon(h,F;ell) = min { k>=0 : R_k <= epsilon }`.
 
@@ -89,7 +89,7 @@ If `(h,B)` collides at `x,x'`, then any predicted law `Q` based only on `(h,B)` 
 
 This is again the metric triangle inequality. Therefore any topologically forced collision whose two conditional future laws are separated by at least `delta` yields minimax probabilistic error at least `delta/2`.
 
-The result applies directly to total variation and Wasserstein distances because both are metrics under their standard hypotheses (`W_p` on laws with finite p-th moment).
+The result applies directly to total variation and Wasserstein distances because both are metrics under their standard hypotheses; for `W_p`, take a standard metric ground space (for example Polish) and probability laws with finite p-th moment.
 
 ### Corollary T7.4a (sharp TV midpoint for a collided pair)
 Under the convention `TV(P,Q)=sup_A |P(A)-Q(A)|`, let `M=(P+Q)/2`. Then
@@ -113,7 +113,7 @@ For `P_x=delta_x` on the unit sphere with ground Euclidean metric, `W_1(delta_x,
 For total variation, `TV(delta_x,delta_-x)=1` for `x!=-x`, so the analogous lower bound is `1/2`, attained on the collided pair by the 50/50 mixture.
 
 ## 5. Compact finite covers: exact injectivity implies positive margin
-Let `p:E->M` be a finite-sheeted covering, with `E` compact, and let `B:E->R^k` be continuous and injective on every fiber.
+Let `p:E->M` be a finite-sheeted covering, with `E` compact and `M` Hausdorff, and let `B:E->R^k` be continuous and injective on every fiber.
 
 ### Theorem T7.5 (positive global sheet-separation margin)
 Then
@@ -144,7 +144,7 @@ If a compact finite cover has fiberwise margin `Delta_B>0` and
 
 `2 eta < Delta_B`,
 
-then the true sheet is uniquely recoverable from `(p(e),Z)` by nearest-neighbor decoding among the finite set `{B(e'):p(e')=p(e)}`. Hence any future `F` constant on each sheet point can be decoded exactly under this bounded-noise model.
+then the true sheet is uniquely recoverable from `(p(e),Z)` by nearest-neighbor decoding among the finite set `{B(e'):p(e')=p(e)}`. Hence the exact point in the known finite fiber is recovered, so any fixed declared target map `F:E->Y` can be decoded exactly in this population representation setting.
 
 #### Proof
 For the true point, `||Z-B(e)||<=eta`. Every other sheet point `e'` has
@@ -154,7 +154,7 @@ For the true point, `||Z-B(e)||<=eta`. Every other sheet point `e'` has
 So the true sheet is the unique nearest point. QED.
 
 ### Sharpness of the universal threshold
-If `2 eta >= Delta_B`, choose a pair attaining the margin. Their closed radius-`eta` balls intersect when `2 eta>=Delta_B`. At an intersection observation, an adversary can produce the same noisy sensor value from either sheet. Therefore no decoder can guarantee exact sheet recovery uniformly over all bounded noises. If their futures are distance `delta`, Theorem T7.3 forces worst-case future error at least `delta/2` at that ambiguous observation.
+If `2 eta >= Delta_B` and the margin is attained—as it is under the compact/Hausdorff hypotheses of T7.5—choose a pair attaining the margin. Their closed radius-`eta` balls intersect when `2 eta>=Delta_B`. At an intersection observation, an adversary can produce the same noisy sensor value from either sheet. Therefore no decoder can guarantee exact sheet recovery uniformly over all bounded noises. If their futures are distance `delta`, Theorem T7.3 forces worst-case future error at least `delta/2` at that ambiguous observation.
 
 This is a worst-case bounded-noise statement. Gaussian or other stochastic noise requires error probabilities/Bayes risk rather than a hard threshold.
 

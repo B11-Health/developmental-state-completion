@@ -25,7 +25,7 @@ Date: 2026-08-30
 ## Claim 5: "fiberwise injectivity on a compact finite cover gives positive margin"
 **Attack:** a positive continuous function on a noncompact set can have infimum zero.
 
-**Resolution:** compactness is explicitly required. T7.C1 gives a noncompact two-sheet counterexample with pointwise separation and zero infimum. The proof also checks that the off-diagonal fiber-pair set is compact for a finite cover.
+**Resolution:** compactness and a Hausdorff (or equivalent closed-diagonal) base hypothesis are explicitly required. T7.C1 gives a noncompact two-sheet counterexample with pointwise separation and zero infimum. The proof also checks that the off-diagonal fiber-pair set is compact for a finite cover.
 
 ## Claim 6: "noise below Delta/2 gives robust recovery"
 **Attack:** exact nearest-neighbor recovery may fail if the base measurement is also noisy.
