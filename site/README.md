@@ -4,14 +4,14 @@ Static GitHub Pages research landing page for the Developmental State Completion
 
 ## Source checkpoint
 
-The copy and commit-pinned evidence links in this W2 refresh were audited against `origin/main` at commit `f06ac518496d1f27396ae77ae9243655a5355cf5` on 2026-08-29. The site intentionally separates observed-data reanalysis, simulator evidence, mathematical results, historical/provenance-incomplete reports, readiness decisions, and prospective living hypotheses.
+The copy and commit-pinned evidence links in this W3 refresh were audited against `origin/main` at commit `fe5f049` on 2026-08-30. The site intentionally separates observed-data reanalysis, simulator evidence, mathematical results, historical/provenance-incomplete reports, readiness decisions, and prospective living hypotheses.
 
-W2 incorporates only reviewed durable results integrated after the previous site checkpoint:
+W3 incorporates only reviewed durable results integrated after the W2 checkpoint:
 
-- M2 exact perturbation optimization: 17,280 audited 128-world rows; greedy equals exact on this bundle, while general non-submodularity/counterexamples remain; block-sparse deletion is recorded only as a sufficient safe structural condition.
-- R2 cross-system *C. elegans* analysis: large nonlinear residual-history gains, but the preregistered stable-history decision is not met because matched incomplete-state calibration power is below the declared threshold.
-- B2 living-system feasibility: Phase 0 is conditional GO; the confirmatory RCOg-V study is NO-GO today pending material/transfer, optics, and burden gates.
-- F2 submission readiness: NSF 26-520 Mathematical Biology is GO to full preparation, but Research.gov organization/PI/AOR/SPO readiness remains unverified; NSF 26-517 BIO Core remains conditional on a real living experimental path.
+- R3 higher-dimensional LARRY incompleteness control: direct release-native day-2 expression panels up to 32 genes still leave a separated-sister predictive signal. The sister-well label is an incompleteness diagnostic, not literal history; 32 genes are not the full transcriptome; five permutations are only coarse directional null calibration.
+- M3 robust cost-aware perturbation design: living-pilot selection must use a prospective unknown-truth rule. Under explicitly synthetic planning proxies, exact tight-budget selection gives `0010 0100 1000`; cost/burden/failure/noise values are not biological protocol recommendations. Minimax and worst-case one-failure robustification are not generally submodular.
+- F3 institutional readiness: NSF Mathematical Biology remains GO to prepare and NO-GO to submit. The controlled Research.gov session is unauthenticated, and organization/UEI linkage, institutional/PI/AOR/SPO-equivalent roles, COI support, F&A basis, disclosures/common forms and related gates remain unresolved.
+- W2 durable boundaries remain in force: R2 is calibration-limited, B2 confirmatory living RCOg-V remains NO-GO today, M2 has no general greedy guarantee, and historical provenance corrections remain unchanged.
 
 Historical 224-world/topology provenance corrections remain unchanged, and no simulator or feasibility result is represented as living-plant validation.
 
@@ -35,17 +35,19 @@ Then open `http://localhost:8000/`.
 
 ## Deployment status
 
-The hub is already deployed through the repository's GitHub Pages Actions workflow. W2 does **not** push or deploy this refresh. The W2 changes must remain local until separately reviewed and intentionally published.
+The hub is already deployed through the repository's GitHub Pages Actions workflow. W3 does **not** push, deploy, or enable Pages. The W3 changes remain local until separately reviewed and intentionally published.
 
 When a later deployment is authorized, publish the reviewed `site/` artifact through the existing Pages workflow and preserve commit-pinned evidence links unless a fresh evidence audit intentionally advances the checkpoint.
 
 ## Review checklist before any future deployment
 
-- Re-audit `origin/main` if the repository changes after `f06ac518496d1f27396ae77ae9243655a5355cf5`.
+- Re-audit `origin/main` if the repository changes after `fe5f049`.
 - Preserve the historical 224-world/topology provenance-incomplete status unless original artifacts are actually recovered and audited.
 - Keep FM1 wording task/stage/representation/decoder-specific; do not promote it to universal Markovity.
 - Keep the R2 stable-history decision as not met unless a new preregistered calibrated analysis changes that status.
 - Do not infer general greedy safety from the zero-loss M2 finite audit.
 - Keep living RCOg-V validation prospective until an actual preregistered confirmatory study is executed.
-- Keep Research.gov/AOR/SPO submission authority unverified until documented.
+- Keep Research.gov organization/UEI linkage, PI/AOR/Institution Administrator/SPO-equivalent roles, COI/F&A/disclosure readiness unresolved until documented.
+- Keep the R3 LARRY sister label explicitly non-historical; do not promote 32 genes to full-transcriptome sufficiency/insufficiency or five permutations to precision significance.
+- Keep M3 `0010 0100 1000` explicitly synthetic/planning-only until protocol-derived cost, burden, failure and noise values are frozen.
 - Test desktop/mobile layout, no horizontal overflow, keyboard/mobile navigation, and every commit-pinned evidence link.
