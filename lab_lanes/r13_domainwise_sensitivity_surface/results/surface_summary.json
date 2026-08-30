@@ -1,0 +1,749 @@
+{
+  "summary": [
+    {
+      "scale": 0.15,
+      "n": 30,
+      "adequacy_count": 30,
+      "adequacy_rate": 1.0,
+      "gate2_count": 1,
+      "gate2_rate": 0.03333333333333333,
+      "joint_count": 1,
+      "joint_rate": 0.03333333333333333,
+      "detection_given_adequacy": 0.03333333333333333,
+      "success_replicates": [
+        15
+      ]
+    },
+    {
+      "scale": 0.3,
+      "n": 30,
+      "adequacy_count": 30,
+      "adequacy_rate": 1.0,
+      "gate2_count": 18,
+      "gate2_rate": 0.6,
+      "joint_count": 18,
+      "joint_rate": 0.6,
+      "detection_given_adequacy": 0.6,
+      "success_replicates": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29
+      ]
+    },
+    {
+      "scale": 0.45,
+      "n": 30,
+      "adequacy_count": 27,
+      "adequacy_rate": 0.9,
+      "gate2_count": 23,
+      "gate2_rate": 0.7666666666666667,
+      "joint_count": 22,
+      "joint_rate": 0.7333333333333333,
+      "detection_given_adequacy": 0.8148148148148148,
+      "success_replicates": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "scale": 0.6,
+      "n": 30,
+      "adequacy_count": 27,
+      "adequacy_rate": 0.9,
+      "gate2_count": 22,
+      "gate2_rate": 0.7333333333333333,
+      "joint_count": 20,
+      "joint_rate": 0.6666666666666666,
+      "detection_given_adequacy": 0.7407407407407407,
+      "success_replicates": [
+        0,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "replicate": 0,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 1,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 2,
+      "adequacy": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 3,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "replicate": 4,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 5,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 6,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 7,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "replicate": 8,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 9,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 10,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 11,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 12,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 13,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 14,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "replicate": 15,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 16,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 17,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 18,
+      "adequacy": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 19,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 20,
+      "adequacy": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "detection": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "replicate": 21,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 22,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 23,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "joint": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "replicate": 24,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 25,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 26,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 27,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 28,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "replicate": 29,
+      "adequacy": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "detection": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint": [
+        false,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

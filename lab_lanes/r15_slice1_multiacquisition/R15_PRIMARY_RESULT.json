@@ -1,0 +1,80 @@
+{
+  "training_embryos": [
+    "DS0004",
+    "DS0005"
+  ],
+  "primary_validation": "DS0007",
+  "n_train_rows": 18,
+  "n_test_rows": 9,
+  "features": [
+    "mean_cx",
+    "mean_cy",
+    "mean_sx",
+    "mean_sy",
+    "mean_covxy",
+    "mean_entropy",
+    "mean_occupancy",
+    "mean_edge"
+  ],
+  "times": [
+    9,
+    13,
+    17,
+    21,
+    25,
+    29,
+    33,
+    37,
+    41
+  ],
+  "gate1_pass": true,
+  "s_only": [
+    {
+      "r2_vector": -0.01361825759942703,
+      "rmse_vector": 1.9881878337750634,
+      "naive_rmse_vector": 1.974786727243268,
+      "estimator": "ridge",
+      "s_fold_pass": false
+    },
+    {
+      "r2_vector": 0.03068882877615342,
+      "rmse_vector": 1.9442486613252956,
+      "naive_rmse_vector": 1.974786727243268,
+      "estimator": "random_forest",
+      "s_fold_pass": true
+    },
+    {
+      "r2_vector": 0.05665991553710925,
+      "rmse_vector": 1.918025355500224,
+      "naive_rmse_vector": 1.974786727243268,
+      "estimator": "extra_trees",
+      "s_fold_pass": true
+    }
+  ],
+  "history": [
+    {
+      "estimator": "ridge",
+      "r2_s": -0.01361825759942703,
+      "r2_s_plus_h": -0.06761597003375397,
+      "delta_r2_vector": -0.05399771243432694,
+      "s_plus_h_rmse": 2.040458331537187,
+      "naive_rmse": 1.974786727243268
+    },
+    {
+      "estimator": "random_forest",
+      "r2_s": 0.03068882877615342,
+      "r2_s_plus_h": 0.021855181589668593,
+      "delta_r2_vector": -0.008833647186484828,
+      "s_plus_h_rmse": 1.9530878528160098,
+      "naive_rmse": 1.974786727243268
+    },
+    {
+      "estimator": "extra_trees",
+      "r2_s": 0.05665991553710925,
+      "r2_s_plus_h": 0.04857348274228135,
+      "delta_r2_vector": -0.008086432794827902,
+      "s_plus_h_rmse": 1.9262285934949241,
+      "naive_rmse": 1.974786727243268
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 5,
+    "direction_seed": 20260835,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.025359783175039008,
+      "extra_trees": 0.05556473796257022
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": 3.9395010551215234e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 1.7876978272862063e-16,
+        "raw_sd": 0.13711599809330355
+      },
+      "02": {
+        "balanced_mean": 6.867358915207154e-18,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": -2.432189615802534e-16,
+        "raw_sd": 0.22355170437506797
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 6,
+    "direction_seed": 20260836,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.055701203223064544,
+      "extra_trees": 0.03385979813174017
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -7.162729191130042e-18,
+        "balanced_sd": 1.0,
+        "raw_mean": -2.5666446268215983e-17,
+        "raw_sd": 0.08531204618893475
+      },
+      "02": {
+        "balanced_mean": 2.2891196384023845e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -3.0903115118432194e-17,
+        "raw_sd": 0.14171868648981403
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 7,
+    "direction_seed": 20260837,
+    "scale": 0.3,
+    "gate2_pass": false,
+    "estimators_passing": [
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.009345524862696353,
+      "extra_trees": 0.047988602726017404
+    },
+    "s_adequacy_preserved": true,
+    "success": false,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": 2.2085081672650962e-17,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": -4.924376318901904e-18,
+        "raw_sd": 0.17775264674408148
+      },
+      "02": {
+        "balanced_mean": -6.867358915207154e-18,
+        "balanced_sd": 1.0,
+        "raw_mean": 8.98479458072936e-17,
+        "raw_sd": 0.2216382786694275
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 8,
+    "direction_seed": 20260838,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.06268323766015255,
+      "extra_trees": 0.07112341319092991
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -2.0816681711721685e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -2.122704640496351e-17,
+        "raw_sd": 0.13646746982359537
+      },
+      "02": {
+        "balanced_mean": 3.204767493763338e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -4.234871331044411e-17,
+        "raw_sd": 0.16430794928362707
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 9,
+    "direction_seed": 20260839,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.05695831240391985,
+      "extra_trees": 0.07412690475312478
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -1.730992887856427e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 9.908442047729892e-17,
+        "raw_sd": 0.21887180150286226
+      },
+      "02": {
+        "balanced_mean": 1.0301038372810731e-17,
+        "balanced_sd": 0.9999999999999998,
+        "raw_mean": -2.666824378738778e-16,
+        "raw_sd": 0.30702882264153436
+      }
+    }
+  }
+]

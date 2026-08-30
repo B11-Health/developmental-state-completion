@@ -1,0 +1,156 @@
+[
+  {
+    "geometry": "domain_balanced",
+    "replicate": 5,
+    "direction_seed": 20260835,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.05402618389660108,
+      "extra_trees": 0.0657643339302817
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -3.461985775712854e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 0.00017764642371847453,
+        "raw_sd": 0.18929955085759873
+      },
+      "02": {
+        "balanced_mean": -1.602383746881669e-17,
+        "balanced_sd": 0.9999999999999998,
+        "raw_mean": -8.516039899898327e-05,
+        "raw_sd": 0.23570884725715635
+      }
+    }
+  },
+  {
+    "geometry": "domain_balanced",
+    "replicate": 6,
+    "direction_seed": 20260836,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.08558462746369955,
+      "extra_trees": 0.09998776634506884
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -5.3720468933475315e-18,
+        "balanced_sd": 1.0,
+        "raw_mean": -0.0005132264580102343,
+        "raw_sd": 0.12829392077080337
+      },
+      "02": {
+        "balanced_mean": 2.0602076745621462e-17,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": 0.0002460312401801383,
+        "raw_sd": 0.15539784982554203
+      }
+    }
+  },
+  {
+    "geometry": "domain_balanced",
+    "replicate": 7,
+    "direction_seed": 20260837,
+    "scale": 0.3,
+    "gate2_pass": false,
+    "estimators_passing": [
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.004603195021393891,
+      "extra_trees": 0.05611818377185018
+    },
+    "s_adequacy_preserved": true,
+    "success": false,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -1.910061117634678e-17,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": -9.842291596300053e-05,
+        "raw_sd": 0.21707307654070082
+      },
+      "02": {
+        "balanced_mean": -1.8312957107219077e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 4.718211950802389e-05,
+        "raw_sd": 0.23917264455578577
+      }
+    }
+  },
+  {
+    "geometry": "domain_balanced",
+    "replicate": 8,
+    "direction_seed": 20260838,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.08495963401593487,
+      "extra_trees": 0.09993542722890614
+    },
+    "s_adequacy_preserved": false,
+    "success": false,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": 6.386766862090955e-17,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": 0.000466940733049214,
+        "raw_sd": 0.1664738402520018
+      },
+      "02": {
+        "balanced_mean": 1.8312957107219077e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -0.00022384272254425796,
+        "raw_sd": 0.17528688214141078
+      }
+    }
+  },
+  {
+    "geometry": "domain_balanced",
+    "replicate": 9,
+    "direction_seed": 20260839,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.07451197163436996,
+      "extra_trees": 0.10135779514747084
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -3.3426069558606865e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 0.0015994375949347369,
+        "raw_sd": 0.30398541733268214
+      },
+      "02": {
+        "balanced_mean": -2.7469435660828616e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -0.0007667407027264286,
+        "raw_sd": 0.32645438310110386
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "replicates": 30,
+  "seed_rule": "20260830 + replicate",
+  "success_count": 16,
+  "success_rate": 0.5333333333333333,
+  "adequacy_count": 23,
+  "gate2_count": 19,
+  "required_success_count": 24,
+  "calibration_pass": false
+}

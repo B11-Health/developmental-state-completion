@@ -1,0 +1,58 @@
+{
+  "training_embryos": [
+    "DS0004",
+    "DS0005"
+  ],
+  "secondary_validation": "DS0035",
+  "marker_domain": "Lamin #4",
+  "gate1_pass": true,
+  "s_only": [
+    {
+      "r2_vector": 0.037072068378419254,
+      "rmse_vector": 1.7178281762644656,
+      "naive_rmse_vector": 1.7505834955977604,
+      "estimator": "ridge",
+      "s_fold_pass": true
+    },
+    {
+      "r2_vector": 0.03780146920728478,
+      "rmse_vector": 1.7171774408236784,
+      "naive_rmse_vector": 1.7505834955977604,
+      "estimator": "random_forest",
+      "s_fold_pass": true
+    },
+    {
+      "r2_vector": 0.03405586516999426,
+      "rmse_vector": 1.7205164708061786,
+      "naive_rmse_vector": 1.7505834955977604,
+      "estimator": "extra_trees",
+      "s_fold_pass": true
+    }
+  ],
+  "history": [
+    {
+      "estimator": "ridge",
+      "r2_s": 0.037072068378419254,
+      "r2_s_plus_h": -0.07562206746735023,
+      "delta_r2_vector": -0.11269413584576948,
+      "s_plus_h_rmse": 1.8155686768687582,
+      "naive_rmse": 1.7505834955977604
+    },
+    {
+      "estimator": "random_forest",
+      "r2_s": 0.03780146920728478,
+      "r2_s_plus_h": 0.022727366037212815,
+      "delta_r2_vector": -0.015074103170071962,
+      "s_plus_h_rmse": 1.7305760873822564,
+      "naive_rmse": 1.7505834955977604
+    },
+    {
+      "estimator": "extra_trees",
+      "r2_s": 0.03405586516999415,
+      "r2_s_plus_h": -0.04350590295087775,
+      "delta_r2_vector": -0.0775617681208719,
+      "s_plus_h_rmse": 1.7882584452250283,
+      "naive_rmse": 1.7505834955977604
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "scale": 0.15,
+    "replicate": 0,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": 0.008692740979715674,
+      "extra_trees": 0.02601912034546633
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 1,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": 0.0003805484288469385,
+      "extra_trees": 0.024507627271330934
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 2,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.01003564905157206,
+      "extra_trees": -0.005500976385413359
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 3,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": 0.023181984152191915,
+      "extra_trees": 0.02701504015137335
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 4,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": 0.007527374676680909,
+      "extra_trees": 0.021712770535607495
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  }
+]

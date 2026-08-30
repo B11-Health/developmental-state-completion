@@ -1,0 +1,67 @@
+[
+  {
+    "scale": 0.15,
+    "replicate": 10,
+    "direction_seed": 20260840,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.01584606107688824,
+      "extra_trees": -0.00802887949245018
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 11,
+    "direction_seed": 20260841,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.0007232199612918211,
+      "extra_trees": 0.0015459404799300636
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 12,
+    "direction_seed": 20260842,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.001648031714283571,
+      "extra_trees": 0.003814019289201609
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 13,
+    "direction_seed": 20260843,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": -0.0005919272449376733,
+      "extra_trees": 0.0061786321121412024
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  },
+  {
+    "scale": 0.15,
+    "replicate": 14,
+    "direction_seed": 20260844,
+    "gate2_pass": false,
+    "estimators_passing": [],
+    "per_model_mean_delta": {
+      "random_forest": 0.009005971902629528,
+      "extra_trees": 0.021641764269880848
+    },
+    "s_adequacy_preserved": true,
+    "joint_success": false
+  }
+]

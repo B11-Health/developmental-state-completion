@@ -1,0 +1,40 @@
+{
+  "r10b_reference": {
+    "replicates": 30,
+    "seed_rule": "20260830 + replicate",
+    "success_count": 16,
+    "success_rate": 0.5333333333333333,
+    "adequacy_count": 23,
+    "gate2_count": 19,
+    "required_success_count": 24,
+    "calibration_pass": false
+  },
+  "domain_balanced": {
+    "geometry": "domain_balanced",
+    "replicates": 30,
+    "seed_rule": "20260830 + replicate",
+    "scale": 0.3,
+    "success_count": 16,
+    "success_rate": 0.5333333333333333,
+    "adequacy_count": 22,
+    "gate2_count": 19,
+    "required_success_count": 24,
+    "planning_threshold_reached": false,
+    "r10b_reference_success_count": 16,
+    "r10b_reference_success_rate": 0.5333333333333333
+  },
+  "domainwise_residualizer": {
+    "geometry": "domainwise_residualizer",
+    "replicates": 30,
+    "seed_rule": "20260830 + replicate",
+    "scale": 0.3,
+    "success_count": 18,
+    "success_rate": 0.6,
+    "adequacy_count": 30,
+    "gate2_count": 18,
+    "required_success_count": 24,
+    "planning_threshold_reached": false,
+    "r10b_reference_success_count": 16,
+    "r10b_reference_success_rate": 0.5333333333333333
+  }
+}

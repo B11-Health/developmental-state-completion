@@ -1,0 +1,156 @@
+[
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 25,
+    "direction_seed": 20260855,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.05791489585708465,
+      "extra_trees": 0.0801168376018
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": 2.0294399374868453e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 2.9844704963041843e-18,
+        "raw_sd": 0.19957715652313168
+      },
+      "02": {
+        "balanced_mean": -2.7469435660828616e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -3.530967042235678e-16,
+        "raw_sd": 0.2645276642782374
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 26,
+    "direction_seed": 20260856,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.06476932569945348,
+      "extra_trees": 0.07947995527179047
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": 2.7457128565998495e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": 1.2743689019218868e-16,
+        "raw_sd": 0.21053902481824227
+      },
+      "02": {
+        "balanced_mean": -2.0602076745621462e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -2.8900135434830107e-16,
+        "raw_sd": 0.29357107558260476
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 27,
+    "direction_seed": 20260857,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.0644119524015741,
+      "extra_trees": 0.07903377413580853
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -1.0744093786695063e-17,
+        "balanced_sd": 0.9999999999999999,
+        "raw_mean": 4.924376318901904e-17,
+        "raw_sd": 0.20260996752849256
+      },
+      "02": {
+        "balanced_mean": 2.2891196384023846e-18,
+        "balanced_sd": 1.0,
+        "raw_mean": -1.6023837468816692e-16,
+        "raw_sd": 0.2728395832433249
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 28,
+    "direction_seed": 20260858,
+    "scale": 0.3,
+    "gate2_pass": false,
+    "estimators_passing": [
+      "random_forest"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.061481444661302675,
+      "extra_trees": 0.02667299260470324
+    },
+    "s_adequacy_preserved": true,
+    "success": false,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -3.3426069558606865e-17,
+        "balanced_sd": 0.9999999999999997,
+        "raw_mean": -1.9846728800422826e-17,
+        "raw_sd": 0.08173797885140237
+      },
+      "02": {
+        "balanced_mean": -9.156478553609538e-18,
+        "balanced_sd": 1.0,
+        "raw_mean": -2.8613995480029805e-17,
+        "raw_sd": 0.13780328919074444
+      }
+    }
+  },
+  {
+    "geometry": "domainwise_residualizer",
+    "replicate": 29,
+    "direction_seed": 20260859,
+    "scale": 0.3,
+    "gate2_pass": true,
+    "estimators_passing": [
+      "random_forest",
+      "extra_trees"
+    ],
+    "per_model_mean_delta": {
+      "random_forest": 0.05243237795221328,
+      "extra_trees": 0.06362864413986197
+    },
+    "s_adequacy_preserved": true,
+    "success": true,
+    "sequence_stats": {
+      "01": {
+        "balanced_mean": -1.730992887856427e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -7.282108010982209e-17,
+        "raw_sd": 0.18968991347335395
+      },
+      "02": {
+        "balanced_mean": -3.6625914214438153e-17,
+        "balanced_sd": 1.0,
+        "raw_mean": -2.2719512411143666e-16,
+        "raw_sd": 0.25014195506169123
+      }
+    }
+  }
+]

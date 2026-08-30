@@ -1,0 +1,58 @@
+[
+  {
+    "scale": 0.15,
+    "n": 20,
+    "adequacy_count": 17,
+    "adequacy_rate": 0.85,
+    "gate2_count": 0,
+    "gate2_rate": 0.0,
+    "joint_count": 0,
+    "joint_rate": 0.0,
+    "detection_given_adequacy": 0.0,
+    "adequacy_only": 17,
+    "detection_only": 0,
+    "neither": 3
+  },
+  {
+    "scale": 0.3,
+    "n": 20,
+    "adequacy_count": 14,
+    "adequacy_rate": 0.7,
+    "gate2_count": 9,
+    "gate2_rate": 0.45,
+    "joint_count": 6,
+    "joint_rate": 0.3,
+    "detection_given_adequacy": 0.42857142857142855,
+    "adequacy_only": 8,
+    "detection_only": 3,
+    "neither": 3
+  },
+  {
+    "scale": 0.45,
+    "n": 20,
+    "adequacy_count": 11,
+    "adequacy_rate": 0.55,
+    "gate2_count": 12,
+    "gate2_rate": 0.6,
+    "joint_count": 6,
+    "joint_rate": 0.3,
+    "detection_given_adequacy": 0.5454545454545454,
+    "adequacy_only": 5,
+    "detection_only": 6,
+    "neither": 3
+  },
+  {
+    "scale": 0.6,
+    "n": 20,
+    "adequacy_count": 9,
+    "adequacy_rate": 0.45,
+    "gate2_count": 15,
+    "gate2_rate": 0.75,
+    "joint_count": 6,
+    "joint_rate": 0.3,
+    "detection_given_adequacy": 0.6666666666666666,
+    "adequacy_only": 3,
+    "detection_only": 9,
+    "neither": 2
+  }
+]

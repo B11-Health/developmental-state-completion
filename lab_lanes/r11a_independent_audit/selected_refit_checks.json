@@ -1,0 +1,30 @@
+[
+  {
+    "scale": 0.15,
+    "replicate": 0,
+    "normalized_metrics_match": true,
+    "gate2_pass": false,
+    "s_adequacy_preserved": true
+  },
+  {
+    "scale": 0.3,
+    "replicate": 0,
+    "normalized_metrics_match": true,
+    "gate2_pass": true,
+    "s_adequacy_preserved": true
+  },
+  {
+    "scale": 0.45,
+    "replicate": 4,
+    "normalized_metrics_match": true,
+    "gate2_pass": true,
+    "s_adequacy_preserved": true
+  },
+  {
+    "scale": 0.6,
+    "replicate": 19,
+    "normalized_metrics_match": true,
+    "gate2_pass": true,
+    "s_adequacy_preserved": true
+  }
+]

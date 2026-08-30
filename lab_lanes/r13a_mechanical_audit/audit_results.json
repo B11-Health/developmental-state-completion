@@ -1,0 +1,45 @@
+{
+  "preregistration_commit": "9487bf4",
+  "implementation_commit": "aff852a",
+  "first_results_commit": "953bbe5",
+  "final_commit": "f383bdc",
+  "prereg_before_implementation_and_results": true,
+  "summary_identical_to_first_completed_results": true,
+  "decision_boolean_mismatches": [],
+  "max_abs_decision_metric_drift": 2.220446049250313e-16,
+  "max_abs_csv_numeric_drift": 4.996003610813204e-16,
+  "scales": [
+    {
+      "scale": 0.15,
+      "n": 30,
+      "adequacy_count": 30,
+      "gate2_count": 1,
+      "joint_count": 1,
+      "joint_rate": 0.03333333333333333
+    },
+    {
+      "scale": 0.3,
+      "n": 30,
+      "adequacy_count": 30,
+      "gate2_count": 18,
+      "joint_count": 18,
+      "joint_rate": 0.6
+    },
+    {
+      "scale": 0.45,
+      "n": 30,
+      "adequacy_count": 27,
+      "gate2_count": 23,
+      "joint_count": 22,
+      "joint_rate": 0.7333333333333333
+    },
+    {
+      "scale": 0.6,
+      "n": 30,
+      "adequacy_count": 27,
+      "gate2_count": 22,
+      "joint_count": 20,
+      "joint_rate": 0.6666666666666666
+    }
+  ]
+}

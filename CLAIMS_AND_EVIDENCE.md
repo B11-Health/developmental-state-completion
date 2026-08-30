@@ -420,11 +420,88 @@ Artifacts: `lab_lanes/r9_domain_registration_rescue/`.
 - Observed history increments were near zero and not stable: mean Delta R2 **-0.0030** (RF) and **-0.0054** (Extra Trees).
 - The S and S+H predictors remained absolutely adequate, but the history Gate 2 failed.
 - **0/100** matched H-permutation replicates passed the full two-model history gate.
-- In +0.30 target-SD synthetic residual-history calibration, only **10/30 (33.3%)** replicates both preserved S adequacy and detected the injected effect, below the preregistered **24/30 (80%)** sensitivity requirement.
+- The original +0.30 target-SD calibration implementation used a seed family that did not match the written preregistration and yielded **10/30 (33.3%)** joint successes. R10B reran only the documented seed rule (`20260830+r`) and obtained **16/30 (53.3%)**, still below the frozen **24/30 (80%)** requirement.
 
-**Allowed claim:** after solving the absolute-transfer prerequisite for one task, the observed history increment is very small, but the current sample/model stack still lacks demonstrated sensitivity for a screening-off conclusion. Status: **calibration-limited / unresolved**.
+**Allowed claim:** after solving the absolute-transfer prerequisite for one task, the observed history increment is very small, but the current sample/model stack still lacks demonstrated sensitivity for a screening-off conclusion. The exact calibration percentage is seed-family sensitive; the documented-seed remediation still fails the preregistered threshold. Status: **calibration-limited / unresolved**.
 
 **Prohibited upgrade:** do not say history is redundant/useless, Tribolium is Markov or memoryless, or 0/100 permutation passes proves conditional independence. The +0.30-SD effect is synthetic calibration, not a measured biological effect.
 
 Artifacts: `lab_lanes/r10_registered_history_calibration/`.
 
+Seed-remediation artifact: `lab_lanes/r10b_seed_remediation/`.
+
+### R11 calibration-failure decomposition
+**Evidence class:** post-R10 planning diagnostic; not a new biological test and not a replacement for the preregistered R10 decision.
+
+- Using the same first 20 **original implemented-seed** residual-history directions (not the later R10B documented-seed family), S-only adequacy preservation was **85%, 70%, 55%, 45%** at injected scales 0.15, 0.30, 0.45, 0.60 target SD.
+- Gate-2 detection was **0%, 45%, 60%, 75%** across the same scales.
+- The strict joint success rate was **0%, 30%, 30%, 30%**.
+- The opposing trends match the idealized fact that adding an S-unpredictable target component can make H easier to detect while degrading the absolute predictive adequacy of S alone.
+
+**Allowed claim:** in the original implemented-seed planning surface, the calibration bottleneck has two components—under-detection and adequacy collapse—and larger synthetic injection did not increase the aggregate strict joint rate on the tested grid. Future calibration should report adequacy and detection axes separately as well as any joint success rule. This planning surface does not replace R10B's corrected documented-seed calibration.
+
+**Prohibited upgrade:** do not choose a favorable post-hoc scale, call any scale a biological effect size, reinterpret R10 as screening-off, or claim the 30% plateau is universal.
+
+Artifacts: `lab_lanes/r11_sensitivity_design/`.
+
+### T8/T8A calibration compatibility envelope
+**Evidence class:** independently audited idealized mathematical design result; not a biological test.
+
+- In the corrected simple population-oracle model, `(S,H)` must reveal the injected direction `Z` **and** satisfy `E[E|S,H]=0`; exact revelation of `Z` alone is insufficient.
+- With `r0` the unperturbed present-only oracle R2, present threshold `rho`, and required incremental R2 `delta`, a compatible injection exists iff **`r0 >= rho/(1-delta)`**.
+- When `r0>=rho`, the largest simple-model incremental R2 compatible with the present threshold is **`1-rho/r0`**.
+- T8A constructed a finite counterexample to the original weaker assumption set. In the generalized case, `q=Var(E[E|S,H])/B` enters the augmented curve: `R2_{S+H}=(r0+x+q)/(1+x)` and `Delta=(x+q)/(1+x)`.
+
+**Allowed claim:** calibration adequacy and detection thresholds can be mathematically incompatible in a declared oracle model when the base predictor lacks enough adequacy headroom; the simple envelope is exact only under the audited conditional-mean assumptions.
+
+**Prohibited upgrade:** do not present T8 as a theorem about R10/R11 finite-sample RF/ExtraTrees gates, omit the `E[E|S,H]=0` condition, claim the empirical calibration plateau is mathematically forced, infer biology, or claim mathematical priority.
+
+Artifacts: `lab_lanes/t8_calibration_compatibility/` and `lab_lanes/t8a_independent_audit/`.
+
+### R12/R12A domain-balanced calibration geometry
+**Evidence class:** post-R10B planning diagnostic with independent adversarial audit; not a new biological test.
+
+- Primary: centering/scaling the pooled Ridge-residualized synthetic direction within each acquisition gives **22/30 S adequacy, 19/30 Gate-2 detection, 16/30 joint**, with exactly the R10B joint-success set.
+- Secondary: acquisition-specific Ridge residualization against S gives **30/30 S adequacy and 18/30 Gate-2/joint success**, still below the frozen **24/30** standard.
+- Both transforms are outcome-blind but transductive with respect to target-domain covariates; the secondary explicitly uses acquisition-specific unlabeled S/H in the held-out domain.
+- Ridge residualization does **not** imply `E[Z|S]=0` or literal S-unpredictability.
+- R12A reproduced the committed metrics to machine precision. Git history does not independently prove the declared pre-outcome R12 freeze because design and result artifacts first appear in the same commit.
+
+**Allowed claim:** calibration geometry changes the finite adequacy/detection decomposition, but neither audited geometry reaches the frozen sensitivity standard; the remaining detection failure cannot be converted into a screening-off conclusion.
+
+**Prohibited upgrade:** do not infer a unique causal reason for R10B failure, describe the secondary as target-free/inductive, equate Ridge residualization with oracle conditional independence, or reinterpret observed near-zero history as redundancy.
+
+Artifacts: `lab_lanes/r12_domain_balanced_calibration/` and `lab_lanes/r12a_independent_audit/`.
+
+### R13 domainwise sensitivity surface
+**Evidence class:** prospectively committed post-R12 planning surface with mechanical reproducibility audit; not a biological test.
+
+- Same documented 30 seeds, R9-qualified Tribolium radial task, RF/ExtraTrees, reciprocal acquisition folds, R10 Gate 2, and acquisition-specific Ridge-residualized R12 secondary geometry.
+- Scale 0.15: **30/30 S adequacy, 1/30 detection/joint**.
+- Scale 0.30: **30/30 S adequacy, 18/30 detection/joint**, inherited from R12 and not refit.
+- Scale 0.45: **27/30 S adequacy, 23/30 detection, 22/30 joint (73.3%)**.
+- Scale 0.60: **27/30 S adequacy, 22/30 detection, 20/30 joint (66.7%)**.
+- The preregistration was committed before implementation/results. Exact reruns preserve every decision identity; observed numeric rerun drift is <=5e-16.
+
+**Allowed claim:** the domainwise geometry materially improves the planning sensitivity surface, peaking at 22/30 on the frozen grid, but still does not reach the historical 24/30 criterion; stronger injection beyond 0.45 SD does not improve aggregate joint success on this task/grid.
+
+**Prohibited upgrade:** do not adopt 0.45 SD as a post-hoc confirmatory threshold, generalize the non-monotone surface, infer screening-off/Markovity/biological memory, or treat this same-data planning surface as independent biological validation.
+
+Artifacts: `lab_lanes/r13_domainwise_sensitivity_surface/` and `lab_lanes/r13a_mechanical_audit/`.
+
+
+
+### R15 SLICE-1 cross-embryo preview pilot
+**Evidence class:** repository-preregistered independent public-resource pilot with independent numerical/chronology audit; small-N adequacy evidence only.
+
+- Resource: 2025 SLICE-1 Tribolium whole-embryo four-view preview movies; DS0004/DS0005 were development-only.
+- Primary predeclared unseen embryo DS0007: Ridge R2_vector **-0.0136**; Random Forest **+0.0307**; Extra Trees **+0.0567**. The frozen 2-of-3 absolute-adequacy gate passes.
+- Predeclared cross-marker Lamin #4 stress test DS0035: Ridge **+0.0371**, Random Forest **+0.0378**, Extra Trees **+0.0341**; all three beat the train-only mean baseline.
+- Four-hour-older image history reduced held-out R2 for every estimator in both embryos: DS0007 deltas **-0.0540/-0.0088/-0.0081**; DS0035 **-0.1127/-0.0151/-0.0776** for Ridge/RF/ET respectively.
+- R15A reimplemented the analysis without importing R15 model code; all gates and metrics reproduce to machine precision. Repository history verifies preregistration/model-freeze commits before the validation-result commit.
+
+**Allowed claim:** a compact eight-coordinate current whole-embryo image-geometry state achieved modest positive four-hour-future vector prediction in two untouched embryos, including a predeclared marker-domain stress test.
+
+**Prohibited upgrade:** do not claim history redundancy, screening-off, Markovity, cell-lineage state completion, causal or molecular memory, or generalization to the full SLICE-1 collection. Negative observed history deltas are unresolved because the pilot lacks matched sensitivity calibration and has only two development embryos.
+
+Artifacts: `lab_lanes/r15_slice1_multiacquisition/` and `lab_lanes/r15a_independent_audit/`.

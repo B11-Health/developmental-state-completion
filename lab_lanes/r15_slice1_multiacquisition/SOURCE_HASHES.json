@@ -1,0 +1,42 @@
+[
+  {
+    "file": "Strobl2025A-DS0004-Metadata.xlsx",
+    "byte_size": 13092,
+    "sha256": "8780fe7631b0ed58253863e313d6ef600918193334a0a9aa9bd02837cff23306"
+  },
+  {
+    "file": "Strobl2025A-DS0005-Metadata.xlsx",
+    "byte_size": 12970,
+    "sha256": "ab7fa3c074fb09de81d776600f0ba151fa720e1cba6a20d148de1e79f3b89880"
+  },
+  {
+    "file": "Strobl2025A-DS0007-Metadata.xlsx",
+    "byte_size": 12994,
+    "sha256": "8ebea33994a6236d9fbc8c5dd64c6bbc5236d35546738cb22c3fffa0cf1abffc"
+  },
+  {
+    "file": "Strobl2025A-DS0035-Metadata.xlsx",
+    "byte_size": 13234,
+    "sha256": "5225bde4e476986e3e1002ed29e4ab73c6e70cc85ac3280e0264041075c2c316"
+  },
+  {
+    "file": "Strobl2025A-DS0004-Movie-FQ.TIF",
+    "byte_size": 63858868,
+    "sha256": "0cf8690d0174770f82826e0a9810fc82957c2cc14b37e2e9310a7b389468aa2d"
+  },
+  {
+    "file": "Strobl2025A-DS0005-Movie-FQ.TIF",
+    "byte_size": 56385544,
+    "sha256": "53407d593139fcee9448c3d8006db33997a7664bc3c9a6194cc783095db87a96"
+  },
+  {
+    "file": "Strobl2025A-DS0007-Movie-FQ.TIF",
+    "byte_size": 64939950,
+    "sha256": "345beebef2bd5ba74fe4ef8dad3d135b203bff1c54fbdd2cb3cc3f4f198bc1d9"
+  },
+  {
+    "file": "Strobl2025A-DS0035-Movie-FQ.TIF",
+    "byte_size": 74069986,
+    "sha256": "b9760d3777006c8ae0f6b1db21eff1e8ca095bb685a6be8ebe96b6de1c8a56eb"
+  }
+]
