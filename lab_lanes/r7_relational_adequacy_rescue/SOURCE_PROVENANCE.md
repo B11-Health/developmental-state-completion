@@ -25,3 +25,6 @@ R6 attributes the public CTC dataset to developing *Tribolium castaneum*, Dr. A.
 
 ## Leakage boundary
 Features use frames <=25 only. Outcomes alone use frame 40. Sequence-local anchor centering, RMS scaling, and ranks are computed from released frame-25 measurements of that acquisition and are explicitly part of the measured present representation. No held-out future outcome is used in feature construction, estimator fitting, hyperparameter tuning, or naive-baseline fitting.
+
+## Working-tree line-ending note
+The R5 centroid CSV SHA-256 values match the current R7 checkout byte-for-byte. The two R6 `man_track.txt` files are tracked as text and this Windows worktree uses `core.autocrlf=true`; their checkout-byte SHA-256 values therefore differ from R6's extraction-time hashes solely because LF line endings are materialized as CRLF. R7 parses whitespace-separated integer fields only, so this checkout normalization does not alter lineage records or eligibility logic. The committed R6 provenance remains the authority for extraction-time byte hashes.

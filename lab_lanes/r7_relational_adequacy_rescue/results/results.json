@@ -1,0 +1,265 @@
+{
+  "seed": 20260830,
+  "frames": [
+    15,
+    20,
+    23,
+    24,
+    25,
+    40
+  ],
+  "gate_order": [
+    "absolute_present_adequacy",
+    "history_increment",
+    "permutation_sensitivity"
+  ],
+  "dataset_meta": {
+    "Drosophila": {
+      "n_total": 392,
+      "sequence_counts": {
+        "01": 189,
+        "02": 203
+      },
+      "sequence_present_meta": {
+        "01": {
+          "anchor_n": 189,
+          "scale": 97.87724132800712
+        },
+        "02": {
+          "anchor_n": 203,
+          "scale": 113.50428573406381
+        }
+      }
+    },
+    "Tribolium": {
+      "n_total": 287,
+      "sequence_counts": {
+        "01": 93,
+        "02": 194
+      },
+      "sequence_present_meta": {
+        "01": {
+          "anchor_n": 130,
+          "scale": 413.47994649540885
+        },
+        "02": {
+          "anchor_n": 209,
+          "scale": 422.09473318543127
+        }
+      }
+    }
+  },
+  "feature_schema": {
+    "Drosophila": {
+      "present": [
+        "accel_mag_relcentroid",
+        "accel_radial_relcentroid",
+        "accel_tangential_relcentroid",
+        "focal_minus_neighbor_consensus_speed",
+        "focal_neighbor_velocity_alignment",
+        "knn10_distance_sd",
+        "knn10_focal_minus_neighbor_logvol",
+        "knn10_log_density",
+        "knn10_max_distance",
+        "knn10_mean_distance",
+        "knn10_neighbor_logvol_mean",
+        "knn10_neighbor_logvol_sd",
+        "knn10_shape_eigfrac1",
+        "knn10_shape_eigfrac2",
+        "knn10_shape_eigfrac3",
+        "knn3_distance_sd",
+        "knn3_focal_minus_neighbor_logvol",
+        "knn3_log_density",
+        "knn3_max_distance",
+        "knn3_mean_distance",
+        "knn3_neighbor_logvol_mean",
+        "knn3_neighbor_logvol_sd",
+        "knn3_shape_eigfrac1",
+        "knn3_shape_eigfrac2",
+        "knn3_shape_eigfrac3",
+        "knn5_distance_sd",
+        "knn5_focal_minus_neighbor_logvol",
+        "knn5_log_density",
+        "knn5_max_distance",
+        "knn5_mean_distance",
+        "knn5_neighbor_logvol_mean",
+        "knn5_neighbor_logvol_sd",
+        "knn5_shape_eigfrac1",
+        "knn5_shape_eigfrac2",
+        "knn5_shape_eigfrac3",
+        "log_volume",
+        "neighbor_radial_velocity_mean",
+        "neighbor_radial_velocity_sd",
+        "neighbor_velocity_consensus_mag",
+        "neighbor_velocity_mean_speed",
+        "neighbor_velocity_speed_sd",
+        "radius_norm",
+        "radius_rank",
+        "recent_log_volume_change",
+        "recent_radial_relcentroid",
+        "recent_speed_abs",
+        "recent_speed_relcentroid",
+        "recent_tangential_relcentroid",
+        "volume_rank"
+      ],
+      "history": [
+        "old_speed_relcentroid",
+        "old_radial_relcentroid",
+        "old_tangential_relcentroid",
+        "old_log_volume_change_rate"
+      ],
+      "outcomes": [
+        "future_radial_velocity",
+        "future_speed"
+      ]
+    },
+    "Tribolium": {
+      "present": [
+        "accel_mag_relcentroid",
+        "accel_radial_relcentroid",
+        "accel_tangential_relcentroid",
+        "focal_minus_neighbor_consensus_speed",
+        "focal_neighbor_velocity_alignment",
+        "knn10_distance_sd",
+        "knn10_focal_minus_neighbor_logvol",
+        "knn10_log_density",
+        "knn10_max_distance",
+        "knn10_mean_distance",
+        "knn10_neighbor_logvol_mean",
+        "knn10_neighbor_logvol_sd",
+        "knn10_shape_eigfrac1",
+        "knn10_shape_eigfrac2",
+        "knn3_distance_sd",
+        "knn3_focal_minus_neighbor_logvol",
+        "knn3_log_density",
+        "knn3_max_distance",
+        "knn3_mean_distance",
+        "knn3_neighbor_logvol_mean",
+        "knn3_neighbor_logvol_sd",
+        "knn3_shape_eigfrac1",
+        "knn3_shape_eigfrac2",
+        "knn5_distance_sd",
+        "knn5_focal_minus_neighbor_logvol",
+        "knn5_log_density",
+        "knn5_max_distance",
+        "knn5_mean_distance",
+        "knn5_neighbor_logvol_mean",
+        "knn5_neighbor_logvol_sd",
+        "knn5_shape_eigfrac1",
+        "knn5_shape_eigfrac2",
+        "log_volume",
+        "neighbor_radial_velocity_mean",
+        "neighbor_radial_velocity_sd",
+        "neighbor_velocity_consensus_mag",
+        "neighbor_velocity_mean_speed",
+        "neighbor_velocity_speed_sd",
+        "radius_norm",
+        "radius_rank",
+        "recent_log_volume_change",
+        "recent_radial_relcentroid",
+        "recent_speed_abs",
+        "recent_speed_relcentroid",
+        "recent_tangential_relcentroid",
+        "volume_rank"
+      ],
+      "history": [
+        "old_speed_relcentroid",
+        "old_radial_relcentroid",
+        "old_tangential_relcentroid",
+        "old_log_volume_change_rate"
+      ],
+      "outcomes": [
+        "future_radial_velocity",
+        "future_speed"
+      ]
+    }
+  },
+  "adequacy_decisions": [
+    {
+      "organism": "Drosophila",
+      "outcome": "future_radial_velocity",
+      "gate1_absolute_adequacy_pass": false,
+      "n_estimators_passing_both_folds": 0,
+      "estimators_passing_both_folds": [],
+      "per_estimator_fold_pass": {
+        "ridge": {
+          "01": false,
+          "02": false
+        },
+        "random_forest": {
+          "01": false,
+          "02": false
+        },
+        "extra_trees": {
+          "01": false,
+          "02": false
+        }
+      }
+    },
+    {
+      "organism": "Drosophila",
+      "outcome": "future_speed",
+      "gate1_absolute_adequacy_pass": false,
+      "n_estimators_passing_both_folds": 0,
+      "estimators_passing_both_folds": [],
+      "per_estimator_fold_pass": {
+        "ridge": {
+          "01": false,
+          "02": false
+        },
+        "random_forest": {
+          "01": false,
+          "02": false
+        },
+        "extra_trees": {
+          "01": false,
+          "02": false
+        }
+      }
+    },
+    {
+      "organism": "Tribolium",
+      "outcome": "future_radial_velocity",
+      "gate1_absolute_adequacy_pass": false,
+      "n_estimators_passing_both_folds": 0,
+      "estimators_passing_both_folds": [],
+      "per_estimator_fold_pass": {
+        "ridge": {
+          "01": false,
+          "02": false
+        },
+        "random_forest": {
+          "01": false,
+          "02": false
+        },
+        "extra_trees": {
+          "01": false,
+          "02": false
+        }
+      }
+    },
+    {
+      "organism": "Tribolium",
+      "outcome": "future_speed",
+      "gate1_absolute_adequacy_pass": false,
+      "n_estimators_passing_both_folds": 0,
+      "estimators_passing_both_folds": [],
+      "per_estimator_fold_pass": {
+        "ridge": {
+          "01": false,
+          "02": false
+        },
+        "random_forest": {
+          "01": false,
+          "02": false
+        },
+        "extra_trees": {
+          "01": false,
+          "02": false
+        }
+      }
+    }
+  ],
+  "history_rows_written": 0,
+  "permutation_rows_written": 0
+}
